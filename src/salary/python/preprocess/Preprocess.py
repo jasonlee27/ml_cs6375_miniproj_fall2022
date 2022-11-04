@@ -19,7 +19,7 @@ class Preprocess:
             first_name = '' if pd.isna(rmp_data.Fname[d_i]) is not None else rmp_data.Fname[d_i]
             last_name =  '' if pd.isna(rmp_data.Lname[d_i]) is not None else rmp_data.Lname[d_i]
             _name = f"{first_name} {last_name}"
-            if name.lower()==_name.lower():
+            if name.lower()==_name.strip().lower():
                 return d_i
             # end if
         # end for
@@ -48,8 +48,8 @@ class Preprocess:
             name = sal_data.Name[d_i]
             gender = cls.get_gender_from_name(name, ntg_data)
             name_ind = cls.get_name_ind_from_rmf(name, rmp_data)
-            print(name, gender, name_ind)
             if name_ind is not None and gender is not None:
+                print(name, gender, name_ind)
                 dept = rmp_data.Dept[name_ind]
                 rate_class = rmp_data.rating_class[name_ind]
                 rate_tot = rmp_data.total_Ratings[name_ind]
