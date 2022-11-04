@@ -9,7 +9,7 @@ class Macros:
 
     this_dir: Path = Path(os.path.dirname(os.path.realpath(__file__))) # {project_root}/src/salary/python/utils
     root_dir: Path = this_dir.parent.parent.parent.parent # {project_root}
-    src_dir: Path = this_dir.parent.parent parent # {project_root}/src
+    src_dir: Path = this_dir.parent.parent.parent # {project_root}/src
     python_dir: Path = this_dir.parent # {project_root}/src/salary/python
     data_dir: Path = root_dir / 'data' # {project_root}/data
     result_dir: Path = root_dir / "_results" # {project_root}/_results

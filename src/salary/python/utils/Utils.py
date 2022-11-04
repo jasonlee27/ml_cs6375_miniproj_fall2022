@@ -51,3 +51,11 @@ class Utils:
             # end if
         # end with
         return
+
+    @classmethod
+    def lod_to_dol(cls, list_of_dict: List[dict]) -> Dict[Any, List]:
+        """
+        Converts a list of dict to a dict of list.
+        """
+        keys = set.union(*[set(d.keys()) for d in list_of_dict])
+        return {k: [d.get(k) for d in list_of_dict] for k in keys}
