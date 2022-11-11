@@ -14,11 +14,7 @@
 #   k neighbors classifier (sklearn)
 #   svm - linear kernel (sklearn)
 #   quadratic discriminant analysis (sklearn)
-
-import csv
-import numpy as np
-import pandas as pd
-import seaborn as sns
+#   logistic regression
 
 from typing import *
 from pathlib import Path
@@ -99,7 +95,7 @@ class CatboostClassifier:
             iterations=num_iter
         )
         
-    def train_models(self, x_train, y_train):
+    def train(self, x_train, y_train):
         self.model.fit(x_train, y_train)
         return
 
@@ -356,3 +352,7 @@ class QdaClassifier:
 
     def predict_proba(self, x_test):
         return self.model.predict_proba(x_test)
+
+
+class LrClassifier:
+    # TORO: Logistic regression
