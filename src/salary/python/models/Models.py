@@ -31,7 +31,8 @@ from sklearn.ensemble import GradientBoostingClassifier, \
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis, \
     QuadraticDiscriminantAnalysis
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.linear_model import RidgeClassifier
+from sklearn.linear_model import RidgeClassifier, \
+    LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
@@ -110,7 +111,7 @@ class CatboostClassifier:
         return self.model.predict_proba(x_test)
 
     
-class LGboostClassifier:
+class LgboostClassifier:
 
     def __init__(self, num_iter=10):
         self.model = lgb.LGBMClassifier()
@@ -156,6 +157,7 @@ class RandomforestClassifier:
     
 
 class ExtratreesClassifier:
+    
     def __init__(self,
                  num_estimators=100,
                  max_depth=3,
@@ -355,4 +357,20 @@ class QdaClassifier:
 
 
 class LrClassifier:
-    # TORO: Logistic regression
+
+    def __init__(self):
+        self.model = LogisticRegression()
+        
+    def train_models(self, x_train, y_train):
+        self.model.fit(x_train, y_train)
+        return
+
+    def test_models(self, x_test, y_test):
+        # returns the mean accuracy on the given test data and labels.
+        return self.model.score(x_test, y_test)
+
+    def predict(self, x_test):
+        return self.model.predict(x_test)
+
+    def predict_proba(self, x_test):
+        return self.model.predict_proba(x_test)

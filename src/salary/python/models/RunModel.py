@@ -13,7 +13,19 @@ from ..utils.Utils import Utils
 
 from .Models import GradientboostClassifier,\
     XgboostClassifier,\
-    CatboostClassifier
+    CatboostClassifier,\
+    LgboostClassifier,\
+    RandomforestClassifier,\
+    ExtratreesClassifier,\
+    LdaClassifier,\
+    RidgeClassifier,\
+    DtClassifier,\
+    NbClassifier,\
+    AdaboostClassifier,\
+    KnnClassifier,\
+    SvmClassifier,\
+    QdaClassifier,\
+    LrClassifier
 
 class RunModel:
 
@@ -21,6 +33,18 @@ class RunModel:
         'gdb': GradientboostClassifier,
         'xgb': XgboostClassifier,
         'catb': CatboostClassifier,
+        'lgb': LgboostClassifier,
+        'rdf': RandomforestClassifier,
+        'extr': ExtratreesClassifier,
+        'lda': LdaClassifier,
+        'rdg': RidgeClassifier,
+        'dt': DtClassifier,
+        'nb': NbClassifier,
+        'adab': AdaboostClassifier,
+        'knn': KnnClassifier,
+        'svm': SvmClassifier,
+        'qda': QdaClassifier,
+        'lr': LrClassifier
     }
     
     @classmethod
@@ -101,4 +125,27 @@ class RunModel:
         # end for
         return
 
+    @classmethod
+    def run_models(cls):
+        # TODO: get data (x_train, y_train, x_test, y_test)
+        
+        model_config = {
+            'gdb': {
+                'num_estimators': 100,
+                'validation_fraction': 0.1
+            },
+            'xgb': {
+                'num_estimators': 100,
+            },
+            'catb': {
+                'num_iter': 10
+            }
+        }
+        
+        model_dict = cls.get_models(model_config)
+        cls.train_models(cls, model_dict, x_train, y_train)
+        cls.get_model_test_accuracy(model_dict, x_test, y_test)
+        cls.get_confusion_matrices(model_dict, x_test, y_test)
+        cls.get_feature_importance(model_dict)        
+        return
     
