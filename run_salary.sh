@@ -17,12 +17,21 @@ function preprocess() {
         )
 }
 
+function run_model() {
+        # write requirements in json
+        (cd ${_DIR}
+         python -m src.salary.python.main \
+                --run run_model
+        )
+}
+
 
 # ==========
 # Main
 
 function main() {
         preprocess
+        # run_model
 }
 
 main
