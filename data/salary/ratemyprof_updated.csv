@@ -1,0 +1,2240 @@
+,Fname,Lname,Dept,rating_class,total_Ratings,overall_rating,_Fname,salary,_Mname,_Lname
+0,Herve,Abdi,Psychology,good,9,4.7,Herve,133431,,Abdi
+1,Nimali,Abeykoon,Chemistry,good,32,4.4,Nimali,54755,C,Abeykoon
+2,Venkatesh,Acharya,Engineering,poor,4,1.4,,0,,
+3,Robert,Ackerman,Psychology,good,15,4.3,Robert,114248,A,Ackerman
+4,Cesar,Acosta,Mathematics,good,1,4.5,,0,,
+5,Anani,Adabrah,Mathematics,good,13,3.8,Anani,56745,Komla,Adabrah
+6,Isaac,Aday,Rhetoric,good,3,3.8,,0,,
+7,Richard,Addante,Neuroscience,average,28,2.7,,0,,
+8,Francis,Adjei,Mathematics,poor,1,2.0,,0,,
+9,Hans,Adler,Management,average,2,2.5,,0,,
+10,John,Adler,Business,zero,0,N/A,,0,,
+11,Rosemary,Admiral,History,good,5,4.8,Rosemary,76180,G,Admiral
+12,Pawel,Agora,Art History,zero,0,N/A,,0,,
+13,Art,Agulnek,Accounting,average,33,3.0,,0,,
+14,Khatereh,Ahadi,Statistics,good,53,4.2,Khatereh,88220,,Ahadi
+15,Mea,Ahlberg,Business Communications,good,46,3.9,,0,,
+16,Gurvinder,Ahluwalia,Computer Science,poor,8,1.3,,0,,
+17,Maryam,Ahmadi,Economics,good,6,4.5,,0,,
+18,Zulfi,Ahmed,Information Science,good,1,5.0,,0,,
+19,Shaheen,Ahmed,Engineering,average,8,2.6,Shaheen,7625,,Ahmed
+20,Jung-Mo,Ahn,Chemistry,poor,41,2.5,Jung-Mo,184183,,Ahn
+21,Mohammad,Ahsan,Mathematics,average,48,3.2,Mohammad,79153,K,Ahsan
+22,Carlos,Aiken,Geology,poor,7,2.0,,0,,
+23,Mohamed,Akaba,Engineering,zero,0,N/A,,0,,
+24,Yavuz,Akalin,International Studies,good,6,3.8,,0,,
+25,Mohammad,Akbar,Mathematics,good,55,4.3,Mohammad,117028,M,Akbar
+26,Adam,Aker,Physics,zero,0,N/A,Adam,18044,,Aker
+27,Bilal,Akin,Electrical Engineering,good,12,4.7,Bilal,236868,,Akin
+28,Prosper,Akrobotu,Mathematics,good,1,5.0,Prosper,14910,,Akrobotu
+29,Mine,Aksu,Accounting,poor,11,1.1,,0,,
+30,Mathias,Akuoko,Sociology,poor,7,2.1,,0,,
+31,Abdullah,Al Helal,Mathematics,poor,2,2.0,Abdullah,14910,A,Helal
+32,Naofal,Al-Dhahir,Electrical Engineering,good,29,3.8,Naofal,321660,M,Al-Dhahir
+33,Eman,Al-Habashneh,Rhetoric,good,7,3.9,Eman,7250,Bahjat,Al-Habashneh
+34,Entidhar,Al-Rashid,Rhetoric,good,1,4.0,Entidhar,14128,H,Al-Rashid
+35,Sridhar,Alagar,Computer Science,average,45,2.6,Sridhar,94156,,Alagar
+36,Diana,Alatalo,Engineering,zero,0,N/A,Diana,31350,L,Alatalo
+37,Soogand,Alavi,Management,zero,0,N/A,,0,,
+38,Razan ,Albanna,Political Science,good,4,4.8,,0,,
+39,Shawn,Alborz,Business,good,578,4.7,Shawn,172696,,Alborz
+40,Donna,Aldridge,Arts & Technology,zero,0,N/A,,0,,
+41,Michelle,Aldridge,Health Science,good,25,4.8,Michelle,87931,A,Aldridge
+42,Hosanna,Alem,Rhetoric,good,1,5.0,,0,,
+43,Hosanna,Alem,Literature,good,1,5.0,,0,,
+44,Bobby,Alexander,Sociology,good,26,4.0,Bobby,55338,C,Alexander
+45,Yousef,Alhamoudi,Arts & Humanities,zero,0,N/A,,0,,
+46,Rawad,Alhashmi,English,good,6,4.2,,0,,
+47,Tariq,Ali,Engineering,good,11,4.5,Tariq,123771,M,Ali
+48,Ahmed,Ali,Mathematics,good,7,3.9,,0,,
+49,Ahmed,Ali,Engineering,poor,2,1.5,,0,,
+50,Ashiq,Ali,Accounting,good,10,3.7,Ashiq,467294,,Ali
+51,Shaiza,Ali,Business Communications,zero,0,N/A,,0,,
+52,Ali,Alibhai,Arts & Humanities,good,22,4.2,,0,,
+53,Athena,Alimerzei,Business,zero,0,N/A,,0,,
+54,Athena,Alimirzaei,Operations Management,good,63,3.6,Athena,119369,,Alimirzaei
+55,Minden,Alixandre,Engineering,poor,16,1.9,,0,,
+56,Rasha,Aljararwa,Arts amp Humanities,good,2,5.0,Rasha,20038,,Aljararwa
+57,John,Allen,Education,good,7,4.1,,0,,
+58,Phillip,Allen,Education,good,14,4.1,,0,,
+59,Michael,Allred,Languages,good,3,5.0,Michael,7126,K,Allred
+60,Metta,Alsobrook,Sociology,poor,2,1.0,,0,,
+61,Ahmed,Alsuhayyan,Arts & Humanities,good,4,3.5,,0,,
+62,Dianne,Altuna,Behavioral Sciences,good,3,4.8,,0,,
+63,Iris,Alvarado,Mathematics,good,8,4.1,Iris,57940,L,Alvarado
+64,Manolo,Alvarez,Business Communications,zero,0,N/A,,0,,
+65,Ahmed,Alzahrani,Economics,zero,0,N/A,,0,,
+66,Catalina,Alzate,Arts & Technology,good,1,5.0,,0,,
+67,Kelly,Aman,Mathematics,good,15,4.5,Kelly,62698,C,Aman
+68,Edgar,Amaro,Rhetoric,average,2,2.8,,0,,
+69,Lawrence,Amato,Philosophy,good,73,4.0,Lawrence,50679,A,Amato
+70,Mina,Ameri,Marketing,average,6,2.7,,0,,
+71,Semiramis,Amirpour,Marketing,good,37,3.7,Semiramis,74169,,Amirpour
+72,Larry,Ammann,Mathematics,poor,32,2.5,,0,,
+73,Constance,An,Business,zero,0,N/A,,0,,
+74,Mark,Anderson,Accounting,good,7,4.7,,0,,
+75,Annette,Anderson,Social Work,good,2,4.8,,0,,
+76,Frank,Anderson,Accounting,zero,0,N/A,Frank,20125,W,Anderson
+77,Bill,Anderson,Mathematics,poor,5,2.2,,0,,
+78,Linda,Anderson,Art History,zero,0,N/A,Linda,15038,,Anderson
+79,Eric,Anderson,Computer Science,zero,0,N/A,,0,,
+80,Philip,Anderson,Physics,average,9,3.0,,0,,
+81,Frank,Anderson,Finance,good,42,3.7,Frank,20125,W,Anderson
+82,William,Anderson,Engineering,poor,21,2.2,William,192976,C,Anderson
+83,Michael,Andreen,Arts  Technology,good,5,4.2,,0,,
+84,Titu,Andreescu,Mathematics,good,12,3.5,Titu,87494,,Andreescu
+85,Letitia,Andrews,Communication,zero,0,N/A,,0,,
+86,Rodney,Andrews,Economics,good,20,4.2,Rodney,186126,J,Andrews
+87,Aikaterini ,Anestaki,Social Work,good,1,4.5,,0,,
+88,Alexander,Angelus,Business,good,9,3.6,,0,,
+89,Zafar,Anjum,Humanities,good,28,4.3,Zafar,54332,,Anjum
+90,Fadwa,Anka,Chemistry,good,7,4.6,Fadwa,15227,H,Anka
+91,Johnson,Aranda,Communication,poor,2,1.0,Johnson,8125,,Aranda
+92,Virginia,Arbery,Humanities,poor,27,1.7,,0,,
+93,Donald,Arbuckle,Political Science,good,9,4.4,,0,,
+94,Daniel,Arce,Economics,good,40,4.6,Daniel,254520,G,Arce
+95,Ariel,Arguelles,Sociology,good,3,5.0,,0,,
+96,Roberto,Armijo,Mathematics,average,16,3.4,,0,,
+97,Erica,Armstead,Business Communications,average,2,2.5,Erica,24125,,Armstead
+98,Robert,Arnold,Communication,zero,0,N/A,,0,,
+99,Maxim,Arnold,Mathematics,average,16,2.8,Maxim,98096,,Arnold
+102,Erica,Armstead,Business Communications,poor,3,2.0,Erica,24125,,Armstead
+105,Gordon,Arnold,Computer Science,average,107,3.4,Gordon,97650,L,Arnold
+106,Bob,Arnold,Communication,average,5,3.0,Bob,18627,,Arnold
+107,Cara,Aronson,Engineering,good,2,5.0,Cara,48846,A,Aronson
+108,Vivek,Arora,Management,good,33,3.9,Vivek,112335,,Arora
+109,Mustafa,Arrabai,Arts & Humanities,average,2,3.0,,0,,
+110,Carlos,Arreche,Mathematics,good,5,4.4,Carlos,104988,,Arreche
+111,Artem,Arutyunyan,Arts & Humanities,zero,0,N/A,,0,,
+112,Yubraj,Aryal,Arts & Humanities,good,9,4.8,,0,,
+113,Manmohan,Aseri,Computer Science,good,5,4.6,,0,,
+114,Maedeh,Asgharpour,Arts amp Technology,zero,0,N/A,Maedeh,19959,,Asgharpour
+115,Barbara,Ashmore,Education,zero,0,N/A,Barbara,69102,A,Ashmore
+116,Victoria,Askew,Health Science,good,2,5.0,Victoria,12156,,Askew
+117,Houssein,Assaad,Mathematics,good,5,5.0,,0,,
+118,Peter,Assmann,Neuroscience,average,3,3.1,Peter,131594,F,Assmann
+119,Peter,Assmann,Psychology,average,81,3.0,Peter,131594,F,Assmann
+120,Lloyd,Atabansi,Information Science,average,4,3.3,Lloyd,7500,A,Atabansi
+121,Pelin,Atahan,Business,good,2,4.5,,0,,
+122,Kristin,Atchison,Psychology,average,24,3.0,Kristin,38594,J,Atchison
+123,Keven,Ates,Computer Science,good,1,5.0,,0,,
+124,Marco,Atzori,Neuroscience,good,11,4.1,,0,,
+125,Lea,Aubrey,Health Science,good,4,5.0,Lea,120530,E,Aubrey
+126,Orlando,Auciello,Engineering,good,1,4.0,Orlando,179021,H,Auciello
+127,Caroline,Austin-Bolt,Literature,good,5,3.7,,0,,
+128,Mehmet,Ayvaci,Management,poor,9,1.9,Mehmet,218228,U,Ayvaci
+129,Danieli,B.C. Rodrigues,Engineering,good,3,3.5,,0,,
+130,Kwang,Bae,Political Science,good,1,5.0,,0,,
+131,Claire,Baetge,Health Science,good,4,4.3,Claire,21912,C,Baetge
+132,Xiaoou,Bai,Business,good,2,5.0,Xiaoou,16001,,Bai
+133,Maryam,Baig,Theater,good,17,4.5,Maryam,7201,,Baig
+134,Juveria,Baig,Computer Science,good,1,5.0,,0,,
+135,Vanessa,Baker,Arts  Humanities,good,2,4.8,,0,,
+136,Matthew,Baker,Rhetoric,good,1,4.0,,0,,
+137,Emily,Baker,Film,zero,0,N/A,,0,,
+138,Barbara,Baker,Communication,poor,46,2.4,Barbara,46492,L,Baker
+139,Ali,Bakhtiari,Marketing,good,2,4.2,,0,,
+140,Sneha,Bakshi,Economics,average,7,3.0,,0,,
+141,Pavithra,Balaji,Business,good,2,3.5,Pavithra,32751,,Balaji
+142,Mithun,Balakrishnan,Computer Science,good,16,4.3,,0,,
+143,Zalman,Balanov,Mathematics,good,22,3.9,Zalman,108099,I,Balanov
+144,Alexandra,Balasa,Arts amp Humanities,good,4,4.5,Alexandra,15948,,Balasa
+145,Ken,Balkus,Chemistry,zero,0,N/A,,0,,
+146,Kenneth,Balkus,Chemistry,poor,1,2.0,Kenneth,168221,J,Balkus
+147,Nancy,Ballard,Biology,good,2,5.0,,0,,
+148,Gregory,Ballew,Accounting,good,4,4.8,,0,,
+149,Anne,Balsamo,Arts amp Technology,poor,10,2.3,Anne,333108,,Balsamo
+150,Poras,Balsara,Engineering,average,16,3.5,Poras,264798,T,Balsara
+151,Charles,Bambach,Philosophy,good,26,4.3,Charles,95894,R,Bambach
+152,Bhasker,Banerjee,Electrical Engineering,average,4,3.2,,0,,
+153,Olivia,Banner,Arts  Technology,good,6,3.9,Olivia,88458,P,Banner
+154,Sheheryar,Banuri,Economics,zero,0,N/A,,0,,
+155,Dichu,Bao,Accounting,average,4,3.4,,0,,
+156,Nina,Baranchuk,Finance,zero,0,N/A,Nina,180615,,Baranchuk
+157,Nina,Baranchuk,Business,average,32,2.5,Nina,180615,,Baranchuk
+158,Philip,Barber,Rhetoric,good,2,5.0,Philip,14886,D,Barber
+159,John,Barden,Accounting,good,108,3.9,John,219350,P,Barden
+160,James,Barnes,Criminal Justice,good,6,4.0,,0,,
+161,Ashley,Barnes,Literature,average,15,3.4,Ashley,81946,,Barnes
+162,Michael,Baron,Mathematics,good,2,4.5,,0,,
+163,Ivey,Barr,Arts & Humanities,good,1,5.0,,0,,
+164,James,Bartlett,Psychology,average,47,3.4,,0,,
+165,Taylor,Barton,Electrical Engineering,good,3,3.7,,0,,
+166,Aaron,Bartula,Criminal Justice,good,4,5.0,,0,,
+167,Chandramallika ,Basak,Psychology,good,1,4.0,Chandramallika,142550,,Basak
+168,Chandramalika,Basak,Psychology,poor,16,2.3,,0,,
+169,Farokh,Bastani,Computer Science,average,5,3.0,Farokh,227301,B,Bastani
+170,Sharmistha,Basu,English,good,2,4.8,,0,,
+171,Kanad,Basu,Electrical Engineering,good,13,3.8,Kanad,136045,,Basu
+172,R. Paul,"Battaglio, Jr.",Political Science,good,7,4.6,,0,,
+173,Terry,Baughn,Engineering,poor,6,2.0,,0,,
+174,Charles,Baumbach,Arts amp Humanities,zero,0,N/A,,0,,
+175,Karen,Baynham,Communication,zero,0,N/A,Karen,87741,M,Baynham
+176,Karen,Baynham,Business,good,16,3.7,Karen,87741,M,Baynham
+177,Bishal,Bc,Accounting,average,17,3.4,,0,,
+178,John,Beachboard,Business,good,13,3.5,,0,,
+179,Brian,Bearry,Political Science,good,104,3.8,,0,,
+184,Karen,Baynham,Business,good,17,3.7,Karen,87741,M,Baynham
+188,Joe,Beauchamp,Political Science,good,6,4.0,,0,,
+189,Eric,Becker,Computer Science,good,28,3.8,Eric,97883,W,Becker
+190,Mohamed Amine,Belkoura,Computer Science,average,4,3.0,Mohamed,24789,Amine,Belkoura
+191,Mohamed,Belkoura,Computer Science,average,29,2.7,Mohamed,24789,Amine,Belkoura
+192,Elizabeth,Bell,Communication,poor,3,1.9,Elizabeth,123668,A,Bell
+193,John,Bell,Physical Education,good,2,4.5,John,3705,S,Bell
+194,Lisa,Bell,Communication,average,18,3.0,,0,,
+195,Teodoro,Benavides,Political Science,good,8,4.5,Teodoro,106200,J,Benavides
+196,Robert,Bender,Business,good,58,4.8,,0,,
+197,Robert,Bender,Finance,good,4,5.0,,0,,
+198,Terrell,Bennett,Electrical Engineering,average,5,3.4,Terrell,45417,R,Bennett
+199,Rodger,Bennett,Music,good,10,3.9,Rodger,51960,,Bennett
+200,Lance,Bennett,Business,zero,0,N/A,,0,,
+201,Caryn,Berardi,Accounting,good,19,4.8,,0,,
+202,Sergey,Bereg,Computer Science,good,115,4.2,Sergey,139871,,Bereg
+203,Irina,Berezovik,Mathematics,good,2,4.0,,0,,
+204,Nathan,Berg,Economics,good,12,3.6,,0,,
+205,Elizabeth,Berger,Arts & Technology,poor,1,2.0,,0,,
+206,Donna,Berliner,Humanities,good,3,3.7,,0,,
+207,Rodrigo,Bernal,Engineering,good,10,4.5,,0,,
+208,Charles,Bernardin,Engineering,good,10,3.6,,0,,
+209,Kurt,Beron,Economics,average,10,3.4,Kurt,218384,J,Beron
+210,Britt,Berret,Management,good,30,3.7,,0,,
+211,Brian,Berry,Economics,average,15,3.0,Brian,173060,J,Berry
+212,Tracey,Berry,Rhetoric,good,3,5.0,,0,,
+213,Tracey,Berry,English,zero,0,N/A,,0,,
+214,Robert,Best,Operations Management,poor,8,2.2,,0,,
+215,Christina,Betanzos,Law,good,121,3.5,Christina,88173,L,Betanzos
+216,Diamond,Beverly,Design,zero,0,N/A,Diamond,14670,E,Beverly
+217,Chitturi,Bhadrachalam,Computer Science,average,32,3.1,,0,,
+218,Kadiyala      ,Bharadwaj    ,Operations Management,good,1,4.5,,0,,
+219,Kong,Bhat,Computer Science,good,7,4.4,,0,,
+220,Dimple,Bhatia,Accounting,poor,3,1.7,,0,,
+221,Dinesh,Bhatia,Electrical Engineering,zero,0,N/A,Dinesh,176582,K,Bhatia
+222,Dinesh,Bhatia,Engineering,good,22,3.6,Dinesh,176582,K,Bhatia
+223,Tanay,Bhatt,Engineering,poor,17,2.0,,0,,
+224,Anwesha ,Bhattacharjee,Business,average,4,3.4,,0,,
+225,christopher,bhatti,Business,good,1,5.0,,0,,
+226,Ashutosh,Bhave,Business,good,1,5.0,Ashutosh,39296,C,Bhave
+227,Rekha,Bhowmik,Computer Science,poor,15,1.3,,0,,
+228,Ning,Bian,Engineering,zero,0,N/A,Ning,25841,,Bian
+229,Michael,Biewer,Chemistry,average,49,3.3,Michael,116724,C,Biewer
+230,Ernest,Bigham,Marketing,good,1,5.0,,0,,
+231,Aysegul,Bilhan,Business,poor,18,2.2,,0,,
+232,Steven,Billingslea,Arts  Technology,good,1,5.0,Steven,11281,L,Billingslea
+233,Yuanchen,Bing,Economics,zero,0,N/A,Yuanchen,18000,,Bing
+234,Ivan,Birch,Criminal Justice,good,5,4.2,,0,,
+235,Jack,Birchfield,Psychology,good,15,4.9,,0,,
+236,Jack,Birchfield,Behavioral Sciences,zero,0,N/A,,0,,
+237,Steve,Bishopp,Criminal Justice,good,7,4.6,,0,,
+238,Madhavi,Biswas,Rhetoric,average,17,3.0,,0,,
+239,Abhijit,Biswas,Business,good,209,4.8,Abhijit,226944,,Biswas
+240,Ozlem,Bogush,Physical Education,good,1,5.0,,0,,
+241,Gary,Bolton,Operations Management,good,1,5.0,Gary,326155,,Bolton
+242,Matthew,Bondurant,Arts & Humanities,good,4,4.4,,0,,
+243,Suzanne,Bonifert,Speech & Language Pathology,poor,1,2.0,,0,,
+244,Deborah,Bonner,Psychology,good,16,4.3,Deborah,20133,,Bonner
+245,Paul,Booker,Fine Arts,good,6,4.2,Paul,10500,D,Booker
+246,Paul,Booker,Arts  Technology,average,1,2.5,Paul,10500,D,Booker
+247,Denise,Boots,Public Policy,good,47,4.9,Denise,174684,P,Boots
+248,Mehra,Borazjany,Computer Science,average,71,3.0,,0,,
+249,Terry,Bordelon,Electrical Engineering,good,1,4.0,,0,,
+250,Irina,Borovkov,Biology,poor,42,2.0,,0,,
+251,Tiffany,Bortz,Accounting,good,65,3.8,Tiffany,160233,A,Bortz
+252,Ranavir,Bose,Information Science,average,16,2.5,Ranavir,92843,,Bose
+253,Lisa,Bost-Sandberg,Music,good,5,3.9,,0,,
+254,Catalina,Boudreaux,Physics,poor,5,1.1,,0,,
+255,Alisa,Bovda,English,zero,0,N/A,Alisa,10961,Y,Bovda
+256,Alisa,Bovda,Rhetoric,poor,6,1.2,Alisa,10961,Y,Bovda
+257,Cliff,Bowden,Not Specified,good,3,4.3,,0,,
+258,Richard,Bowen,Accounting,average,42,3.1,Richard,36768,M,Bowen
+259,Sarah,Bowman,Arts & Technology,good,3,3.5,,0,,
+262,Monica,Borowicz,Computer Science,good,1,5.0,,0,,
+263,Tiffany,Bortz,Accounting,good,68,3.8,Tiffany,160233,A,Bortz
+264,Ranavir,Bose,Information Science,poor,17,2.4,Ranavir,92843,,Bose
+270,Richard,Bowen,Accounting,average,43,3.1,Richard,36768,M,Bowen
+272,Elizabeth,Boyd,Arts  Technology,good,3,5.0,,0,,
+273,Stefanie,Boyd,Biochemistry,average,6,3.0,,0,,
+274,Kent,Boyer,Arts & Humanities,good,3,5.0,,0,,
+275,Brittany,Boyer ,Psychology,good,1,5.0,,0,,
+276,Catherine,Boynton,Psychology,good,1,5.0,Catherine,46162,,Boynton
+277,Adam,Brackin,Arts & Technology,good,8,3.9,,0,,
+278,Dana,Bracy,Accounting,good,2,3.5,Dana,6500,,Bracy
+279,Judd,Bradbury,Business,poor,77,2.5,Judd,148343,D,Bradbury
+280,Caitlin,Braitsch,Biology,good,7,5.0,Caitlin,63526,M,Braitsch
+281,Oze,Brand,Engineering,zero,0,N/A,,0,,
+282,Jonathan,Brandenburg,Computer Science,good,33,4.0,,0,,
+283,Patrick,Brandt,Political Science,average,25,3.3,Patrick,154904,T,Brandt
+284,Alexander,Braun,Science,poor,3,1.5,,0,,
+285,Timothy,Bray,Criminal Justice,good,19,3.5,Timothy,173245,M,Bray
+286,Lauren,Brazeal Garza,Communication,good,3,4.8,,0,,
+287,Michael,Breault,Arts  Technology,good,5,5.0,,0,,
+288,Davis,Brecheisen,Arts & Humanities,good,2,4.0,,0,,
+289,Gail,Breen,Biology,average,11,2.5,,0,,
+290,Kenneth,Bressler,Accounting,good,1,4.0,,0,,
+291,Rick,Brettell,Humanities,good,1,5.0,,0,,
+292,Richard,Brettell,Art History,good,11,4.0,,0,,
+293,Kenneth,Brewer,Literature,good,68,4.8,Kenneth,62005,L,Brewer
+294,Susan,Briante,Writing,good,7,3.6,,0,,
+295,Tom,Brikowski,Geology,poor,27,2.3,,0,,
+296,Dawn,Brinkley,Psychology,average,27,3.2,,0,,
+297,Joselyn,Briseno,Business,poor,19,2.1,Joselyn,51217,A,Briseno
+298,Salena,Brody,Psychology,good,47,5.0,Salena,97619,M,Brody
+299,Mike,Bromberg,Communication,good,1,5.0,,0,,
+300,Lori,Brooks,Education,good,1,5.0,Lori,6062,,Brooks
+301,Matthew,Brown,Humanities,average,8,3.4,Matthew,128396,J,Brown
+302,Spencer,Brown-Pearn,Fine Arts,good,2,4.5,,0,,
+303,Elizabeth,Bruce,Business Communications,poor,38,2.5,Elizabeth,53818,,Bruce
+304,Norris,Bruce,Marketing,average,18,3.2,Norris,231869,I,Bruce
+305,Thomas,Brunell,Social Science,good,26,3.7,Thomas,188688,L,Brunell
+306,Monica,Brussolo,Business,average,98,3.5,Monica,135828,E,Brussolo
+307,Daniel,Buechler,Business,good,11,4.3,,0,,
+308,Nili,Bueckert,Music,good,2,4.5,,0,,
+309,Lee,Bulla,Biology,average,24,2.7,,0,,
+310,Alexander,Bulter,Finance,zero,0,N/A,,0,,
+311,Umut,Bulut,Chemistry,average,3,3.2,,0,,
+312,Jonas,Bunte,Economics,good,14,5.0,Jonas,69168,B,Bunte
+313,Aydin,Burcak,Marketing,poor,3,2.3,,0,,
+314,Christopher,Burk,Political Science,good,1,5.0,,0,,
+315,Lora,Burnett,History,good,33,4.5,,0,,
+316,Gerald,Burnham,Electrical Engineering,poor,27,2.1,,0,,
+317,John,Burr,Biology,average,54,3.2,John,115523,G,Burr
+318,Xtine,Burrough,Arts & Technology,zero,0,N/A,,0,,
+319,Michael,Burton,Neuroscience,poor,4,2.3,Michael,135065,D,Burton
+320,Anne,Burton,Mathematics,zero,0,N/A,,0,,
+321,Andrew,Busch,History,good,4,5.0,,0,,
+322,Carlos,Busso,Electrical Engineering,average,37,2.8,,0,,
+323,Ammon,Butcher,Accounting,good,1,5.0,,0,,
+324,Leeann,Butler,Business,good,12,4.0,,0,,
+325,Suzanne,Byrd,Music,average,1,2.5,,0,,
+326,Kathleen,Byrnes,Health Science,average,47,2.8,Kathleen,88342,A,Byrnes
+327,Seong,Byun,Finance,good,3,4.8,,0,,
+328,Tom,Bywaters,Arts & Technology,good,2,4.8,,0,,
+329,Xiang ,Cai,Statistics,poor,2,1.0,,0,,
+330,Metin,Cakanyildirim,Business,average,10,2.5,Metin,245280,,Cakanyildirim
+331,Bryon,Caldwell,Arts & Technology,good,1,5.0,Bryon,88377,A,Caldwell
+332,Engin,Calisir,Information Science,good,9,4.6,Engin,150085,,Calisir
+333,Christopher,Camacho,Arts  Technology,good,8,4.5,Christopher,86429,J,Camacho
+334,Amalia Lorena,Camacho-Guardardo,Arts & Humanities,good,8,4.7,,0,,
+335,Zachary,Campbell,Biology,good,27,3.8,Zachary,150969,,Campbell
+336,Joan,Canby,Literature,good,1,4.5,,0,,
+337,Mehmet,Candas,Biology,average,79,3.0,Mehmet,86387,,Candas
+338,Natalia,Candelo Londono,Economics,good,10,3.7,,0,,
+339,Jordan,Canfield,Writing,good,4,3.5,,0,,
+340,Hakki,Cankaya,Information Science,poor,7,2.3,,0,,
+341,Ebru,CanKaya,Political Science,zero,0,N/A,,0,,
+342,Ebru,Cankaya,Computer Science,good,60,3.9,Ebru,103573,,Cankaya
+343,Charles,Cannon,Communication,good,1,5.0,Charles,15000,,Cannon
+344,Cyrus,Cantrell,Electrical Engineering,good,4,3.6,,0,,
+345,Jennifer,Cantrell-Sutor,Arts & Humanities,good,1,5.0,,0,,
+346,Xuying,Cao,Business,poor,5,1.6,,0,,
+347,Quingning,Cao,Business,zero,0,N/A,,0,,
+348,Ruikai,Cao,Statistics,poor,1,1.0,,0,,
+349,Ying,Cao,Business,good,1,4.0,,0,,
+350,Yan,Cao,Mathematics,poor,21,2.3,Yan,94221,,Cao
+351,Octavian,Carare,Economics,good,1,3.5,,0,,
+352,Marcel,Carcea,Mathematics,good,11,4.7,,0,,
+353,Alvaro,Cardenas,Computer Science,good,12,3.5,,0,,
+354,Stephanie,Cardwell,Criminal Justice,zero,0,N/A,,0,,
+355, Beverly,Carlsen-Landy,Sociology,average,3,3.3,,0,,
+356,Eric,Carlson,Communication,good,10,4.2,,0,,
+357,Maxwell,Carlton,Psychology,good,1,5.0,,0,,
+358,Shawn,Carraher,International Business,good,219,4.7,Shawn,102611,M,Carraher
+359,Shawn,Carraher,Management,good,2,5.0,Shawn,102611,M,Carraher
+360,Benjamin,Carrion Schaefer,Electrical Engineering,good,12,4.0,,0,,
+361,Rebecca,Carter,Arts  Humanities,zero,0,N/A,,0,,
+362,Allison,Case,Engineering,good,12,3.5,,0,,
+363,Walter,Casey,Political Science,good,8,3.7,,0,,
+364,John,Cassil,Accounting,poor,3,1.3,,0,,
+365,Jonathan,Caudill,Criminal Justice,good,3,4.7,,0,,
+366,Huseyin,Cavusoglu,Business,poor,31,2.0,Huseyin,258389,,Cavusoglu
+367,Brett,Cease,Political Science,good,1,5.0,,0,,
+368,Filip ,Celander ,Arts  Technology,good,14,3.7,,0,,
+369,Shannon,Cepica,Business,good,2,5.0,,0,,
+370,Yves,Chabal,Engineering,good,1,4.0,,0,,
+371,Mary,Chaffin,Business,average,8,2.6,,0,,
+372,Shaibal,Chakrabarty,Arts & Technology,poor,1,1.0,,0,,
+373,Dipnil,Chakraborty,Statistics,good,3,5.0,,0,,
+374,Bryan,Chambers,Business,zero,0,N/A,Bryan,53917,D,Chambers
+375,Anthony,Champagne,Political Science,good,24,4.9,,0,,
+376,Julia,Chan,Chemistry,good,4,5.0,Julia,194388,Y,Chan
+377,Candice,Chandler,Education,poor,27,2.3,,0,,
+378,Adam,Chandler,Arts amp Technology,good,7,4.4,Adam,74929,W,Chandler
+379,Noirrit,Chandra,Mathematics,zero,0,N/A,,0,,
+380,Amitava,Chatterjee,Mathematics,poor,18,1.4,,0,,
+381,Amitava,Chatterjee,Electrical Engineering,poor,3,2.0,,0,,
+382,Sourav,Chatterjee,Business,good,11,3.9,Sourav,68401,,Chatterjee
+383,Bhargab,Chattopadhyay,Statistics,average,14,2.9,,0,,
+384,Aaron,Chawla,Finance,poor,1,1.5,,0,,
+385,Shaokuan,Chen,Operations Management,good,3,5.0,,0,,
+386,Patricia,Chen,Economics,zero,0,N/A,,0,,
+387,Yong,Chen,Mathematics,poor,2,1.0,,0,,
+388,Jiayu,Chen,Operations Management,good,6,4.5,,0,,
+389,Lunjin,Chen,Physics,average,32,2.8,Lunjin,166276,,Chen
+390,Bei,Chen,Languages,good,7,4.8,Bei,55232,,Chen
+391,Zhengyang,Chen,Economics,good,11,4.5,,0,,
+392,Feng,Chen,Computer Science,average,3,3.3,Feng,176360,,Chen
+393,Min,Chen,Mathematics,good,21,4.1,Min,120364,,Chen
+394,Jianqing,Chen,Information Science,good,12,3.6,Jianqing,318976,,Chen
+395,Adam,Cheney,Rhetoric,good,6,3.5,,0,,
+396,Samuel,Cheng,Accounting,average,9,3.1,Samuel,27125,,Cheng
+397,Michael,Cherbonneau,Criminal Justice,good,3,4.8,,0,,
+398,Sivaram,Cheruvu,Political Science,good,3,5.0,,0,,
+399,Jacquelyn,Cheun,Sociology,poor,8,1.8,,0,,
+400,Anjum,Chida,Computer Science,average,78,3.4,Anjum,83749,,Chida
+401,Charles,Chika,Mathematics,average,1,3.0,,0,,
+402,Curt,Childress,Political Science,good,3,4.3,,0,,
+403,Wei-Pang,Chin,Computer Science,poor,64,1.9,Wei-Pang,87383,,Chin
+404,Khai,Chiong,Marketing,good,12,5.0,Khai,209182,X,Chiong
+405,Sy Han Steven,Chiou,Mathematics,good,4,3.8,Sy,94223,Han,Chiou
+406,Che-Wei,Chiu,Accounting,good,4,4.8,,0,,
+407,Yu-Kwong,Chiu,Arts amp Technology,zero,0,N/A,Yu-Kwong,12001,,Chiu
+408,Yun,Chiu,Engineering,poor,12,2.1,Yun,214763,,Chiu
+409,Susan,Chizeck,Not Specified,good,7,3.8,Susan,26227,P,Chizeck
+410,Kyeongjae,Cho,Engineering,average,3,2.7,Kyeongjae,236029,,Cho
+411,Michael,Choate,Business,good,19,4.5,Michael,73935,J,Choate
+412,Sl Ghi,Choi,Mathematics,average,3,3.0,,0,,
+413,Wonjae,Choi,Engineering,good,1,4.0,,0,,
+414,Soohyun,Choi,Economics,average,2,2.5,Soohyun,18000,,Choi
+415,Emily,Choi,Business,good,23,4.5,Emily,172525,,Choi
+416,Rashmi,Chordiya,Political Science,good,9,4.6,,0,,
+417,Pankaj,Choudhary,Computer Science,good,24,3.8,Pankaj,166165,K,Choudhary
+418,Michael,Christiansen,Computer Science,average,96,2.7,Michael,114542,G,Christiansen
+419,Daedra,Christopher,Arts  Technology,good,6,3.7,,0,,
+420,Timothy,Christopher,Arts & Technology,average,6,3.3,Timothy,72661,V,Christopher
+421,Yu,Chu,Accounting,good,3,4.0,,0,,
+422,Lawrence,Chung,Computer Science,poor,34,2.4,Lawrence,131015,,Chung
+423,Anshuman,Chutani,Business,zero,0,N/A,,0,,
+424,Umberto,Ciri,Engineering,average,5,3.2,Umberto,31722,,Ciri
+425,Vincent,Cirillo,Biology,good,4,3.5,,0,,
+426,JASON,CIRILO,Management,average,2,3.0,,0,,
+427,Jackie,Clark,Health Science,average,6,3.3,Jackie,104161,L,Clark
+428,Mark,Clark,Marketing,average,5,3.0,,0,,
+429,Harold,Clarke,Political Science,good,1,5.0,Harold,221231,D,Clarke
+430,Deborah,Clegg,Medicine,poor,1,1.0,,0,,
+431,Nan,Clement,Economics,good,1,5.0,,0,,
+432,Michael,Cleveland,Theater,good,2,4.0,,0,,
+433,Ravin,Cline,Sociology,good,1,5.0,,0,,
+434,Stephen,Clipper,Criminal Justice,good,3,5.0,,0,,
+435,Jorge,Cobb,Computer Science,average,32,3.2,Jorge,156700,A,Cobb
+436,Kristen,Cochran,Arts & Humanities,good,2,4.3,,0,,
+437,Stuart,Cogan,Engineering,good,5,4.8,Stuart,250903,,Cogan
+438,Diana,Cogan,Mathematics,average,59,3.1,Diana,72432,L,Cogan
+439,Milton,Cohen,Humanities,good,18,3.9,,0,,
+440,Daniel,Cohen,Accounting,good,11,4.2,,0,,
+441,Galia,Cohen,Economics,good,192,4.3,,0,,
+442,Melinda,Colby,Arts  Technology,zero,0,N/A,Melinda,141401,A,Colby
+443,John,Cole,Computer Science,good,118,3.6,John,141959,P,Cole
+444,Ann,Coleman,Electrical Engineering,average,8,2.6,,0,,
+445,James,Coleman,Electrical Engineering,zero,0,N/A,,0,,
+446,Nora,Collins,Languages,good,2,5.0,,0,,
+447,Ziya,Cologlu,Statistics,good,4,4.4,,0,,
+448,Gregory,Combs,History,good,20,3.6,,0,,
+449,Kristi,Compton,Psychology,good,6,4.4,Kristi,6001,L,Compton
+450,Ronan,Conlon,Mathematics,good,10,4.3,,0,,
+451,Nadine,Connell,Not Specified,good,18,3.7,,0,,
+452,Michelle,Connell,Finance,good,57,4.7,,0,,
+453,John,Connolly,Political Science,average,2,3.0,,0,,
+454,Sharron,Conrad,Rhetoric,good,2,5.0,,0,,
+455,Wilkins,Conrad,Communication,zero,0,N/A,,0,,
+456,Adrian,Cook,Humanities,good,1,4.0,,0,,
+457,Jill,Cook,Psychology,good,8,4.3,Jill,12005,B,Cook
+458,Heidi,Cooley,Arts amp Technology,poor,9,1.2,Heidi,114819,R,Cooley
+459,Tony,Cooper,Humanities,average,8,3.0,,0,,
+460,Austin,Cooper,Business Communications,good,1,5.0,,0,,
+461,Rafael,Copat,Accounting,good,3,3.7,Rafael,270481,,Copat
+462,Collette,Copeland,Arts & Humanities,poor,1,1.0,,0,,
+463,Colette,Copeland,Arts  Humanities,average,6,3.0,Colette,7126,,Copeland
+464,Syd,Coppersmith,Communication,good,14,4.4,Syd,14125,,Coppersmith
+465,Sonja,Corbin,Business,good,12,4.0,Sonja,6125,C,Corbin
+466,David,Cordell,Finance,average,55,3.4,David,82000,M,Cordell
+467,Rebecca,Cordell,Political Science,good,7,4.4,Rebecca,86932,,Cordell
+468,Alexander,Cornelius,Computer Science,good,3,4.8,,0,,
+469,Sergio,Cortes,Chemistry,good,71,3.6,Sergio,67694,,Cortes
+470,Sergio,Cortez,Chemistry,good,1,5.0,,0,,
+471,Baris,Coskunuzer,Mathematics,average,15,3.4,Baris,110688,,Coskunuzer
+472,Sean,Cotter,Humanities,average,49,2.7,Sean,96013,J,Cotter
+473,Sean,Cotter,English,poor,9,1.4,Sean,96013,J,Cotter
+474,Scott,Cotton,History,good,14,4.8,Scott,12081,C,Cotton
+475,Norm,Cox,Arts & Technology,good,1,5.0,,0,,
+476,Catherine,Craft,Arts & Humanities,good,1,4.0,,0,,
+477,Jacob Joel,Crawford,Rhetoric,good,5,4.0,,0,,
+478,Rachel,Crawford,Arts  Humanities,good,11,4.5,Rachel,15038,,Crawford
+479,William,Cready,Accounting,poor,12,1.4,William,417726,M,Cready
+480,Michael,Crespin,Political Science,average,12,2.8,,0,,
+481,Andrea,Croasdale Woudwyk,Engineering,good,5,5.0,,0,,
+482,Kevin,Crook,Management,good,17,4.8,,0,,
+483,Hilary,Cross,Psychology,average,4,2.8,,0,,
+484,Wade,Crowder,English,poor,14,1.6,Wade,17627,A,Crowder
+485,John,Cue,Chemistry,good,1,5.0,John,25400,,Cue
+486,David,Cullen,History,good,6,4.8,,0,,
+487,Timothy,Culver,Computer Science,good,31,4.0,Timothy,37077,L,Culver
+488,Jennifer,Culvert,English,good,1,5.0,,0,,
+489,Anthony,Cummings,Geography,average,21,3.0,Anthony,126125,R,Cummings
+490,Mark,Cunningham,Marketing,good,25,4.9,,0,,
+491,Fred,Curchack,Humanities,average,18,3.5,Fred,102546,,Curchack
+492,Elizabeth,Currey,Arts & Humanities,zero,0,N/A,Elizabeth,7000,J,Currey
+493,Elizabeth,Currey,Rhetoric,average,4,3.3,Elizabeth,7000,J,Currey
+494,Barbara,Curry,Education,good,6,4.7,,0,,
+495,Val,Curry,Arts  Humanities,good,64,4.5,Val,7001,,Curry
+496,Sheena,D'arcy,Biochemistry,good,9,4.5,,0,,
+497,Santosh,D'Mello,Biology,average,1,2.5,,0,,
+498,Vito,D'Orazio,Political Science,good,10,3.6,,0,,
+499,Malgorzata,Dabkowska,Mathematics,average,40,3.5,Malgorzata,55861,A,Dabkowska
+500,Mieczyslaw,Dabkowski,Mathematics,good,39,4.3,Mieczyslaw,138179,K,Dabkowski
+501,Ovidiu,Daescu,Computer Science,average,25,3.1,Ovidiu,220782,,Daescu
+502,Rabin ,Dahal,Mathematics,good,65,4.8,Rabin,62189,,Dahal
+503,Xianming,Dai,Engineering,good,14,4.0,Xianming,148260,,Dai
+504,Zhonglan,Dai,Accounting,poor,11,1.2,Zhonglan,219419,,Dai
+505,Tevfik,Dalgic,Business,average,12,3.4,Tevfik,11544,,Dalgic
+506,Tony,Daniel,Humanities,good,3,4.3,,0,,
+507,Jacqueline,Daniels,Behavioral Sciences,poor,3,2.2,,0,,
+508,Chetan,Dave,Economics,good,5,4.0,,0,,
+509,Katherine,Davies,Philosophy,good,9,4.6,Katherine,77724,,Davies
+510,Walter,Davis,Economics,good,3,4.7,,0,,
+511,Christopher,Davis,Information Science,good,3,5.0,,0,,
+512,Stephanie,Davis,Humanities,good,48,4.7,,0,,
+513,Stephanie,Davis,Political Science,good,4,4.5,,0,,
+514,Richard,Davis,Finance,zero,0,N/A,,0,,
+515,Charles,Davis,Computer Science,zero,0,N/A,,0,,
+516,Renee,Davis,Education,good,2,5.0,,0,,
+517,Garrett,Davis,Sociology,good,4,3.7,Garrett,16126,,Davis
+518,Chris,Davis,Computer Science,average,60,3.1,Chris,125306,I,Davis
+519,Levon,Davtyan,Physics,poor,15,1.2,,0,,
+520,Milind,Dawande,Business,good,7,3.5,Milind,440830,W,Dawande
+521,Theodore,Day,Finance,poor,19,2.1,,0,,
+522,Lora Neita,Day,Health Science,zero,0,N/A,Lora,26465,N,Day
+523,Lora,Day,Health Science,poor,24,2.2,Lora,26465,N,Day
+524,Partha,De,Computer Science,good,12,3.8,,0,,
+525,Carlos,De La Plata,Neuroscience,good,1,4.5,,0,,
+526,Veronica,de los Santos,Business Communications,good,22,3.5,,0,,
+527,Nicole,De Nisco,Biology,good,5,3.6,,0,,
+528,Denis,Dean,Geography,average,4,3.4,Denis,74025,J,Dean
+529,Ronald,Dearing,Mathematics,poor,1,1.0,,0,,
+530,Vidroha,Debroy,Computer Science,good,8,4.3,Vidroha,32952,,Debroy
+531,George,Decourcy,Finance,good,18,4.5,George,60001,A,Decourcy
+532,Jessi,Defusco,Public Policy,good,1,5.0,,0,,
+533,Doug,Degroot,Computer Science,good,31,3.6,Doug,126736,,Degroot
+534,Paul,Deignan,Engineering,average,28,3.0,,0,,
+535,Jeff,Dejong,Biology,poor,49,2.5,,0,,
+536,Libby ,DeLeon-Taylor ,Education,good,1,4.0,,0,,
+537,Nikki,Delk,Biology,good,5,4.6,Nikki,155799,A,Delk
+538,Brent,Dell,Social Science,good,1,4.0,,0,,
+539,Eugene,Deluke,Management,good,43,4.3,Eugene,18126,,Deluke
+540,Patrick,Dennis,Humanities,average,13,3.0,Patrick,4275,W,Dennis
+541,Leeann,Derdeyn,Arts & Humanities,good,6,4.4,Leeann,3500,E,Derdeyn
+542,Dragana,Derlic,Criminal Justice,good,12,4.4,Dragana,6715,,Derlic
+543,Yvo,Desmedt,Computer Science,poor,39,1.6,Yvo,189192,G,Desmedt
+544,Gregory,Dess,Business,average,23,3.3,Gregory,263888,G,Dess
+545,Neetha,Devdas,Psychology,good,10,5.0,Neetha,31426,R,Devdas
+546,Brian,Devries,Computer Science,good,2,4.8,,0,,
+547,Debra,Dewitte,Art History,average,42,2.7,,0,,
+548,Monica,Deza,Economics,poor,2,1.0,,0,,
+549,Kruti,Dholakia,Economics,good,14,3.9,,0,,
+550,David,Dial,Business,good,3,4.5,,0,,
+551,Susan,Diamond,Criminal Justice,good,2,3.8,,0,,
+552,Garst,Dianna,Communication,good,2,4.5,,0,,
+553,Galen,Dickey-Laprocido,Sociology,good,6,3.7,Galen,44285,L,Dickey-Laprocido
+554,Keith,Dickinson,Marketing,good,1,5.0,Keith,73449,H,Dickinson
+555,Keith,Dickinson,Business,good,43,3.5,Keith,73449,H,Dickinson
+556,Deborah,Dickson,Communication,poor,1,1.0,,0,,
+557,Gregg,Dieckmann,Chemistry,good,162,4.0,Gregg,121497,R,Dieckmann
+558,Paul,Diehl,Political Science,average,2,3.0,Paul,188851,,Diehl
+559,Joy,Dier,Health Science,zero,0,N/A,,0,,
+560,Tom,Dill,Geology,poor,5,1.0,,0,,
+561,Clayton,Dillard,Arts amp Humanities,average,9,3.0,Clayton,3501,,Dillard
+562,Ahad,Din,Political Science,good,1,4.0,,0,,
+563,Yichen,Ding,Engineering,good,1,5.0,,0,,
+564,Hui,Ding,Mathematics,poor,23,2.1,Hui,51543,,Ding
+565,Laurel,Dingrando,Education,good,2,5.0,,0,,
+566,Brian,DiNuzzo,English,poor,3,1.7,,0,,
+567,Dushanti,Dissanayake,Chemistry,good,1,5.0,,0,,
+568,Dushanthi,Dissanayake,Chemistry,good,10,4.0,Dushanthi,54755,S,Dissanayake
+569,Kim,Distin,Science,good,2,4.0,,0,,
+570,Lauren,Dixon,Literature,good,2,4.8,,0,,
+571,Sheel,Dodani,Chemistry,poor,5,2.4,Sheel,141609,C,Dodani
+572,Nathan,Dodge,Engineering,good,91,4.3,,0,,
+573,Kutsal,Dogan,Information Science,good,7,4.2,,0,,
+574,Scott,Dollinger,Computer & Math. Sciences,zero,0,N/A,Scott,113058,M,Dollinger
+575,Scott,Dollinger,Computer Science,average,80,3.4,Scott,113058,M,Dollinger
+576,Courtney,Dombroski,Rhetoric,good,7,4.7,,0,,
+577,Katie,Donaldson,Education,good,1,5.0,,0,,
+578,Zheng,Dong,Computer Science,average,4,3.0,,0,,
+579,Paul,Donnelly,Criminal Justice,good,11,4.6,,0,,
+580,Karen,Doore,Computer Science,poor,37,2.4,Karen,79733,L,Doore
+581,Ramona,Dorough,Business Communications,poor,3,1.3,,0,,
+582,Floyd,Dorsey,Education,good,7,4.3,Floyd,80553,Z,Dorsey
+583,Elham,Doust-Haghighi,Arts & Technology,zero,0,N/A,,0,,
+584,Howard,Dover,Business,average,22,3.2,Howard,187501,F,Dover
+585,Douglas,Dow,Political Science,good,29,4.1,Douglas,114560,C,Dow
+586,Patrick,Dowling,Arts & Technology,good,6,5.0,,0,,
+587,Walter J,Dowling,Psychology,average,66,3.1,Walter,114537,J,Dowling
+588,Rockford,Draper,Biology,good,4,3.5,Rockford,106659,K,Draper
+589,linda,drew,Behavioral Sciences,average,14,3.3,,0,,
+590,Kristen,Drogos,Arts amp Technology,poor,5,2.4,,0,,
+591,Jeffery,Drummond,Management,good,1,5.0,Jeffery,11406,P,Drummond
+592,Jeffery,Drummond,Law,good,3,5.0,Jeffery,11406,P,Drummond
+593,Martinella,Dryburgh,Political Science,good,2,4.5,,0,,
+594,Heng,Du,Biology,good,2,4.0,,0,,
+595,Ding-Zhu,Du,Computer Science,poor,16,2.0,,0,,
+596,Shengwang,Du,Physics,average,2,3.0,,0,,
+597,Xinya,Du,Computer Science,zero,0,N/A,,0,,
+598,William,Dubnov,Psychology,good,6,4.8,,0,,
+599,James,Ducker,Accounting,zero,0,N/A,,0,,
+600,Frank,Dufour,Arts  Technology,average,2,3.2,,0,,
+601,Lloyd,Dumas,Economics,good,30,4.4,,0,,
+602,Amanda,Dunbar,Art History,good,2,3.5,Amanda,15038,,Dunbar
+603,Monique,Duncan,Biology,good,5,4.0,,0,,
+604,Jillian,Duquaine-Watson,Social Science,average,42,3.2,,0,,
+605,Diane,Durant,Arts  Technology,good,8,4.1,,0,,
+606,Kelly,Durbin,Music,good,24,3.6,Kelly,60518,P,Durbin
+607,Greg,Durham,Finance,good,16,4.7,,0,,
+608,Adannah,Duruoha,Mathematics,good,27,5.0,Adannah,58140,,Duruoha
+609,Gregory,Dussor,Neuroscience,good,8,4.3,Gregory,175972,O,Dussor
+610,Greg,Earle,Physics,good,5,4.3,,0,,
+611,Doric,Earle,Economics,good,4,4.0,,0,,
+612,Diana,Easton,Engineering,zero,0,N/A,,0,,
+613,John,Eaton,Political Science,good,2,4.5,John,18000,M,Eaton
+614,Betty,Edelman,Psychology,good,18,4.6,,0,,
+615,Vincent,Edera,Languages,good,2,5.0,,0,,
+616,Sandi,Edgar,Humanities,good,6,4.7,,0,,
+617,Kyle,Edgington,Business,good,23,4.8,Kyle,319722,D,Edgington
+618,Russell,Edmunds,History,good,25,4.5,,0,,
+619,Alexander,Edsel,Marketing,good,58,3.5,Alexander,144555,D,Edsel
+620,Mary,Effler Li,Arts & Technology,good,2,4.0,,0,,
+621,Sam,Efromovich,Mathematics,average,13,2.6,Sam,198347,,Efromovich
+622,Terence,Egan,Operations Management,poor,2,1.0,,0,,
+623,Terence,Egan,Business,poor,2,1.2,,0,,
+624,Terence,Egan,Management,average,1,3.0,,0,,
+625,Trey,Egan,Art History,zero,0,N/A,Trey,14000,T,Egan
+626,Trey,Egan,Arts  Humanities,good,39,4.4,Trey,14000,T,Egan
+627,Sam,Ehrenreich,Psychology,good,17,4.8,,0,,
+628,Sarah,El Sayed,Criminal Justice,average,6,3.3,,0,,
+629,Nermine,El Sissi,Mathematics,average,8,3.1,,0,,
+630,Narmine,El Sissi,Mathematics,zero,0,N/A,,0,,
+631,Amal,El-Ashmawi,Business,average,70,3.3,Amal,107520,H,El-Ashmawi
+632,Mohamed,El-Komi,Economics,good,6,4.2,,0,,
+633,Nermine,El-Sissi,Mathematics,average,2,2.8,,0,,
+634,Candace,Eldridge,Communication,poor,3,1.0,,0,,
+635,Arturo,Elizondo,Computer Science,good,2,4.5,,0,,
+636,Gasan,Elkhodari,Information Science,good,14,4.5,,0,,
+637,Deidria,Ellington,Business,good,1,5.0,,0,,
+638,Euel,Elliott,Political Science,average,61,3.3,Euel,113848,W,Elliott
+639,Omid,Elmi,Marketing,average,6,3.0,Omid,40751,,Elmi
+640,Negin,Enayaty Ahangar,Management,average,60,3.4,,0,,
+641,Dustin,Encizo,Business,zero,0,N/A,Dustin,70665,R,Encizo
+642,Crystal,Engineer,Neuroscience,good,4,5.0,Crystal,136245,T,Engineer
+643,Serdar,Erbatur,Computer Science,average,31,3.2,,0,,
+644,Ilhan,Ertan,Operations Management,average,8,3.5,,0,,
+645,Elizabeth,Escalente,Philosophy,good,2,3.5,,0,,
+646,Sharif,Esfahani,Accounting,good,3,5.0,,0,,
+647,Kemelli,Estacio-Hiroms,Mathematics,average,70,3.2,Kemelli,52833,C,Estacio-Hiroms
+648,Ian,Etter,Arts & Humanities,good,1,4.0,,0,,
+649,Monty,Evans,Business,good,6,4.2,,0,,
+650,Monica,Evans,Arts & Technology,good,10,4.8,Monica,105553,J,Evans
+651,Julia,Evans,Speech  Language Pathology,average,13,3.3,Julia,141095,L,Evans
+652,Kathryn,Evans,Music,good,12,3.7,Kathryn,71518,C,Evans
+653,Leo,Eveleth,Physical Education,zero,0,N/A,,0,,
+654,Donna,Ewing,Behavioral Sciences,zero,0,N/A,Donna,70695,M,Ewing
+655,Anatoly,Eydelzon,Mathematics,average,119,2.5,Anatoly,71601,,Eydelzon
+656,Peter,Ezeloma,Electrical Engineering,good,1,5.0,,0,,
+657,Dani,Fadda,Engineering,good,20,5.0,Dani,116367,Z,Fadda
+658,Suzie,Fagg,Education,good,13,3.5,,0,,
+659,Sharon,Fagg,Education,good,1,4.0,,0,,
+660,Mahdi,Fahimi,Finance,good,8,4.6,,0,,
+661,Babak,Fahimi,Electrical Engineering,average,28,3.0,Babak,190573,,Fahimi
+662,Andrew,Famiglieti,Not Specified,poor,5,2.2,,0,,
+663,Zeng (timothy),Fan,Business,good,3,4.5,,0,,
+664,Zhongwen,Fan,Accounting,good,7,4.1,,0,,
+665,Timothy,Farage,Computer Science,good,223,4.2,Timothy,124862,P,Farage
+666,Andras,Farago,Computer Science,average,18,3.3,Andras,168191,,Farago
+667,Mehdi,Farahani,Management,good,5,4.4,,0,,
+668,Meymanat,Farazmirad,Mathematics,good,3,3.8,,0,,
+669,Alvin,Farmer,Psychology,average,4,3.4,,0,,
+670,Michael,Farmer,History,good,11,4.0,,0,,
+671,David,Farmer ,Psychology,average,4,3.0,,0,,
+672,Neil,Farquharson,Marketing,good,9,5.0,,0,,
+673,Eric,Farrar,Arts & Technology,good,4,5.0,Eric,121282,T,Farrar
+674,Simon,Fass,Public Policy,good,5,3.5,Simon,81198,M,Fass
+675,Soraya,Fatehi,Management,average,4,2.8,,0,,
+676,Peter,Fauver,Psychology,zero,0,N/A,,0,,
+677,Danielle,Fearon,Psychology,zero,0,N/A,,0,,
+678,Todd,Fechter,Arts & Technology,good,6,4.9,Todd,135679,A,Fechter
+679,Robert,Fee,Arts & Technology,poor,6,1.2,,0,,
+680,Ranran,Feng,Computer Science,poor,46,1.7,Ranran,107334,,Feng
+681,Ervin,Fenyves,Physics,poor,2,2.2,,0,,
+682,Alina,Ferecatu,Marketing,average,4,2.8,,0,,
+683,John,Ferguson,Geology,zero,0,N/A,John,64020,F,Ferguson
+684,Wesley,Ferguson,Theater,good,25,4.4,Wesley,10626,A,Ferguson
+685,John,Ferraris,Chemistry,zero,0,N/A,John,213372,P,Ferraris
+686,Leticia,Ferreira de Souza,Arts & Technology,good,1,5.0,,0,,
+687,Jacopo,Ferruzzi,Engineering,good,1,4.0,,0,,
+688,Maha,Fettouh,Languages,good,8,3.5,Maha,14000,A,Fettouh
+689,Nicholas,Fey,Engineering,good,2,4.5,,0,,
+690,Amanda,Field,English,poor,1,1.0,Amanda,7500,C,Field
+691,Jamie,Field,Arts  Technology,good,4,3.9,Jamie,22137,M,Field
+692,Francesca,Filbey,Neuroscience,average,7,3.2,Francesca,232117,M,Filbey
+693,Rebecca,Files,Accounting,good,61,4.3,Rebecca,270964,L,Files
+694,Rebecca,Files,Finance,good,12,4.6,Rebecca,270964,L,Files
+695,Robert,Finkelman,Geology,good,1,5.0,Robert,3731,B,Finkelman
+696,Robert,Finkleman,Geology,average,11,2.6,,0,,
+697,Anne,Fischer,History,good,10,4.8,Anne,75876,G,Fischer
+698,Massimo,Fischetti,Physics,poor,13,2.2,Massimo,294684,,Fischetti
+699,Paul,Fishwick,Arts & Technology,good,2,4.5,Paul,264483,A,Fishwick
+718,Hal,Fitzgerald,Arts amp Technology,good,5,4.6,Hal,77390,E,Fitzgerald
+719,Megan,Fitzmaurice,Business Communications,good,1,5.0,,0,,
+720,Evan,Fladager,Arts & Technology,zero,0,N/A,,0,,
+721,Carol,Flannery,Business,average,65,3.2,,0,,
+722,Francis,Flavin,History,average,31,2.9,,0,,
+723,Forney,Fleming,Health Science,good,23,4.5,,0,,
+724,Blair,Flicker,Business,good,10,5.0,,0,,
+725,James,Florence,Engineering,zero,0,N/A,James,85973,M,Florence
+726,James,Florence,Electrical Engineering,average,58,3.1,James,85973,M,Florence
+727,Steven,Foland,Engineering,good,3,3.7,,0,,
+728,Manjula Samanmalee,Foley,Mathematics,good,100,4.2,Manjula,69255,S,Foley
+729,Christopher,Foltz,English,good,4,4.4,,0,,
+730,John,Fonseka,Engineering,average,33,3.3,John,154633,P,Fonseka
+731,David,Ford,Business,poor,18,1.4,,0,,
+732,Luca,Forte,Engineering,zero,0,N/A,,0,,
+733,Kyle,Fox,Computer Science,good,9,5.0,Kyle,119811,J,Fox
+734,Robert,Franklin,Political Science,average,7,2.6,,0,,
+735,Andrew,Frazelle,Operations Management,good,3,4.3,Andrew,221293,,Frazelle
+736,Michael,Frazier,Criminal Justice,average,7,3.4,,0,,
+737,Gary,Frazier,Physics,average,14,3.5,,0,,
+738,Leah,Frazier,Business,zero,0,N/A,,0,,
+739,William,Frensley,Engineering,average,11,3.3,William,142631,,Frensley
+740,John,Gamino,Accounting,good,52,3.5,John,138752,,Gamino
+741,Sarah,Gammell,Criminal Justice,good,8,4.5,Sarah,26667,P,Gammell
+742,Bernhard,Ganglmair,Finance,good,3,3.5,,0,,
+743,M,Gangwar,Business,zero,0,N/A,,0,,
+744,Nicholas,Gans,Electrical Engineering,good,8,3.6,,0,,
+745,Xin-Lin,Gao,Engineering,average,2,3.0,,0,,
+746,Matthew,Gardner,Electrical Engineering,good,4,5.0,,0,,
+747,Suyash,Garg,Business,zero,0,N/A,Suyash,50400,,Garg
+748,Rob,Garner,Business,zero,0,N/A,,0,,
+749,William,Garner,Humanities,poor,3,2.3,,0,,
+750,Frank,Garrett,Philosophy,good,2,5.0,,0,,
+751,Bentley,Garrett,Mathematics,good,111,4.0,Bentley,94730,T,Garrett
+752,Yuri,Gartstein,Physics,good,24,3.9,Yuri,128487,,Gartstein
+753,Julie,Garza-Horne,Business Communications,poor,2,1.0,,0,,
+754,Jeremiah,Gassensmith,Chemistry,good,3,5.0,Jeremiah,115201,J,Gassensmith
+755,Adrienne,Gathman,Political Science,poor,3,2.0,,0,,
+756,Sandhya,Gavva,Chemistry,average,140,2.8,Sandhya,62379,R,Gavva
+757,Ling,Ge,Information Science,poor,3,1.7,,0,,
+758,Ling,Ge,Business,zero,0,N/A,,0,,
+759,Wayne,Gearey,Information Science,zero,0,N/A,,0,,
+771,Bentley,Garrett,Mathematics,good,110,4.1,Bentley,94730,T,Garrett
+776,Sandhya,Gavva,Chemistry,average,139,2.7,Sandhya,62379,R,Gavva
+780,Diana,Gingo,Literature,zero,0,N/A,,0,,
+781,Marina,Girju,Business,good,4,4.6,,0,,
+782,,Giron,Languages,zero,0,N/A,,0,,
+783,Terri,Gladden,Education,good,2,5.0,,0,,
+784,Janece ,Glauser,Engineering,average,37,2.8,Janece,58146,B,Glauser
+785,Robert,Glosser,Physics,poor,69,2.0,Robert,119627,,Glosser
+786,Bruce,Gnade,Chemistry,good,5,4.1,,0,,
+787,Matthew,Goeckner,Engineering,average,30,3.3,Matthew,224033,J,Goeckner
+788,Vibhav,Gogate,Computer Science,good,21,4.5,Vibhav,239460,G,Gogate
+789,Ghanshyamsinh,Gohil,Electrical Engineering,good,2,4.0,,0,,
+790,Omer,Gokalp,Management,good,3,5.0,,0,,
+791,Abdullah,Gokcinar,Operations Management,poor,2,2.0,Abdullah,41346,,Gokcinar
+792,Terry,Gold,Physical Education,good,6,4.5,Terry,11043,,Gold
+793,Shari,Goldberg,Literature,good,10,4.5,,0,,
+794,Richard,Golden,Behavioral Sciences,good,11,4.2,Richard,114264,M,Golden
+795,Nathan,Goldman,Accounting,good,18,4.9,,0,,
+796,Laura,Goldstein,Rhetoric,good,2,4.5,Laura,41167,E,Goldstein
+797,Ronaldo,Goncalves Ju,Computer Science,good,4,3.5,,0,,
+798,Cristina,Gonzalez,Languages,zero,0,N/A,,0,,
+799,John,Gooch,Communication,poor,10,1.4,John,105314,C,Gooch
+800,Levi,Good,Behavioral Sciences,average,5,2.6,,0,,
+801,Dianne,Goode,Art History,good,68,4.0,,0,,
+802,Doug,Goodman,Political Science,good,2,4.0,,0,,
+803,Kelly,Goodness,Psychology,average,12,2.6,,0,,
+804,Mary Beth,Goodrich,Accounting,average,48,3.2,Mary,122850,Beth,Goodrich
+805,Richard,Goodrum,Computer Science,poor,61,2.0,Richard,114711,A,Goodrum
+806,Evgenia ,Gorina,Management,good,5,3.5,Evgenia,88219,,Gorina
+807,Pamela,Gossin,Humanities,good,23,3.8,Pamela,103958,S,Gossin
+808,Banu,Gotkan,Business,good,4,3.8,,0,,
+809,Warren,Goux,Chemistry,poor,47,1.9,Warren,81119,J,Goux
+810,Philip,Graber,Mathematics,good,3,4.7,,0,,
+811,Sebastian,Graham,Political Science,good,14,4.8,,0,,
+812,Kelly,Grandjean,Arts & Humanities,good,11,3.8,Kelly,11341,R,Grandjean
+813,Meridith,Grant,Psychology,good,42,4.4,,0,,
+814,Marjorie,Grantham,Behavioral Sciences,average,3,3.3,,0,,
+815,Kyle,Graves,Undergraduate Studies,good,2,5.0,,0,,
+816,Donald,Gray,Biology,good,2,3.8,,0,,
+817,Thomas,Gray,Political Science,good,19,4.6,Thomas,83884,R,Gray
+818,Megan,Gray,Arts & Humanities,zero,0,N/A,Megan,57067,L,Gray
+819,Janelle,Gray,Rhetoric,poor,4,1.0,,0,,
+820,Kevin,Green,Finance,average,6,3.2,,0,,
+821,Kevin,Green,Information Science,poor,1,1.0,,0,,
+822,Rhonda,Green,Law,poor,13,2.5,Rhonda,11281,R,Green
+823,Kendra,Greene,Arts amp Humanities,good,1,5.0,Kendra,3474,,Greene
+824,Erin,Greer,Literature,good,2,5.0,Erin,77724,E,Greer
+825,Robert,Gregg,Engineering,average,2,2.5,,0,,
+826,Mona,Gregory,Communication,good,13,4.8,Mona,14500,Y,Gregory
+827,Scot,Gresham Lancaster,Arts  Technology,good,2,3.5,,0,,
+828,Randy,Griffin,Geology,average,22,2.7,,0,,
+829,William,Griffin,Geology,average,22,3.2,William,69587,R,Griffin
+830,Daniel,Griffith,Social Science,poor,8,2.2,,0,,
+831,Mike,Grigsby,Marketing,good,6,3.7,,0,,
+832,Magdalena,Grohman,Psychology,average,7,2.7,Magdalena,57531,G,Grohman
+833,William,Grover,Economics,average,16,3.2,William,51238,C,Grover
+834,Xiaosi,Gu,Neuroscience,average,13,3.4,,0,,
+835,Ming Dong,Gu,Literature,average,17,2.9,Ming,102459,D,Gu
+836,Grace,Gu,Accounting,zero,0,N/A,,0,,
+837,Mary,Guan,Accounting,zero,0,N/A,Mary,75192,X,Guan
+838,Harish,Guda,Operations Management,good,2,5.0,,0,,
+839,Ivan,Gudoshnikov,Mathematics,zero,0,N/A,,0,,
+840,Steven,Guengerich,Business,average,2,3.0,Steven,217814,,Guengerich
+841,Lale,Guler,Accounting,good,54,4.1,,0,,
+842,Michael,Gunin,Political Science,average,2,2.8,,0,,
+843,Xiaohu,Guo,Computer Science,average,7,2.5,Xiaohu,192728,,Guo
+844,Huizhen,Guo,Mathematics,average,12,2.7,Huizhen,51064,,Guo
+845,Shujian,Guo,Finance,zero,0,N/A,Shujian,38400,,Guo
+846,Yunhui,Guo,Computer Science,zero,0,N/A,,0,,
+847,Gopal,Gupta,Computer Science,good,10,4.2,Gopal,302273,,Gupta
+848,Varun,Gupta,Business,good,6,4.8,,0,,
+849,Shivam,Gupta,Operations Management,good,8,4.5,,0,,
+850,Neeraj,Gupta,Computer Science,average,58,2.6,Neeraj,142595,K,Gupta
+851,Umit,Gurun,Accounting,good,28,3.8,Umit,468451,G,Gurun
+852,Ayfer,Gurun,Finance,average,53,2.9,Ayfer,78939,,Gurun
+853,Carlos,Gutierrez Mannix,Political Science,good,20,4.6,,0,,
+854,Randall,Guttery,Management,good,51,3.5,Randall,218042,S,Guttery
+855,Min Wook,Ha,Economics,good,1,4.0,,0,,
+856,Zygmunt,Haas,Engineering,average,8,3.2,Zygmunt,255827,J,Haas
+857,Faz,Hadjebian,English,average,8,3.3,,0,,
+858,Travis,Hadley,Political Science,good,37,3.5,Travis,22223,S,Hadley
+859,Donald,Hafer,Psychology,good,23,4.3,,0,,
+860,John,Hagen,Business,average,5,3.4,John,7034,,Hagen
+861,ER,Hagge,Mathematics,poor,7,2.3,,0,,
+862,Roza,Hagstrom,Mathematics,poor,1,1.0,,0,,
+863,Amanda,Hahn,Psychology,good,1,5.0,,0,,
+864,Marc,Hairston,Science,good,18,4.5,Marc,85781,R,Hairston
+865,Vinita,Hajeri,Science,average,9,3.3,Vinita,68781,A,Hajeri
+866,Rusty,Hale,Management,good,2,3.8,,0,,
+867,Maryjane,Hall,Psychology,average,2,3.0,,0,,
+868,Phillip,Hall,Arts  Technology,good,8,5.0,,0,,
+869,Omar,Hamdy,Computer Science,good,11,4.3,,0,,
+870,Karen,Hamer,Criminal Justice,zero,0,N/A,,0,,
+871,Cristen,Hamilton,Rhetoric,good,13,4.6,Cristen,14125,C,Hamilton
+872,Kevin,Hamlen,Computer Science,good,10,4.5,Kevin,309776,W,Hamlen
+873,Munhee,Han,Finance,good,8,3.7,,0,,
+874,Minyu,Han,Economics,poor,1,1.0,Minyu,6715,,Han
+875,Juanjuan,Han,Information Science,zero,0,N/A,Juanjuan,43950,,Han
+876,Preston,Hanisko,Business,good,1,3.5,,0,,
+877,M,Hanlon,Fine Arts,good,13,3.7,,0,,
+878,Ernest,Hannig,Biology,average,30,2.5,,0,,
+879,Adler,Hans-Joachim,Business,average,68,3.4,,0,,
+885,ER,Hagge,Mathematics,average,6,2.5,,0,,
+896,Anna,Hamilton,Behavioral Sciences,zero,0,N/A,,0,,
+900,Robert,Hart,Engineering,good,3,4.7,Robert,134276,A,Hart
+901,Lauren,Hartburg,Music,good,3,4.7,,0,,
+902,Jonathan,Hartmann,English,poor,6,1.3,Jonathan,17627,H,Hartmann
+903,Ernan,Haruvy,Business,average,16,3.3,,0,,
+904,John,Has-Ellison,History,good,14,4.6,,0,,
+905,Md,Hasan,Accounting,zero,0,N/A,Md,23855,Imrul,Hasan
+906,Syeda,Hasan,Rhetoric,good,1,5.0,Syeda,15038,Nadia,Hasan
+907,Charles,Haseman,Business,good,18,3.9,Charles,56849,T,Haseman
+908,Maria,Hasenhuttl,Business,average,77,2.9,Maria,116967,,Hasenhuttl
+909,Zohreh,Hashami,Chemistry,good,31,5.0,Zohreh,54534,,Hashami
+910,Sahalie,Hashim,Rhetoric,good,17,4.6,,0,,
+911,Carl,Hasler,Philosophy,good,15,3.8,,0,,
+912,Michael,Hasler,Finance,average,1,3.0,Michael,311619,,Hasler
+913,Syed,Hasnain,Business,average,1,3.0,,0,,
+914,Fatemeh,Hassanipour,Engineering,average,10,3.3,Fatemeh,146154,,Hassanipour
+915,Nozar,Hassanzadeh,Business,zero,0,N/A,Nozar,90126,,Hassanzadeh
+916,Wendy,Hassett,Political Science,zero,0,N/A,,0,,
+917,Charles,Hatfield,Literature,good,16,4.2,Charles,118495,D,Hatfield
+918,Julia,Haun,Education,zero,0,N/A,Julia,5994,T,Haun
+919,James,Hawkins,Health Science,good,7,4.3,,0,,
+920,Jie,He,Accounting,average,3,2.7,,0,,
+921,Jiapeng,He,Management,good,1,5.0,Jiapeng,39310,,He
+922,Daniel,Hearn,Law,good,2,5.0,,0,,
+923,Daniel,Hearne,Criminal Justice,zero,0,N/A,,0,,
+924,Delilah,Heatherly,Physics,zero,0,N/A,,0,,
+925,Blake,Hedgecock,Business,good,5,4.8,Blake,20000,M,Hedgecock
+926,Jonas,Hedlund,Economics,average,9,3.2,Jonas,114458,,Hedlund
+927,John,Hedstrom,Mathematics,average,3,2.7,,0,,
+928,Roderick,Heelis,Electrical Engineering,zero,0,N/A,Roderick,283497,A,Heelis
+929,Bill,Hefley,Business,poor,27,2.3,,0,,
+930,William,Hefley,Management,poor,27,2.0,William,199475,E,Hefley
+931,David,Heidtman,Finance,zero,0,N/A,David,14324,,Heidtman
+932,Matthew,Heins,Electrical Engineering,good,13,4.5,Matthew,91511,S,Heins
+933,Annelise,Heinz,Arts  Humanities,good,3,4.7,,0,,
+934,Nathanael,Hellerman,Mathematics,good,2,4.0,,0,,
+935,Charles,Helms,Engineering,poor,19,2.0,,0,,
+936,Rashaunda,Henderson,Electrical Engineering,average,4,3.3,Rashaunda,180134,M,Henderson
+937,Thomas,Henderson,Business,poor,12,1.8,Thomas,133430,C,Henderson
+938,Tom,Henderson,International Business,average,76,3.0,,0,,
+939,Emily,Hennessy,Education,good,8,5.0,Emily,67826,T,Hennessy
+940,Edward,Hennigan,Humanities,good,10,4.2,,0,,
+941,Sarah,Henry,Business Communications,average,9,3.4,,0,,
+942,Austin,Henslee,Information Science,average,4,3.0,,0,,
+943,George,Henson,Languages,average,19,3.3,,0,,
+944,Uyen,Henson,Biology,good,7,4.6,Uyen,15046,N,Henson
+945,Richard,Hernandez,Criminal Justice,good,3,5.0,,0,,
+946,Melissa,Hernandez-Katz,Communication,good,16,4.3,Melissa,60152,M,Hernandez-Katz
+947,Scott,Herndon,Literature,good,10,3.9,Scott,84118,A,Herndon
+948,Emily,Herzig,Mathematics,good,1,4.5,,0,,
+949,Christopher,Hess,Accounting,good,11,3.5,,0,,
+950,Sharon,Hewitt,Arts & Technology,average,6,3.2,Sharon,66220,A,Hewitt
+951,Shelby,Hibbs,Arts  Humanities,good,8,4.5,Shelby,34396,A,Hibbs
+952,Liliana,Hickman-Riggs,Accounting,good,8,4.5,,0,,
+953,Donald,Hicks,Political Science,zero,0,N/A,Donald,74927,A,Hicks
+954,Don,Hicks,Economics,poor,20,1.7,,0,,
+955,Jeffery,Hicks,Business,good,60,4.2,,0,,
+956,Austin,Higgins,Finance,zero,0,N/A,,0,,
+957,James,Hilkert,Engineering,poor,5,1.7,,0,,
+958,Kimberly,Hill,Arts amp Humanities,good,4,4.5,Kimberly,85572,D,Hill
+959,Brenna,Hill,Biology,good,14,4.3,,0,,
+960,Steve,Hiltz,Philosophy,average,12,2.9,,0,,
+961,Sarah,Hinkley,Psychology,average,2,3.0,,0,,
+962,Nick,Hinojosa,Management,good,23,4.0,,0,,
+963,Amanda,Hinson-Enslin,Health Science,good,3,3.7,,0,,
+964,Whitney,Hinze,Business Communications,poor,12,2.2,,0,,
+965,Larkin,Hiott,English,good,1,5.0,,0,,
+966,Karl,Ho,Economics,good,13,3.8,,0,,
+967,Twan,Ho,Fine Arts,average,3,3.2,,0,,
+968,Thanh,Hoang,Political Science,good,2,5.0,Thanh,18000,T,Hoang
+969,Daniel,Hodan,Arts & Humanities,good,4,4.8,Daniel,17502,M,Hodan
+970,Gayle ,Hodges,Psychology,good,9,3.9,,0,,
+971,John,Hoffman,Physics,average,9,3.4,,0,,
+972,Blake,Hoffman,Humanities,good,3,4.7,,0,,
+973,Amy,Hofland,Art History,good,2,4.5,Amy,234426,E,Hofland
+974,James,Hogan,Business,good,8,4.5,James,20126,W,Hogan
+975,Zoey,Hoggatt,Arts amp Technology,zero,0,N/A,,0,,
+976,Alex,Holcomb,Management,average,1,3.0,,0,,
+977,Jennifer,Holmes,Political Science,good,14,3.6,Jennifer,233577,S,Holmes
+978,Vira,Holovchenko,Economics,good,8,4.4,,0,,
+979,Cameron,Holstead,Accounting,good,1,5.0,Cameron,54796,A,Holstead
+991,Cameron,Holstead,Accounting,good,3,5.0,Cameron,54796,A,Holstead
+992,Shayla,Holub,Psychology,good,37,3.7,Shayla,109165,C,Holub
+993,Emily,Honea,Arts  Humanities,good,3,3.7,Emily,8000,C,Honea
+994,James,Honeycutt,Business,zero,0,N/A,James,59002,M,Honeycutt
+995,BO,Hong,Mathematics,good,2,3.5,,0,,
+996,Dorothee,Honhon,Operations Management,good,15,4.3,Dorothee,207010,B,Honhon
+997,Elisabeth,Honka,Marketing,poor,3,1.8,,0,,
+998,Ali,Hooshyar,Mathematics,average,14,2.6,,0,,
+999,Mohammad,Hooshyar,Mathematics,good,5,3.7,Mohammad,60454,A,Hooshyar
+1000,Walter,HU,Engineering,zero,0,N/A,,0,,
+1001,Wenchuang,Hu,Electrical Engineering,good,3,4.0,,0,,
+1002,Xiujuan,Hu,Arts & Humanities,poor,1,1.0,,0,,
+1003,Yang,Hu,Engineering,good,8,4.0,Yang,117682,,Hu
+1004,Yaqin,Hu,Accounting,good,7,4.4,,0,,
+1005,Bin,Hu,Management,poor,1,2.0,Bin,240214,,Hu
+1006,Xiang-Yu,Huang,Accounting,good,5,4.6,,0,,
+1007,Ying,Huang,Accounting,good,3,4.3,Ying,277925,,Huang
+1008,Tony Yu,Huang,Chemistry,good,70,4.7,,0,,
+1009,Stephanie,Huberman,Criminal Justice,zero,0,N/A,,0,,
+1010,Loretta,Hudelot,Marketing,good,1,5.0,Loretta,11281,,Hudelot
+1011,Jennifer,Hudson,English,average,61,3.2,Jennifer,28068,M,Hudson
+1012,Brooke,Hudspeth,Engineering,good,2,5.0,Brooke,47600,,Hudspeth
+1013,Robin,Hughes,Marketing,zero,0,N/A,,0,,
+1014,William,Hughes,Music,good,7,4.5,,0,,
+1015,Natalia,Humphreys,Mathematics,good,4,4.4,Natalia,100541,,Humphreys
+1016,Jeanette,Hurst,History,good,2,4.5,,0,,
+1017,Michael,Huskey,Criminal Justice,good,4,4.0,,0,,
+1018,Ishtiaque ,Hussain,Computer Science,average,1,3.0,,0,,
+1019,Patricia,Hutcheson,Political Science,good,2,5.0,,0,,
+1021,Ying,Huang,Accounting,good,4,3.7,Ying,277925,,Huang
+1034,Karen,Huxtable-Jester,Psychology,average,175,3.3,Karen,113643,J,Huxtable-Jester
+1035,Dung,Huynh,Computer Science,good,15,3.6,Dung,233167,T,Huynh
+1036,D.T.,Huynh,Computer Science,good,1,4.0,,0,,
+1037,Kyle,Hyndman,Economics,good,2,3.5,Kyle,224036,B,Hyndman
+1038,Yen,I-Ling,Computer Science,poor,30,1.8,,0,,
+1039,Yaser ,Ibrahim,Computer Science,good,1,4.0,,0,,
+1040,Chukwuemeka,Ikebude,Arts & Technology,zero,0,N/A,Chukwuemeka,16000,M,Ikebude
+1041,Muhammad,Ikram,Electrical Engineering,poor,16,2.3,Muhammad,24702,Z,Ikram
+1042,Iliyan ,Iliev,History,good,24,3.9,,0,,
+1043,Ilyan,Iliev,Political Science,good,2,4.2,,0,,
+1044,Laura,Imaoka,Communication,good,9,4.2,Laura,75964,Beth,Imaoka
+1045,Peter,Ingrao,Humanities,good,127,4.3,Peter,59799,J,Ingrao
+1046,Jocelyn ,Isais,Arts  Technology,zero,0,N/A,,0,,
+1047,Mustapha,Ishak-Boushaki,Physics,good,55,4.9,Mustapha,196086,,Ishak-Boushaki
+1048,Genya,Ishigaki,Computer Science,average,8,3.1,Genya,12941,,Ishigaki
+1049,Naser,Islam,Management,average,54,2.8,Naser,79994,,Islam
+1050,Giacomo,Iungo,Engineering,average,12,3.0,Giacomo,161794,Valerio,Iungo
+1051,Mahadevan,Iyer,Engineering,good,1,5.0,Mahadevan,84764,Krish,Iyer
+1052,Rishabh,Iyer,Computer Science,average,5,2.8,Rishabh,131732,K,Iyer
+1053,Joseph,Izen,Physics,good,8,5.0,Joseph,136506,M,Izen
+1054,Wael,Jabr,Information Science,good,2,4.8,,0,,
+1055,Ron,Jackson,Weather & Climate,average,12,3.2,,0,,
+1056,George,Jackson,Computer Science,good,8,4.4,,0,,
+1057,George,Jackson,Operations Management,good,1,5.0,,0,,
+1058,Kevin,Jackson,Psychology,good,3,5.0,Kevin,51106,,Jackson
+1059,Bruce,Jacobs,Criminal Justice,good,25,4.0,Bruce,114987,A,Jacobs
+1060,Anna,Jaehnert,Languages,good,1,5.0,,0,,
+1061,Roozbeh,Jafari,Electrical Engineering,good,12,4.0,,0,,
+1062,Wafa,Jaffal,Computer Science,poor,3,2.3,,0,,
+1063,Sanjay,Jain,Business,good,3,4.0,Sanjay,405479,,Jain
+1064,Pia,Jakobsson,History,good,8,3.9,Pia,60668,K,Jakobsson
+1065,Surya,Janakiraman,Business,poor,1,1.0,Surya,252716,N,Janakiraman
+1066,Ganesh,Janakiraman,Business,good,28,4.7,Ganesh,327396,,Janakiraman
+1067,Surya,Janakiraman,Accounting,average,24,2.8,Surya,252716,N,Janakiraman
+1068,Sungha,Jang,Business,poor,1,1.5,,0,,
+1069,Youngki,Jang,Accounting,average,5,3.0,,0,,
+1070,Scott,Janke,Management,good,12,4.5,Scott,90082,M,Janke
+1071,Jamila,Javadova-Spitzberg,Music,average,11,2.9,,0,,
+1072,Krishnamurthy,Jayanth,Business,zero,0,N/A,,0,,
+1073,Kangkook,Jee,Computer Science,good,4,4.3,Kangkook,147867,,Jee
+1074,Cynthia,Jenkins,Psychology,good,3,3.8,,0,,
+1075,Mark,Jenkins,Rhetoric,good,1,5.0,,0,,
+1076,Kristin,Jenkins,Management,average,11,3.2,Kristin,18126,M,Jenkins
+1077,Susan,Jerger,Psychology,good,7,4.6,,0,,
+1078,Merry,Jett,English,good,3,5.0,,0,,
+1079,Rose,Jeudi,Business,good,1,4.0,,0,,
+1080,Filip,Jevtic,Mathematics,good,4,4.0,,0,,
+1081,Chen,Jia,Mathematics,poor,2,2.0,,0,,
+1082,Lin,Jia,Biology,poor,3,2.3,,0,,
+1083,Juncai,Jiang,Marketing,good,1,5.0,,0,,
+1084,Shengjie,Jiang,Statistics,poor,1,1.0,,0,,
+1085,Patel,Jigar,Mathematics,zero,0,N/A,,0,,
+1086,Jose,Jimenez-Justiniano,Rhetoric,average,3,2.7,,0,,
+1087,Yaqing,Jin,Engineering,good,1,4.0,Yaqing,117959,,Jin
+1088,Koren,Jo,Accounting,good,1,5.0,,0,,
+1089,Joel,Johnson,Communication,zero,0,N/A,,0,,
+1090,Poe,Johnson,Rhetoric,average,4,2.6,,0,,
+1091,Melissa,Johnson,Fine Arts,good,6,4.0,Melissa,14125,A,Johnson
+1092,Neil,Johnson,Management,zero,0,N/A,Neil,69268,J,Johnson
+1093,Jillian,Johnson,Business,zero,0,N/A,,0,,
+1094,Ryan,Johnson,Literature,poor,1,1.0,Ryan,7461,,Johnson
+1095,Casey,Johnson,Computer Science,poor,11,2.3,Casey,90875,A,Johnson
+1096,Kevin,Johnson,Rhetoric,good,2,5.0,Kevin,20038,W,Johnson
+1097,Janet,Johnson,Arts & Technology,good,17,3.5,Janet,36289,L,Johnson
+1098,Sara,Johnson,Social Science,poor,2,1.5,Sara,18000,K,Johnson
+1099,Jennifer,Johnson,Accounting,good,38,4.7,,0,,
+1100,Yvonne,Johnson,History,poor,38,2.4,,0,,
+1101,Walter,Johnston,Business,good,61,3.6,Walter,44127,L,Johnston
+1102,Elizabeth,Jones,Business,zero,0,N/A,,0,,
+1103,Christine,Jones,Writing,good,4,3.9,,0,,
+1104,Lynn,Jones,Accounting,good,10,4.6,,0,,
+1105,Jazmine,Jones,Design,zero,0,N/A,Jazmine,14670,Q,Jones
+1106,Eric,Jones,Music,good,20,4.3,Eric,20763,R,Jones
+1107,Joonwhi,Joo,Economics,good,1,5.0,,0,,
+1108,Todd,Jordan,English,good,6,5.0,,0,,
+1109,Katy,Jordan,Psychology,good,2,4.0,Katy,60448,J,Jordan
+1110,Jensten,Jorgensen,Criminal Justice,zero,0,N/A,,0,,
+1111,Alexandra,Joshe-Imre,Engineering,good,1,4.0,,0,,
+1112,Veronica,Juarez,Communication,good,5,4.2,Veronica,11626,M,Juarez
+1113,Jason,Jue,Computer Science,average,13,3.4,Jason,168492,P,Jue
+1114,Nancy,Juhn,Psychology,good,103,3.6,Nancy,65146,H,Juhn
+1115,Seongchul,Jun,Engineering,zero,0,N/A,,0,,
+1116,Sora,Jun,Business,average,24,3.0,Sora,190403,,Jun
+1117,Young-Hoon,Jung,International Business,good,1,5.0,,0,,
+1118,Levent,Kaan,Business,good,66,3.7,,0,,
+1119,Bharadwaj,Kadiy,Finance,zero,0,N/A,,0,,
+1120,Angelas,Kaiser,Rhetoric,good,2,4.0,,0,,
+1121,Regina,Kakhnovets,Psychology,good,1,5.0,,0,,
+1122,Muhammad,Kalam,Engineering,poor,4,2.4,,0,,
+1123,Sriharsha,Kamatham,Marketing,average,6,3.2,,0,,
+1124,Casper,Kamau,Political Science,good,2,5.0,,0,,
+1125,Hossein,Kamlazadeh,Business,zero,0,N/A,,0,,
+1126,Shajid,Kanchwala,Accounting,zero,0,N/A,,0,,
+1127,Simon,Kane,Arts & Technology,average,10,2.6,Simon,155902,A,Kane
+1128,Heidi,Kane,Psychology,poor,21,1.9,Heidi,84603,,Kane
+1129,Yuzhu,Kang,Accounting,zero,0,N/A,,0,,
+1130,Shulamith,Kang,History,good,1,4.0,,0,,
+1131,Murat,Kantarcioglu,Computer Science,average,24,2.5,Murat,266077,,Kantarcioglu
+1132,Vrishali,Kanvinde,Criminal Justice,good,2,4.5,,0,,
+1133,Karen,Kaplan,Behavioral Sciences,average,9,2.8,Karen,31399,E,Kaplan
+1134,Larry,Kaplan,Business,good,12,3.9,Larry,9894,S,Kaplan
+1135,Marilyn,Kaplan,Business,poor,92,1.9,Marilyn,134683,R,Kaplan
+1136,Bhanu,Kapoor,Computer Science,average,22,3.4,Bhanu,20293,,Kapoor
+1137,Gity,Karami,Computer Science,average,49,2.6,Gity,115071,,Karami
+1138,Daniel,Karnuta,Accounting,good,11,3.6,Daniel,74119,,Karnuta
+1139,Sam,Karrah,Computer Science,average,13,3.0,,0,,
+1140,Shyam,Karrah,Computer Science,good,36,4.8,Shyam,139820,S,Karrah
+1141,Chamaal,Karunaweera,Chemistry,good,2,5.0,,0,,
+1142,Mona,Kasra,Arts & Technology,average,3,3.3,,0,,
+1143,Dhara,Katbamna,Mathematics,good,1,4.0,,0,,
+1144,Nishant,Kathuria,International Business,good,2,5.0,Nishant,26496,,Kathuria
+1145,Elena,Katok,Operations Management,poor,1,1.0,Elena,305758,M,Katok
+1146,Lothar,Katz,International Business,poor,1,1.0,Lothar,15010,,Katz
+1147,William,Katz,Communication,good,26,3.8,William,120143,F,Katz
+1148,Vaneet,Kaur,International Business,good,6,4.7,,0,,
+1149,Dupinderjeet,Kaur,Finance,average,13,2.8,Dupinderjeet,120900,,Kaur
+1150,Jason,Kautz,Business,good,6,4.8,,0,,
+1151,Jeff,Kavanaugh,Marketing,good,1,4.0,,0,,
+1152,Cuneyd,Kaya,Computer Science,poor,1,1.0,,0,,
+1153,Kevin,Kearns,Political Science,poor,15,2.4,,0,,
+1154,John,Kebrle,Engineering,poor,5,1.1,,0,,
+1155,Michael,Keefe,Finance,poor,2,1.2,,0,,
+1156,Sara,Keeth,Literature,good,15,3.9,,0,,
+1157,Joselle,Kehoe,Mathematics,good,48,4.0,Joselle,25378,D,Kehoe
+1158,Nasser,Kehtarnavaz,Electrical Engineering,poor,16,1.9,Nasser,283018,,Kehtarnavaz
+1159,Linda,Keith,Political Science,good,14,3.6,,0,,
+1160,Carrie,Kelleher,Communication,good,2,4.5,,0,,
+1161,Erin,Kelley,Arts  Humanities,good,2,5.0,,0,,
+1162,Wei,Kelsey,Business,poor,3,1.0,,0,,
+1163,Kristen,Kennedy,Behavioral Sciences,good,9,4.2,Kristen,187976,M,Kennedy
+1164,Amy,Kerner,History,zero,0,N/A,,0,,
+1165,Jamie,Kernohan,Marketing,good,1,4.0,,0,,
+1166,Michael,Kesden,Physics,good,9,4.0,Michael,110480,H,Kesden
+1167,Mary,Ketchum,Arts amp Humanities,poor,3,2.0,Mary,10626,A,Ketchum
+1168,Luba,Ketsler,Economics,good,172,4.3,Luba,71682,,Ketsler
+1169,Farid,Khafizov,Mathematics,average,35,2.8,,0,,
+1170,Sobia,Khan,Arts & Humanities,good,1,5.0,,0,,
+1171,Bernine,Khan,Science,zero,0,N/A,,0,,
+1172,Masudal,Khan,Business,good,3,4.7,Masudal,14126,H,Khan
+1173,Amena,Khan,Physics,average,28,3.1,Amena,56191,L,Khan
+1174,Kamran,Khan,Computer Science,poor,7,2.1,Kamran,123140,Z,Khan
+1175,Taimur,Khan,Information Science,good,32,5.0,Taimur,37627,A,Khan
+1176,Latifur,Khan,Computer Science,average,18,3.3,Latifur,254488,R,Khan
+1177,Ziaullah,Khan,Computer Science,average,99,2.8,,0,,
+1178,Revansiddha,Khanapure,Finance,average,12,2.5,Revansiddha,79793,B,Khanapure
+1179,Amir,Khoobroo,Electrical Engineering,average,20,3.2,,0,,
+1180,Soudeh,Khoubrouy,Engineering,good,25,3.5,,0,,
+1181,Raja,Khoury,Business,poor,1,1.0,Raja,10101,N,Khoury
+1182,Kamran,Kiasaleh,Engineering,poor,43,1.5,Kamran,196093,,Kiasaleh
+1183,Virginie,Kidwell,Management,good,10,4.6,,0,,
+1184,Douglas,Kiel,Political Science,good,8,4.6,,0,,
+1185,Robert,Kieschnick,Business,poor,19,2.4,Robert,247113,L,Kieschnick
+1186,Michael,Kilgard,Medicine,good,26,3.8,Michael,344783,P,Kilgard
+1187,Heja,Kim,Social Science,average,8,2.5,,0,,
+1188,Alisha,Kim,Mathematics,average,2,3.0,,0,,
+1189,Kyun,Kim,International Studies,zero,0,N/A,,0,,
+1190,Jung-Whan (Jay),Kim,Biology,good,2,3.5,,0,,
+1191,Jinsil,Kim,Business,good,1,5.0,,0,,
+1192,Soo Jung,Kim,International Business,poor,2,2.0,,0,,
+1193,Kyun,Kim,Business,good,1,4.0,,0,,
+1194,Dohyeong,Kim,Economics,average,5,3.4,Dohyeong,167545,,Kim
+1195,Yeongin,Kim,Business,good,5,4.0,,0,,
+1196,Tae,Kim,Biology,good,1,5.0,Tae,245957,Hoon,Kim
+1197,Hugh,Kim,Finance,poor,3,2.0,,0,,
+1198,Sang,Kim,Finance,poor,1,1.0,,0,,
+1199,Dong,Kim,International Business,good,4,4.5,Dong,16001,Shin,Kim
+1200,John,Kirtzic,Computer Science,good,3,4.0,,0,,
+1201,Stephen,Kiser,Economics,good,9,4.3,Stephen,114578,L,Kiser
+1202,Leszek,Kisielewski,Mathematics,zero,0,N/A,Leszek,43482,,Kisielewski
+1203,Phillip,Kisunzu,Mathematics,average,7,3.1,,0,,
+1204,Ida,Klang,Biology,good,6,3.7,,0,,
+1205,Carolee,Klimchock,History,good,14,4.4,,0,,
+1206,Mariko,Kline,Languages,good,5,4.4,,0,,
+1207,Feliks,Kluzniak,Computer Science,poor,8,1.8,,0,,
+1208,Kim,Knight,Arts & Humanities,good,9,4.4,,0,,
+1209,Ramakrishna,Koganti,Business,zero,0,N/A,Ramakrishna,44727,P,Koganti
+1210,Robert,Kohankie,Operations Management,average,16,2.9,,0,,
+1211,John,Kolar,Anthropology,poor,7,2.1,,0,,
+1212,Sai,Kolli,Management,zero,0,N/A,,0,,
+1213,Michael,Kolodrubetz,Physics,average,30,3.3,Michael,118740,H,Kolodrubetz
+1214,Kyle,Kondas,Arts & Technology,good,1,5.0,,0,,
+1215,Frank,Konietschke,Mathematics,good,18,4.6,,0,,
+1216,Yuly,Koshevnik,Mathematics,good,148,3.7,Yuly,84123,,Koshevnik
+1217,Yuly,Koshnevik,Mathematics,good,7,4.6,,0,,
+1218,Holly,Kosiewicz,Political Science,poor,7,1.7,,0,,
+1219,Thomislav,Kovandzic,Criminal Justice,average,17,2.9,,0,,
+1230,Michael,Kolodrubetz,Physics,good,32,3.5,Michael,118740,H,Kolodrubetz
+1233,Yuly,Koshevnik,Mathematics,good,155,3.7,Yuly,84123,,Koshevnik
+1234,Yuly,Koshnevik,Mathematics,good,8,4.5,,0,,
+1235,Holly,Kosiewicz,Political Science,poor,8,1.6,,0,,
+1237,Tomislav,Kovandzic,Criminal Justice,average,8,3.1,Tomislav,101793,V,Kovandzic
+1238,Jennifer,Kraemer,Literature,good,4,4.8,,0,,
+1239,Andrew,Krajewski,Criminal Justice,good,1,5.0,,0,,
+1240,Pushpa,Kumar,Computer Science,good,57,4.2,Pushpa,119215,S,Kumar
+1241,Ramana,Kumar,Computer Science,poor,3,1.7,,0,,
+1242,Abdullah,Kumas,Accounting,good,12,4.9,,0,,
+1243,Gautam,Kunapuli,Computer Science,good,14,4.5,,0,,
+1244,Ching,Kuo,Management,average,15,2.9,,0,,
+1245,Hanan,Kuzat,Mathematics,good,1,4.0,,0,,
+1246,Kim      ,Kyun     ,International Studies,zero,0,N/A,,0,,
+1247,Hoyoun,Kyung,Accounting,good,10,5.0,,0,,
+1248,Virginia,Labar,Education,average,1,2.5,,0,,
+1249,Maria-Elena,Labastida,Economics,poor,1,1.0,,0,,
+1250,Rafael,Lacambra,Computer Science,average,7,3.4,,0,,
+1251,Mary,Lacy,Not Specified,average,12,2.6,,0,,
+1252,Gretchen,Ladd,Psychology,good,18,4.5,,0,,
+1253,Eva,Ladow,Neuroscience,good,17,4.2,Eva,113732,S,Ladow
+1254,Atanu,Lahiri,Information Science,good,9,4.2,Atanu,224840,,Lahiri
+1255,Ashley,Lakoduk,Biology,good,9,5.0,,0,,
+1256,Ram,Laksnarain,Business Communications,good,38,4.3,,0,,
+1257,Amin,Lalani,Education,good,10,4.3,Amin,77151,,Lalani
+1258,Thomas,Lambert,Arts  Humanities,good,13,4.6,Thomas,40601,M,Lambert
+1259,Tom,Lambert,Humanities,good,11,4.4,,0,,
+1272,Ashley,Lakoduk,Biology,good,11,4.9,,0,,
+1274,Amin,Lalani,Education,good,11,4.4,Amin,77151,,Lalani
+1277,Laurie,Lamberth,Accounting,zero,0,N/A,,0,,
+1278,Asheley,Landrum,Psychology,good,1,5.0,,0,,
+1279,Brittany,Landrum,Psychology,good,1,5.0,,0,,
+1280,Shelley,Lane,Communication,average,11,3.0,,0,,
+1281,Alicia,Langarica-Prieto,Mathematics,good,1,5.0,,0,,
+1282,John,Langford,Mathematics,good,3,5.0,John,8953,R,Langford
+1283,Carol,Lanham,Sociology,good,32,3.8,Carol,127294,C,Lanham
+1284,Thomas,Lanier,Economics,average,6,2.7,,0,,
+1285,Jennifer,Laprade,Criminal Justice,good,2,5.0,,0,,
+1286,Stephen,Lapthisophon,Arts & Humanities,poor,4,2.4,Stephen,3501,M,Lapthisophon
+1287,Patrick,Larue,Political Science,good,67,4.0,,0,,
+1288,Britten,Larue,Art History,poor,6,2.3,,0,,
+1289,David,Lary,Physics,average,17,3.1,David,179401,J,Lary
+1290,Patricia,Lathen,Business,good,1,5.0,,0,,
+1291,Andrea,Laurent-Simpson,Sociology,poor,15,1.9,,0,,
+1292,Kristen,Lawson,Business,good,83,4.2,Kristen,57325,A,Lawson
+1293,Raini,Layne,Business Communications,average,17,3.0,Raini,24125,M,Layne
+1294,Mark,Layton,Operations Management,good,2,4.0,,0,,
+1295,Khiem,Le,Computer Science,average,75,3.0,Khiem,109158,V,Le
+1296,Sonia,Leach,Business,average,75,2.8,Sonia,88548,E,Leach
+1297,Sonia,Leach,Mathematics,average,2,3.0,Sonia,88548,E,Leach
+1298,Murray,Leaf,Political Science,poor,4,2.0,,0,,
+1299,C,Ledbetter,Science,zero,0,N/A,,0,,
+1300,Seung-Hyun,Lee,Business,average,11,2.7,,0,,
+1301,Young-Joo,Lee,Social Science,good,7,4.3,,0,,
+1302,Jiyong,Lee,Chemistry,average,13,3.3,,0,,
+1303,Richard,Lee,Management,zero,0,N/A,,0,,
+1304,Jeong,Lee,Electrical Engineering,zero,0,N/A,,0,,
+1305,Danbee,Lee,English,poor,2,1.0,,0,,
+1306,Angela,Lee,Arts  Technology,good,10,4.6,,0,,
+1307,Jiyong,Lee,Biology,zero,0,N/A,,0,,
+1308,Barbara,Lee,Business,good,4,4.5,,0,,
+1309,Monghyeon,Lee,Geography,zero,0,N/A,,0,,
+1310,Jeong,Lee,Engineering,zero,0,N/A,,0,,
+1311,Chunseung,Lee,Operations Management,zero,0,N/A,,0,,
+1312,Hoi,Lee,Electrical Engineering,average,12,3.1,Hoi,155362,,Lee
+1313,Minjung,Lee,International Business,good,1,5.0,Minjung,39296,,Lee
+1314,Jeong-Bong,Lee,Electrical Engineering,good,11,3.6,Jeong-Bong,210838,,Lee
+1315,Gill,Lee,Engineering,poor,14,2.4,,0,,
+1316,Pil-Seng,Lee,Finance,average,2,3.0,Pil-Seng,22324,,Lee
+1317,Jung,Lee,Electrical Engineering,average,76,2.8,Jung,80147,S,Lee
+1318,Mark,Lee,Physics,good,15,3.5,Mark,223796,,Lee
+1319,Patricia,Leek,Education,average,18,2.8,Patricia,64955,A,Leek
+1320,Randall,Lehmann,Electrical Engineering,good,17,4.7,Randall,99856,E,Lehmann
+1321,Stefano,Leonardi,Engineering,good,10,4.0,Stefano,195003,,Leonardi
+1322,Carole,Lester,History,poor,14,2.3,,0,,
+1323,Paul,Lester,Arts  Technology,poor,23,2.1,Paul,94212,,Lester
+1324,Lena,Levario,Criminal Justice,good,1,5.0,,0,,
+1325,Stephen,Levene,Chemistry,average,7,2.5,Stephen,147441,D,Levene
+1326,Julia,Leverone,Arts & Humanities,good,4,4.3,Julia,37835,E,Leverone
+1327,Sheen,Levine,International Business,average,30,3.1,,0,,
+1328,Peter,Lewin,Business,average,43,2.8,Peter,173398,,Lewin
+1329,Vance,Lewis,Management,average,56,3.5,,0,,
+1330,Timothy,Lewis,Arts  Technology,good,8,4.8,Timothy,75307,M,Lewis
+1331,Wenqi,Li,Languages,good,9,3.7,,0,,
+1332,Wu-Lung,LI,Accounting,zero,0,N/A,,0,,
+1333,Tao,LI,Business,good,2,4.2,,0,,
+1334,XI,LI,Economics,zero,0,N/A,,0,,
+1335,Jingyun,Li,Operations Management,good,2,4.8,,0,,
+1336,Lusi,Li,Management,poor,15,1.9,,0,,
+1337,Xin ,Li,Economics,good,7,4.4,,0,,
+1338,yi,li,Marketing,zero,0,N/A,,0,,
+1339,Dong,Li,Economics,good,7,4.4,Dong,206853,,Li
+1340,Xiaolin,Li,Marketing,average,6,2.5,,0,,
+1341,Meng,LI,Accounting,good,29,3.7,,0,,
+1342,Jun,Li,Finance,good,10,3.8,Jun,305013,,Li
+1343,Yaoyu,Li,Engineering,poor,6,1.7,Yaoyu,121734,,Li
+1344,Changsong,Li,Mathematics,good,156,4.6,Changsong,35525,,Li
+1345,Yiyi,Li,Marketing,good,7,4.5,,0,,
+1346,Jianan,Li,Business,good,4,5.0,Jianan,39310,,Li
+1347,Ningzhong,Li,Accounting,average,31,3.2,Ningzhong,297437,,Li
+1348,Qiwei,Li,Mathematics,average,7,2.8,Qiwei,110875,,Li
+1349,Ang,Li,History,zero,0,N/A,,0,,
+1350,Chao,Liang,Business,good,4,4.4,,0,,
+1351,Chenxi,Liao,Marketing,good,2,4.0,,0,,
+1352,Lee,Libby,Arts  Humanities,average,16,2.8,Lee,7000,L,Libby
+1353,Zhang,Licheng,Economics,zero,0,N/A,,0,,
+1354,Stan,Liebowitz,Economics,average,12,3.1,,0,,
+1355,Peter,Ligon,Arts  Technology,zero,0,N/A,Peter,7126,A,Ligon
+1356,Amanda,Like,Arts  Humanities,good,3,4.3,,0,,
+1357,Elizabeth,Lim,Business,good,6,4.8,,0,,
+1358,Bo Ram,Lim,Marketing,average,15,2.5,,0,,
+1359,Zhiqiang,Lin,Computer Science,average,26,2.8,,0,,
+1360,John Zhiang,Lin,Business,average,6,2.8,,0,,
+1361,Wen Ju,Lin,Biology,good,8,3.5,Wen,82202,J,Lin
+1362,Wenju,Lin,Biology,average,20,3.2,,0,,
+1363,Nathan,Lindsey,Arts & Technology,zero,0,N/A,,0,,
+1364,Jose,Lineros,Business,good,1,4.5,,0,,
+1365,Kathy,Lingo,Communication,average,26,3.5,Kathy,72495,P,Lingo
+1366,Chris,Linsteadt,Accounting,average,44,3.3,Chris,112374,C,Linsteadt
+1367,Donna,Lippincott,Business,poor,1,1.0,,0,,
+1368,Yang,Liu,Computer Science,poor,6,2.0,,0,,
+1369,Xiaohui,Liu,Accounting,good,8,4.6,,0,,
+1370,Ling,Liu,Accounting,poor,4,1.6,,0,,
+1371,Jin,Liu,Electrical Engineering,poor,10,2.4,Jin,131431,,Liu
+1372,Cong,Liu,Computer Science,good,5,3.7,Cong,172334,,Liu
+1373,Bo,Liu,Accounting,good,4,4.8,,0,,
+1374,Yu,Liu,Business,good,3,5.0,Yu,12800,,Liu
+1375,Runzhou,Liu,Mathematics,average,2,2.5,,0,,
+1376,QuanQuan,Liu,Business,zero,0,N/A,,0,,
+1377,Bing,Liv,Physics,zero,0,N/A,,0,,
+1378,Michele,Lockhart,Business,average,68,3.3,Michele,63027,E,Lockhart
+1379,Jessica,Lockhart,Psychology,average,9,3.2,Jessica,4125,M,Lockhart
+1380,Philipos,Loizou,Electrical Engineering,good,1,4.0,,0,,
+1381,Natalia,Londono,Economics,zero,0,N/A,,0,,
+1382,Dan,Long,Behavioral Sciences,good,2,4.2,,0,,
+1383,Kathryn,Lookadoo,Business Communications,good,32,3.5,Kathryn,68949,,Lookadoo
+1384,Yifei,Lou,Mathematics,average,10,3.4,Yifei,132387,,Lou
+1385,Maria,Loumioti,Accounting,good,2,5.0,Maria,294568,,Loumioti
+1386,Emily,Loving,Arts & Humanities,good,9,3.7,Emily,21127,A,Loving
+1387,Evan,Lowe,Political Science,good,76,4.1,,0,,
+1388,Florence,Lowe,Management,zero,0,N/A,,0,,
+1389,Robert,Lowry,Political Science,average,37,3.0,Robert,133494,C,Lowry
+1390,Lauren,Loyless,Business Communications,good,3,5.0,,0,,
+1391,Wenyi,Lu,Mathematics,poor,3,2.0,Wenyi,92836,,Lu
+1392,Hongbing,LU,Engineering,good,5,4.0,,0,,
+1393,Connor,Lubojacky,Business,zero,0,N/A,,0,,
+1394,Veronica,Lugtu,Education,good,1,5.0,,0,,
+1395,Lloyd,Lumata,Physics,good,38,3.6,Lloyd,136120,L,Lumata
+1396,Ting,Luo,Operations Management,good,1,4.0,,0,,
+1397,Kevin,Lutz,Computer & Math. Sciences,good,1,5.0,Kevin,10000,Charles,Lutz
+1398,Holly,Lutze,Business,good,21,4.6,,0,,
+1399,Ryan,Lux,Political Science,good,51,3.8,Ryan,22223,J,Lux
+1400,Bing,Lv,Physics,good,50,3.8,Bing,135536,,Lv
+1401,Julie,Lynch,Finance,poor,19,1.9,Julie,121168,B,Lynch
+1402,David,Lyons,English,good,20,5.0,David,10625,L,Lyons
+1403,Meung,Ma,Accounting,zero,0,N/A,,0,,
+1404,Dongsheng,MA,Engineering,good,7,4.1,,0,,
+1405,Guang,MA,Accounting,good,5,4.2,,0,,
+1406,Liping,Ma,Finance,good,13,3.8,Liping,152314,,Ma
+1407,Lynn,Mabe,Communication,good,20,4.2,Lynn,28180,W,Mabe
+1408,Paul,MacAlevey,Physics,average,39,2.8,,0,,
+1409,Gregory,MacDonald,Management,good,6,4.0,,0,,
+1410,Christopher,Mace,Finance,poor,4,1.8,,0,,
+1411,Duncan,Macfarlane,Engineering,average,18,3.5,,0,,
+1412,Rosalyn,MacK,Rhetoric,average,12,2.6,,0,,
+1413,Thomas,MacKenzie,Writing,poor,3,1.2,,0,,
+1414,Thomas,Madonna,Management,good,1,5.0,,0,,
+1415,Mandy,Maguire,Not Specified,good,37,3.9,Mandy,102854,J,Maguire
+1416,Anup,Maheshwari,Information Science,poor,1,1.0,,0,,
+1417,Ramy,Mahmoud,Education,zero,0,N/A,Ramy,18216,A,Mahmoud
+1418,Jensy,Maier,Accounting,average,5,3.2,,0,,
+1419,Meenakshi,Maitra,Biology,average,14,3.3,Meenakshi,82078,,Maitra
+1420,Ann,Majewicz,Engineering,average,12,3.5,,0,,
+1421,Adam,Majors,Engineering,good,2,5.0,Adam,25129,L,Majors
+1422,Sumit,Majumdar,Business,average,33,2.7,Sumit,167050,K,Majumdar
+1423,Oleg,Makarenkov,Mathematics,good,62,4.5,Oleg,111772,,Makarenkov
+1424,Neha,Makhijani,Mathematics,good,24,4.7,Neha,57668,,Makhijani
+1425,Yiorgos,Makris,Electrical Engineering,average,7,3.0,,0,,
+1426,Michael,Malaise,Business,zero,0,N/A,Michael,12126,,Malaise
+1427,Sirous,Malek,Mathematics,average,14,3.0,,0,,
+1428,John,Malek-Ahmadi,Sociology,good,47,4.7,,0,,
+1429,Jonathan,Malesic,Writing,average,2,2.5,,0,,
+1430,Hemant,Malik,Computer Science,average,6,2.7,,0,,
+1431,Arif,Malik,Engineering,average,5,3.2,Arif,139278,S,Malik
+1432,Anton,Malko,Physics,poor,18,1.8,Anton,162940,,Malko
+1433,Stephen,Mallory,Arts & Technology,good,1,5.0,Stephen,8953,R,Mallory
+1434,Samir,Mamadehussene,Marketing,poor,8,2.0,,0,,
+1435,Fariba,Mamaghani,Statistics,zero,0,N/A,,0,,
+1436,Fariba,Mamaghani,Operations Management,good,12,3.6,,0,,
+1437,Simone,Manca,Economics,zero,0,N/A,,0,,
+1438,Chandrasekhar,Manchiraju,Operations Management,average,3,2.7,,0,,
+1439,Christopher,Manes,English,poor,6,2.2,Christopher,7000,L,Manes
+1444,Ying,Ma,Languages,zero,0,N/A,Ying,15038,,Ma
+1448,Christopher,Mace,Finance,poor,3,2.0,,0,,
+1454,Mazyar,Mahan,Film,zero,0,N/A,,0,,
+1458,Meenakshi,Maitra,Biology,average,15,3.2,Meenakshi,82078,,Maitra
+1477,Chandrasekhar,Manchiraju,Management,zero,0,N/A,,0,,
+1480,Alex,McKinin,Engineering,good,3,5.0,,0,,
+1481,Mark,McKinney,Arts & Technology,good,2,4.5,,0,,
+1482,Adrienne,McLean,Film,average,48,3.3,,0,,
+1483,David,McLendon,Engineering,zero,0,N/A,,0,,
+1484,Helen,McLure,History,average,28,2.6,,0,,
+1485,Ryan,McMahan,Computer Science,good,10,4.8,,0,,
+1486,Timothy,McMahan,Computer Science,good,27,4.6,,0,,
+1487,Leslie,McMillin,Arts & Technology,poor,6,1.5,,0,,
+1488,Mark,McNabb,Finance,average,1,2.5,,0,,
+1489,Diane,McNulty,Business,good,2,4.3,,0,,
+1490,David,McPhail,Chemistry,poor,4,1.0,,0,,
+1491,Michael,McVay,Music,good,4,4.0,,0,,
+1492,Melinda,McVay,Art History,average,34,3.1,,0,,
+1493,Steven,McWilliams,Neuroscience,average,59,3.1,,0,,
+1494,Edward,Meda,Marketing,good,68,4.7,Edward,122457,,Meda
+1495,Mary,Medrick,Music,good,20,3.6,Mary,44189,,Medrick
+1496,Amit,Mehra,Management,good,18,3.8,Amit,253070,,Mehra
+1497,Mili,Mehrotra,Business,poor,5,1.9,,0,,
+1498,Sanjay,Mehta,Operations Management,poor,4,1.9,,0,,
+1499,Sameer,Mehta,Information Science,good,7,5.0,,0,,
+1500,Carlos,Martinez,Business,zero,0,N/A,,0,,
+1501,Carlos,Martinez,Information Science,good,2,3.5,,0,,
+1502,Manuel,Martinez,Literature,zero,0,N/A,Manuel,125335,L,Martinez
+1503,Nico,Martini,Arts & Technology,good,3,4.2,,0,,
+1504,Irina,Martynova,Mathematics,average,41,3.0,Irina,57017,,Martynova
+1505,Vatsal,Maru,Business,zero,0,N/A,,0,,
+1506,Jonathan,Maskaly,Criminal Justice,good,10,4.3,,0,,
+1507,Alexandra,Mastromartino,Arts amp Humanities,good,1,5.0,,0,,
+1508,Betty,Mathew,Speech  Language Pathology,good,7,4.0,,0,,
+1509,Shivika,Mathur,Rhetoric,poor,1,2.0,Shivika,7461,,Mathur
+1510,Crystal,Maung,Computer Science,good,6,3.8,Crystal,8250,T,Maung
+1511,Joseph,Mauriello,Accounting,good,19,4.5,Joseph,164146,A,Mauriello
+1512,Sarah,Maxwell,Criminal Justice,good,12,4.9,Sarah,129592,P,Maxwell
+1513,Karen,Mazidi,Computer Science,average,78,3.1,Karen,118197,J,Mazidi
+1514,Michael,Mazurek,Arts & Humanities,zero,0,N/A,,0,,
+1515,Jason,McAfee,Chemistry,good,40,3.6,,0,,
+1516,Rachael,McBride,Health Science,poor,5,2.4,,0,,
+1517,Rachel,McBride,Health Science,poor,1,1.0,,0,,
+1518,Brady,McCary,Mathematics,good,124,3.7,,0,,
+1519,John ,McCaskill,Political Science,good,11,4.8,,0,,
+1520,Gabriele,Meloni,Chemistry,good,7,5.0,Gabriele,137764,,Meloni
+1521,Lynn,Melton,Chemistry,average,7,3.2,,0,,
+1522,Mitchell,Meltzer,Behavioral Sciences,good,3,4.0,,0,,
+1523,Agustin,Mendizabal,Political Science,good,1,4.0,,0,,
+1524,Ru Shih,Meng,Statistics,good,1,5.0,,0,,
+1525,Zixuan,Meng,Information Science,zero,0,N/A,,0,,
+1526,Syam,Menon,Management,average,11,3.3,Syam,283932,S,Menon
+1527,Diana,Meter,Psychology,good,3,4.7,,0,,
+1528,Greg,Metz,Fine Arts,average,12,3.0,Greg,42918,L,Metz
+1529,Clark,Meyer,Engineering,average,8,2.7,Clark,96409,A,Meyer
+1530,Rabah,Mezenner,Engineering & Computer Science,good,37,3.9,Rabah,91151,,Mezenner
+1531,Sally,Michael,Business Communications,good,2,3.5,,0,,
+1532,Baron,Michael,Computer Science,good,10,4.5,,0,,
+1533,Patricia,Michaelson,Literature,good,12,4.0,,0,,
+1534,Douglas,Milbauer,Marketing,good,6,4.5,,0,,
+1535,Rym,Mili,Computer Science,average,14,2.9,,0,,
+1536,Dennis,Miller,Biology,average,17,3.3,,0,,
+1537,Brooke,Miller,Criminal Justice,good,4,4.0,,0,,
+1538,Jacqueline,Miller,Weather & Climate,good,7,4.5,,0,,
+1539,Vanessa,Miller,Psychology,good,6,3.9,,0,,
+1552,Edward,Meda,Marketing,good,69,4.7,Edward,122457,,Meda
+1554,Amit,Mehra,Management,good,19,3.9,Amit,253070,,Mehra
+1558,Iti,Mehta,Biology,good,9,4.5,Iti,69886,,Mehta
+1559,Jean-Marie,Meier,Finance,average,13,3.0,Jean-Marie,272319,A,Meier
+1560,Michele,Meitl,Criminal Justice,good,8,4.3,,0,,
+1561,Rosana,Melendez,Electrical Engineering,poor,1,1.0,,0,,
+1580,Beth,Morley,Management,good,22,4.6,,0,,
+1581,Robert,Morris,Criminal Justice,good,9,3.7,,0,,
+1582,Cynthia,Morris,Accounting,good,15,4.0,,0,,
+1583,Joan,Mortensen,Humanities,poor,37,2.4,Joan,3501,E,Mortensen
+1584,Joan,Mortenson,History,average,18,2.9,,0,,
+1585,Jeffrey,Moshier,Political Science,poor,6,2.0,,0,,
+1586,Daniel,Moss,Communication,good,13,4.0,,0,,
+1587,Vince,Mozik,Business,average,7,3.3,,0,,
+1588,Vince,Mozik,Operations Management,zero,0,N/A,,0,,
+1589,Liying,MU,Business,good,5,4.9,,0,,
+1590,Sara,Muehlenbein,Economics,average,5,2.9,,0,,
+1591,Jana,Mueller,Speech  Language Pathology,good,2,4.5,,0,,
+1592,Grace,Mueller,Political Science,good,7,5.0,Grace,13534,B,Mueller
+1593,Alp,Muharremoglu,Business,good,8,4.0,,0,,
+1594,Ayesha,Mulla,Arts & Technology,good,2,4.5,Ayesha,30126,,Mulla
+1595,Cheri,Mullins,Communication,average,4,2.9,,0,,
+1596,Stuart,Murchison,Geography,good,5,3.5,,0,,
+1597,David,Murchison,Biology,good,7,4.4,David,64864,F,Murchison
+1598,James,Murdoch,Economics,good,7,4.3,James,10125,C,Murdoch
+1599,Trisha,Murphy,English,good,2,4.5,Trisha,20038,A,Murphy
+1600,Carl,Miron,History,poor,4,1.6,,0,,
+1601,Rashika,Mishra,Computer Science,average,7,2.7,,0,,
+1602,Harini,Mittal,Finance,average,18,2.6,,0,,
+1603,Neeraj,Mittal,Computer Science,good,17,4.1,Neeraj,171709,,Mittal
+1604,Shubham,Mittal,Biology,zero,0,N/A,,0,,
+1605,Richard,Mitterer,Geology,good,6,3.8,,0,,
+1606,Carol,Miu,Marketing,good,7,4.7,,0,,
+1607,Tahar,Mjigal,Finance,good,1,5.0,,0,,
+1608,Jiahui,MO,Information Science,good,2,4.2,,0,,
+1609,Eric,Moden,Computer Science,zero,0,N/A,Eric,49430,G,Moden
+1610,Shahin,Modjarrad,Political Science,good,6,4.5,Shahin,4001,S,Modjarrad
+1611,Hessam,Moeini,Computer Science,average,6,2.7,,0,,
+1612,Imane,Moghrabi,Writing,good,4,4.0,,0,,
+1613,Ali,Mohammed,Engineering,good,14,4.1,,0,,
+1614,Laura,Mohsene,Communication,poor,7,2.1,Laura,30459,L,Mohsene
+1615,Dan,Moldovan,Computer Science,poor,22,2.2,Dan,155509,I,Moldovan
+1616,Robert,Molina,Finance,good,6,3.8,Robert,83920,S,Molina
+1617,Stephen,Molina,Finance,good,9,4.8,,0,,
+1618,Aage,Moller,Medicine,good,33,3.7,Aage,165263,R,Moller
+1619,John,Moltz,Chemistry,average,21,2.8,,0,,
+1620,Aidin,Namin,Marketing,good,9,4.8,,0,,
+1621,Vikram,Nanda,Finance,poor,5,2.0,Vikram,469047,K,Nanda
+1622,Syed,Naqvi,Interdisciplinary Studies,good,22,4.1,Syed,68738,K,Naqvi
+1623,Prithi,Narasimhan,Information Science,average,36,3.4,Prithi,63547,,Narasimhan
+1624,Ravishankar,Narayan,Information Science,poor,39,1.8,Ravishankar,119695,L,Narayan
+1625,Ravishankar,Narayan,Business,good,1,4.0,Ravishankar,119695,L,Narayan
+1626,Priya,Narayanasami,Computer Science,poor,20,2.3,Priya,49401,,Narayanasami
+1627,Chelsey,Narvey,Criminal Justice,good,1,5.0,,0,,
+1628,Mohammad,Naseri,Operations Management,good,37,4.3,,0,,
+1629,Imran,Nasir,Information Science,poor,10,1.0,,0,,
+1630,Meryl,Nason,Sociology,good,17,3.5,,0,,
+1631,Sriraam,Natarajan,Computer Science,good,9,4.1,Sriraam,222713,,Natarajan
+1632,Ramachandra,Natarajan,Accounting,average,14,3.0,,0,,
+1633,Brad,Nathan,Accounting,zero,0,N/A,,0,,
+1634,Vaidehi,Natu,Neuroscience,zero,0,N/A,,0,,
+1635,Asma,Naz,Arts & Technology,good,4,4.0,,0,,
+1636,Cassini,Nazir,Arts & Technology,good,11,4.3,,0,,
+1637,Hoyt,Neal,Music,average,4,3.4,,0,,
+1638,Bill,Neal,Education,good,2,5.0,,0,,
+1639,Angela,Neal,Finance,zero,0,N/A,,0,,
+1640,Won,Namgoong,Electrical Engineering,poor,12,2.3,,0,,
+1643,Syed,Naqvi,Interdisciplinary Studies,good,27,4.2,Syed,68738,K,Naqvi
+1644,Prithi,Narasimhan,Information Science,average,43,3.4,Prithi,63547,,Narasimhan
+1645,Ravishankar,Narayan,Information Science,poor,41,1.8,Ravishankar,119695,L,Narayan
+1646,Ravishankar,Narayan,Business,good,2,4.0,Ravishankar,119695,L,Narayan
+1649,Mohammad,Naseri,Operations Management,good,38,4.3,,0,,
+1663,Jessica,Murphy,Literature,good,24,4.7,Jessica,208201,C,Murphy
+1664,Alexander,Murphy,Engineering,zero,0,N/A,,0,,
+1665,Jennifer,Murray,Finance,good,13,4.6,Jennifer,34885,R,Murray
+1666,B.P.,Murthi,Marketing,good,28,4.4,,0,,
+1667,Sean,Murthy,Computer Science,poor,36,2.1,,0,,
+1668,Adrian,Murza,Mathematics,zero,0,N/A,Adrian,16000,Galin,Murza
+1669,Volkan,Muslu,Accounting,average,35,3.0,,0,,
+1670,Cihan,Muslu,History,good,11,4.1,,0,,
+1671,Derege,Mussa,Mathematics,average,65,2.9,Derege,56324,H,Mussa
+1672,Canan,Mutlu,Management,good,3,5.0,,0,,
+1673,Sunay,Mutlu,Accounting,good,5,4.2,,0,,
+1674,Kathleen,Myers,Engineering,good,20,3.8,,0,,
+1675,Robin,Myrick,Writing,good,3,4.0,,0,,
+1676,Jinkyung,NA,Psychology,good,9,3.8,,0,,
+1677,Timothy,Nadhomi,Mathematics,zero,0,N/A,,0,,
+1678,Mihai,Nadin,Arts  Technology,zero,0,N/A,Mihai,144420,,Nadin
+1679,Anurag,Nagar,Computer Science,good,43,4.2,Anurag,145862,,Nagar
+1680,Padmakumar,Nair,Social Science,good,10,4.4,,0,,
+1681,Mofid,Nakhaei,Operations Management,average,18,3.3,,0,,
+1682,Hyun-Joo,Nam,Engineering,good,2,4.5,,0,,
+1700,Ebenezer,Oladimeji,Computer Science,good,19,4.0,,0,,
+1701,John,Oldow,Geology,average,4,2.6,,0,,
+1702,Stephanie,Oliver,Film,good,3,4.3,Stephanie,20038,R,Oliver
+1703,Agnieszka,Olsztynska,Management,average,10,3.0,,0,,
+1704,Jalal,Omer,Computer Science,average,4,3.0,,0,,
+1705,Fenny,Omobolanle,Criminal Justice,poor,4,1.2,,0,,
+1706,Kara,Oropallo,Arts amp Technology,good,12,4.3,Kara,61200,I,Oropallo
+1707,Erin,Orrick,Criminal Justice,good,1,5.0,,0,,
+1708,Erika,Orrick,Behavioral Sciences,poor,8,2.4,Erika,44384,D,Orrick
+1709,Kimberley,Orsten Hooge,Psychology,good,10,4.8,Kimberley,8004,D,Hooge
+1710,Ata,Osgouei,Marketing,zero,0,N/A,,0,,
+1711,Alice,Otoole,Psychology,poor,11,2.3,,0,,
+1712,Lynette,Ott,Rhetoric,good,1,5.0,,0,,
+1713,Jessica,Ouyang,Computer Science,poor,37,2.3,Jessica,124015,J,Ouyang
+1714,Hui,Ouyang,Engineering,good,17,4.1,Hui,115294,,Ouyang
+1715,Lawrence,Overzet,Engineering,good,6,4.3,Lawrence,212474,J,Overzet
+1716,Morris,Owens,Health Science,good,1,4.5,,0,,
+1717,Dawn,Owens,Business,good,42,3.5,Dawn,147895,M,Owens
+1718,Sean,Owens,Information Science,good,20,4.9,Sean,21127,M,Owens
+1719,Misty,Owens,Arts  Humanities,average,12,3.4,Misty,47288,,Owens
+1720,Hien,Nguyen,Chemistry,good,19,3.6,Hien,18000,Thu,Nguyen
+1721,Huy,Nguyen,Business,good,1,5.0,,0,,
+1722,Josef,Nguyen,Arts & Technology,good,5,5.0,Josef,87302,D,Nguyen
+1723,Thuan,Nguyen,Management,good,14,3.9,,0,,
+1724,Tien,Nguyen,Computer Science,poor,11,1.1,Tien,224276,N,Nguyen
+1725,Hien,Nguyen,Economics,good,1,4.0,Hien,18000,Thu,Nguyen
+1726,Mylinh,Nguyen,Mathematics,average,41,3.2,Mylinh,71499,T,Nguyen
+1727,My Linh,Nguyen,Mathematics,good,51,4.0,,0,,
+1728,Nhut,Nguyen,Computer Science,average,154,3.1,Nhut,151855,,Nguyen
+1729,Tuoc,Nguyen,Arts amp Technology,good,4,4.0,Tuoc,19834,K,Nguyen
+1730,Allene,Nichols,Arts & Humanities,good,7,3.5,,0,,
+1731,Paul,Nichols,Business,good,12,4.5,Paul,127330,M,Nichols
+1732,Paul,Nichols,Management,zero,0,N/A,Paul,127330,M,Nichols
+1733,Michelle,Nickerson,History,good,12,3.5,,0,,
+1734,Cheng,Nie,Business,good,4,5.0,,0,,
+1735,Steven,Nielsen,Chemistry,good,25,4.6,Steven,99875,O,Nielsen
+1736,Christina,Nielsen,Arts & Technology,good,4,4.8,Christina,77868,R,Nielsen
+1737,Tooraj,Nikoubin,Electrical Engineering,poor,26,2.1,,0,,
+1738,Shun-Chen,Niu,Statistics,average,1,3.0,,0,,
+1739,Rebekah,Nix,Education,zero,0,N/A,,0,,
+1740,Issa,Panahi,Engineering,average,35,2.8,Issa,222782,M,Panahi
+1741,Samitha,Panangala,Chemistry,poor,4,1.7,Samitha,15102,D,Panangala
+1742,Nimanka,Panapitiya,Chemistry,good,71,4.5,Nimanka,57429,P,Panapitiya
+1743,Naresh,Pandey,Business,good,9,5.0,,0,,
+1744,Thiru,Pandian,Management,good,14,4.0,Thiru,35127,,Pandian
+1745,Wenjin,Pang,Accounting,average,6,2.7,Wenjin,5280,,Pang
+1746,Irina,Panovska,Economics,good,4,5.0,Irina,144256,B,Panovska
+1747,Paul,Pantano,Chemistry,good,13,4.2,Paul,100339,,Pantano
+1748,Devangi,Parikh ,Electrical Engineering,good,10,4.3,,0,,
+1749,Jae,Park,Electrical Engineering,good,6,3.8,,0,,
+1750,Peter,Park,History,average,21,3.2,Peter,6001,,Park
+1751,Wooram,Park,Engineering,good,22,4.3,Wooram,110177,,Park
+1752,Dennis,Park,Finance,average,2,2.5,,0,,
+1753,Jiyoung,Park,Behavioral Sciences,average,8,3.4,Jiyoung,84574,,Park
+1754,Bo Kyung,Park,Psychology,poor,6,2.3,,0,,
+1755,Yeonjae,Park,Criminal Justice,good,3,4.0,Yeonjae,18000,,Park
+1756,Teresa,Parker,Education,good,4,4.4,Teresa,25898,L,Parker
+1757,Angela,Parker,Arts & Humanities,good,3,4.5,,0,,
+1758,Misty,Parker,Social Science,good,20,4.4,Misty,46959,D,Parker
+1759,Jason,Parker,Economics,average,50,3.5,Jason,96543,A,Parker
+1760,Laura,Oberholtzer,Humanities,poor,1,1.0,,0,,
+1761,Lizbette,Ocasio-Russe,Rhetoric,good,11,5.0,Lizbette,20038,,Ocasio-Russe
+1762,Neslihan,Oguzman,Mathematics,good,14,3.9,Neslihan,12125,,Oguzman
+1763,Jong-Min,OH,Finance,zero,0,N/A,,0,,
+1764,Young,Oh,Mathematics,average,1,2.5,,0,,
+1765,Tomoki,Ohsawa,Mathematics,good,20,3.6,Tomoki,117762,,Ohsawa
+1766,Chidike,Okeem,Criminal Justice,good,3,4.7,,0,,
+1767,Ekpe,Okorafor,Computer Science,zero,0,N/A,,0,,
+1768,Adam,Okulicz-Kozaryn,Political Science,average,1,2.5,,0,,
+1773,Jalal,Omer,Computer Science,poor,8,2.0,,0,,
+1777,Erika,Orrick,Behavioral Sciences,average,9,2.6,Erika,44384,D,Orrick
+1778,Kimberley,Orsten Hooge,Psychology,good,11,4.7,Kimberley,8004,D,Hooge
+1782,Hui,Ouyang,Engineering,good,18,4.1,Hui,115294,,Ouyang
+1783,Jessica,Ouyang,Computer Science,poor,39,2.2,Jessica,124015,J,Ouyang
+1788,Dawn,Owens,Business,average,45,3.3,Dawn,147895,M,Owens
+1789,Greg,Ozbirn,Computer Science,good,145,4.0,Greg,132990,A,Ozbirn
+1790,Dicle,Ozdemir,Information Science,good,3,4.7,Dicle,39310,Y,Ozdemir
+1791,Brand,Oze,Engineering,zero,0,N/A,,0,,
+1792,Naim,Ozel,Accounting,good,8,4.5,Naim,165694,Bugra,Ozel
+1793,Ozalp,Ozer,Management,good,13,4.3,,0,,
+1794,Marina,Ozernov,History,zero,0,N/A,,0,,
+1795,Turgut,Ozkan,Statistics,average,1,3.0,,0,,
+1796,Zsuzsanna,Ozsvath,Literature,good,9,3.9,,0,,
+1797,Istvan,Ozsvath,Mathematics,poor,3,1.8,,0,,
+1798,Betty,Pace,Biology,zero,0,N/A,,0,,
+1799,Daniel,Pacheco,Psychology,average,5,3.4,,0,,
+1800,Jeffrey,Pettineo,English,good,2,4.8,,0,,
+1801,John,Petty,Film,average,36,2.5,John,10626,E,Petty
+1802,Debra,Pfister,History,good,29,4.2,Debra,106400,H,Pfister
+1803,Joseph,Picken,Business,average,4,2.5,,0,,
+1804,Jared,Pickens,Business,good,27,4.7,,0,,
+1805,Jared,Pickens,Finance,average,2,3.0,,0,,
+1806,Elizabeth,Pickett,Biology,good,28,4.1,Elizabeth,83796,A,Pickett
+1807,Amy,Pinkham,Behavioral Sciences,good,25,4.0,Amy,169460,E,Pinkham
+1808,Jedson,Pinto,Accounting,good,3,5.0,,0,,
+1809,Nicole,Piquero,Criminal Justice,good,2,5.0,,0,,
+1810,Mortaza,Pirouz,Geology,zero,0,N/A,Mortaza,71960,,Pirouz
+1811,Bonnie,Pitman,Art History,good,1,5.0,Bonnie,82606,L,Pitman
+1812,Anna,Pittman,Arts & Humanities,poor,1,2.0,,0,,
+1813,Jeanne,Pitz,Electrical Engineering,poor,13,2.2,Jeanne,15125,K,Pitz
+1814,Jonathan,Ploski,Neuroscience,good,8,4.3,Jonathan,83414,E,Ploski
+1815,Neall,Pogue,Undergraduate Studies,good,28,3.8,Neall,68942,W,Pogue
+1816,Stephanie,Poindexter Swaim,Accounting,good,17,3.9,,0,,
+1817,Peyton,Polk,Physics,zero,0,N/A,,0,,
+1818,Elmer,Polk,Criminal Justice,good,47,4.5,,0,,
+1819,Todd,Polk,Engineering,good,4,5.0,Todd,123656,W,Polk
+1820,Nataliya,Polkovnichenko,Business,good,2,4.8,,0,,
+1821,Valery,Polkovnichenko,Finance,good,2,5.0,,0,,
+1822,Matthew,Polze,Business,good,9,5.0,Matthew,148558,M,Polze
+1823,Matt,Polze,Business,good,278,4.8,,0,,
+1824,John,Pomara,Arts amp Technology,zero,0,N/A,John,103408,J,Pomara
+1825,Jonathan,Popa,Mathematics,zero,0,N/A,Jonathan,24455,M,Popa
+1826,Yolanda,Porter,Undergraduate Studies,good,1,5.0,,0,,
+1827,Benjamin,Porter,Engineering,good,4,5.0,Benjamin,98597,A,Porter
+1828,Jesse,Poucher,Psychology,good,7,4.7,Jesse,4000,W,Poucher
+1829,Siavash,Pourkamali,Electrical Engineering,good,12,3.6,Siavash,217726,,Pourkamali
+1830,Zachary,Powell,Criminal Justice,poor,3,2.3,,0,,
+1831,Katharine,Powers,Speech & Language Pathology,average,27,2.7,Katharine,18005,A,Powers
+1832,Balakrishnan,Prabhakaran,Computer Science,poor,8,2.1,Balakrishnan,230743,,Prabhakaran
+1833,Debjeet,Pradhan,Accounting,poor,6,2.2,,0,,
+1834,Karen,Prager,Psychology,average,53,2.9,Karen,121106,J,Prager
+1835,Ravi,Prakash,Computer Science,good,33,4.2,Ravi,198297,,Prakash
+1836,Shalini,Prasad,Engineering,good,2,3.5,Shalini,232837,,Prasad
+1837,Ashutosh,Prasad,Marketing,average,10,2.8,,0,,
+1838,Forrest,Pratt,Engineering,zero,0,N/A,,0,,
+1839,Theodore,Price,Neuroscience,good,18,4.1,Theodore,257708,J,Price
+1840,Daniel,Patiño,Accounting,zero,0,N/A,,0,,
+1841,Stephen,Patino,Arts & Technology,good,2,5.0,,0,,
+1842,Gina,Patterson,Physical Education,good,8,4.6,,0,,
+1843,David,Patterson,Humanities,poor,2,1.0,David,178058,A,Patterson
+1844,Raum,Pattikonda,Computer Science,good,5,3.8,,0,,
+1845,Candice,Pattisapu Fox,Statistics,good,1,5.0,,0,,
+1846,Karen,Patton,Business Communications,good,10,4.7,,0,,
+1847,Karen,Patton,Communication,good,1,4.0,,0,,
+1848,Mohammad,Patwary,Statistics,good,5,4.8,,0,,
+1849,Ajaya,Paudel,Mathematics,good,35,3.7,Ajaya,57660,B,Paudel
+1850,Abraham,Paul,Accounting,zero,0,N/A,,0,,
+1851,Mark,Paulk,Computer Science,average,60,3.4,Mark,146806,C,Paulk
+1852,Laura,Payne,Engineering,poor,1,2.0,,0,,
+1853,Drew,Peabody,Finance,average,59,2.9,,0,,
+1854,Madison,Pedigo,Business,good,25,3.8,Madison,52421,F,Pedigo
+1855,Clint,Peinhardt,Political Science,good,24,4.0,Clint,133815,W,Peinhardt
+1856,Kaloyan,Penev,Physics,average,21,2.5,Kaloyan,132652,M,Penev
+1857,Mike,Peng,Management,good,16,4.4,Mike,471262,W,Peng
+1858,Luis,Pereira,Mathematics,average,17,2.6,Luis,182585,Felipe,Pereira
+1859,Sandun,Perera,Operations Management,good,15,4.6,,0,,
+1860,Jerry,Perez,Business,average,5,2.8,Jerry,173687,F,Perez
+1861,Crystal,Perkins,Accounting,good,2,5.0,,0,,
+1862,Stephen,Perkins,Computer Science,good,66,3.8,Stephen,90942,J,Perkins
+1863,Linda,Perrotti,Psychology,poor,5,1.0,,0,,
+1864,Christopher,Perry,Information Science,zero,0,N/A,,0,,
+1865,William,Pervin,Electrical Engineering,average,10,2.8,William,21229,J,Pervin
+1866,Erik,Peterson,Computer Science,good,14,4.5,Erik,22040,A,Peterson
+1867,Peter,Petrik,Business,zero,0,N/A,Peter,11914,,Petrik
+1868,Lucy ,Petrovic,Arts  Technology,poor,2,2.2,,0,,
+1869,Lucy,Petrovich,Arts & Humanities,good,1,4.0,,0,,
+1870,Ryan,Pettengill,History,good,33,4.9,,0,,
+1872,John,Petty,Film,poor,39,2.4,John,10626,E,Petty
+1878,Amy,Pinkham,Behavioral Sciences,good,27,4.0,Amy,169460,E,Pinkham
+1880,Rasoul,Ramezani,Economics,poor,48,2.3,Rasoul,89689,,Ramezani
+1881,Ruben,Ramirez,Biology,average,95,2.7,Ruben,87841,D,Ramirez
+1882,Michelle,Ramirez,Political Science,good,4,5.0,,0,,
+1883,Karen,Rankin,Marketing,good,2,5.0,,0,,
+1884,Monica,Rankin,History,good,20,4.3,Monica,99239,A,Rankin
+1885,Ram,Rao,Marketing,poor,7,1.7,Ram,341883,C,Rao
+1886,Mukund,Rao,Computer Science,poor,5,2.4,,0,,
+1887,Beatrice,Rasmussen,Physics,poor,64,2.3,,0,,
+1888,Brian,Ratchford,Business,good,4,4.5,Brian,67822,T,Ratchford
+1889,Lauren,Ratliff,History,zero,0,N/A,,0,,
+1890,Rawad,Rawad,Communication,zero,0,N/A,,0,,
+1891,Jyotishka,Ray,Management,average,9,2.8,,0,,
+1892,Hammad,Raza,Mathematics,good,11,5.0,,0,,
+1893,Miguel,Razo,Computer Science,average,40,2.9,,0,,
+1894,Michael,Rebello,Finance,average,11,2.5,Michael,408676,J,Rebello
+1895,Yao,Red,Engineering,zero,0,N/A,,0,,
+1896,Arthur,Redfern,Computer Science,average,5,3.4,Arthur,8164,,Redfern
+1897,Tim,Redman,Humanities,good,11,4.3,,0,,
+1898,Richard,Reed,Management,average,21,2.5,,0,,
+1899,Joy Lynn,Reed,Business,poor,1,1.5,,0,,
+1900,Venus,Reese,Theater,average,5,3.2,,0,,
+1901,Tameka ,Reeves,Arts  Humanities,good,1,5.0,,0,,
+1902,Carolyn,Reichert,Business,good,14,4.4,Carolyn,164500,A,Reichert
+1903,David,Reid,Business,good,13,4.5,,0,,
+1904,Jon,Reid,Psychology,good,12,3.5,,0,,
+1905,Larry,Reitzer,Biology,average,36,2.7,,0,,
+1906,Blake,Remington,Arts amp Humanities,good,5,5.0,,0,,
+1907,Yao,Ren,Engineering,poor,5,1.0,Yao,51785,,Ren
+1908,Cheryl,Renken,Accounting,average,12,2.9,,0,,
+1909,Cindy,Renker,Arts & Humanities,good,6,4.4,,0,,
+1910,Robert,Rennaker,Neuroscience,good,9,4.2,Robert,309530,L,Rennaker
+1911,Marcela,Reyes,Arts & Humanities,zero,0,N/A,Marcela,14125,,Reyes
+1912,Clay,Reynolds,Literature,good,5,4.3,,0,,
+1913,Erik,Reynolds,Engineering,zero,0,N/A,,0,,
+1914,Clay,Reynolds,Writing,zero,0,N/A,,0,,
+1915,David,Rheams,Arts amp Technology,zero,0,N/A,David,36127,,Rheams
+1916,Thomas,Riccio,Theater,average,11,3.5,Thomas,93278,P,Riccio
+1917,David,Rice,Mathematics,average,16,3.4,,0,,
+1918,Orlando,Richard,Business,average,22,2.8,,0,,
+1919,James,Richards,Finance,good,18,3.9,,0,,
+1920,Jim,Richards,Business,good,1,5.0,,0,,
+1921,Debra,Richardson,Management,good,16,3.9,,0,,
+1922,Brian,Ricks,Computer Science,zero,0,N/A,Brian,26255,W,Ricks
+1923,Dave,Rigdon,Psychology,good,10,4.5,,0,,
+1924,Kristin,Riley,Rhetoric,good,19,4.4,Kristin,53075,N,Riley
+1925,Richard,Riner,Criminal Justice,good,1,4.0,,0,,
+1926,Natalie,Ring,History,average,17,2.5,Natalie,94464,J,Ring
+1927,Oziel,Rios,Engineering,average,43,3.3,Oziel,103701,,Rios
+1928,Ignacio,Rios Uribe,Business,good,7,4.7,,0,,
+1929,Scott,Rippel,Biology,average,52,3.1,Scott,107591,A,Rippel
+1930,David,Ritchey,Business,good,108,4.6,David,100947,B,Ritchey
+1931,Kemberly,Ritchey,Business,average,12,3.5,Kemberly,26126,A,Ritchey
+1932,Alejandro,Rivera Mesias,Finance,average,13,3.1,,0,,
+1933,Dana,Roark,Psychology,good,24,4.4,Dana,12130,A,Roark
+1934,Robert,Robb,Business,average,3,3.3,,0,,
+1935,Robyn,Robertson,Accounting,zero,0,N/A,,0,,
+1936,Suma,Robinson,Biology,good,17,3.6,,0,,
+1937,Joanna,Robinson,Mathematics,average,27,2.8,,0,,
+1938,Katie,Robinson,Interdisciplinary Studies,zero,0,N/A,Katie,46783,L,Robinson
+1939,Christopher,Roby,Economics,average,11,3.4,,0,,
+1940,Anthony,Rainey,Health Science,zero,0,N/A,Anthony,63802,D,Rainey
+1941,Divakar,Rajamani,Business,good,11,3.6,Divakar,195798,,Rajamani
+1942,Tharanga,Rajapakshe,Business,good,2,4.5,,0,,
+1943,David,Rajaratnam,Marketing,zero,0,N/A,,0,,
+1944,Daniel,Rajaratnam,Marketing,average,81,2.6,Daniel,178779,,Rajaratnam
+1945,PK,Rajasekaran,Electrical Engineering,good,22,3.7,,0,,
+1946,Diarisoa,Rakotomalala,Mathematics,good,7,4.2,Diarisoa,49163,Mihaja,Rakotomalala
+1947,Laksnarain,Ram,Operations Management,good,18,4.6,,0,,
+1948,Rashmi,Ramachandran,English,average,2,2.5,,0,,
+1949,Viswanath,Ramakrishna,Mathematics,good,38,3.9,Viswanath,151552,,Ramakrishna
+1950,Sharathchandra,Ramakrishnan,Arts & Technology,average,2,3.0,,0,,
+1951,Ganapathiraman ,Raman,Information Science,poor,11,1.6,,0,,
+1952,Ganapathiraman,Raman,Business,good,1,3.5,,0,,
+1953,Rachna,Raman,Behavioral Sciences,good,8,4.1,Rachna,18130,,Raman
+1954,Kannan,Ramanathan,Management,average,76,2.7,Kannan,174569,,Ramanathan
+1956,Michelle,Ramirez,Political Science,good,12,4.9,,0,,
+1957,Ruben,Ramirez,Biology,poor,112,2.5,Ruben,87841,D,Ramirez
+1960,Hilda,Ruch,Psychology,good,2,4.8,,0,,
+1961,Michael,Rugg,Behavioral Sciences,average,2,2.8,Michael,382745,D,Rugg
+1962,Elizabeth,Rugg,Biology,zero,0,N/A,Elizabeth,103145,L,Rugg
+1963,Holly,Ruhl,Psychology,good,7,3.8,,0,,
+1964,Sukanya,Rukphanichmanee,Accounting,zero,0,N/A,,0,,
+1965,Nicholas,Ruozzi,Computer Science,good,16,4.0,Nicholas,164016,R,Ruozzi
+1966,Anin,Rupp,Finance,zero,0,N/A,,0,,
+1967,Katrina,Rushing,Music,zero,0,N/A,,0,,
+1968,Justin,Ruths,Engineering,average,18,2.9,Justin,111226,,Ruths
+1969,Christopher,Ryan,Communication,good,11,4.2,Christopher,79984,J,Ryan
+1970,Bart,Rypma,Neuroscience,good,19,3.7,Bart,184829,P,Rypma
+1971,Ill,Ryu,Engineering,poor,10,1.7,,0,,
+1972,Young,Ryu,Computer Science,average,17,3.3,Young,186844,U,Ryu
+1973,Ricardo,Saad,Electrical Engineering,average,45,3.1,Ricardo,66111,E,Saad
+1974,Ricardo,SaadP,Electrical Engineering,zero,0,N/A,,0,,
+1975,Terje,Saar-Hambazaza,Arts & Humanities,good,8,4.6,,0,,
+1976,Monica,Saba,Fine Arts,good,12,3.8,Monica,68481,M,Saba
+1977,Mark,Saber,Criminal Justice,average,15,3.0,,0,,
+1978,Meghna,Sabharwal,Public Policy,good,1,5.0,Meghna,140830,,Sabharwal
+1979,Muhammad,Sabir,Information Science,poor,10,2.2,,0,,
+1980,Larry,Reitzer,Biology,average,37,2.7,,0,,
+1981,Lawrence,Reitzer,Biology,zero,0,N/A,Lawrence,133358,J,Reitzer
+1982,Lawrence,Reitzer,Biochemistry,zero,0,N/A,Lawrence,133358,J,Reitzer
+1992,David,Rheams,Arts amp Technology,good,1,5.0,David,36127,,Rheams
+1993,Thomas,Riccio,Theater,average,12,3.3,Thomas,93278,P,Riccio
+2001,Kristin,Riley,Rhetoric,good,21,4.4,Kristin,53075,N,Riley
+2004,Oziel,Rios,Engineering,average,44,3.3,Oziel,103701,,Rios
+2005,Ignacio,Rios Uribe,Business,good,9,4.6,,0,,
+2009,Christian,Rivera,Engineering,zero,0,N/A,,0,,
+2011,Dana,Roark,Psychology,good,26,4.4,Dana,12130,A,Roark
+2018,Tracey,Rockett,Business,good,12,4.6,,0,,
+2019,Jason,Rodrigue,Accounting,good,21,3.5,,0,,
+2020,Karen,Rodrigue,Neuroscience,average,18,3.3,Karen,157976,M,Rodrigue
+2021,Fabiano,Rodrigues,Physics,average,31,3.4,,0,,
+2022,Juan,Rodriguez,Arts & Technology,good,1,5.0,,0,,
+2023,Robert ,Rodriguez,Arts  Humanities,good,5,4.2,Robert,125247,X,Rodriguez
+2024,Nils,Roemer,History,good,18,4.4,Nils,228342,H,Roemer
+2025,Rai,Rohit,Management,good,1,4.0,,0,,
+2026,Raul,Rojas-Villarreal,Speech & Language Pathology,good,2,5.0,,0,,
+2027,Sheila,Rollerson,Sociology,good,5,5.0,Sheila,61465,D,Rollerson
+2028,Pam,Rollins,Not Specified,poor,5,1.7,,0,,
+2029,Alexey,Root,Interdisciplinary Studies,poor,1,1.0,Alexey,31442,W,Root
+2030,Alexey,Root,Education,poor,13,2.1,Alexey,31442,W,Root
+2031,Jonathan,Rosa,International Studies,good,5,3.8,Jonathan,12083,,Rosa
+2032,Michel,Rosen,English,average,4,2.9,,0,,
+2033,Mark,Rosen,Art History,good,18,4.1,Mark,112957,S,Rosen
+2034,Alyssa,Ross,Interdisciplinary Studies,zero,0,N/A,Alyssa,18091,N,Ross
+2035,Tara,Rowe,History,zero,0,N/A,,0,,
+2036,Akash,Roy,Mathematics,good,4,5.0,,0,,
+2037,Sushmita,Roy,Mathematics,good,1,5.0,,0,,
+2038,Calvin,Royall,Theater,poor,3,2.0,,0,,
+2039,Jun,RU,Business,good,5,4.7,,0,,
+2040,Rainer,Schulte,Humanities,good,14,3.6,Rainer,144838,,Schulte
+2041,Jeffrey,Schulze,History,good,140,3.7,Jeffrey,62132,M,Schulze
+2042,Gayle,Schwark,Psychology,good,27,4.6,Gayle,53694,,Schwark
+2043,Haim,Schweitzer,Computer Science,average,23,3.0,Haim,145825,,Schweitzer
+2044,Richard,Scotch,Sociology,good,14,4.2,Richard,171339,K,Scotch
+2045,William,Scott,Mathematics,good,62,4.4,,0,,
+2046,James,Scott,Business,average,3,3.0,James,95002,A,Scott
+2047,James,Scott,Undergraduate Studies,good,6,4.5,James,95002,A,Scott
+2048,James,Scott,Information Science,poor,2,2.0,James,95002,A,Scott
+2049,Andrew,Scott,Arts  Technology,good,4,3.5,Andrew,109151,F,Scott
+2050,Tony,Seagroves,Political Science,zero,0,N/A,Tony,50687,A,Seagroves
+2051,Kendra,Seaman,Behavioral Sciences,poor,9,1.3,Kendra,106395,L,Seaman
+2052,Elizabeth,Searing,Public Policy,poor,1,1.0,,0,,
+2053,Carl,Sechen,Engineering,good,29,4.2,Carl,233037,M,Sechen
+2054,Raj,Seekri,Mathematics,good,20,3.9,,0,,
+2055,Michael,Seeligson,Economics,good,4,4.7,Michael,73213,B,Seeligson
+2056,Sherri,Segovia,Arts  Technology,average,1,3.0,,0,,
+2057,Steven,Seida,Computer Science,average,2,3.0,,0,,
+2058,William,Semper,Computer Science,good,21,4.7,,0,,
+2059,Karl,Sen Gupta,Rhetoric,zero,0,N/A,,0,,
+2060,Suchithra,Senevirathne,Chemistry,good,2,4.2,,0,,
+2061,Karl,Sengupta,Humanities,good,19,4.8,Karl,7636,,Sengupta
+2062,Robert,Serfling,Mathematics,poor,22,2.3,,0,,
+2063,Avanti,Sethi,Business,good,193,3.5,Avanti,167406,P,Sethi
+2064,Awanti,Sethi,Operations Management,zero,0,N/A,,0,,
+2065,Awanti,Sethi,International Business,good,1,4.0,,0,,
+2066,Edwin,Sha,Computer Science,good,8,4.4,,0,,
+2067,Shailesh,Shah,Chemistry,good,26,5.0,,0,,
+2068,Gaurav,Shah,Arts amp Humanities,zero,0,N/A,,0,,
+2069,Rajiv,Shah,Business,average,15,3.3,Rajiv,158744,R,Shah
+2070,Aqsa,Shakil,Fine Arts,good,1,5.0,,0,,
+2071,Xi,Shan,Operations Management,average,5,3.2,,0,,
+2072,Wei,Shao,English,zero,0,N/A,,0,,
+2073,Si,Shareef,Behavioral Sciences,zero,0,N/A,,0,,
+2074,Safiullah,Shareef,Neuroscience,good,7,4.1,,0,,
+2075,Sekhavt,Sharghi,Engineering,poor,11,1.0,,0,,
+2076,Namrta,Sharma,Political Science,zero,0,N/A,,0,,
+2077,Ali,Shazia,Literature,good,13,4.5,,0,,
+2078,Anastasia,Shcherbakova,Management,good,1,4.0,,0,,
+2079,Gaurav,Shekhar,Information Science,good,44,4.3,Gaurav,126127,,Shekhar
+2080,Yannan,Shen,Mathematics,poor,5,1.4,,0,,
+2081,Melissa ,Sherman ,Speech  Language Pathology,good,1,5.0,,0,,
+2082,Shuai,Shi,Languages,zero,0,N/A,,0,,
+2083,Carle,Shi,Arts & Humanities,good,1,5.0,Carle,10501,,Shi
+2084,Xiaoyan,Shi,Physics,average,20,2.8,Xiaoyan,99324,,Shi
+2085,Charles,Shields,Computer Science,good,96,4.5,,0,,
+2086,Marie,Shier,Engineering,zero,0,N/A,,0,,
+2087,Addison,Shierry,Rhetoric,good,4,4.5,Addison,14461,,Shierry
+2088,Prabin,Shilpakar,Geology,average,34,3.1,,0,,
+2089,Sunyoung,Shin,Statistics,average,14,2.7,Sunyoung,93323,,Shin
+2090,Forouz,Shirvani,Psychology,good,12,4.2,Forouz,29010,,Shirvani
+2091,Amber,Shoaib,Psychology,poor,5,1.6,,0,,
+2092,Sina,Shokoohyar,Operations Management,good,14,4.5,,0,,
+2093,Kristie,Shorey,Business,average,5,2.8,,0,,
+2094,Kevin,Short,Business,good,25,4.0,Kevin,35127,P,Short
+2095,Prakash,Shrivastava,Information Science,poor,30,2.1,Prakash,89026,C,Shrivastava
+2096,Tejas,Shroff,Management,good,1,5.0,Tejas,30002,N,Shroff
+2097,Tejas,Shroff,Business,poor,11,2.4,Tejas,30002,N,Shroff
+2098,Preston,Shumway,Accounting,zero,0,N/A,,0,,
+2099,Amny,Shuraydi,Journalism,good,3,5.0,,0,,
+2100,Sadeh,Sapehr,Engineering,zero,0,N/A,,0,,
+2101,Ilya,Sapozhnikov,Science,average,95,2.6,Ilya,39035,,Sapozhnikov
+2102,Mohammad,Saquib,Engineering,good,36,4.2,Mohammad,155303,,Saquib
+2103,Kamil,Sarac,Computer Science,good,21,4.1,Kamil,185074,,Sarac
+2104,Subha,Sarcar,Biology,average,31,2.5,Subha,52513,,Sarcar
+2105,Alessio,Saretto,Finance,average,8,3.3,Alessio,116777,A,Saretto
+2106,Sumit,Sarkar,Information Science,poor,14,2.5,Sumit,424621,,Sarkar
+2107,Noah,Sasson,Psychology,good,65,4.7,Noah,109331,J,Sasson
+2108,Meghana,Satpute,Computer Science,average,30,2.6,Meghana,79036,N,Satpute
+2109,Steve,Sauerwald,Business,good,7,5.0,,0,,
+2110,Alan,Sauter,Mathematics,good,10,4.6,Alan,5176,D,Sauter
+2111,Carroll Clayton,Savant,English,good,6,4.5,,0,,
+2112,Ryan,Savard,Health Science,good,10,4.1,Ryan,24184,R,Savard
+2113,Jeff,Savitz,Marketing,good,4,4.0,,0,,
+2114,Michael,Savoie,Business,good,30,4.7,,0,,
+2115,Deborah,Scally,Arts & Humanities,poor,11,2.1,Deborah,46327,A,Scally
+2116,Shannon,Schaffer,Rhetoric,zero,0,N/A,,0,,
+2117,Guido,Schauer,Psychology,good,3,4.8,,0,,
+2118,Maximilian,Schich,Art History,good,6,4.2,,0,,
+2119,Eric,Schlereth,History,good,21,4.3,Eric,82822,R,Schlereth
+2120,Maribeth (Betsy),Schlobohm,Computer Science,good,31,3.7,Maribeth,57443,L,Schlobohm
+2121,Polly,Schlosser,Undergraduate Studies,zero,0,N/A,Polly,10905,,Schlosser
+2122,David,Schmidtke,Engineering,good,2,4.5,David,196099,W,Schmidtke
+2124,Jeffrey,Schulze,History,good,143,3.7,Jeffrey,62132,M,Schulze
+2125,Gayle,Schwark,Psychology,good,29,4.6,Gayle,53694,,Schwark
+2134,Kendra,Seaman,Behavioral Sciences,poor,10,1.7,Kendra,106395,L,Seaman
+2137,Raj,Seekri,Mathematics,good,21,3.9,,0,,
+2140,Sanderia,Smith,Rhetoric,poor,4,1.5,,0,,
+2141,Kylne,Smith,Computer Science,zero,0,N/A,,0,,
+2142,Klyne,Smith,Computer Science,good,43,4.4,Klyne,106065,,Smith
+2143,Olivia,Smith,Psychology,good,4,3.5,Olivia,8001,A,Smith
+2144,Erin,Smith,Social Science,good,17,3.8,Erin,112360,,Smith
+2145,Jason,Smith,Computer Science,average,237,3.4,Jason,95347,W,Smith
+2146,James ,Smith ,Communication,zero,0,N/A,,0,,
+2147,Sarah,Snyder,English,zero,0,N/A,,0,,
+2148,Nassim,Sohaee,Business,average,56,3.2,Nassim,119000,,Sohaee
+2149,Nidhiben,Solanki,Computer Science,good,4,4.0,Nidhiben,86018,M,Solanki
+2150,Rahulkumar,Solanki,Physics,poor,16,2.4,Rahulkumar,8953,J,Solanki
+2151,Charles,Solcher,Business,good,3,4.3,,0,,
+2152,Steven,Solcher,Accounting,good,31,3.7,Steven,120014,J,Solcher
+2153,Gerald,Soliday,History,good,4,3.5,,0,,
+2154,Ana,Solodkin,Neuroscience,poor,22,2.3,Ana,131104,J,Solodkin
+2155,Adrian,Soncodi,Computer Science,average,28,2.5,,0,,
+2156,Qiongxia,Song,Mathematics,poor,8,2.4,,0,,
+2157,Dongye,Song,Accounting,good,2,3.5,Dongye,39310,,Song
+2158,Liugen,Song,Information Science,good,9,4.1,,0,,
+2159,Heather,Sorensen,Rhetoric,zero,0,N/A,,0,,
+2161,Ali,Shazia,Literature,good,15,4.5,,0,,
+2163,Gaurav,Shekhar,Information Science,good,48,4.4,Gaurav,126127,,Shekhar
+2171,Addison,Shierry,Rhetoric,good,5,4.6,Addison,14461,,Shierry
+2178,Kevin,Short,Business,good,26,4.0,Kevin,35127,P,Short
+2184,Xia,Si,Economics,good,6,4.5,,0,,
+2185,John,Sibert,Chemistry,good,133,3.8,John,118782,W,Sibert
+2186,Daniel,Sibley,Finance,average,3,3.3,Daniel,80726,C,Sibley
+2187,Intekhaab,Siddiquee,Engineering,average,6,3.1,,0,,
+2188,Farah,Siddiqui,English,good,10,4.3,Farah,14461,,Siddiqui
+2189,Simon,Siegenthaler,Business,good,5,5.0,Simon,152595,,Siegenthaler
+2190,Kurt,Siklar,Business,good,5,4.9,,0,,
+2191,Christopher,Simmons,Computer Science,good,3,4.3,Christopher,154370,S,Simmons
+2192,Zachary,Simoni,Sociology,good,20,4.4,,0,,
+2193,Andrea,Simpson,Sociology,good,1,3.5,,0,,
+2194,Carrie,Simpson,Education,poor,6,2.2,Carrie,12083,M,Simpson
+2195,Gene,Sims,Business,good,2,5.0,,0,,
+2196,Dave,Sims,Computer Science,poor,17,2.3,,0,,
+2197,Ahmet,Simsek,Business,good,17,3.5,Ahmet,200571,S,Simsek
+2198,Ahmet Simsek,Simsek,Operations Management,zero,0,N/A,Ahmet,200571,S,Simsek
+2199,Robin,Sinckler,Rhetoric,poor,21,1.5,Robin,15038,Y,Sinckler
+2200,Winston,Stone,Music,average,65,3.0,,0,,
+2201,Michael,Stone,Humanities,good,3,3.7,,0,,
+2202,Nomi,Stone,Arts & Humanities,good,2,3.5,,0,,
+2203,Russell,Stoneback,Physics,poor,20,1.9,Russell,99471,A,Stoneback
+2204,Deborah,Stott,Art History,average,5,2.7,,0,,
+2205,Jeff,Stover,Arts & Humanities,good,2,5.0,,0,,
+2206,Janell,Straach,Computer Science,good,16,4.3,,0,,
+2207,Daniel,Straus,Arts  Technology,poor,2,1.0,,0,,
+2208,Andrei,Strijnev,Marketing,good,4,4.3,,0,,
+2209,Weichieh,Su,Management,good,3,4.0,,0,,
+2210,Musa,Subasi,Accounting,good,3,3.8,,0,,
+2211,Palanivel,Subramaniam,Computer Science,average,2,3.0,,0,,
+2212,Upender,Subramanian,Business,average,16,2.8,Upender,211786,,Subramanian
+2213,Ramesh,Subramoniam,Business,average,39,2.9,Ramesh,103615,,Subramoniam
+2214,Hal,Sudborough,Computer Science,good,32,4.1,,0,,
+2215,Jiwon,Suh,Social Science,good,1,4.0,,0,,
+2216,Donggyu,Sul,Economics,poor,5,2.2,Donggyu,217904,,Sul
+2217,Inki,Sul,Management,good,7,4.0,Inki,14324,,Sul
+2218,Cristian,Suller,Rhetoric,poor,5,1.0,Cristian,15038,C,Suller
+2219,Nasrin,Sultana,Mathematics,good,7,3.7,Nasrin,56973,,Sultana
+2220,Rukhsana,Sultana,Neuroscience,average,66,3.4,Rukhsana,98806,,Sultana
+2221,Tyler,Summers,Engineering,good,8,4.5,Tyler,161572,H,Summers
+2222,Joshua,Summers,Engineering,poor,1,2.0,,0,,
+2223,Sunny Li,Sun,Business,zero,0,N/A,,0,,
+2224,Yan (Tricia),Sun,Accounting,good,9,4.9,,0,,
+2225,Geng,Sun,Information Science,poor,6,1.7,,0,,
+2226,Kuei,Sun,Physics,good,23,4.3,Kuei,64125,,Sun
+2227,Shujing,Sun,Business,zero,0,N/A,,0,,
+2228,Wendy,Sung,Arts & Technology,good,7,3.7,Wendy,51681,,Sung
+2229,Sean,Sutherlin,Arts & Humanities,good,5,5.0,,0,,
+2230,Kara,Sutton,Sociology,good,13,4.9,,0,,
+2231,Julie,Sutton,Mathematics,average,33,3.3,Julie,63356,M,Sutton
+2232,Walter,Sutton,Law,good,10,4.8,Walter,16126,L,Sutton
+2233,Hannah,Swamidoss,Literature,average,6,2.8,,0,,
+2234,Venkat,Swamy,Management,zero,0,N/A,,0,,
+2235,Meghan,Swanson,Psychology,good,1,4.0,Meghan,101207,R,Swanson
+2236,William,Swartz,Electrical Engineering,good,22,4.3,William,85248,P,Swartz
+2237,Kyoung,Swearingen,Arts & Technology,average,2,3.2,,0,,
+2238,Scott,Swearingen,Arts  Technology,good,1,4.0,,0,,
+2239,Menon,Syam,Not Specified,zero,0,N/A,,0,,
+2240,James,Szot,Management,zero,0,N/A,James,155327,M,Szot
+2241,Marco,Tacca,Engineering,good,12,4.1,Marco,127197,,Tacca
+2242,John,Taden,Economics,good,2,4.5,John,10500,N,Taden
+2243,Yonas,Tadesse,Engineering,average,10,2.6,Yonas,130438,T,Tadesse
+2244,Lorraine,Tady,Design,average,12,3.0,Lorraine,54747,T,Tady
+2245,Claudia,Taenzler,Chemistry,good,47,3.7,,0,,
+2246,Amir,Taghavi,Chemistry,average,3,3.3,,0,,
+2247,Abraham,Taha,Business,poor,2,1.0,,0,,
+2248,Venkanna,Takasi,Business,poor,1,1.0,Venkanna,39310,Dora,Takasi
+2249,Riki,Takeuchi,Management,poor,2,1.5,Riki,292827,,Takeuchi
+2250,Nicholas,Taliceo,Geography,zero,0,N/A,Nicholas,1091,,Taliceo
+2251,Katrina,Tamez,Business Communications,average,10,2.9,,0,,
+2252,Lakshman,Tamil,Engineering,good,21,4.0,Lakshman,182610,S,Tamil
+2253,Chin-Tuan,Tan,Electrical Engineering,poor,9,1.0,,0,,
+2254,Hirofumi,Tanaka,Health Science,zero,0,N/A,,0,,
+2255,Xiaoxiao,Tang,Finance,poor,3,2.0,Xiaoxiao,271529,,Tang
+2256,Chuan-Fa,Tang,Statistics,average,5,3.4,Chuan-Fa,101175,,Tang
+2257,Shaojie,Tang,Information Science,average,10,3.0,Shaojie,199867,,Tang
+2258,Lari,Tanner,Communication,good,10,5.0,Lari,18627,J,Tanner
+2259,Venu,Tatiparti,Accounting,good,2,5.0,Venu,14324,Madhav,Tatiparti
+2260,Barbara,Taylor,Business,good,1,5.0,,0,,
+2261,Anna,Taylor,Neuroscience,average,43,3.1,Anna,85156,M,Taylor
+2262,Donald,Taylor,Management,good,3,4.7,Donald,50156,E,Taylor
+2263,Stephanie,Taylor,Chemistry,good,78,4.3,Stephanie,74322,M,Taylor
+2264,Robert,Taylor,Criminal Justice,good,11,4.2,Robert,190830,W,Taylor
+2265,Terin,Tehan,English,zero,0,N/A,,0,,
+2266,Shervin,Tehrani,Business,good,7,3.7,Shervin,214247,S,Tehrani
+2267,Allison,Templeton,Communication,good,12,3.8,,0,,
+2268,Rikk,Terhune,Biology,zero,0,N/A,,0,,
+2269,Lawrence,Terlizzese,Writing,average,3,3.2,,0,,
+2270,Charissa,Terranova,Art History,average,34,2.7,Charissa,100377,N,Terranova
+2271,Ryan,Teschner,Management,good,1,5.0,Ryan,38510,,Teschner
+2272,Kristin,Tesmer,Business,zero,0,N/A,,0,,
+2273,P.L. Stephan,Thamban,Engineering,good,27,3.8,,0,,
+2274,Linda,Thibodeau,Speech  Language Pathology,good,2,5.0,Linda,139909,K,Thibodeau
+2275,Nambi,Thirumalai,Information Science,average,14,3.2,Nambi,22501,D,Thirumalai
+2276,Sunela,Thomas,Business,average,9,2.7,Sunela,14126,S,Thomas
+2277,Tres,Thompson,Neuroscience,good,38,3.8,,0,,
+2278,Lou,Thompson,Business,average,21,3.1,,0,,
+2279,Tommy,Thompson,Mathematics,average,13,3.0,,0,,
+2280,Luell,Thompson,Accounting,poor,15,2.2,Luell,118116,O,Thompson
+2281,Norman,Thompson,Accounting,zero,0,N/A,,0,,
+2282,Norman,Thompson,Information Science,good,6,4.8,,0,,
+2283,Christina,Thompson,Chemistry,good,35,4.8,Christina,82584,M,Thompson
+2284,Lucien,Thompson,Neuroscience,good,9,4.4,Lucien,114121,T,Thompson
+2285,Laurie,Thompson,Computer Science,poor,153,2.3,Laurie,84289,,Thompson
+2286,Catherine,Thorn,Neuroscience,good,6,3.8,Catherine,111061,A,Thorn
+2287,Mark,Thouin,Business,good,81,3.8,Mark,159352,F,Thouin
+2288,Bhavani,Thuraisingham,Computer Science,average,23,3.3,Bhavani,360514,M,Thuraisingham
+2289,Keith,Thurgood,Health Science,average,8,3.1,Keith,167453,L,Thurgood
+2290,Yapeng,Tian,Computer Science,zero,0,N/A,,0,,
+2291,Michael,Tiefelsdorf,Geography,poor,9,2.4,Michael,94875,R,Tiefelsdorf
+2292,C. Justice,Tillman,Business,average,6,3.2,,0,,
+2293,Gail,Tillman,Education,good,8,5.0,Gail,77030,D,Tillman
+2294,Brian,Tinsley,Physics,poor,3,2.0,,0,,
+2295,Guido,Tirone,Marketing,average,25,3.2,Guido,61938,,Tirone
+2296,Emily,Tobey,Not Specified,good,1,5.0,,0,,
+2297,Aysegul,Toptal,Business,good,3,3.7,Aysegul,88551,,Toptal
+2298,Murat,Torlak,Electrical Engineering,poor,11,1.5,Murat,175501,,Torlak
+2299,Russell,Torres,Information Science,average,7,3.3,,0,,
+2300,Patricia,Totusek,Communication,good,24,4.5,Patricia,43706,F,Totusek
+2301,Emily,Touchstone,Psychology,good,60,5.0,Emily,61899,W,Touchstone
+2302,Theresa,Towner,Humanities,good,37,4.9,Theresa,149849,M,Towner
+2303,Paul,Tracy,Criminal Justice,good,13,3.7,,0,,
+2304,Quoc,Tran,Economics,poor,1,1.5,,0,,
+2305,Ahn,Tran,Mathematics,good,2,4.0,,0,,
+2306,Anh,Tran,Mathematics,good,11,4.0,Anh,98955,T,Tran
+2307,Daniel,Tran,Chemistry,average,26,3.3,Daniel,60759,N,Tran
+2308,Scott,Trent,Arts & Technology,average,4,2.8,,0,,
+2309,Rick,Treter,Mathematics,poor,1,1.0,,0,,
+2310,Christopher,Trevino,Theater,good,3,3.7,Christopher,51087,L,Trevino
+2311,Elizabeth,Trosper,Arts  Technology,good,5,3.6,Elizabeth,65716,M,Trosper
+2312,Amy,Troutman,Accounting,good,35,4.6,,0,,
+2313,Eric,Tsang,Business,poor,14,2.2,,0,,
+2314,Michael,Tseng,Mathematics,average,11,3.1,,0,,
+2315,Sam,Tullock,History,good,8,4.6,,0,,
+2316,Murat,Tunc,Computer Science,good,9,4.6,,0,,
+2317,Janos,Turi,Mathematics,poor,11,2.3,Janos,97895,,Turi
+2318,Katherine,Turk,History,good,5,5.0,,0,,
+2319,Frederick,Turner,Humanities,good,13,3.9,,0,,
+2320,Hanna,Ulatowska,Speech  Language Pathology,poor,6,1.2,Hanna,105223,K,Ulatowska
+2321,Gum,Umit,Accounting,average,1,2.5,,0,,
+2322,Marion,Underwood,Psychology,good,29,4.7,,0,,
+2323,Shahrin,Upoma,Management,zero,0,N/A,Shahrin,7715,S,Upoma
+2324,Daniel,Uribe,Computer & Math. Sciences,good,17,4.2,Daniel,24664,,Uribe
+2325,Benedict,Uroda,Economics,good,3,4.8,,0,,
+2326,Mary,Urquhart,Education,good,2,4.2,,0,,
+2327,Irana,Vaculenko,Geography,zero,0,N/A,,0,,
+2328,Irina,Vakulenko,Geography,zero,0,N/A,Irina,45039,,Vakulenko
+2329,Irina,Vakulenko,Geography & Geospatial Info. Syst.,good,35,4.4,Irina,45039,,Vakulenko
+2330,Victor Valcarcel,Valcarcel,Economics,poor,1,2.0,Victor,106681,J,Valcarcel
+2331,Victor,Valcarcel,Economics,average,23,2.9,Victor,106681,J,Valcarcel
+2332,Sarah,Valente,Literature,good,1,4.0,Sarah,27778,D,Valente
+2333,Rubia,Valente,Social Science,good,11,4.3,,0,,
+2334,.,Van Beveren,Psychology,good,26,4.1,,0,,
+2335,Nancy,Van Ness,Education,average,17,3.1,,0,,
+2336,Toosje,Vanbeveren,Psychology,good,24,4.0,,0,,
+2337,Barbara,Vance,English,good,14,4.2,,0,,
+2338,William,Vandenberghe,Electrical Engineering,good,17,4.5,William,173756,Gerard,Vandenberghe
+2339,Sven,Vanneste,Neuroscience,good,7,4.7,,0,,
+2340,Nicholas,Vargas,Sociology,good,5,4.1,,0,,
+2341,Shawn,Varghese,History,good,4,5.0,,0,,
+2342,Mark,Vargus,Accounting,good,3,3.7,,0,,
+2343,Rashmi,Varma,Information Science,good,8,3.5,,0,,
+2344,Victor,Varner,Engineering,good,4,4.5,Victor,146826,,Varner
+2345,Lisa,Vazzi,Communication,good,12,3.8,Lisa,15002,,Vazzi
+2346,Jeyakesavan,Veerasamy,Computer Science,average,70,2.5,Jeyakesavan,141001,,Veerasamy
+2347,Josef,Velten,Electrical Engineering,good,3,4.0,Josef,16109,A,Velten
+2348,ashwin,Venkataraman,Operations Management,poor,6,2.3,,0,,
+2349,Ramakrishnan,Venkatasubramanian,Electrical Engineering,good,1,4.5,,0,,
+2350,Subbarayan,Venkatesan,Computer Science,average,25,3.3,Subbarayan,118550,,Venkatesan
+2351,Christine,Veras,Arts & Technology,average,22,2.9,,0,,
+2352,D,Verrill,Political Science,good,6,4.2,,0,,
+2353,Mathukumalli,Vidyasagar,Computer Science,poor,4,2.2,,0,,
+2354,Lynne,Vieraitis,Criminal Justice,poor,15,2.2,Lynne,108182,M,Vieraitis
+2355,Shelby,Vincent,English,good,2,3.5,Shelby,60036,D,Vincent
+2356,Cristina,Vlas,Business,good,1,4.5,,0,,
+2357,Don,Vogel,Computer Science,good,46,3.7,,0,,
+2358,Walter,Voit,Engineering,good,19,4.4,Walter,51577,E,Voit
+2359,Keith,Volanto,History,good,25,4.2,,0,,
+2360,Christian,Von Drathen,Finance,poor,8,2.5,,0,,
+2361,Yulia,Vorotyntseva,Operations Management,zero,0,N/A,,0,,
+2362,Duc,Vu,Operations Management,average,8,3.3,,0,,
+2363,Priyanka,Vyas,Design,zero,0,N/A,,0,,
+2364,Habte,Waldu,Business,average,9,3.0,,0,,
+2365,Marilyn,Waligore,Arts & Humanities,good,7,4.2,Marilyn,103572,,Waligore
+2366,Alicia,Walker,Education,good,5,4.6,,0,,
+2367,Erin,Walker,Chemistry,good,11,4.5,,0,,
+2368,Amy,Walker,Chemistry,good,1,4.0,Amy,214375,V,Walker
+2369,Dale,Walker,Humanities,good,3,3.8,,0,,
+2370,Amy,Walker,Engineering,average,3,3.0,Amy,214375,V,Walker
+2371,Robert,Wallace,Engineering,poor,3,1.0,Robert,372163,M,Wallace
+2372,Dennis,Walsh,Literature,average,6,3.0,,0,,
+2373,Diane,Walsh,Communication,good,39,3.5,,0,,
+2374,Jim,Walton,Management,average,14,3.1,,0,,
+2375,James,Walton,Business,good,17,4.7,,0,,
+2376,Yuke,Wang,Computer Science,poor,11,2.1,,0,,
+2377,YU,Wang,Marketing,good,6,4.8,,0,,
+2378,Weiwei,Wang,Accounting,average,2,3.0,,0,,
+2379,Shidi,Wang,Economics,zero,0,N/A,,0,,
+2384,Mark,Tinker,Electrical Engineering,zero,0,N/A,Mark,15351,T,Tinker
+2389,Hedieh,Torabiford,Chemistry,poor,1,1.0,,0,,
+2393,Emily,Touchstone,Psychology,good,62,5.0,Emily,61899,W,Touchstone
+2394,Theresa,Towner,Humanities,good,39,4.9,Theresa,149849,M,Towner
+2399,Daniel,Tran,Chemistry,good,32,3.5,Daniel,60759,N,Tran
+2400,McClain,Watson,Business Communications,average,4,3.2,,0,,
+2401,Martha,Weaver,Undergraduate Studies,zero,0,N/A,,0,,
+2402,Jay/branagan,Webb,English,good,9,3.9,,0,,
+2403,Elena,Webb,Arts & Humanities,good,1,4.0,,0,,
+2404,Jennifer,Webb,Electrical Engineering,good,3,4.3,,0,,
+2405,Lynne,Weber,Education,zero,0,N/A,,0,,
+2406,Jeff,Weekley,Business,good,29,3.7,,0,,
+2407,Kelsey,Wei,Finance,poor,16,1.4,Kelsey,262953,D,Wei
+2408,Shiyi,Wei,Computer Science,good,9,4.5,Shiyi,146793,,Wei
+2409,David,Weiland,History,good,2,3.8,,0,,
+2410,Michelle,Weiner,Education,good,6,4.1,Michelle,14111,L,Weiner
+2411,Henriikka,Weir,Criminal Justice,good,3,5.0,,0,,
+2412,Jessica,Weiss,Art History,good,3,3.5,,0,,
+2413,Miranda,Welbourne-Eleazar,Business,good,1,5.0,,0,,
+2414,Sarah,Wells,Psychology,good,15,3.8,,0,,
+2415,Harry,Wells,Finance,average,4,3.1,,0,,
+2416,Kevin,Wells,Rhetoric,good,56,4.8,,0,,
+2417,Yaxin,Wen,Finance,zero,0,N/A,Yaxin,39310,,Wen
+2418,Lu Chung,Weng,Political Science,good,3,4.7,,0,,
+2419,Larissa,Werhnyak,Science,poor,25,2.4,Larissa,83388,,Werhnyak
+2424,Victor,Valcarcel,Economics,average,29,3.0,Victor,106681,J,Valcarcel
+2426,Rubia,Valente,Social Science,good,10,4.7,,0,,
+2439,Jeyakesavan,Veerasamy,Computer Science,average,80,2.5,Jeyakesavan,141001,,Veerasamy
+2440,Josef,Velten,Electrical Engineering,good,7,4.3,Josef,16109,A,Velten
+2441,ashwin,Venkataraman,Operations Management,poor,7,2.1,,0,,
+2443,Subbarayan,Venkatesan,Computer Science,average,28,3.2,Subbarayan,118550,,Venkatesan
+2444,Christine,Veras,Arts & Technology,average,23,3.0,,0,,
+2447,Lynne,Vieraitis,Criminal Justice,poor,16,2.1,Lynne,108182,M,Vieraitis
+2448,Kathrine,Villareal,Mathematics,zero,0,N/A,,0,,
+2449,Shelby,Vincent,English,good,3,4.0,Shelby,60036,D,Vincent
+2454,Christian,Von Drathen,Finance,poor,8,2.4,,0,,
+2456,Duc,Vu,Operations Management,good,11,3.7,,0,,
+2458,Habte,Waldu,Business,average,8,3.0,,0,,
+2459,Marilyn,Waligore,Arts & Humanities,good,8,4.3,Marilyn,103572,,Waligore
+2460,Weichen,Wong,Computer Science,average,1,3.0,Weichen,270414,E,Wong
+2461,Eric,Wong,Computer Science,poor,16,1.4,,0,,
+2462,Harold,Wood,Arts & Technology,good,17,4.3,Harold,96132,G,Wood
+2463,Jeffrey,Word,Information Science,zero,0,N/A,,0,,
+2464,John,Worrall,Criminal Justice,good,23,3.8,John,141272,L,Worrall
+2465,Samuel,Worthington,Rhetoric,good,1,5.0,Samuel,20344,P,Worthington
+2466,David,Wright,Undergraduate Studies,good,26,3.8,David,34948,A,Wright
+2467,David,Wright,International Studies,zero,0,N/A,David,34948,A,Wright
+2468,Ben,Wright,History,good,72,4.4,Ben,83877,,Wright
+2469,Adam,Wright,English,average,13,3.0,Adam,15188,M,Wright
+2470,Robert,Wright,Business,average,25,3.0,Robert,113829,G,Wright
+2471,Shu-Ling,WU,Accounting,zero,0,N/A,,0,,
+2472,Hao,Wu,Mathematics,good,2,4.8,,0,,
+2473,Jiayi,Wu,Mathematics,poor,5,2.4,,0,,
+2474,Junfeng,Wu,Business,good,6,4.5,Junfeng,184929,,Wu
+2475,Hong,Wu,Arts amp Technology,good,3,5.0,,0,,
+2476,Fang,Wu,Marketing,average,36,3.3,Fang,122777,,Wu
+2477,Weili,Wu,Computer Science,good,21,3.5,,0,,
+2478,Ruth,Wu,Biology,good,8,4.1,,0,,
+2479,Timothy,Wunder,Economics,poor,20,2.3,,0,,
+2480,Tianbing,Xia,Biology,average,1,2.5,,0,,
+2481,Jun,Xia,Management,poor,1,1.0,Jun,226387,,Xia
+2482,Han,Xia,Finance,good,10,5.0,Han,296419,,Xia
+2483,Steven,Xiao,Finance,good,6,4.5,,0,,
+2484,Serena,Xiao,Finance,good,1,5.0,,0,,
+2485,Ying,Xie,Marketing,poor,10,2.3,Ying,260505,,Xie
+2486,Guoping,Xiong,Engineering,poor,1,2.0,,0,,
+2487,Meredith,XU,Management,good,2,4.0,,0,,
+2488,Yexiao,XU,Accounting,average,15,2.5,,0,,
+2489,Yexiao,Xu,Business,poor,4,2.0,Yexiao,284851,,Xu
+2490,Sriram,Yagneswaran,Chemistry,good,4,5.0,,0,,
+2491,Yasuhiro,Yamakawa,Business,good,5,3.9,,0,,
+2492,Shuo,Yang,Economics,good,1,4.0,,0,,
+2493,Duck,Yang,Chemistry,average,2,2.5,Duck,55280,J,Yang
+2494,Wei,Yang,Computer Science,average,8,3.3,Wei,151696,,Yang
+2495,Regina,Ybarra,Psychology,good,29,4.0,Regina,82291,K,Ybarra
+2496,Shengqi,Ye,Business,good,14,3.8,,0,,
+2497,Adam,Yeeles,Political Science,poor,7,2.4,,0,,
+2498,Nir,Yehuda,Accounting,good,96,4.8,,0,,
+2499,Yundong,Yeo,Business,good,2,4.5,Yundong,26196,,Yeo
+2503,Kelsey,Wei,Finance,poor,17,1.4,Kelsey,262953,D,Wei
+2504,Shiyi,Wei,Computer Science,good,10,4.5,Shiyi,146793,,Wei
+2510,Brecken,Wellborn,Film,good,2,5.0,,0,,
+2514,Yaxin,Wen,Finance,good,1,5.0,Yaxin,39310,,Wen
+2516,Larissa,Werhnyak,Science,poor,27,2.4,Larissa,83388,,Werhnyak
+2517,Bruce,Westbury,Mathematics,poor,3,1.0,,0,,
+2518,Kristen,Wetzler,Mathematics,poor,11,2.0,Kristen,28031,,Wetzler
+2519,Tristan,Whalen,Mathematics,good,109,4.5,Tristan,67609,G,Whalen
+2520,Jamie,Wheeler-Matlock,English,poor,1,1.0,,0,,
+2521,Robert,Whelan,Political Science,good,1,4.5,,0,,
+2522,ED,Whetstone,Arts & Technology,good,1,5.0,,0,,
+2523,Susan,White,Rhetoric,good,1,4.5,,0,,
+2524,Jodie,White,Arts & Technology,good,6,4.1,,0,,
+2525,J Chris,White,Management,zero,0,N/A,,0,,
+2526,Russell,Wiant,Business,zero,0,N/A,,0,,
+2527,Daniel,Wickberg,History,average,32,3.3,Daniel,88461,B,Wickberg
+2528,David,Widdifield,Business,good,18,4.8,David,129015,S,Widdifield
+2529,Chris,Widomski,Arts amp Humanities,good,1,4.0,,0,,
+2530,Gagan,Wig,Psychology,good,24,4.4,,0,,
+2531,Sumudu,Wijenayake,Chemistry,good,27,4.5,Sumudu,55626,N,Wijenayake
+2532,Siri,Wilder,Psychology,average,1,3.0,Siri,25441,A,Wilder
+2533,James,Wilder,Music,good,7,4.7,James,29760,E,Wilder
+2534,Cassandra,Wilkerson,Business Communications,zero,0,N/A,,0,,
+2535,Charle,William,Criminal Justice,poor,1,2.0,,0,,
+2536,Lisa,Williams,Accounting,average,9,2.9,,0,,
+2537,Jaleah,Williams,Computer Science,good,5,4.2,,0,,
+2538,Sunshine,Williams,Rhetoric,good,6,3.8,Sunshine,20188,A,Williams
+2539,Alecia,Williams,Communication,average,10,3.1,Alecia,4125,N,Williams
+2540,Nathan,Williams,Mathematics,good,8,4.5,Nathan,96288,F,Williams
+2541,Zeke,Williams,Arts & Humanities,zero,0,N/A,,0,,
+2542,Betsy,Williamson,Art History,poor,1,1.5,,0,,
+2543,James,Willson,Computer Science,good,62,4.0,James,96366,,Willson
+2544,William,Wilson,Accounting,poor,7,2.5,,0,,
+2545,Tim,Wilson,Information Science,poor,1,2.0,,0,,
+2546,Shirley,Wilson,Computer Science,good,1,5.0,,0,,
+2547,Michael,Wilson,History,good,17,4.5,Michael,106356,L,Wilson
+2548,James,Wilson,Computer Science,good,11,4.6,,0,,
+2549,Michelle,Wilson,Biology,average,179,2.5,Michelle,57334,M,Wilson
+2550,James,Wilt,Engineering,average,29,2.5,James,45052,C,Wilt
+2551,Duane,Winkler,Biology,good,5,4.6,Duane,132181,D,Winkler
+2552,Elizabeth,Winstead,Interdisciplinary Studies,good,7,3.5,,0,,
+2553,Patrick,Winter,Engineering,poor,16,2.0,Patrick,44174,M,Winter
+2554,John,Wiorkowski,Statistics,good,13,3.5,,0,,
+2555,Tonja,Wissinger,Social Science,average,54,2.8,Tonja,94285,,Wissinger
+2556,Spencer,Wixom,Business,zero,0,N/A,,0,,
+2557,Malgorzata,Woldu,Operations Management,poor,6,2.3,Malgorzata,6125,K,Woldu
+2558,Habte,Woldu,International Business,average,88,3.0,Habte,186900,G,Woldu
+2559,Jeffrey,Wolfson,Arts & Humanities,good,3,4.8,,0,,
+2567,Ben,Wright,History,good,76,4.4,Ben,83877,,Wright
+2568,Robert,Wright,Business,average,27,2.8,Robert,113829,G,Wright
+2569,Adam,Wright,English,average,16,3.3,Adam,15188,M,Wright
+2570,David,Wright,Undergraduate Studies,good,28,3.7,David,34948,A,Wright
+2571,David,Wright,Science,zero,0,N/A,David,34948,A,Wright
+2577,Ruth,Wu,Biology,good,10,3.9,,0,,
+2578,Fang,Wu,Marketing,average,37,3.3,Fang,122777,,Wu
+2579,Yunan,Wu,Statistics,average,2,2.5,,0,,
+2583,Yuanping,Ying,Marketing,average,12,3.2,,0,,
+2584,Yue,Ying,Finance,good,1,4.0,,0,,
+2585,Hyuntae,Yoo,Biology,poor,13,2.2,,0,,
+2586,Kate,York,Education,good,1,5.0,,0,,
+2587,Seung,You,Engineering,poor,3,2.3,,0,,
+2588,Mary Ann,Young,Music,average,9,3.2,,0,,
+2589,Chadwin,Young,Electrical Engineering,zero,0,N/A,Chadwin,123509,D,Young
+2590,John,Young,Information Science,good,20,3.8,John,28125,G,Young
+2591,Laurie,Youngblood Pollock,Education,good,4,5.0,Laurie,30759,L,Pollock
+2592,Andra,Yount,Arts & Humanities,good,2,4.5,,0,,
+2593,Ashkan,Yousefpour,Computer Science,zero,0,N/A,,0,,
+2594,Duc,Yu,Operations Management,zero,0,N/A,,0,,
+2595,Wen-Ho,Yu,Biology,good,19,4.5,Wen-Ho,107071,,Yu
+2596,Wei,Yue,Management,average,6,2.9,,0,,
+2597,Wanwan,Yue,Economics,zero,0,N/A,Wanwan,6715,,Yue
+2598,Lu,Yundi,Economics,zero,0,N/A,,0,,
+2599,Nurcan,Yuruk,Computer Science,good,52,3.8,Nurcan,89486,,Yuruk
+2600,Fan,Zhang,Physics,average,25,2.7,Fan,154752,,Zhang
+2601,Chenglong,Zhang,Business,poor,3,2.0,Chenglong,15220,,Zhang
+2602,Huibing Harold,Zhang,Finance,good,7,4.6,Huibing,389560,,Zhang
+2603,Jieying,Zhang,Accounting,good,12,4.5,Jieying,323010,,Zhang
+2604,Jie,Zhang,Engineering,average,3,2.7,Jie,203905,,Zhang
+2605,Yuan,Zhang,Accounting,good,33,3.6,Yuan,312300,,Zhang
+2606,Zhe,Zhang,Business,good,11,4.1,Zhe,203948,,Zhang
+2607,Zhe,Zhang,Computer & Math. Sciences,zero,0,N/A,Zhe,203948,,Zhang
+2608,Xiaojia,Zhang,Physics,zero,0,N/A,,0,,
+2609,Xiaofei,Zhao,Finance,good,4,4.8,,0,,
+2610,Yabo,Zhao,Finance,good,1,4.0,Yabo,14324,,Zhao
+2611,Feng,Zhao,Finance,average,8,3.2,Feng,295612,,Zhao
+2612,Yi,Zhao,Computer Science,poor,15,1.7,Yi,43459,,Zhao
+2613,Zehan,Zhao,Information Science,zero,0,N/A,Zehan,25600,,Zhao
+2614,Xiaodan,Zhao,Business,zero,0,N/A,,0,,
+2615,Si,Zheng,Computer Science,poor,9,2.4,,0,,
+2616,Kenny,Zheng,Accounting,average,2,3.0,,0,,
+2617,Jie,Zheng,Chemistry,poor,11,2.0,Jie,225859,,Zheng
+2618,Zhiqiang ,Zheng ,Information Science,good,6,3.5,Zhiqiang,349689,,Zheng
+2619,Die,Zhonglan,Accounting,poor,15,2.2,,0,,
