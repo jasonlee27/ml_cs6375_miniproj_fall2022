@@ -30,8 +30,8 @@ function run_model() {
 # Main
 
 function main() {
-        preprocess
-        # run_model
+        # preprocess
+        run_model
 }
 
 main

@@ -37,115 +37,30 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 
-from catboost import CatBoostClassifier as catb
+from catboost import CatBoostClassifier
 import xgboost as xgb
-import lightgbm as lgb
+# import lightgbm as lgb
 
-    
-class GradientboostClassifier:
 
-    def __init__(self,
-                 num_estimators=100,
-                 validation_fraction=0.1):
-        self.model = GradientBoostingClassifier(
-            n_estimators=num_estimators,
-            validation_fraction=validation_fraction
-        )
-        
-    def train_models(self, x_train, y_train):
-        self.model.fit(x_train, y_train)
-        return
+class GradientboostClassifierClass:
 
-    def test_models(self, x_test, y_test):
-        # returns the mean accuracy on the given test data and labels.
-        return self.model.score(x_test, y_test)
-
-    def predict(self, x_test):
-        return self.model.predict(x_test)
-
-    def predict_proba(self, x_test):
-        return self.model.predict_proba(x_test)
-    
-
-class XgboostClassifier:
-
-    def __init__(self, num_estimators=100):
-        self.model = xgb.XGBClassifier(
-            n_estimators=num_estimators
-        )
-        
-    def train_models(self, x_train, y_train):
-        self.model.fit(x_train, y_train)
-        return
-
-    def test_models(self, x_test, y_test):
-        # returns the mean accuracy on the given test data and labels.
-        return self.model.score(x_test, y_test)
-
-    def predict(self, x_test):
-        return self.model.predict(x_test)
-
-    def predict_proba(self, x_test):
-        return self.model.predict_proba(x_test)
-    
-
-class CatboostClassifier:
-    
-    def __init__(self, num_iter=10):
-        self.model = catb.CatBoostClassifier(
-            iterations=num_iter
-        )
+    def __init__(self, kwargs=None):
+        if kwargs is None:
+            self.model = GradientBoostingClassifier()
+        else:
+            num_estimators = kwargs.pop('num_estimators', 100)
+            validation_fraction = kwargs.pop('validation_fraction', 0.1)
+            self.model = GradientBoostingClassifier(
+                n_estimators=num_estimators,
+                validation_fraction=validation_fraction
+            )
+        # end if
         
     def train(self, x_train, y_train):
         self.model.fit(x_train, y_train)
         return
 
-    def test_models(self, x_test, y_test):
-        # returns the mean accuracy on the given test data and labels.
-        return self.model.score(x_test, y_test)
-
-    def predict(self, x_test):
-        return self.model.predict(x_test)
-
-    def predict_proba(self, x_test):
-        return self.model.predict_proba(x_test)
-
-    
-class LgboostClassifier:
-
-    def __init__(self, num_iter=10):
-        self.model = lgb.LGBMClassifier()
-        
-    def train_models(self, x_train, y_train, validation_fraction):
-        self.model.fit(x_train, y_train)
-        return
-
-    def test_models(self, x_test, y_test):
-        # returns the mean accuracy on the given test data and labels.
-        return self.model.score(x_test, y_test):
-
-    def predict(self, x_test):
-        return self.model.predict(x_test)
-
-    def predict_proba(self, x_test):
-        return self.model.predict_proba(x_test)
-    
-
-class RandomforestClassifier:
-    
-    def __init__(self,
-                 max_depth=3,
-                 criterion='gini'):        
-        self.model = RandomForestClassifier(
-            max_depth=max_depth,
-            criterion=criterion
-        )
-        
-    def train_models(self, x_train, y_train):
-        self.model.fit(x_train, y_train)
-        return
-
-    def test_models(self, x_test, y_test):
+    def test(self, x_test, y_test):
         # returns the mean accuracy on the given test data and labels.
         return self.model.score(x_test, y_test)
 
@@ -156,23 +71,50 @@ class RandomforestClassifier:
         return self.model.predict_proba(x_test)
     
 
-class ExtratreesClassifier:
-    
-    def __init__(self,
-                 num_estimators=100,
-                 max_depth=3,
-                 criterion='gini'):        
-        self.model = ExtraTreesClassifier(
-            n_estimators=num_estimators,
-            max_depth=max_depth,
-            criterion=criterion
-        )
+class XgboostClassifierClass:
+
+    def __init__(self, kwargs=None):
+        if kwargs is None:
+            self.model = xgb.XGBClassifier()
+        else:
+            num_estimators = kwargs.pop('num_estimators', 100)
+            self.model = xgb.XGBClassifier(
+                n_estimators=num_estimators
+            )
+        # end if
         
-    def train_models(self, x_train, y_train):
+    def train(self, x_train, y_train):
         self.model.fit(x_train, y_train)
         return
 
-    def test_models(self, x_test, y_test):
+    def test(self, x_test, y_test):
+        # returns the mean accuracy on the given test data and labels.
+        return self.model.score(x_test, y_test)
+
+    def predict(self, x_test):
+        return self.model.predict(x_test)
+
+    def predict_proba(self, x_test):
+        return self.model.predict_proba(x_test)
+    
+
+class CatboostClassifierClass:
+    
+    def __init__(self, kwargs=None):
+        if kwargs is None:
+            self.model = CatBoostClassifier()
+        else:
+            num_iter = kwargs.pop('num_iter', 10)
+            self.model = CatBoostClassifier(
+                iterations=num_iter
+            )
+        # end if
+        
+    def train(self, x_train, y_train):
+        self.model.fit(x_train, y_train)
+        return
+
+    def test(self, x_test, y_test):
         # returns the mean accuracy on the given test data and labels.
         return self.model.score(x_test, y_test)
 
@@ -183,15 +125,95 @@ class ExtratreesClassifier:
         return self.model.predict_proba(x_test)
 
 
-class LdaClassifier:
+# class LgboostClassifierClass:
+
+#     def __init__(self, num_iter=10):
+#         self.model = lgb.LGBMClassifier()
+        
+#     def train(self, x_train, y_train, validation_fraction):
+#         self.model.fit(x_train, y_train)
+#         return
+
+#     def test(self, x_test, y_test):
+#         # returns the mean accuracy on the given test data and labels.
+#         return self.model.score(x_test, y_test)
+
+#     def predict(self, x_test):
+#         return self.model.predict(x_test)
+
+#     def predict_proba(self, x_test):
+#         return self.model.predict_proba(x_test)
+    
+
+class RandomforestClassifierClass:
+    
+    def __init__(self, kwargs=None):
+        if kwargs is None:
+            self.model = RandomForestClassifier()
+        else:
+            max_depth = kwargs.pop('max_depth', 3)
+            criterion = kwargs.pop('criterion', 'gini')
+            self.model = RandomForestClassifier(
+                max_depth=max_depth,
+                criterion=criterion
+            )
+        # end if
+        
+    def train(self, x_train, y_train):
+        self.model.fit(x_train, y_train)
+        return
+
+    def test(self, x_test, y_test):
+        # returns the mean accuracy on the given test data and labels.
+        return self.model.score(x_test, y_test)
+
+    def predict(self, x_test):
+        return self.model.predict(x_test)
+
+    def predict_proba(self, x_test):
+        return self.model.predict_proba(x_test)
+    
+
+class ExtratreesClassifierClass:
+    
+    def __init__(self, kwargs=None):
+        if kwargs is None:
+            self.model = ExtraTreesClassifier()
+        else:
+            num_estimators = kwargs.pop('num_estimators', 100)
+            max_depth = kwargs.pop('max_depth', 3)
+            criterion = kwargs.pop('criterion', 'gini')
+            self.model = ExtraTreesClassifier(
+                n_estimators=num_estimators,
+                max_depth=max_depth,
+                criterion=criterion
+            )
+        # end if
+        
+    def train(self, x_train, y_train):
+        self.model.fit(x_train, y_train)
+        return
+
+    def test(self, x_test, y_test):
+        # returns the mean accuracy on the given test data and labels.
+        return self.model.score(x_test, y_test)
+
+    def predict(self, x_test):
+        return self.model.predict(x_test)
+
+    def predict_proba(self, x_test):
+        return self.model.predict_proba(x_test)
+
+
+class LdaClassifierClass:
     def __init__(self):        
         self.model = LinearDiscriminantAnalysis()
         
-    def train_models(self, x_train, y_train):
+    def train(self, x_train, y_train):
         self.model.fit(x_train, y_train)
         return
 
-    def test_models(self, x_test, y_test):
+    def test(self, x_test, y_test):
         # returns the mean accuracy on the given test data and labels.
         return self.model.score(x_test, y_test)
 
@@ -202,16 +224,16 @@ class LdaClassifier:
         return self.model.predict_proba(x_test)
 
 
-class RidgeClassifier:
+class RidgeClassifierClass:
     
     def __init__(self):        
         self.model = RidgeClassifier()
         
-    def train_models(self, x_train, y_train):
+    def train(self, x_train, y_train):
         self.model.fit(x_train, y_train)
         return
 
-    def test_models(self, x_test, y_test):
+    def test(self, x_test, y_test):
         # returns the mean accuracy on the given test data and labels.
         return self.model.score(x_test, y_test)
 
@@ -222,16 +244,16 @@ class RidgeClassifier:
     #     return self.model.predict_proba(x_test)
 
     
-class DtClassifier:
+class DtClassifierClass:
 
     def __init__(self):        
         self.model = DecisionTreeClassifier()
         
-    def train_models(self, x_train, y_train):
+    def train(self, x_train, y_train):
         self.model.fit(x_train, y_train)
         return
 
-    def test_models(self, x_test, y_test):
+    def test(self, x_test, y_test):
         # returns the mean accuracy on the given test data and labels.
         return self.model.score(x_test, y_test)
 
@@ -242,17 +264,17 @@ class DtClassifier:
         return self.model.predict_proba(x_test)
 
 
-class NbClassifier:
+class NbClassifierClass:
 
     # gaussian naive bayes
     def __init__(self):        
         self.model = GaussianNB()
         
-    def train_models(self, x_train, y_train):
+    def train(self, x_train, y_train):
         self.model.fit(x_train, y_train)
         return
 
-    def test_models(self, x_test, y_test):
+    def test(self, x_test, y_test):
         # returns the mean accuracy on the given test data and labels.
         return self.model.score(x_test, y_test)
 
@@ -263,22 +285,26 @@ class NbClassifier:
         return self.model.predict_proba(x_test)
 
 
-class AdaboostClassifier:
+class AdaboostClassifierClass:
 
-    def __init__(self,
-                 base_estimator=None,
-                 num_estimators=100):
-        # if base_estimator is None, then it will be decision tree
-        self.model = AdaBoostClassifier(
-            base_estimator=base_estimator,
-            n_estimators=num_estimators
-        )
+    def __init__(self, kwargs=None):
+        if kwargs is None:
+            self.model = AdaBoostClassifier()
+        else:
+            num_estimators = kwargs.pop('num_estimators', 100)
+            base_estimator = kwargs.pop('base_estimator', None)
+            # if base_estimator is None, then it will be decision tree
+            self.model = AdaBoostClassifier(
+                base_estimator=base_estimator,
+                n_estimators=num_estimators
+            )
+        # end if
         
-    def train_models(self, x_train, y_train):
+    def train(self, x_train, y_train):
         self.model.fit(x_train, y_train)
         return
 
-    def test_models(self, x_test, y_test):
+    def test(self, x_test, y_test):
         # returns the mean accuracy on the given test data and labels.
         return self.model.score(x_test, y_test)
 
@@ -289,19 +315,23 @@ class AdaboostClassifier:
         return self.model.predict_proba(x_test)
 
 
-class KnnClassifier:
+class KnnClassifierClass:
 
-    def __init__(self,
-                 num_neighbors=5):
-        self.model = KNeighborsClassifier(
-            n_neighbors=num_neighbors
-        )
+    def __init__(self, kwargs=None):
+        if kwargs is None:
+            self.model = KNeighborsClassifier()
+        else:
+            num_neighbors = kwargs.pop('num_neighbors', 5)
+            self.model = KNeighborsClassifier(
+                n_neighbors=num_neighbors
+            )
+        # end if
         
-    def train_models(self, x_train, y_train):
+    def train(self, x_train, y_train):
         self.model.fit(x_train, y_train)
         return
 
-    def test_models(self, x_test, y_test):
+    def test(self, x_test, y_test):
         # returns the mean accuracy on the given test data and labels.
         return self.model.score(x_test, y_test)
 
@@ -312,20 +342,24 @@ class KnnClassifier:
         return self.model.predict_proba(x_test)
 
 
-class SvmClassifier:
+class SvmClassifierClass:
     
-    def __init__(self,
-                 kernel='rbf'):
-        # kernel = {‘linear’, ‘poly’, ‘rbf’, ‘sigmoid’, ‘precomputed’} 
-        self.model = SVC(
-            kernel=kernel
-        )
+    def __init__(self, kwargs=None):
+        if kwargs is None:
+            self.model = SVC()
+        else:
+            # kernel = {‘linear’, ‘poly’, ‘rbf’, ‘sigmoid’, ‘precomputed’} 
+            kernel = kwargs.pop('kernel', 'rbf')
+            self.model = SVC(
+                kernel=kernel
+            )
+        # end if
         
-    def train_models(self, x_train, y_train):
+    def train(self, x_train, y_train):
         self.model.fit(x_train, y_train)
         return
 
-    def test_models(self, x_test, y_test):
+    def test(self, x_test, y_test):
         # returns the mean accuracy on the given test data and labels.
         return self.model.score(x_test, y_test)
 
@@ -336,16 +370,16 @@ class SvmClassifier:
         return self.model.predict_proba(x_test)
 
 
-class QdaClassifier:
+class QdaClassifierClass:
     
     def __init__(self):
         self.model = QuadraticDiscriminantAnalysis()
         
-    def train_models(self, x_train, y_train):
+    def train(self, x_train, y_train):
         self.model.fit(x_train, y_train)
         return
 
-    def test_models(self, x_test, y_test):
+    def test(self, x_test, y_test):
         # returns the mean accuracy on the given test data and labels.
         return self.model.score(x_test, y_test)
 
@@ -356,16 +390,16 @@ class QdaClassifier:
         return self.model.predict_proba(x_test)
 
 
-class LrClassifier:
+class LrClassifierClass:
 
     def __init__(self):
         self.model = LogisticRegression()
         
-    def train_models(self, x_train, y_train):
+    def train(self, x_train, y_train):
         self.model.fit(x_train, y_train)
         return
 
-    def test_models(self, x_test, y_test):
+    def test(self, x_test, y_test):
         # returns the mean accuracy on the given test data and labels.
         return self.model.score(x_test, y_test)
 

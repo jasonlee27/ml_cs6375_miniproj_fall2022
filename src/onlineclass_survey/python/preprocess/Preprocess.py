@@ -6,6 +6,8 @@ import seaborn as sns
 from typing import *
 from pathlib import Path
 from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import OneHotEncoder
 
 from ..utils.Macros import Macros
 from ..utils.Utils import Utils
@@ -15,23 +17,40 @@ class Preprocess:
 
     @classmethod
     def get_raw_data(cls):
-        data = pd.read_csv(Macros.csv_file, header=0)
-        return data
+        df = pd.read_csv(Macros.csv_file, header=0)
+        return cls.fill_nan_with(df)
 
+    @classmethod
+    def fill_nan_with(cls, df):
+        qs_in_data = list(df.keys())
+        for q_i, q in enumerate(qs_in_data):
+            if q==Macros.QUESTIONS[2] or \
+               q==Macros.QUESTIONS[3] or \
+               q==Macros.QUESTIONS[4] or \
+               q==Macros.QUESTIONS[5] or \
+               q==Macros.QUESTIONS[9]:
+                df[q] = df[q].fillna('Other')
+            elif q==Macros.QUESTIONS[11]:
+                df[q] = df[q].fillna('0')
+            # end if
+        # end for
+        return df
 
     @classmethod
     def get_data(cls):
-        raw_data = cls.get_raw_data()
-        labels = raw_data[Macros.QUESTIONS[-2]] # 'Which learning modality do you generally prefer?'
-        qs_in_data = list(raw_data.keys())
+        df = cls.get_raw_data()
+        # label question: 'Which learning modality do you generally prefer?'
+        labels = LabelEncoder().fit_transform(df[Macros.QUESTIONS[-2]])
+        qs_in_data = list(df.keys())
         data = list()
-        for q in qs_in_data:
+        for q_i, q in enumerate(qs_in_data):
             if q not in [
                     Macros.QUESTIONS[0],
                     Macros.QUESTIONS[-1],
                     Macros.QUESTIONS[-2]
             ]:
-                data.append(raw_data[q])
+                df_q = LabelEncoder().fit_transform(df[q])                
+                data.append(df_q)
             # end if
         # end for
         data = np.transpose(np.array(data)) # (#examples, #feats)
