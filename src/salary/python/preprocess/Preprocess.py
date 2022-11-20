@@ -10,7 +10,6 @@ from ..utils.Macros import Macros
 from ..utils.Utils import Utils
 
 
-
 class Preprocess:
 
     @classmethod
