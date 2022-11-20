@@ -109,7 +109,6 @@ class RunModel:
             # feature importance: ndarray of shape (n_features,)
             if hasattr(model.model, 'feature_importances_'):
                 feat_importances = model.model.feature_importances_
-                print(model_name, 'importance')
                 data_lod = list()
                 for f_i in range(len(feat_importances)):
                     data_lod.append({
@@ -154,7 +153,7 @@ class RunModel:
                 fig.tight_layout()
                 fig.savefig(figs_dir / f"coef_importance_{model_name}_barplot.eps")
             else:
-                print(f"{model_name} has no feature_importances_ attribute")
+                print(f"{model_name} has no feature_importances/coefs attribute")
             # end if
         # end for
         return
