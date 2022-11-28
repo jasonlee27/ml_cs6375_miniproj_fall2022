@@ -1,0 +1,910 @@
+Title,Salary,Lname,Fname,Mname,citedby,citedby5y,hindex,hindex5y,i10index,i10index5y,Age,School,Department,rating_class,total_ratings,overall_rating
+Associate Professor,114248,Ackerman,Robert,A,3348.0,2524.0,25.0,24.0,33.0,32.0,40.0,BBS,Psychology,good,15.0,4.3
+Professor,133431,Abdi,Herve,,39067.0,20227.0,88.0,59.0,205.0,151.0,69.0,BBS,Psychology,good,9.0,4.7
+Senior Lecturer I,54755,Abeykoon,Nimali,C,178.0,157.0,4.0,4.0,4.0,4.0,34.0,NSM,Chemistry,good,26.0,3.9
+Assist. Prof. Of Practice,88220,Ahadi,Khatereh,,33.0,33.0,3.0,3.0,1.0,1.0,54.0,JSOM,Statistics,good,53.0,4.2
+Professor,236868,Akin,Bilal,,5010.0,3589.0,41.0,33.0,105.0,93.0,44.0,ECS,Electrical Engineering,good,12.0,4.7
+Professor,321660,Aldhahir,Naofal,M,16035.0,6735.0,57.0,36.0,242.0,151.0,54.0,ECS,,good,16.0,3.6
+Professor,467294,Ali,Ashiq,,8882.0,3278.0,27.0,21.0,37.0,28.0,65.0,JSOM,Accounting,good,10.0,3.7
+Professor,138847,Anderson,Phillip,C,2015.0,629.0,23.0,14.0,37.0,19.0,62.0,NSM,,good,16.0,3.6
+Associate Professor,192976,Anderson,William,C,1311.0,1153.0,20.0,19.0,30.0,29.0,37.0,ECS,Engineering,poor,21.0,2.2
+Associate Professor,186126,Andrews,Rodney,J,752.0,555.0,12.0,11.0,13.0,12.0,45.0,EPPS,Economics,good,20.0,4.2
+Professor,254520,Arce,Daniel,G,2202.0,819.0,23.0,17.0,43.0,22.0,61.0,EPPS,Economics,good,40.0,4.6
+Associate Professor,98096,Arnold,Maxim,,130.0,104.0,7.0,6.0,5.0,5.0,38.0,NSM,,good,16.0,3.6
+Professor,179021,Auciello,Orlando,H,24570.0,4613.0,73.0,33.0,277.0,96.0,74.0,ECS,Engineering,good,1.0,4.0
+Professor,168221,Balkus,Kenneth,J,16268.0,5877.0,59.0,36.0,209.0,97.0,62.0,NSM,Chemistry,poor,1.0,2.0
+Professor,95894,Bambach,Charles,R,982.0,365.0,10.0,5.0,10.0,4.0,70.0,AHT,,good,16.0,3.6
+Associate Professor,88458,Banner,Olivia,P,100.0,78.0,6.0,6.0,5.0,4.0,48.0,AHT,Arts  Technology,good,6.0,3.9
+Associate Professor,180615,Baranchuk,Nina,,616.0,338.0,9.0,5.0,7.0,5.0,46.0,JSOM,Finance,zero,0.0,3.6
+Associate Professor,142550,Basak,Chandramallika,,9945.0,5578.0,27.0,23.0,35.0,32.0,48.0,BBS,,good,16.0,3.6
+Assistant Professor,136045,Basu,Kanad,,1388.0,1020.0,18.0,17.0,30.0,28.0,54.0,ECS,Electrical Engineering,good,13.0,3.8
+Professor,230209,Bensoussan,Alain,,28981.0,8271.0,67.0,39.0,237.0,118.0,82.0,JSOM,,good,16.0,3.6
+Professor,139871,Bereg,Sergey,,1880.0,686.0,23.0,14.0,59.0,20.0,61.0,ECS,Computer Science,good,115.0,4.2
+Professor,218384,Beron,Kurt,J,3558.0,1345.0,25.0,19.0,33.0,23.0,67.0,EPPS,Economics,average,10.0,3.4
+Professor,173060,Berry,Brian,J,34087.0,5686.0,78.0,34.0,192.0,94.0,89.0,EPPS,,good,16.0,3.6
+Professor,176582,Bhatia,Dinesh,K,2040.0,503.0,24.0,10.0,49.0,11.0,59.0,ECS,Engineering,good,22.0,3.6
+Professor,179211,Bleris,Leonidas,,2519.0,1198.0,25.0,19.0,41.0,28.0,44.0,ECS,,good,16.0,3.6
+Professor,154904,Brandt,Patrick,T,2648.0,1296.0,23.0,20.0,30.0,27.0,50.0,EPPS,,good,16.0,3.6
+Assoc. Prof. Of Practice,173245,Bray,Timothy,M,991.0,322.0,4.0,3.0,3.0,3.0,50.0,EPPS,,good,16.0,3.6
+Professor,188688,Brunell,Thomas,L,4206.0,1379.0,28.0,17.0,44.0,24.0,53.0,EPPS,Social Science,good,26.0,3.7
+Assistant Professor,128383,Carrion,Benjamin,S,1393.0,1114.0,19.0,17.0,33.0,27.0,54.0,ECS,,good,16.0,3.6
+Professor,258389,Cavusoglu,Huseyin,,7276.0,3983.0,32.0,25.0,51.0,42.0,45.0,JSOM,Business,poor,31.0,2.0
+Professor,118802,Channell,David,F,415.0,139.0,7.0,6.0,6.0,4.0,77.0,AHT,Humanities,good,14.0,4.7
+Clinical Professor,119210,Chasteen,Larry,H,80.0,35.0,4.0,4.0,1.0,1.0,77.0,JSOM,Business,average,24.0,2.5
+Associate Professor,176360,Chen,Feng,,3226.0,2617.0,27.0,24.0,65.0,59.0,54.0,ECS,Computer Science,average,3.0,3.3
+Professor,318976,Chen,Jianqing,,2396.0,1598.0,22.0,17.0,25.0,23.0,43.0,JSOM,Information Science,good,12.0,3.5
+Associate Professor,166276,Chen,Lunjin,,6060.0,3952.0,42.0,37.0,101.0,100.0,40.0,NSM,Physics,average,32.0,2.8
+Professor,120364,Chen,Min,,1764.0,1068.0,18.0,15.0,25.0,19.0,50.0,NSM,Mathematics,good,21.0,4.1
+Assoc. Prof. Of Instruction,103812,Chitturi,Bhadrachalam,,475.0,317.0,13.0,10.0,18.0,14.0,54.0,ECS,,good,16.0,3.6
+Professor,100806,Chun,Yongwan,,1743.0,1292.0,22.0,21.0,40.0,37.0,48.0,EPPS,,good,16.0,3.6
+Associate Professor,131015,Chung,Lawrence,,10883.0,2324.0,38.0,18.0,88.0,37.0,63.0,ECS,Computer Science,poor,34.0,2.4
+Associate Professor,156700,Cobb,Jorge,A,1018.0,157.0,18.0,7.0,32.0,5.0,57.0,ECS,Computer Science,average,32.0,3.2
+Professor,250903,Cogan,Stuart,,8390.0,3778.0,45.0,30.0,103.0,56.0,69.0,ECS,Engineering,good,5.0,4.8
+Assistant Professor,270481,Copat,Rafael,,27.0,6.0,3.0,2.0,1.0,0.0,54.0,JSOM,,good,16.0,3.6
+Clinical Professor,82000,Cordell,David,M,379.0,140.0,9.0,5.0,8.0,3.0,70.0,JSOM,,good,16.0,3.6
+Assistant Professor,86932,Cordell,Rebecca,,57.0,57.0,4.0,4.0,3.0,3.0,34.0,EPPS,,good,16.0,3.6
+Professor,110688,Coskunuzer,Baris,,218.0,120.0,9.0,7.0,8.0,0.0,40.0,NSM,Mathematics,average,15.0,3.4
+Assistant Professor,148260,Dai,Xianming,,2120.0,1853.0,20.0,19.0,24.0,23.0,37.0,ECS,Engineering,good,14.0,4.0
+Clinical Professor,11544,Dalgic,Tevfik,,2045.0,838.0,21.0,12.0,28.0,15.0,76.0,JSOM,Business,average,12.0,3.4
+Assistant Professor,77724,Davies,Katherine,,2.0,2.0,1.0,1.0,0.0,0.0,34.0,AHT,Philosophy,good,9.0,4.6
+Associate Professor,155799,Delk,Nikki,A,755.0,406.0,12.0,11.0,12.0,11.0,54.0,NSM,,good,16.0,3.6
+Professor,263888,Dess,Gregory,G,59010.0,20645.0,57.0,44.0,91.0,68.0,73.0,JSOM,,good,16.0,3.6
+Assistant Professor,141609,Dodani,Sheel,C,3358.0,2159.0,18.0,15.0,19.0,18.0,37.0,NSM,Chemistry,poor,5.0,2.4
+Clinical Professor,187501,Dover,Howard,F,191.0,122.0,6.0,6.0,4.0,4.0,50.0,JSOM,Business,average,22.0,3.2
+Assistant Professor,136245,Engineer,Crystal,T,1137.0,734.0,20.0,17.0,25.0,22.0,41.0,BBS,Neuroscience,good,4.0,5.0
+Assoc. Prof. Of Instruction,71518,Evans,Kathryn,C,10.0,5.0,2.0,1.0,0.0,0.0,70.0,AHT,,good,16.0,3.6
+Assoc. Prof. Of Practice,116367,Fadda,Dani,Z,398.0,235.0,10.0,8.0,10.0,8.0,53.0,ECS,,good,16.0,3.6
+Professor,190573,Fahimi,Babak,,11013.0,5159.0,52.0,37.0,176.0,98.0,53.0,ECS,,good,16.0,3.6
+Assist. Prof. Of Instruction,107334,Feng,Ranran,,58.0,45.0,4.0,4.0,3.0,1.0,35.0,ECS,Computer Science,poor,50.0,1.6
+Professor,213372,Ferraris,John,P,22169.0,6222.0,74.0,39.0,181.0,92.0,75.0,NSM,Chemistry,zero,0.0,3.6
+Assistant Professor,119811,Fox,Kyle,J,560.0,440.0,15.0,13.0,21.0,18.0,36.0,ECS,Computer Science,good,9.0,5.0
+Assistant Professor,221293,Frazelle,Andrew,,58.0,57.0,2.0,2.0,2.0,2.0,54.0,JSOM,Operations Management,good,3.0,4.3
+Professor,206177,Fumagalli,Andrea,,4242.0,847.0,29.0,13.0,100.0,19.0,57.0,ECS,Engineering,good,15.0,4.2
+Clinical Professor,138752,Gamino,John,,18.0,4.0,1.0,1.0,1.0,0.0,54.0,JSOM,Accounting,good,52.0,3.5
+Professor,130725,Geissman,John,W,7893.0,2389.0,46.0,25.0,157.0,66.0,71.0,NSM,,good,16.0,3.6
+Professor,360664,Gevorgyan,Vladimir,,22652.0,8768.0,82.0,51.0,195.0,143.0,66.0,NSM,,good,16.0,3.6
+Professor,224033,Goeckner,Matthew,J,2624.0,699.0,29.0,13.0,59.0,14.0,62.0,NSM,Engineering,average,30.0,3.3
+Professor,268273,Goffman,Lisa,A,3236.0,1236.0,30.0,20.0,44.0,34.0,54.0,BBS,,good,16.0,3.6
+Associate Professor,239460,Gogate,Vibhav,G,2206.0,1094.0,26.0,18.0,45.0,36.0,45.0,ECS,Computer Science,good,21.0,4.5
+Associate Professor,88219,Gorina,Evgenia,,331.0,310.0,12.0,11.0,12.0,11.0,39.0,EPPS,,good,16.0,3.6
+Assistant Professor,77724,Greer,Erin,E,9.0,5.0,2.0,1.0,0.0,0.0,37.0,AHT,,good,16.0,3.6
+Professor,273159,Griffith,Daniel,A,16280.0,6119.0,62.0,39.0,190.0,123.0,74.0,EPPS,,good,16.0,3.6
+Associate Professor,169537,Griffith,Daniel,T,16280.0,6119.0,62.0,39.0,190.0,123.0,74.0,EPPS,,good,16.0,3.6
+Professor,192728,Guo,Xiaohu,,1936.0,879.0,25.0,17.0,53.0,33.0,43.0,ECS,Computer Science,average,9.0,2.5
+Professor,302273,Gupta,Gopal,,7044.0,1819.0,38.0,21.0,137.0,41.0,59.0,ECS,Computer Science,good,10.0,4.2
+Professor,350331,Hansen,John,H,24490.0,8853.0,70.0,38.0,409.0,215.0,62.0,ECS,Electrical Engineering,good,6.0,4.2
+Assistant Professor,121128,Hao,Shuang,,1644.0,1364.0,21.0,20.0,28.0,27.0,54.0,ECS,,good,16.0,3.6
+Associate Professor,86231,Harrington,James,,759.0,572.0,8.0,8.0,8.0,8.0,39.0,EPPS,,good,16.0,3.6
+Associate Professor,311619,Hasler,Michael,,815.0,725.0,9.0,9.0,9.0,9.0,54.0,JSOM,Finance,average,1.0,3.0
+Associate Professor,146154,Hassanipour,Fatemeh,,659.0,575.0,12.0,11.0,13.0,11.0,46.0,ECS,Engineering,average,10.0,3.3
+Assistant Professor,158603,Hayenga,Heather,N,1029.0,646.0,16.0,13.0,18.0,15.0,38.0,ECS,Engineering,good,2.0,4.0
+Associate Professor,208831,Hays,Seth,A,3446.0,2800.0,29.0,28.0,51.0,50.0,37.0,ECS,Engineering,good,4.0,4.5
+Assistant Professor,114458,Hedlund,Jonas,,121.0,112.0,4.0,4.0,2.0,2.0,33.0,EPPS,Economics,average,10.0,3.4
+Associate Professor,207010,Honhon,Dorothee,B,1602.0,1188.0,15.0,15.0,19.0,16.0,54.0,JSOM,Operations Management,good,15.0,4.3
+Associate Professor,203935,Hoyt,Kenneth,L,3585.0,2140.0,33.0,29.0,72.0,59.0,54.0,ECS,,good,16.0,3.6
+Associate Professor,240214,Hu,Bin,,568.0,488.0,11.0,10.0,12.0,10.0,54.0,JSOM,,good,16.0,3.6
+Assistant Professor,131732,Iyer,Rishabh,K,2001.0,1626.0,23.0,21.0,30.0,29.0,54.0,ECS,,good,16.0,3.6
+Professor,405479,Jain,Sanjay,,3400.0,1545.0,19.0,17.0,23.0,19.0,54.0,JSOM,Business,good,3.0,4.0
+Professor,327396,Janakiraman,Ganesh,,1736.0,1000.0,22.0,19.0,41.0,35.0,46.0,JSOM,Business,good,28.0,4.7
+Associate Professor,252716,Janakiraman,Surya,N,3803.0,1593.0,12.0,10.0,14.0,10.0,63.0,JSOM,Accounting,average,24.0,2.8
+Assistant Professor,147867,Jee,Kangkook,,1172.0,986.0,12.0,12.0,13.0,13.0,54.0,ECS,Computer Science,good,4.0,4.3
+Assistant Professor,117959,Jin,Yaqing,,351.0,348.0,11.0,11.0,13.0,13.0,54.0,ECS,Engineering,good,1.0,4.0
+Assist. Prof. Of Instruction,36289,Johnson,Janet,L,58.0,36.0,2.0,2.0,1.0,1.0,49.0,AHT,Arts & Technology,good,17.0,3.5
+Assistant Professor,214372,Joo,Joonhwi,,115.0,111.0,4.0,4.0,4.0,4.0,54.0,JSOM,,good,16.0,3.6
+Professor,168492,Jue,Jason,P,11825.0,3304.0,45.0,22.0,147.0,48.0,54.0,ECS,,good,16.0,3.6
+Assistant Professor,84603,Kane,Heidi,,1155.0,802.0,15.0,14.0,19.0,16.0,42.0,BBS,Psychology,poor,21.0,1.9
+Professor,266077,Kantarcioglu,Murat,,14354.0,6858.0,57.0,42.0,173.0,132.0,44.0,ECS,Computer Science,poor,21.0,2.3
+Professor,305758,Katok,Elena,M,7379.0,3028.0,37.0,27.0,58.0,45.0,57.0,JSOM,Operations Management,poor,1.0,1.0
+Professor,120143,Katz,William,F,2677.0,594.0,28.0,15.0,42.0,21.0,67.0,BBS,Communication,good,24.0,3.8
+Professor,283018,Kehtarnavaz,Nasser,,10745.0,6077.0,51.0,32.0,190.0,102.0,62.0,ECS,Electrical Engineering,poor,16.0,1.9
+Professor,254488,Khan,Latifur,R,13001.0,6106.0,62.0,39.0,197.0,125.0,51.0,ECS,Computer Science,average,18.0,3.3
+Professor,196093,Kiasaleh,Kamran,,1880.0,738.0,20.0,13.0,42.0,20.0,63.0,ECS,Engineering,poor,40.0,1.6
+Associate Professor,247113,Kieschnick,Robert,L,4234.0,2035.0,24.0,17.0,34.0,21.0,72.0,JSOM,Business,poor,19.0,2.4
+Professor,344783,Kilgard,Michael,P,10827.0,5632.0,53.0,42.0,126.0,110.0,51.0,BBS,Medicine,good,26.0,3.8
+Professor,167545,Kim,Dohyeong,,1513.0,894.0,19.0,17.0,32.0,30.0,48.0,EPPS,Economics,average,5.0,3.4
+Professor,297069,Kim,Jiyoung,,10275.0,5517.0,54.0,39.0,163.0,108.0,58.0,ECS,,good,16.0,3.6
+Clinical Professor,92742,King,Carie,S,187.0,95.0,7.0,6.0,5.0,4.0,53.0,AHT,,good,16.0,3.6
+Assistant Professor,145799,Koeln,Justin,P,515.0,430.0,13.0,11.0,17.0,14.0,54.0,ECS,,good,16.0,3.6
+Assistant Professor,118740,Kolodrubetz,Michael,H,1870.0,1542.0,20.0,16.0,25.0,23.0,37.0,NSM,,good,16.0,3.6
+Associate Professor,101793,Kovandzic,Tomislav,V,2314.0,1103.0,27.0,23.0,32.0,28.0,51.0,EPPS,,good,16.0,3.6
+Associate Professor,114258,Kroener,Sven,,3305.0,1569.0,30.0,25.0,38.0,32.0,48.0,BBS,,good,16.0,3.6
+Professor,312840,Kuksov,Dmitri,G,1705.0,903.0,17.0,15.0,20.0,19.0,26.0,JSOM,Marketing,average,6.0,3.0
+Associate Professor,149259,Kumar,Golden,,4517.0,2337.0,31.0,24.0,56.0,44.0,54.0,ECS,Engineering,good,5.0,4.2
+Professor,249294,Kumar,Nanda,S,1532.0,649.0,15.0,13.0,15.0,14.0,54.0,JSOM,Marketing,poor,11.0,2.4
+Associate Professor,224840,Lahiri,Atanu,,700.0,533.0,15.0,14.0,17.0,14.0,34.0,JSOM,,good,16.0,3.6
+Professor,155362,Lee,Hoi,,3312.0,1452.0,29.0,21.0,58.0,40.0,46.0,ECS,Electrical Engineering,average,12.0,3.1
+Professor,195003,Leonardi,Stefano,,3487.0,2242.0,27.0,25.0,48.0,38.0,45.0,ECS,Engineering,good,8.0,4.1
+Clinical Professor,173398,Lewin,Peter,,2047.0,809.0,25.0,16.0,44.0,24.0,75.0,JSOM,,good,16.0,3.6
+Professor,206853,Li,Dong,,1604.0,562.0,14.0,9.0,18.0,8.0,53.0,EPPS,Economics,good,7.0,4.4
+Associate Professor,305013,Li,Jun,,1270.0,985.0,10.0,10.0,10.0,10.0,54.0,JSOM,Finance,good,10.0,3.8
+Assistant Professor,110875,Li,Qiwei,,448.0,342.0,11.0,11.0,12.0,12.0,36.0,NSM,Mathematics,average,7.0,2.8
+Assistant Professor,101167,Li,Wei,,786.0,785.0,17.0,17.0,25.0,25.0,54.0,ECS,,good,16.0,3.6
+Professor,121734,Li,Yaoyu,,1014.0,365.0,9.0,8.0,9.0,8.0,52.0,ECS,Engineering,poor,6.0,1.7
+Professor,241891,Lin,Zhiang,,5676.0,2358.0,31.0,17.0,41.0,24.0,58.0,JSOM,,good,16.0,3.6
+Professor,131431,Liu,Jin,,1732.0,528.0,20.0,12.0,31.0,14.0,52.0,ECS,Electrical Engineering,poor,10.0,2.4
+Associate Professor,132387,Lou,Yifei,,3268.0,2130.0,27.0,24.0,47.0,43.0,39.0,NSM,Mathematics,average,10.0,3.4
+Associate Professor,294568,Loumioti,Maria,,663.0,564.0,9.0,9.0,9.0,9.0,54.0,JSOM,Accounting,good,2.0,5.0
+Professor,133494,Lowry,Robert,C,3393.0,796.0,20.0,13.0,22.0,14.0,64.0,EPPS,Political Science,average,37.0,3.0
+Professor,275329,Lu,Hongbing,,7839.0,3958.0,46.0,32.0,114.0,88.0,58.0,ECS,,good,16.0,3.6
+Associate Professor,136120,Lumata,Lloyd,L,2129.0,1362.0,24.0,20.0,36.0,32.0,42.0,NSM,Physics,good,38.0,3.6
+Professor,292637,Lumley,David,E,3402.0,1292.0,27.0,18.0,53.0,33.0,58.0,NSM,,good,16.0,3.6
+Associate Professor,135536,Lv,Bing,,4822.0,2187.0,30.0,21.0,56.0,34.0,40.0,NSM,Physics,good,50.0,3.8
+Clinical Assistant Professor,152314,Ma,Liping,,84.0,56.0,2.0,2.0,1.0,1.0,54.0,JSOM,Finance,good,13.0,3.8
+Associate Professor,139278,Malik,Arif,S,511.0,357.0,12.0,11.0,16.0,13.0,50.0,ECS,Engineering,good,4.0,3.8
+Professor,162940,Malko,Anton,,7077.0,2598.0,33.0,24.0,62.0,47.0,46.0,NSM,Physics,poor,17.0,1.8
+Professor,93536,Manton,William,I,5798.0,1378.0,42.0,21.0,69.0,32.0,84.0,NSM,Geology,good,22.0,3.5
+Professor,200382,Marcus,Andrian,,13214.0,5483.0,58.0,41.0,111.0,85.0,54.0,ECS,,good,16.0,3.6
+Professor,390653,Markov,Stanimir,G,2123.0,1341.0,18.0,17.0,20.0,19.0,54.0,JSOM,Accounting,good,17.0,3.7
+Senior Lecturer I,118197,Mazidi,Karen,J,1352.0,511.0,10.0,9.0,11.0,8.0,54.0,ECS,,good,16.0,3.6
+Senior Lecturer I,81821,Mcneeley,Kathleen,M,658.0,221.0,6.0,6.0,6.0,6.0,54.0,NSM,,good,16.0,3.6
+Professor,253070,Mehra,Amit,,1224.0,920.0,12.0,12.0,12.0,12.0,54.0,JSOM,Management,good,19.0,3.9
+Assistant Professor,272319,Meier,Jean-marie,A,158.0,148.0,6.0,6.0,4.0,4.0,54.0,JSOM,,good,16.0,3.6
+Associate Professor,114431,Miller,Banks,P,384.0,257.0,9.0,9.0,9.0,9.0,43.0,EPPS,Political Science,good,18.0,4.2
+Associate Professor,98728,Miller,Toyah,L,7400.0,5098.0,20.0,17.0,21.0,20.0,54.0,JSOM,Business,average,15.0,2.6
+Associate Professor,94317,Mills,Candice,M,1960.0,1296.0,22.0,19.0,31.0,27.0,45.0,BBS,Psychology,good,18.0,4.3
+Professor,196843,Minn,Hlaing,,6704.0,1892.0,37.0,19.0,94.0,39.0,49.0,ECS,,good,16.0,3.6
+Professor,421088,Mookerjee,Vijay,S,3150.0,1585.0,34.0,22.0,73.0,48.0,62.0,JSOM,,good,16.0,3.6
+Associate Research Professor,68902,Mu,Jiuke,,1494.0,1441.0,16.0,16.0,16.0,16.0,54.0,ECS,,good,16.0,3.6
+Professor,144420,Nadin,Mihai,,2187.0,860.0,24.0,16.0,52.0,31.0,83.0,AHT,Arts  Technology,zero,0.0,3.6
+Senior Lecturer I,145862,Nagar,Anurag,,176.0,75.0,6.0,5.0,5.0,3.0,54.0,ECS,Computer Science,good,43.0,4.2
+Professor,469047,Nanda,Vikram,K,11395.0,4614.0,42.0,33.0,91.0,57.0,54.0,JSOM,Finance,poor,5.0,2.0
+Associate Professor,243734,Natarajan,Ramachandran,,2561.0,1140.0,16.0,13.0,20.0,14.0,64.0,JSOM,,good,16.0,3.6
+Professor,222713,Natarajan,Sriraam,,3533.0,2308.0,30.0,25.0,77.0,63.0,54.0,ECS,,good,16.0,3.6
+Assistant Professor,87302,Nguyen,Josef,D,116.0,113.0,5.0,5.0,5.0,5.0,37.0,AHT,Arts & Technology,good,5.0,5.0
+Professor,254870,Nosratinia,Aria,,14571.0,2761.0,43.0,20.0,115.0,58.0,55.0,ECS,,good,16.0,3.6
+Professor,217991,Nourani,Mehrdad,,5813.0,2531.0,42.0,25.0,131.0,61.0,60.0,ECS,,good,16.0,3.6
+Associate Professor,117762,Ohsawa,Tomoki,,453.0,270.0,12.0,10.0,16.0,12.0,43.0,NSM,Mathematics,good,18.0,3.6
+Assoc. Prof. Of Instruction,115294,Ouyang,Hui,,413.0,275.0,10.0,10.0,10.0,10.0,54.0,ECS,Engineering,good,18.0,4.1
+Assistant Professor,124015,Ouyang,Jessica,J,123.0,112.0,5.0,5.0,5.0,5.0,54.0,ECS,Computer Science,poor,38.0,2.3
+Clinical Associate Professor,147895,Owens,Dawn,M,743.0,312.0,12.0,7.0,12.0,5.0,54.0,JSOM,Business,average,45.0,3.3
+Assist. Prof. Of Instruction,50593,Padmanabhan,Ramesh,,23.0,22.0,3.0,3.0,0.0,0.0,42.0,NSM,Biology,poor,44.0,1.5
+Associate Professor,208194,Palmer,Kelli,L,4658.0,2898.0,33.0,29.0,51.0,49.0,41.0,NSM,Biology,good,5.0,4.8
+Professor,222782,Panahi,Issa,M,2106.0,1090.0,21.0,15.0,56.0,28.0,70.0,ECS,Engineering,average,36.0,2.7
+Associate Professor,144256,Panovska,Irina,B,522.0,401.0,9.0,8.0,9.0,8.0,37.0,EPPS,,good,16.0,3.6
+Professor,418663,Park,Denise,C,42975.0,19167.0,99.0,63.0,237.0,171.0,71.0,BBS,,good,16.0,3.6
+Assistant Professor,84574,Park,Jiyoung,,5193.0,4024.0,22.0,21.0,30.0,28.0,40.0,BBS,Behavioral Sciences,average,8.0,3.4
+Assoc. Prof. Of Instruction,110177,Park,Wooram,,881.0,349.0,15.0,9.0,15.0,7.0,45.0,ECS,,good,16.0,3.6
+Professor,133815,Peinhardt,Clint,W,1394.0,783.0,11.0,10.0,13.0,11.0,51.0,EPPS,Political Science,good,24.0,4.0
+Assistant Professor,132652,Penev,Kaloyan,M,3430.0,2600.0,38.0,33.0,77.0,76.0,41.0,NSM,Physics,average,21.0,2.5
+Professor,182585,Pereira,Luis,F,1819.0,620.0,21.0,14.0,49.0,22.0,54.0,NSM,Mathematics,average,17.0,2.6
+Assoc. Prof. Of Instruction,90942,Perkins,Stephen,J,538.0,133.0,5.0,2.0,4.0,2.0,54.0,ECS,Computer Science,good,66.0,3.8
+Professor,169460,Pinkham,Amy,E,7549.0,4840.0,42.0,38.0,92.0,88.0,54.0,BBS,Behavioral Sciences,good,27.0,4.0
+Assist. Prof. Of Instruction,68942,Pogue,Neall,W,2.0,2.0,1.0,1.0,0.0,0.0,54.0,IS,Undergraduate Studies,good,28.0,3.8
+Professor,198297,Prakash,Ravi,,8700.0,1337.0,39.0,18.0,67.0,28.0,54.0,ECS,Computer Science,good,48.0,3.8
+Professor,232837,Prasad,Shalini,,4811.0,3246.0,34.0,28.0,105.0,81.0,44.0,ECS,Engineering,good,2.0,3.5
+Professor,257708,Price,Theodore,J,9942.0,6717.0,55.0,46.0,144.0,136.0,47.0,BBS,Neuroscience,good,18.0,4.1
+Assoc. Prof. Of Instruction,78536,Pujana,Ignacio,,499.0,280.0,13.0,8.0,13.0,7.0,59.0,NSM,Geology,average,118.0,3.1
+Associate Professor,206968,Qi,Anyan,,254.0,248.0,9.0,9.0,8.0,8.0,54.0,JSOM,Operations Management,good,49.0,4.8
+Professor,225941,Qian,Cuili,,4146.0,3438.0,12.0,12.0,13.0,12.0,54.0,JSOM,International Business,average,13.0,3.2
+Professor,197358,Qian,Dong,,9307.0,4974.0,45.0,33.0,93.0,77.0,50.0,ECS,Engineering,good,6.0,4.3
+Associate Professor,166771,Qin,Zhenpeng,,1978.0,1534.0,18.0,18.0,22.0,22.0,37.0,ECS,Engineering,good,3.0,4.0
+Professor,142270,Qiu,Fang,,4458.0,2482.0,39.0,27.0,83.0,69.0,54.0,EPPS,Geography,poor,1.0,1.0
+Professor,235124,Quevedo-lopez,Manuel,Q,6885.0,3408.0,43.0,27.0,173.0,93.0,54.0,NSM,,good,16.0,3.6
+Professor,447517,Radhakrishnan,Suresh,,9268.0,4880.0,31.0,25.0,57.0,41.0,64.0,JSOM,Business,good,13.0,4.2
+Professor,382138,Raghunathan,Srinivasan,,7284.0,3211.0,39.0,30.0,66.0,52.0,60.0,JSOM,Business,good,25.0,3.7
+Assist. Prof. Of Instruction,89689,Ramezani,Rasoul,,7.0,7.0,1.0,1.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Professor,341883,Rao,Ram,C,3937.0,1037.0,28.0,16.0,42.0,27.0,67.0,JSOM,,good,16.0,3.6
+Professor,67822,Ratchford,Brian,T,11240.0,3145.0,47.0,32.0,83.0,59.0,80.0,JSOM,,good,16.0,3.6
+Professor,93278,Riccio,Thomas,P,88.0,30.0,6.0,3.0,2.0,0.0,66.0,AHT,Theater,average,12.0,3.3
+Assoc. Prof. Of Instruction,103701,Rios,Oziel,,111.0,77.0,5.0,5.0,1.0,1.0,42.0,ECS,Engineering,average,44.0,3.3
+Professor,128535,Rollins,Pamela,R,1990.0,679.0,19.0,14.0,24.0,17.0,63.0,BBS,,good,16.0,3.6
+Associate Professor,164016,Ruozzi,Nicholas,R,382.0,270.0,12.0,10.0,13.0,10.0,54.0,ECS,Computer Science,good,16.0,4.0
+Assistant Professor,111226,Ruths,Justin,,2591.0,2088.0,26.0,22.0,41.0,38.0,40.0,ECS,Engineering,average,18.0,2.9
+Professor,184829,Rypma,Bart,P,12727.0,4322.0,40.0,32.0,74.0,62.0,61.0,BBS,Neuroscience,good,19.0,3.7
+Professor,370225,Sadka,Gil,,2230.0,1020.0,18.0,14.0,27.0,16.0,43.0,JSOM,Accounting,good,15.0,4.4
+Professor,424621,Sarkar,Sumit,,3324.0,1043.0,29.0,20.0,48.0,27.0,65.0,JSOM,Information Science,poor,14.0,2.5
+Professor,109331,Sasson,Noah,J,7323.0,4800.0,38.0,38.0,57.0,56.0,47.0,BBS,Psychology,good,65.0,4.7
+Assist. Prof. Of Instruction,79036,Satpute,Meghana,N,144.0,140.0,5.0,4.0,4.0,4.0,54.0,ECS,Computer Science,average,30.0,2.6
+Professor,196099,Schmidtke,David,W,6304.0,2083.0,31.0,23.0,49.0,43.0,54.0,ECS,Engineering,good,2.0,4.5
+Professor,145825,Schweitzer,Haim,,987.0,229.0,15.0,8.0,19.0,7.0,62.0,ECS,Computer Science,average,23.0,3.0
+Assist. Prof. Of Instruction,126127,Shekhar,Gaurav,,7.0,7.0,2.0,2.0,0.0,0.0,34.0,JSOM,,good,16.0,3.6
+Assistant Professor,93323,Shin,Sunyoung,,814.0,805.0,7.0,7.0,6.0,6.0,37.0,NSM,,good,16.0,3.6
+Assistant Professor,152595,Siegenthaler,Simon,,92.0,91.0,5.0,5.0,2.0,2.0,54.0,JSOM,Business,good,5.0,5.0
+Associate Professor,238974,Singh,Harpreet,,489.0,363.0,7.0,7.0,7.0,7.0,34.0,JSOM,Information Science,good,27.0,4.1
+Professor,124841,Skaggs,Sheryl,L,1870.0,933.0,16.0,12.0,22.0,13.0,47.0,EPPS,Sociology,good,12.0,4.8
+Associate Professor,114233,Slinker,Jason,D,5877.0,2372.0,35.0,26.0,50.0,45.0,43.0,NSM,Physics,good,62.0,3.8
+Professor,131104,Solodkin,Ana,J,7878.0,2894.0,43.0,30.0,61.0,49.0,66.0,BBS,Neuroscience,poor,22.0,2.3
+Professor,155465,Spence,Melanie,J,3219.0,753.0,21.0,11.0,25.0,12.0,54.0,BBS,Psychology,average,6.0,2.6
+Professor,238390,Spiro,Stephen,,7119.0,1483.0,45.0,21.0,75.0,43.0,54.0,NSM,Biology,good,18.0,4.4
+Professor,378532,Spong,Mark,W,44638.0,12495.0,85.0,47.0,218.0,131.0,69.0,ECS,Electrical Engineering,good,3.0,4.3
+Assistant Professor,99471,Stoneback,Russell,A,783.0,521.0,15.0,12.0,25.0,19.0,54.0,NSM,Physics,poor,20.0,1.9
+Professor,217904,Sul,Donggyu,,6843.0,3265.0,27.0,20.0,33.0,27.0,56.0,EPPS,,good,16.0,3.6
+Associate Professor,161572,Summers,Tyler,H,2909.0,2272.0,27.0,25.0,61.0,57.0,40.0,ECS,,good,16.0,3.6
+Senior Lecturer I,64125,Sun,Kuei,,672.0,475.0,18.0,13.0,20.0,14.0,43.0,NSM,Physics,good,27.0,4.3
+Professor Of Instruction,127197,Tacca,Marco,,1546.0,343.0,20.0,9.0,41.0,6.0,46.0,ECS,Engineering,good,12.0,4.1
+Associate Professor,130438,Tadesse,Yonas,T,2196.0,1547.0,26.0,22.0,51.0,44.0,44.0,ECS,Engineering,average,10.0,2.6
+Professor,292827,Takeuchi,Riki,,11046.0,6160.0,34.0,32.0,43.0,40.0,54.0,JSOM,Management,poor,2.0,1.5
+Professor,182610,Tamil,Lakshman,S,3544.0,1132.0,29.0,19.0,57.0,27.0,63.0,ECS,Engineering,good,22.0,4.0
+Assistant Professor,101175,Tang,Chuan-fa,,14.0,14.0,2.0,2.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Associate Professor,199867,Tang,Shaojie,,9605.0,5944.0,47.0,39.0,176.0,128.0,54.0,JSOM,Information Science,average,11.0,2.8
+Assistant Professor,271529,Tang,Xiaoxiao,,98.0,98.0,4.0,4.0,2.0,2.0,54.0,JSOM,Finance,poor,3.0,2.0
+Clinical Professor,159352,Thouin,Mark,F,678.0,430.0,8.0,7.0,5.0,5.0,52.0,JSOM,Business,good,84.0,3.8
+Professor,360514,Thuraisingham,Bhavani,M,16013.0,6098.0,65.0,40.0,264.0,134.0,69.0,ECS,Computer Science,average,24.0,3.4
+Professor,175501,Torlak,Murat,,2301.0,1357.0,20.0,14.0,38.0,20.0,52.0,ECS,Electrical Engineering,poor,11.0,1.5
+Professor,97895,Turi,Janos,,1969.0,514.0,24.0,11.0,45.0,16.0,69.0,NSM,Mathematics,poor,11.0,2.3
+Associate Professor,173756,Vandenberghe,William,G,4428.0,2963.0,31.0,25.0,61.0,52.0,32.0,ECS,Electrical Engineering,good,17.0,4.5
+Assistant Professor,216931,Venkataraman,Ashwin,,173.0,159.0,5.0,5.0,5.0,5.0,54.0,JSOM,,good,16.0,3.6
+Associate Professor,51577,Voit,Walter,E,4504.0,3466.0,32.0,30.0,64.0,61.0,39.0,ECS,,good,16.0,3.6
+Associate Professor,205266,Wang,Shouqiang,,320.0,260.0,12.0,11.0,12.0,12.0,54.0,JSOM,,good,16.0,3.6
+Associate Professor,96156,Warren,Shilyh,J,40.0,31.0,4.0,4.0,2.0,1.0,48.0,AHT,,good,16.0,3.6
+Assistant Professor,146793,Wei,Shiyi,,775.0,688.0,11.0,10.0,11.0,10.0,54.0,ECS,Computer Science,good,10.0,4.5
+Associate Professor,88461,Wickberg,Daniel,B,740.0,334.0,7.0,6.0,7.0,5.0,62.0,AHT,History,average,32.0,3.3
+Assist. Prof. Of Instruction,55626,Wijenayake,Sumudu,N,363.0,248.0,6.0,6.0,6.0,6.0,54.0,NSM,Chemistry,good,27.0,4.5
+Assistant Professor,96288,Williams,Nathan,F,527.0,350.0,12.0,11.0,14.0,12.0,36.0,NSM,Mathematics,good,8.0,4.5
+Senior Lecturer I,44174,Winter,Patrick,M,7688.0,1530.0,41.0,22.0,62.0,45.0,54.0,ECS,Engineering,poor,16.0,2.0
+Professor,141272,Worrall,John,L,3930.0,1849.0,36.0,25.0,71.0,48.0,54.0,EPPS,,good,16.0,3.6
+Assistant Professor,83553,Wu,Hong-an,,49.0,45.0,2.0,2.0,2.0,2.0,33.0,AHT,,good,16.0,3.6
+Assistant Professor,184929,Wu,Junfeng,,1064.0,998.0,9.0,9.0,9.0,9.0,54.0,JSOM,Business,good,6.0,4.5
+Associate Professor,296419,Xia,Han,,1094.0,756.0,9.0,8.0,9.0,8.0,38.0,JSOM,Finance,good,10.0,4.9
+Professor,226387,Xia,Jun,,2062.0,1471.0,21.0,18.0,26.0,24.0,54.0,JSOM,Management,poor,1.0,1.0
+Professor,260505,Xie,Ying,,1400.0,862.0,14.0,12.0,16.0,15.0,26.0,JSOM,Marketing,average,12.0,2.5
+Associate Professor,116364,Xuan,Zhenyu,,19971.0,9119.0,42.0,32.0,62.0,47.0,49.0,NSM,,good,16.0,3.6
+Assistant Professor,151696,Yang,Wei,,2349.0,1928.0,19.0,19.0,24.0,24.0,54.0,ECS,Computer Science,average,8.0,3.3
+Research Assistant Professor,96525,Yu,Mengxiao,,12113.0,5730.0,48.0,42.0,63.0,60.0,40.0,NSM,,good,16.0,3.6
+Assoc. Prof. Of Instruction,89486,Yuruk,Nurcan,,1349.0,604.0,7.0,5.0,5.0,5.0,54.0,ECS,,good,16.0,3.6
+Assistant Professor,112404,Zare,Armin,,458.0,428.0,12.0,12.0,15.0,14.0,54.0,ECS,,good,16.0,3.6
+Associate Professor,187617,Zentner,Alejandro,,1578.0,589.0,14.0,13.0,18.0,17.0,47.0,JSOM,Economics,average,1.0,3.0
+Professor,233664,Zhang,Chuanwei,,7637.0,4206.0,46.0,33.0,107.0,82.0,44.0,NSM,Physics,poor,9.0,1.2
+Associate Professor,154752,Zhang,Fan,,7934.0,5777.0,44.0,39.0,72.0,68.0,38.0,NSM,Physics,average,25.0,2.7
+Associate Professor,203905,Zhang,Jie,,5103.0,4149.0,40.0,38.0,101.0,87.0,38.0,ECS,Engineering,average,3.0,2.7
+Associate Professor,323010,Zhang,Jieying,,5120.0,3732.0,17.0,14.0,23.0,19.0,54.0,JSOM,Accounting,good,12.0,4.5
+Professor,78470,Zhang,Kang,,3903.0,1350.0,33.0,19.0,110.0,42.0,62.0,ECS,Computer Science,good,24.0,3.5
+Professor,289274,Zhang,Li,,4167.0,1410.0,38.0,20.0,57.0,36.0,60.0,NSM,,good,16.0,3.6
+Associate Professor,312300,Zhang,Yuan,,2564.0,1370.0,14.0,12.0,16.0,13.0,46.0,JSOM,,good,16.0,3.6
+Assistant Professor,203948,Zhang,Zhe,,342.0,308.0,8.0,7.0,8.0,6.0,54.0,JSOM,,good,16.0,3.6
+Associate Professor,295612,Zhao,Feng,,1042.0,375.0,9.0,9.0,9.0,9.0,46.0,JSOM,,good,16.0,3.6
+Associate Professor,132607,Zhu,Hejun,,1698.0,1325.0,21.0,21.0,36.0,34.0,39.0,NSM,,good,16.0,3.6
+Professor,140252,Zweck,John,W,1710.0,477.0,17.0,8.0,33.0,6.0,56.0,NSM,,good,16.0,3.6
+Assist. Prof. Of Instruction,56745,Adabrah,Anani,K,14.0,14.0,2.0,2.0,1.0,1.0,54.0,NSM,Mathematics,good,13.0,3.8
+Assoc. Prof. Of Instruction,123771,Ali,Tariq,M,148.0,60.0,7.0,5.0,6.0,2.0,54.0,ECS,Engineering,good,11.0,4.5
+Professor,264798,Balsara,Poras,T,6503.0,1945.0,35.0,19.0,86.0,41.0,64.0,ECS,,good,16.0,3.6
+Associate Professor,116724,Biewer,Michael,C,2665.0,1426.0,31.0,21.0,62.0,43.0,54.0,NSM,Chemistry,average,49.0,3.3
+Clinical Assistant Professor,148343,Bradbury,Judd,D,21.0,20.0,2.0,2.0,1.0,1.0,53.0,JSOM,Business,poor,77.0,2.5
+Clinical Associate Professor,62005,Brewer,Kenneth,L,14.0,4.0,3.0,1.0,0.0,0.0,57.0,AHT,,good,16.0,3.6
+Assist. Prof. Of Instruction,54624,Brown,Katherine,G,1074.0,388.0,12.0,8.0,12.0,6.0,54.0,ECS,,good,16.0,3.6
+Assistant Professor,135065,Burton,Michael,D,1842.0,1636.0,24.0,23.0,39.0,38.0,38.0,BBS,Neuroscience,poor,4.0,2.3
+Assistant Professor,94223,Chiou,Sy,H,316.0,285.0,11.0,11.0,12.0,11.0,54.0,NSM,,good,16.0,3.6
+Associate Professor,114819,Cooley,Heidi,R,244.0,122.0,7.0,5.0,4.0,3.0,54.0,AHT,,good,16.0,3.6
+Assoc. Prof. Of Instruction,125306,Davis,Chris,I,79.0,45.0,5.0,4.0,2.0,1.0,39.0,ECS,Computer Science,average,60.0,3.1
+Senior Lecturer I,54755,Dissanayake,Dushanthi,S,114.0,96.0,4.0,4.0,3.0,3.0,54.0,NSM,Chemistry,good,10.0,4.0
+Professor,114537,Dowling,Walter,J,8675.0,1509.0,38.0,23.0,62.0,36.0,81.0,BBS,,good,16.0,3.6
+Professor,141095,Evans,Julia,L,7167.0,2914.0,42.0,27.0,66.0,51.0,54.0,BBS,,good,16.0,3.6
+Professor,64020,Ferguson,John,F,1488.0,295.0,19.0,10.0,32.0,10.0,71.0,NSM,Geology,zero,0.0,3.6
+Professor,232117,Filbey,Francesca,M,6372.0,3435.0,39.0,32.0,78.0,68.0,49.0,BBS,,good,16.0,3.6
+Clinical Assistant Professor,36435,Fowler,Stephanie,L,11.0,11.0,1.0,1.0,1.0,1.0,30.0,BBS,,good,16.0,3.6
+Assistant Professor,122626,Friedman,Joseph,S,947.0,850.0,18.0,17.0,28.0,25.0,54.0,ECS,Engineering,poor,10.0,1.9
+Associate Professor,115201,Gassensmith,Jeremiah,J,4413.0,2906.0,31.0,25.0,51.0,46.0,41.0,NSM,,good,16.0,3.6
+Professor,80222,Gel,Yulia,R,4226.0,3179.0,28.0,25.0,62.0,53.0,54.0,NSM,,good,16.0,3.6
+Professor,114264,Golden,Richard,M,2672.0,783.0,24.0,12.0,44.0,19.0,62.0,BBS,Behavioral Sciences,good,11.0,4.2
+Assistant Professor,83884,Gray,Thomas,R,98.0,94.0,5.0,5.0,3.0,3.0,37.0,EPPS,Political Science,good,19.0,4.6
+Assoc. Prof. Of Instruction,69587,Griffin,William,R,305.0,156.0,7.0,6.0,6.0,6.0,59.0,NSM,,good,16.0,3.6
+Professor,102459,Gu,Ming,D,713.0,354.0,14.0,8.0,20.0,7.0,57.0,AHT,,good,16.0,3.6
+Professor,468451,Gurun,Umit,G,2731.0,2095.0,20.0,19.0,29.0,25.0,47.0,JSOM,Accounting,good,28.0,3.8
+Professor,150784,Harabagiu,Sanda,M,9553.0,2525.0,48.0,25.0,114.0,57.0,61.0,ECS,,good,16.0,3.6
+Assoc. Prof. Of Instruction,91511,Heins,Matthew,S,198.0,38.0,9.0,4.0,8.0,1.0,54.0,ECS,Electrical Engineering,good,13.0,4.5
+Assistant Professor,277925,Huang,Ying,,315.0,312.0,4.0,4.0,4.0,4.0,54.0,JSOM,,good,16.0,3.6
+Professor,233167,Huynh,Dung,T,2870.0,457.0,22.0,10.0,40.0,11.0,67.0,ECS,Computer Science,good,15.0,3.6
+Associate Professor,161794,Iungo,Giacomo,V,1710.0,1383.0,23.0,21.0,36.0,35.0,41.0,ECS,,good,16.0,3.6
+Professor,114987,Jacobs,Bruce,A,4102.0,1661.0,26.0,22.0,36.0,29.0,55.0,EPPS,,good,16.0,3.6
+Associate Professor,187976,Kennedy,Kristen,M,11326.0,5673.0,45.0,37.0,68.0,65.0,54.0,BBS,Behavioral Sciences,good,9.0,4.2
+Associate Professor,245957,Kim,Tae,H,13324.0,4262.0,28.0,24.0,33.0,31.0,54.0,NSM,Biology,good,1.0,5.0
+Professor,202733,Krawczyk,Daniel,C,4747.0,2523.0,31.0,26.0,48.0,44.0,46.0,BBS,,good,16.0,3.6
+Professor,179401,Lary,David,J,5657.0,2210.0,34.0,20.0,80.0,49.0,57.0,NSM,Physics,average,17.0,3.1
+Associate Professor,102854,Maguire,Mandy,J,2454.0,1150.0,25.0,20.0,43.0,32.0,46.0,BBS,,good,16.0,3.6
+Professor,167050,Majumdar,Sumit,K,6906.0,2186.0,36.0,20.0,80.0,33.0,69.0,JSOM,,good,16.0,3.6
+Professor,229036,Malina,Roger,F,12287.0,2149.0,53.0,21.0,133.0,38.0,72.0,AHT,,good,16.0,3.6
+Associate Professor,129592,Maxwell,Sarah,P,264.0,206.0,8.0,6.0,8.0,5.0,54.0,EPPS,Criminal Justice,good,12.0,4.9
+Clinical Professor,83271,Mccaskill,John,R,441.0,247.0,6.0,6.0,6.0,6.0,59.0,EPPS,,good,16.0,3.6
+Professor,108365,Mclean,Adrienne,L,578.0,189.0,12.0,8.0,14.0,5.0,65.0,AHT,,good,16.0,3.6
+Assoc. Prof. Of Instruction,96409,Meyer,Clark,A,659.0,300.0,12.0,10.0,13.0,10.0,54.0,ECS,Engineering,average,8.0,2.7
+Assistant Professor,129126,Misra,Jyoti,R,658.0,519.0,5.0,5.0,4.0,4.0,54.0,NSM,,good,16.0,3.6
+Professor,165263,Moller,Aage,R,21168.0,3513.0,85.0,31.0,260.0,95.0,79.0,BBS,,good,16.0,3.6
+Professor,224276,Nguyen,Tien,N,9647.0,6080.0,50.0,40.0,154.0,111.0,54.0,ECS,Computer Science,poor,10.0,1.1
+Professor,236276,O'toole,Alice,J,12578.0,4351.0,57.0,39.0,112.0,81.0,61.0,BBS,,good,16.0,3.6
+Assoc. Prof. Of Instruction,79563,Patel,Jigarkumar,S,4.0,3.0,1.0,1.0,0.0,0.0,54.0,NSM,Mathematics,good,11.0,4.0
+Senior Lecturer I,57660,Paudel,Ajaya,B,2.0,2.0,1.0,1.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Professor,471262,Peng,Mike,W,57713.0,27347.0,93.0,77.0,168.0,147.0,53.0,JSOM,Management,good,16.0,4.4
+Professor,121106,Prager,Karen,J,2956.0,712.0,20.0,11.0,26.0,11.0,71.0,IS,Psychology,average,54.0,2.9
+Associate Professor,137149,Raichel,Benjamin,A,400.0,280.0,10.0,9.0,11.0,9.0,54.0,ECS,,good,16.0,3.6
+Professor,133358,Reitzer,Lawrence,J,6314.0,1322.0,34.0,20.0,45.0,28.0,71.0,NSM,,good,16.0,3.6
+Associate Professor,157976,Rodrigue,Karen,M,15234.0,7901.0,49.0,40.0,77.0,72.0,54.0,BBS,,good,16.0,3.6
+Professor,341866,Rotea,Mario,A,6106.0,2033.0,31.0,23.0,79.0,43.0,61.0,ECS,,good,16.0,3.6
+Professor,382745,Rugg,Michael,D,49102.0,12728.0,116.0,59.0,277.0,213.0,68.0,BBS,Behavioral Sciences,average,2.0,2.8
+Assistant Professor,106395,Seaman,Kendra,L,329.0,317.0,10.0,9.0,10.0,8.0,42.0,BBS,Behavioral Sciences,poor,10.0,1.7
+Assistant Professor,142668,Sirsi,Shashank,R,4002.0,1906.0,28.0,21.0,39.0,33.0,54.0,ECS,Biology,zero,0.0,3.6
+Associate Professor,106344,Smaldone,Ronald,A,3525.0,2445.0,26.0,23.0,40.0,37.0,41.0,NSM,,good,16.0,3.6
+Professor,132049,Stern,Robert,J,36128.0,18333.0,98.0,65.0,301.0,252.0,70.0,NSM,Geology,average,8.0,3.0
+Assistant Professor,101207,Swanson,Meghan,R,2399.0,2229.0,19.0,18.0,29.0,24.0,32.0,BBS,Psychology,good,1.0,4.0
+Professor,190830,Taylor,Robert,W,1564.0,459.0,14.0,8.0,16.0,8.0,71.0,EPPS,Criminal Justice,good,11.0,4.2
+Assistant Professor,214247,Tehrani,Shervin,S,31.0,26.0,3.0,2.0,1.0,1.0,54.0,JSOM,Business,good,7.0,3.7
+Associate Professor,114121,Thompson,Lucien,T,4429.0,941.0,27.0,16.0,39.0,22.0,63.0,BBS,Neuroscience,good,9.0,4.4
+Associate Professor,106681,Valcarcel,Victor,J,421.0,314.0,11.0,9.0,11.0,7.0,36.0,EPPS,Economics,average,29.0,3.0
+Professor,372163,Wallace,Robert,M,48447.0,21678.0,94.0,65.0,355.0,212.0,62.0,ECS,Engineering,poor,3.0,1.0
+Clinical Professor,186900,Woldu,Habte,G,622.0,427.0,8.0,5.0,7.0,5.0,63.0,JSOM,,good,16.0,3.6
+Associate Professor,123509,Young,Chadwin,D,5020.0,1741.0,40.0,21.0,122.0,46.0,48.0,ECS,,good,16.0,3.6
+Professor,343732,Zhang,Michael,Q,57020.0,23157.0,102.0,67.0,337.0,235.0,63.0,NSM,Biology,poor,1.0,2.0
+Professor,230743,Prabhakaran,Balakrishnan,,3793.0,1315.0,32.0,18.0,95.0,36.0,58.0,ECS,Computer Science,poor,8.0,2.1
+Associate Professor,141289,Zalila-wenkstern,Rym,,1247.0,225.0,16.0,9.0,30.0,9.0,54.0,ECS,,good,16.0,3.6
+Senior Lecturer I,88346,Enayaty,A,Negin,16.0,16.0,2.0,2.0,1.0,1.0,54.0,JSOM,,good,16.0,3.6
+Professor,167600,Minkoff,Susan,E,1730.0,690.0,19.0,12.0,27.0,15.0,58.0,NSM,,good,16.0,3.6
+Assistant Professor,76180,Admiral,Rosemary,G,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,History,good,5.0,4.8
+Clinical Assistant Professor,28889,Ahlberg,Mehrzad,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Associate Professor,184183,Ahn,Jung-mo,,0.0,0.0,0.0,0.0,0.0,0.0,52.0,NSM,,good,16.0,3.6
+Assoc. Prof. Of Instruction,79153,Ahsan,Mohammad,K,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Mathematics,average,48.0,3.2
+Clinical Associate Professor,117028,Akbar,Mohammad,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Mathematics,good,55.0,4.3
+Assoc. Prof. Of Instruction,94156,Alagar,Sridhar,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Computer Science,average,45.0,2.6
+Clinical Associate Professor,172696,Alborz,Shawn,,0.0,0.0,0.0,0.0,0.0,0.0,45.0,JSOM,Business,good,576.0,4.7
+Professor Of Instruction,87931,Aldridge,Michelle,A,0.0,0.0,0.0,0.0,0.0,0.0,52.0,BBS,Health Science,good,25.0,4.8
+Associate Professor,55338,Alexander,Bobby,C,0.0,0.0,0.0,0.0,0.0,0.0,71.0,EPPS,Sociology,good,26.0,4.0
+Assoc. Prof. Of Instruction,91867,Ali,Md,Z,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Visiting Assistant Professor,50793,Alibhai,Aliasgar,H,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Clinical Assistant Professor,119369,Alimirzaei,Athena,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Operations Management,good,63.0,3.6
+Senior Lecturer I,57940,Alvarado,Iris,L,0.0,0.0,0.0,0.0,0.0,0.0,33.0,NSM,Mathematics,good,8.0,4.1
+Assoc. Prof. Of Instruction,62698,Aman,Kelly,C,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Mathematics,good,15.0,4.5
+Assoc. Prof. Of Instruction,50679,Amato,Lawrence,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Philosophy,good,73.0,4.0
+Professor Of Instruction,74169,Amirpour,Semiramis,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Marketing,good,37.0,3.7
+Associate Professor,87494,Andreescu,Titu,,0.0,0.0,0.0,0.0,0.0,0.0,64.0,NSM,Mathematics,good,12.0,3.5
+Assoc. Prof. Of Instruction,54332,Anjum,Zafar,,0.0,0.0,0.0,0.0,0.0,0.0,60.0,AHT,Humanities,good,28.0,4.3
+Assoc. Prof. Of Instruction,92500,Ardestani,Khoubrouy,S,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Assoc. Prof. Of Instruction,97650,Arnold,Gordon,L,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Assoc. Prof. Of Instruction,112335,Arora,Vivek,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Management,good,33.0,3.9
+Assistant Professor,104988,Arreche,Carlos,,0.0,0.0,0.0,0.0,0.0,0.0,36.0,NSM,Mathematics,good,5.0,4.4
+Professor,131594,Assmann,Peter,F,0.0,0.0,0.0,0.0,0.0,0.0,68.0,BBS,Psychology,average,81.0,3.0
+Assist. Prof. Of Instruction,38594,Atchison,Kristin,J,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,Psychology,average,12.0,3.1
+Assist. Prof. Of Instruction,24115,Avram,Danielle,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Associate Professor,218228,Ayvaci,Mehmet,U,0.0,0.0,0.0,0.0,0.0,0.0,41.0,JSOM,Management,poor,9.0,1.9
+Senior Lecturer I,46492,Baker,Barbara,L,0.0,0.0,0.0,0.0,0.0,0.0,72.0,AHT,Communication,poor,46.0,2.5
+Professor,108099,Balanov,Zalman,I,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Mathematics,good,22.0,3.9
+Associate Professor,173899,Balbueno,Contreira,R,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Professor,333108,Balsamo,Anne,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Arts amp Technology,poor,10.0,2.3
+Clinical Professor,219350,Barden,John,P,0.0,0.0,0.0,0.0,0.0,0.0,61.0,JSOM,Accounting,good,108.0,3.9
+Assistant Professor,81946,Barnes,Ashley,,0.0,0.0,0.0,0.0,0.0,0.0,44.0,AHT,Literature,average,15.0,3.4
+Professor,227301,Bastani,Farokh,B,0.0,0.0,0.0,0.0,0.0,0.0,67.0,ECS,Computer Science,average,5.0,3.0
+Professor,132244,Battaglio,Randy,P,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Professor,379223,Baughman,Ray,H,0.0,0.0,0.0,0.0,0.0,0.0,80.0,NSM,,good,16.0,3.6
+Assist. Prof. Of Instruction,87741,Baynham,Karen,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Senior Lecturer I,97883,Becker,Eric,W,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Professor Of Instruction,123668,Bell,Elizabeth,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Communication,poor,3.0,1.9
+Assoc. Prof. Of Practice,106200,Benavides,Teodoro,J,0.0,0.0,0.0,0.0,0.0,0.0,71.0,EPPS,Political Science,good,8.0,4.5
+Visiting Assistant Professor,51960,Bennett,Rodger,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Music,good,10.0,3.9
+Senior Lecturer I,45417,Bennett,Terrell,R,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Electrical Engineering,average,5.0,3.4
+Assistant Professor,112098,Bernal,Montoya,R,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Clinical Professor,109899,Berrett,Britt,R,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Clinical Assistant Professor,88173,Betanzos,Christina,L,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Law,good,114.0,3.5
+Clinical Professor,226944,Biswas,Abhijit,,0.0,0.0,0.0,0.0,0.0,0.0,63.0,JSOM,Business,good,209.0,4.8
+Professor,157032,Biswas,Swati,,0.0,0.0,0.0,0.0,0.0,0.0,50.0,NSM,Statistics,average,21.0,3.1
+Clinical Assistant Professor,102317,Blueshtein,Moran,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Professor,326155,Bolton,Gary,,0.0,0.0,0.0,0.0,0.0,0.0,61.0,JSOM,Operations Management,good,1.0,5.0
+Professor,174684,Boots,Denise,P,0.0,0.0,0.0,0.0,0.0,0.0,49.0,EPPS,Public Policy,good,49.0,4.9
+Professor Of Practice,160233,Bortz,Tiffany,A,0.0,0.0,0.0,0.0,0.0,0.0,50.0,JSOM,Accounting,good,68.0,3.8
+Professor Of Practice,92843,Bose,Ranavir,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Information Science,poor,17.0,2.4
+Assoc. Prof. Of Practice,36768,Bowen,Richard,M,0.0,0.0,0.0,0.0,0.0,0.0,74.0,JSOM,Accounting,average,43.0,3.1
+Clinical Professor,163592,Brady,Pamela,F,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Assist. Prof. Of Instruction,63526,Braitsch,Caitlin,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Biology,good,7.0,5.0
+Associate Professor,71119,Brikowski,Thomas,H,0.0,0.0,0.0,0.0,0.0,0.0,65.0,NSM,,good,16.0,3.6
+Professor Of Instruction,97619,Brody,Salena,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,Psychology,good,35.0,4.5
+Professor,128396,Brown,Matthew,J,0.0,0.0,0.0,0.0,0.0,0.0,41.0,AHT,Humanities,average,9.0,3.2
+Associate Professor,231869,Bruce,Norris,I,0.0,0.0,0.0,0.0,0.0,0.0,53.0,JSOM,Marketing,average,18.0,3.2
+Assoc. Prof. Of Instruction,135828,Brussolo,Monica,E,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Business,average,94.0,3.5
+Associate Professor,69168,Bunte,Jonas,B,0.0,0.0,0.0,0.0,0.0,0.0,54.0,EPPS,Economics,good,14.0,5.0
+Associate Professor,115523,Burr,John,G,0.0,0.0,0.0,0.0,0.0,0.0,77.0,NSM,Biology,average,54.0,3.2
+Professor,139814,Burrough,Christine,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Professor,179793,Busso,Recabarren,C,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Assoc. Prof. Of Instruction,88342,Byrnes,Kathleen,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,IS,Health Science,average,47.0,2.8
+Professor,245280,Cakanyildirim,Metin,,0.0,0.0,0.0,0.0,0.0,0.0,51.0,JSOM,Business,average,10.0,2.5
+Assoc. Prof. Of Instruction,88377,Caldwell,Bryon,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Arts & Technology,good,1.0,5.0
+Assoc. Prof. Of Instruction,86429,Camacho,Christopher,J,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Arts  Technology,good,8.0,4.5
+Professor Of Instruction,76640,Camacho,Guardado,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Associate Professor,150969,Campbell,Zachary,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Biology,good,27.0,3.8
+Assoc. Prof. Of Instruction,86387,Candas,Mehmet,,0.0,0.0,0.0,0.0,0.0,0.0,59.0,NSM,Biology,average,79.0,3.0
+Professor Of Instruction,103573,Cankaya,Ebru,,0.0,0.0,0.0,0.0,0.0,0.0,50.0,ECS,Computer Science,good,60.0,3.9
+Associate Professor,94221,Cao,Yan,,0.0,0.0,0.0,0.0,0.0,0.0,48.0,NSM,Mathematics,poor,21.0,2.3
+Clinical Professor,102611,Carraher,Shawn,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Management,good,3.0,3.7
+Assoc. Prof. Of Practice,83048,Carter,Jessica,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Professor,194388,Chan,Julia,Y,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Chemistry,good,4.0,5.0
+Senior Lecturer I,74929,Chandler,Adam,W,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Arts amp Technology,good,7.0,4.4
+Professor,236015,Chandrasekaran,Ramaswamy,,0.0,0.0,0.0,0.0,0.0,0.0,81.0,ECS,Computer Science,good,39.0,4.1
+Senior Lecturer I,4497,Chapman,Juliann,G,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Finance,good,22.0,4.4
+Clinical Assistant Professor,68401,Chatterjee,Sourav,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,,Business,good,11.0,3.9
+Assoc. Prof. Of Instruction,55232,Chen,Bei,,0.0,0.0,0.0,0.0,0.0,0.0,44.0,AHT,Languages,good,7.0,4.8
+Assoc. Prof. Of Instruction,83749,Chida,Anjum,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Computer Science,average,78.0,3.4
+Assoc. Prof. Of Instruction,87383,Chin,Wei-pang,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Assistant Professor,209182,Chiong,Khai,X,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Professor,214763,Chiu,Yun,,0.0,0.0,0.0,0.0,0.0,0.0,51.0,ECS,Engineering,poor,12.0,2.1
+Professor,236029,Cho,Kyeongjae,,0.0,0.0,0.0,0.0,0.0,0.0,58.0,ECS,Engineering,poor,2.0,2.0
+Assistant Professor,172525,Choi,Emily,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Business,good,23.0,4.5
+Professor,166165,Choudhary,Pankaj,K,0.0,0.0,0.0,0.0,0.0,0.0,48.0,NSM,Computer Science,good,24.0,3.8
+Assoc. Prof. Of Instruction,114542,Christiansen,Michael,G,0.0,0.0,0.0,0.0,0.0,0.0,60.0,ECS,Computer Science,average,96.0,2.7
+Clinical Professor,72661,Christopher,Timothy,V,0.0,0.0,0.0,0.0,0.0,0.0,43.0,AHT,Arts & Technology,average,6.0,3.3
+Clinical Professor,104161,Clark,Jackie,L,0.0,0.0,0.0,0.0,0.0,0.0,69.0,BBS,Health Science,average,6.0,3.3
+Professor,221231,Clarke,Harold,D,0.0,0.0,0.0,0.0,0.0,0.0,54.0,EPPS,Political Science,good,1.0,5.0
+Assoc. Prof. Of Instruction,72432,Cogan,Diana,L,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Mathematics,average,59.0,3.1
+Clinical Professor,117588,Cokely,Carol,G,0.0,0.0,0.0,0.0,0.0,0.0,64.0,BBS,,good,16.0,3.6
+Professor Of Instruction,141959,Cole,John,P,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Computer Science,average,135.0,3.3
+Clinical Professor,103638,Convery,Paul,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Lecturer Ii,5405,Cook,Julie,D,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Assoc. Prof. Of Instruction,67694,Cortes,Sergio,,0.0,0.0,0.0,0.0,0.0,0.0,72.0,NSM,Chemistry,good,70.0,3.6
+Professor,96013,Cotter,Sean,J,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Humanities,average,45.0,2.8
+Professor,417726,Cready,William,M,0.0,0.0,0.0,0.0,0.0,0.0,66.0,JSOM,Accounting,poor,12.0,1.4
+Associate Professor,126125,Cummings,Anthony,R,0.0,0.0,0.0,0.0,0.0,0.0,45.0,EPPS,Geography,average,21.0,3.0
+Professor,102546,Curchack,Fred,,0.0,0.0,0.0,0.0,0.0,0.0,80.0,AHT,Humanities,average,18.0,3.5
+Associate Professor,98102,D'orazio,Vito,,0.0,0.0,0.0,0.0,0.0,0.0,36.0,EPPS,,good,16.0,3.6
+Associate Professor,159296,Da,Silveira,R,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Senior Lecturer I,55861,Dabkowska,Malgorzata,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Mathematics,average,40.0,3.5
+Professor,138179,Dabkowski,Mieczyslaw,K,0.0,0.0,0.0,0.0,0.0,0.0,46.0,NSM,Mathematics,good,39.0,4.3
+Professor,220782,Daescu,Ovidiu,,0.0,0.0,0.0,0.0,0.0,0.0,53.0,ECS,Computer Science,average,25.0,3.1
+Senior Lecturer I,62189,Dahal,Rabin,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Associate Professor,219419,Dai,Zhonglan,,0.0,0.0,0.0,0.0,0.0,0.0,39.0,JSOM,Accounting,poor,11.0,1.2
+Assistant Professor,133871,Darcy,Sheena,M,0.0,0.0,0.0,0.0,0.0,0.0,41.0,NSM,,good,16.0,3.6
+Professor,440830,Dawande,Milind,W,0.0,0.0,0.0,0.0,0.0,0.0,53.0,JSOM,Business,good,6.0,3.9
+Associate Professor,112231,De,Jong,J,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Professor,74025,Dean,Denis,J,0.0,0.0,0.0,0.0,0.0,0.0,60.0,EPPS,,good,16.0,3.6
+Professor Of Practice,83745,Dean,Lucinda,L,0.0,0.0,0.0,0.0,0.0,0.0,58.0,BBS,,good,16.0,3.6
+Professor Of Instruction,126736,Degroot,Doug,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Assistant Professor,99337,Denisco,Nicole,J,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Professor,189192,Desmedt,Yvo,G,0.0,0.0,0.0,0.0,0.0,0.0,65.0,ECS,,good,16.0,3.6
+Assist. Prof. Of Instruction,44285,Dickey-laprocido,Galen,L,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Associate Professor,121497,Dieckmann,Gregg,R,0.0,0.0,0.0,0.0,0.0,0.0,56.0,NSM,Chemistry,good,159.0,4.0
+Assist. Prof. Of Instruction,51543,Ding,Hui,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Mathematics,poor,23.0,2.1
+Assist. Prof. Of Instruction,113058,Dollinger,Scott,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Computer Science,average,66.0,3.4
+Senior Lecturer I,79733,Doore,Karen,L,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Computer Science,average,23.0,3.1
+Clinical Professor,114560,Dow,Douglas,C,0.0,0.0,0.0,0.0,0.0,0.0,55.0,EPPS,Political Science,good,29.0,4.1
+Professor,221476,Dragovic,Vladimir,,0.0,0.0,0.0,0.0,0.0,0.0,57.0,NSM,,good,16.0,3.6
+Professor,106659,Draper,Rockford,K,0.0,0.0,0.0,0.0,0.0,0.0,76.0,NSM,Biology,good,4.0,3.5
+Lecturer Ii,24134,Drew,Linda,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Professor,180956,Du,Ding,Z,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Professor Of Instruction,90538,Duquaine-watson,Jill,M,0.0,0.0,0.0,0.0,0.0,0.0,47.0,IS,,good,16.0,3.6
+Assoc. Prof. Of Instruction,78292,Durant,Stephanie,D,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Assoc. Prof. Of Instruction,60518,Durbin,Kelly,P,0.0,0.0,0.0,0.0,0.0,0.0,62.0,AHT,,good,16.0,3.6
+Assist. Prof. Of Instruction,58140,Duruoha,Adannah,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Professor,175972,Dussor,Gregory,O,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Professor Of Practice,144555,Edsel,Alexander,D,0.0,0.0,0.0,0.0,0.0,0.0,56.0,JSOM,Marketing,good,56.0,3.5
+Professor,198347,Efromovich,Sam,,0.0,0.0,0.0,0.0,0.0,0.0,70.0,NSM,Mathematics,average,13.0,2.6
+Assoc. Prof. Of Instruction,107520,El-ashmawi,Amal,H,0.0,0.0,0.0,0.0,0.0,0.0,67.0,JSOM,,good,16.0,3.6
+Professor,113848,Elliott,Euel,W,0.0,0.0,0.0,0.0,0.0,0.0,71.0,EPPS,Political Science,average,61.0,3.3
+Senior Lecturer I,88346,Enayaty,Ahangar,N,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Senior Lecturer I,52833,Estacio-hiroms,Kemelli,C,0.0,0.0,0.0,0.0,0.0,0.0,43.0,NSM,,good,16.0,3.6
+Associate Professor,105553,Evans,Monica,J,0.0,0.0,0.0,0.0,0.0,0.0,42.0,AHT,,good,16.0,3.6
+Senior Lecturer I,70695,Ewing,Donna,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Professor Of Instruction,71601,Eydelzon,Anatoly,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Associate Research Professor,94606,Fang,Shaoli,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Professor Of Instruction,124862,Farage,Timothy,P,0.0,0.0,0.0,0.0,0.0,0.0,71.0,ECS,,good,16.0,3.6
+Professor,168191,Farago,Andras,,0.0,0.0,0.0,0.0,0.0,0.0,68.0,ECS,Computer Science,average,18.0,3.3
+Associate Professor,90804,Farmer,John,M,0.0,0.0,0.0,0.0,0.0,0.0,52.0,AHT,,good,16.0,3.6
+Associate Professor,121282,Farrar,Eric,T,0.0,0.0,0.0,0.0,0.0,0.0,56.0,AHT,Arts & Technology,good,4.0,5.0
+Associate Professor,81198,Fass,Simon,M,0.0,0.0,0.0,0.0,0.0,0.0,74.0,EPPS,Public Policy,good,5.0,3.5
+Associate Professor,135679,Fechter,Todd,A,0.0,0.0,0.0,0.0,0.0,0.0,44.0,AHT,Arts & Technology,good,6.0,4.9
+Professor,228578,Fei,Baowei,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Associate Professor,270964,Files,Rebecca,L,0.0,0.0,0.0,0.0,0.0,0.0,40.0,JSOM,,good,16.0,3.6
+Assistant Professor,75876,Fischer,Anne,G,0.0,0.0,0.0,0.0,0.0,0.0,40.0,AHT,,good,16.0,3.6
+Professor,294684,Fischetti,Massimo,,0.0,0.0,0.0,0.0,0.0,0.0,70.0,ECS,,good,16.0,3.6
+Professor,264483,Fishwick,Paul,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Senior Lecturer I,77390,Fitzgerald,Hal,E,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Professor Of Instruction,85973,Florence,James,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Electrical Engineering,average,58.0,3.1
+Professor Of Instruction,69255,Foley,Manjula,S,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Professor,154633,Fonseka,John,P,0.0,0.0,0.0,0.0,0.0,0.0,59.0,ECS,Engineering,average,33.0,3.3
+Professor,142631,Frensley,William,,0.0,0.0,0.0,0.0,0.0,0.0,71.0,ECS,Engineering,average,11.0,3.3
+Clinical Assistant Professor,62401,Gafford,Jerome,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Business,good,12.0,3.6
+Clinical Assistant Professor,43335,Galvez,Paul,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Visiting Assistant Professor,26667,Gammell,Sarah,P,0.0,0.0,0.0,0.0,0.0,0.0,54.0,EPPS,Criminal Justice,good,8.0,4.5
+Professor Of Instruction,94730,Garrett,Bentley,T,0.0,0.0,0.0,0.0,0.0,0.0,41.0,NSM,,good,16.0,3.6
+Professor Of Practice,79305,Garst,Diane,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,,,good,16.0,3.6
+Associate Professor,128487,Gartstein,Yuri,,0.0,0.0,0.0,0.0,0.0,0.0,62.0,NSM,,good,16.0,3.6
+Assoc. Prof. Of Instruction,62379,Gavva,Sandhya,R,0.0,0.0,0.0,0.0,0.0,0.0,67.0,NSM,,good,16.0,3.6
+Associate Professor,139977,Gelb,Lev,D,0.0,0.0,0.0,0.0,0.0,0.0,52.0,ECS,,good,16.0,3.6
+Senior Lecturer I,50346,Gerard,Lori,A,0.0,0.0,0.0,0.0,0.0,0.0,43.0,AHT,Music,poor,17.0,2.3
+Associate Professor,147059,Giertz,Seth,,0.0,0.0,0.0,0.0,0.0,0.0,50.0,EPPS,Economics,good,11.0,3.5
+Senior Lecturer I,58146,Glauser,Janece,B,0.0,0.0,0.0,0.0,0.0,0.0,43.0,AHT,,good,16.0,3.6
+Professor,119627,Glosser,Robert,,0.0,0.0,0.0,0.0,0.0,0.0,85.0,NSM,Physics,poor,69.0,2.0
+Clinical Associate Professor,109036,Gohmert,Andrea,K,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Assist. Prof. Of Instruction,55682,Gonzalez,Pedro,J,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Associate Professor,105314,Gooch,John,C,0.0,0.0,0.0,0.0,0.0,0.0,51.0,AHT,Communication,poor,10.0,1.4
+Professor Of Instruction,122850,Goodrich,Mary,B,0.0,0.0,0.0,0.0,0.0,0.0,53.0,JSOM,,good,16.0,3.6
+Professor Of Instruction,114711,Goodrum,Richard,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Computer Science,poor,61.0,2.0
+Research Assistant Professor,189,Gordon,Evan,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Professor,103958,Gossin,Pamela,S,0.0,0.0,0.0,0.0,0.0,0.0,66.0,AHT,Humanities,good,23.0,3.9
+Associate Professor,81119,Goux,Warren,J,0.0,0.0,0.0,0.0,0.0,0.0,73.0,NSM,Chemistry,poor,47.0,1.9
+Assoc. Prof. Of Instruction,62603,Grant,Meredith,G,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBSs,,good,16.0,3.6
+Visiting Assistant Professor,3474,Greene,Kendra,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Clinical Professor,113857,Griffiths,Scott,K,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Assist. Prof. Of Instruction,51238,Grover,William,C,0.0,0.0,0.0,0.0,0.0,0.0,54.0,EPPS,,good,16.0,3.6
+Assistant Professor,139503,Gu,Qing,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Assist. Prof. Of Instruction,51064,Guo,Huizhen,,0.0,0.0,0.0,0.0,0.0,0.0,61.0,NSM,Mathematics,average,12.0,2.7
+Assoc. Prof. Of Instruction,142595,Gupta,Neeraj,K,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Computer Science,average,58.0,2.6
+Clinical Assistant Professor,78939,Gurun,Ayfer,,0.0,0.0,0.0,0.0,0.0,0.0,48.0,JSOM,Finance,average,53.0,2.9
+Clinical Professor,218042,Guttery,Randall,S,0.0,0.0,0.0,0.0,0.0,0.0,62.0,JSOM,Management,good,52.0,3.5
+Professor,255827,Haas,Zygmunt,J,0.0,0.0,0.0,0.0,0.0,0.0,65.0,ECS,Engineering,average,8.0,3.2
+Visiting Assistant Professor,22223,Hadley,Travis,S,0.0,0.0,0.0,0.0,0.0,0.0,54.0,EPPS,Political Science,good,37.0,3.5
+Senior Lecturer I,68781,Hajeri,Vinita,A,0.0,0.0,0.0,0.0,0.0,0.0,46.0,NSM,Science,average,9.0,3.3
+Professor,309776,Hamlen,Kevin,W,0.0,0.0,0.0,0.0,0.0,0.0,46.0,ECS,Computer Science,good,10.0,4.5
+Professor,329126,Hart,John,,0.0,0.0,0.0,0.0,0.0,0.0,65.0,BBS,,good,16.0,3.6
+Assoc. Prof. Of Practice,134276,Hart,Robert,A,0.0,0.0,0.0,0.0,0.0,0.0,51.0,ECS,,good,16.0,3.6
+Professor Of Practice,56849,Haseman,Charles,T,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Assoc. Prof. Of Instruction,116967,Hasenhuttl,Maria,,0.0,0.0,0.0,0.0,0.0,0.0,53.0,JSOM,Business,average,77.0,2.9
+Senior Lecturer I,54534,Hashami,Zohreh,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Chemistry,good,31.0,5.0
+Assoc. Prof. Of Practice,90126,Hassanzadeh,Nozar,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Business,zero,0.0,3.6
+Associate Professor,118495,Hatfield,Charles,D,0.0,0.0,0.0,0.0,0.0,0.0,44.0,AHT,Literature,good,16.0,4.2
+Clinical Assistant Professor,94200,Haworth,Julie,B,0.0,0.0,0.0,0.0,0.0,0.0,59.0,JSOM,Business,good,39.0,4.2
+Visiting Assistant Professor,40260,Hayslip,Melissa,P,0.0,0.0,0.0,0.0,0.0,0.0,54.0,EPPS,Criminal Justice,good,3.0,4.3
+Professor Of Instruction,112741,Hazzard,Charles,F,0.0,0.0,0.0,0.0,0.0,0.0,79.0,JSOM,Business,good,27.0,4.1
+Clinical Professor,199475,Hefley,William,E,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Management,poor,28.0,2.0
+Professor,180134,Henderson,Rashaunda,M,0.0,0.0,0.0,0.0,0.0,0.0,52.0,ECS,Electrical Engineering,average,4.0,3.3
+Senior Lecturer I,133430,Henderson,Thomas,C,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Business,poor,13.0,1.7
+Senior Lecturer I,67826,Hennessy,Emily,T,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Education,good,8.0,5.0
+Assoc. Prof. Of Instruction,60152,Hernandez-katz,Melissa,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Assist. Prof. Of Instruction,66220,Hewitt,Sharon,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Arts & Technology,average,6.0,3.2
+Clinical Assistant Professor,34396,Hibbs,Shelby,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Arts  Humanities,good,8.0,4.5
+Professor,74927,Hicks,Donald,A,0.0,0.0,0.0,0.0,0.0,0.0,75.0,EPPS,Political Science,zero,0.0,3.6
+Clinical Assistant Professor,136968,Hicks,Jeffrey,N,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Business,good,61.0,4.3
+Clinical Professor,233106,Hicks,Robert,F,0.0,0.0,0.0,0.0,0.0,0.0,73.0,JSOM,,good,16.0,3.6
+Assistant Professor,85572,Hill,Kimberly,D,0.0,0.0,0.0,0.0,0.0,0.0,42.0,AHT,Arts amp Humanities,good,4.0,4.5
+Assoc. Prof. Of Instruction,87742,Ho,Ka-yiu,K,0.0,0.0,0.0,0.0,0.0,0.0,54.0,EPPS,,good,16.0,3.6
+Associate Professor,109165,Holub,Shayla,C,0.0,0.0,0.0,0.0,0.0,0.0,44.0,BBS,Psychology,good,37.0,3.7
+Professor,60454,Hooshyar,Mohammad,A,0.0,0.0,0.0,0.0,0.0,0.0,80.0,NSM,Mathematics,good,5.0,3.7
+Professor,196656,Hornbeck,Larry,J,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Professor,272424,Hsu,Julia,W,0.0,0.0,0.0,0.0,0.0,0.0,59.0,ECS,,good,16.0,3.6
+Assistant Professor,117682,Hu,Yang,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Senior Lecturer I,63904,Huang,Yu,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Clinical Professor,100541,Humphreys,Natalia,,0.0,0.0,0.0,0.0,0.0,0.0,51.0,NSM,Mathematics,good,4.0,4.4
+Clinical Associate Professor,10931,Hustis,Gregory,J,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Professor Of Instruction,113643,Huxtable-jester,Karen,J,0.0,0.0,0.0,0.0,0.0,0.0,58.0,BBS,,good,16.0,3.6
+Professor,224036,Hyndman,Kyle,B,0.0,0.0,0.0,0.0,0.0,0.0,44.0,JSOM,Economics,good,2.0,3.5
+Senior Lecturer I,75964,Imaoka,Laura,B,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Communication,good,9.0,4.2
+Assoc. Prof. Of Instruction,59799,Ingrao,Peter,J,0.0,0.0,0.0,0.0,0.0,0.0,48.0,AHT,Humanities,good,127.0,4.3
+Professor,164842,Iovu,Mihaela,C,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Professor,196086,Ishak-boushaki,Mustapha,,0.0,0.0,0.0,0.0,0.0,0.0,50.0,NSM,,good,16.0,3.6
+Senior Lecturer I,79994,Islam,Naser,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Professor,136506,Izen,Joseph,M,0.0,0.0,0.0,0.0,0.0,0.0,67.0,NSM,,good,16.0,3.6
+Professor,445011,Jacob,Varghese,S,0.0,0.0,0.0,0.0,0.0,0.0,64.0,JSOM,,good,16.0,3.6
+Assist. Prof. Of Practice,90082,Janke,Scott,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Management,good,10.0,4.5
+Assoc. Prof. Of Instruction,90875,Johnson,Casey,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Computer Science,poor,11.0,2.3
+Assoc. Prof. Of Instruction,106799,Johnson,Jennifer,G,0.0,0.0,0.0,0.0,0.0,0.0,49.0,JSOM,Accounting,good,38.0,4.7
+Professor Of Instruction,65146,Juhn,Nancy,H,0.0,0.0,0.0,0.0,0.0,0.0,45.0,BBS,,good,16.0,3.6
+Assistant Professor,190403,Jun,Sora,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Clinical Professor,149425,Kaiser,Robert,C,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Professor Of Practice,31399,Kaplan,Karen,E,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Behavioral Sciences,average,9.0,2.8
+Clinical Professor,134683,Kaplan,Marilyn,R,0.0,0.0,0.0,0.0,0.0,0.0,65.0,JSOM,Business,poor,90.0,1.9
+Senior Lecturer I,115071,Karami,Gity,,0.0,0.0,0.0,0.0,0.0,0.0,43.0,ECS,Computer Science,average,43.0,2.6
+Senior Lecturer I,74119,Karnuta,Daniel,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Accounting,good,11.0,3.6
+Professor Of Instruction,139820,Karrah,Shyam,S,0.0,0.0,0.0,0.0,0.0,0.0,50.0,ECS,Computer Science,good,32.0,4.8
+Clinical Assistant Professor,120900,Kaur,Dupinderjeet,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Finance,average,12.0,3.0
+Assist. Prof. Of Instruction,25378,Kehoe,Joselle,D,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Mathematics,good,48.0,4.0
+Associate Professor,173077,Kelly,Mary,L,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Professor Of Practice,86880,Kenedi,A,H,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Associate Professor,110480,Kesden,Michael,H,0.0,0.0,0.0,0.0,0.0,0.0,44.0,NSM,Physics,good,9.0,4.1
+Assoc. Prof. Of Instruction,71682,Ketsler,Luba,,0.0,0.0,0.0,0.0,0.0,0.0,45.0,EPPS,Economics,good,172.0,4.3
+Assist. Prof. Of Instruction,56191,Khan,Amena,L,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Physics,average,28.0,3.1
+Assist. Prof. Of Instruction,123140,Khan,Kamran,Z,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Computer Science,poor,7.0,2.1
+Clinical Assistant Professor,79793,Khanapure,Revansiddha,B,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Finance,average,12.0,2.5
+Professor,101393,Kiel,Lowell,D,0.0,0.0,0.0,0.0,0.0,0.0,54.0,EPPS,,good,16.0,3.6
+Professor,256231,Kim,Moon,J,0.0,0.0,0.0,0.0,0.0,0.0,60.0,ECS,,good,16.0,3.6
+Assoc. Prof. Of Practice,147078,Kimzey,Jackie,R,0.0,0.0,0.0,0.0,0.0,0.0,68.0,JSOM,,good,16.0,3.6
+Associate Professor,138356,King,Lindsay,J,0.0,0.0,0.0,0.0,0.0,0.0,55.0,NSM,,good,16.0,3.6
+Associate Professor,14143,Kitagawa,Midori,K,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Associate Professor,125636,Knight,Kimberly,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Professor Of Instruction,84123,Koshevnik,Yuly,,0.0,0.0,0.0,0.0,0.0,0.0,61.0,NSM,,good,16.0,3.6
+Clinical Assistant Professor,82241,Kozlowski,Sarah,K,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Professor,156626,Krawcewicz,Wieslaw,Z,0.0,0.0,0.0,0.0,0.0,0.0,26.0,NSM,,good,16.0,3.6
+Visiting Assistant Professor,26112,Kroska,Nami,K,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Languages,good,9.0,4.3
+Professor Of Instruction,119215,Kumar,Pushpa,S,0.0,0.0,0.0,0.0,0.0,0.0,47.0,ECS,Computer Science,good,58.0,4.2
+Assoc. Prof. Of Instruction,113732,Ladow,Eva,S,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,Neuroscience,good,17.0,4.2
+Assoc. Prof. Of Instruction,40601,Lambert,Thomas,M,0.0,0.0,0.0,0.0,0.0,0.0,56.0,AHT,,good,16.0,3.6
+Assoc. Prof. Of Instruction,127294,Lanham,Carol,C,0.0,0.0,0.0,0.0,0.0,0.0,54.0,EPPS,Sociology,good,32.0,3.8
+Clinical Professor,77645,Latham,Van,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Clinical Assistant Professor,57325,Lawson,Kristen,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Business,good,83.0,4.2
+Assoc. Prof. Of Instruction,109158,Le,Khiem,V,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Computer Science,average,75.0,3.0
+Clinical Professor,88548,Leach,Sonia,E,0.0,0.0,0.0,0.0,0.0,0.0,53.0,JSOM,Mathematics,average,2.0,3.0
+Professor,146185,Lee,Gil,S,0.0,0.0,0.0,0.0,0.0,0.0,69.0,ECS,,good,16.0,3.6
+Professor,210838,Lee,Jeong-bong,,0.0,0.0,0.0,0.0,0.0,0.0,58.0,ECS,,good,16.0,3.6
+Professor Of Instruction,80147,Lee,Jung,S,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Electrical Engineering,average,75.0,2.8
+Professor,223796,Lee,Mark,,0.0,0.0,0.0,0.0,0.0,0.0,58.0,NSM,Physics,average,14.0,3.4
+Professor,286988,Lee,Seunghyun,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Assoc. Prof. Of Instruction,64955,Leek,Patricia,A,0.0,0.0,0.0,0.0,0.0,0.0,53.0,IS,Education,average,18.0,2.8
+Professor Of Instruction,99856,Lehmann,Randall,E,0.0,0.0,0.0,0.0,0.0,0.0,70.0,ECS,Electrical Engineering,good,16.0,4.7
+Professor,188287,Leprell,Colleen,G,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Clinical Professor,94212,Lester,Paul,,0.0,0.0,0.0,0.0,0.0,0.0,68.0,AHT,Arts  Technology,poor,21.0,2.2
+Professor,147441,Levene,Stephen,D,0.0,0.0,0.0,0.0,0.0,0.0,65.0,ECS,Chemistry,average,7.0,2.5
+Visiting Assistant Professor,37835,Leverone,Julia,E,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Arts & Humanities,good,4.0,4.3
+Assistant Professor,152254,Levine,Shahal,S,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Senior Lecturer I,75307,Lewis,Timothy,M,0.0,0.0,0.0,0.0,0.0,0.0,35.0,AHT,,good,16.0,3.6
+Assist. Prof. Of Instruction,35525,Li,Changsong,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Mathematics,good,156.0,4.6
+Assistant Professor,110743,Li,Meng,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Associate Professor,297437,Li,Ningzhong,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Accounting,average,31.0,3.2
+Professor,215790,Liebowitz,Stanley,J,0.0,0.0,0.0,0.0,0.0,0.0,73.0,JSOM,,good,16.0,3.6
+Assoc. Prof. Of Instruction,82202,Lin,Wen,J,0.0,0.0,0.0,0.0,0.0,0.0,48.0,NSM,,good,16.0,3.6
+Professor Of Instruction,72495,Lingo,Kathy,P,0.0,0.0,0.0,0.0,0.0,0.0,67.0,AHT,Communication,average,26.0,3.5
+Professor Of Instruction,112374,Linsteadt,Chris,C,0.0,0.0,0.0,0.0,0.0,0.0,60.0,JSOM,Accounting,average,44.0,3.3
+Associate Professor,172334,Liu,Cong,,0.0,0.0,0.0,0.0,0.0,0.0,39.0,ECS,Computer Science,good,5.0,3.7
+Research Assistant Professor,35419,Liu,Li,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Assistant Professor,79431,Llamas,Rodriguez,J,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Professor,138889,Lobarinas,Edward,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Lecturer Ii,6001,Lombardi,Christina,L,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Clinical Assistant Professor,68949,Lookadoo,Kathryn,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Business Communications,good,32.0,3.5
+Professor,61189,Lou,Xinchou,,0.0,0.0,0.0,0.0,0.0,0.0,55.0,NSM,,good,16.0,3.6
+Professor Of Practice,15095,Lougeay,Janice,W,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Clinical Professor,92836,Lu,Wenyi,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Mathematics,poor,3.0,2.0
+Visiting Assistant Professor,22223,Lux,Ryan,J,0.0,0.0,0.0,0.0,0.0,0.0,54.0,EPPS,Political Science,good,51.0,3.8
+Assoc. Prof. Of Practice,121168,Lynch,Julie,B,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Finance,poor,13.0,1.8
+Professor,329878,Ma,Dongsheng,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Professor Of Instruction,73580,MacAlevey,Paul,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Physics,average,39.0,2.8
+Professor,103966,Madriguera,Enric,F,0.0,0.0,0.0,0.0,0.0,0.0,60.0,AHT,,good,16.0,3.6
+Senior Lecturer I,82078,Maitra,Meenakshi,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Associate Professor,111772,Makarenkov,Oleg,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Senior Lecturer I,57668,Makhijani,Neha,,0.0,0.0,0.0,0.0,0.0,0.0,38.0,NSM,,good,16.0,3.6
+Professor,282734,Makris,Georgios,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Assist. Prof. Of Instruction,37374,Malek,Ahmadi,J,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Clinical Professor,165773,Manzi,Jeffery,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSO,,good,16.0,3.6
+Associate Professor,193305,Markoczi,Livia,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Senior Lecturer I,77390,Marks,David,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Arts  Technology,good,3.0,5.0
+Professor,125335,Martinez,Manuel,L,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Senior Lecturer I,57017,Martynova,Irina,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Mathematics,average,41.0,3.0
+Senior Lecturer I,164146,Mauriello,Joseph,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Accounting,good,19.0,4.5
+Research Assistant Professor,283,May,Geoffrey,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Associate Professor,108693,Mccomber,Sean,J,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Senior Lecturer I,74929,Mccord,Peter,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Clinical Professor,180895,Mccracken,John,F,0.0,0.0,0.0,0.0,0.0,0.0,79.0,JSOM,,good,16.0,3.6
+Senior Lecturer I,60194,Mccrady,Victoria,D,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Associate Professor,94050,Mcelroy,Susan,K,0.0,0.0,0.0,0.0,0.0,0.0,60.0,EPPS,,good,16.0,3.6
+Senior Lecturer I,51450,Mcginnis,Allison,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Assistant Professor,110875,Mckeown,Stephen,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Assoc. Prof. Of Instruction,37359,Mcnulty,Angela,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Clinical Professor,170293,Mcnulty,Diane,S,0.0,0.0,0.0,0.0,0.0,0.0,73.0,JSOM,,good,16.0,3.6
+Assoc. Prof. Of Instruction,83294,Mcwilliams,Steven,P,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Assist. Prof. Of Practice,122457,Meda,Edward,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Marketing,good,69.0,4.7
+Assoc. Prof. Of Instruction,44189,Medrick,Mary,,0.0,0.0,0.0,0.0,0.0,0.0,61.0,AHT,Music,good,20.0,3.6
+Assist. Prof. Of Instruction,69886,Mehta,Iti,,0.0,0.0,0.0,0.0,0.0,0.0,32.0,NSM,Biology,good,9.0,4.5
+Associate Professor,137764,Meloni,Gabriele,,0.0,0.0,0.0,0.0,0.0,0.0,42.0,NSM,Chemistry,good,7.0,5.0
+Professor,283932,Menon,Syam,S,0.0,0.0,0.0,0.0,0.0,0.0,55.0,JSOM,Management,average,11.0,3.3
+Clinical Associate Professor,42918,Metz,Greg,L,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Fine Arts,average,12.0,3.0
+Assoc. Prof. Of Instruction,91151,Mezenner,Rabah,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Engineering & Computer Science,good,37.0,3.9
+Associate Professor,218909,Miller,Darwin,W,0.0,0.0,0.0,0.0,0.0,0.0,54.0,EPPS,,good,16.0,3.6
+Professor Of Instruction,67291,Miller,Van,S,0.0,0.0,0.0,0.0,0.0,0.0,26.0,BBS,Neuroscience,good,150.0,4.0
+Senior Lecturer I,117961,Min,Richard,K,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Computer Science,poor,92.0,1.9
+Associate Professor,123395,Minary-jolandan,Majid,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Senior Lecturer I,67805,Minnish,Roxanne,W,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Professor,171709,Mittal,Neeraj,,0.0,0.0,0.0,0.0,0.0,0.0,49.0,ECS,,good,16.0,3.6
+Professor,298602,Moheimani,Seyed,O,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Professor,155509,Moldovan,Dan,I,0.0,0.0,0.0,0.0,0.0,0.0,75.0,ECS,,good,16.0,3.6
+Senior Lecturer I,83920,Molina,Robert,S,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Assist. Prof. Of Instruction,51126,Montgomery,Christina,F,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Assistant Professor,207318,Mookerjee,Radha,V,0.0,0.0,0.0,0.0,0.0,0.0,63.0,JSOM,,good,16.0,3.6
+Clinical Assistant Professor,63271,Moore,Sarah,E,0.0,0.0,0.0,0.0,0.0,0.0,42.0,JSOM,,good,16.0,3.6
+Associate Professor,137969,Morcos,Gonzalez,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Clinical Professor,64864,Murchison,David,F,0.0,0.0,0.0,0.0,0.0,0.0,67.0,NSM,Biology,good,7.0,4.4
+Assoc. Prof. Of Practice,34885,Murray,Jennifer,R,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Finance,good,13.0,4.6
+Professor,229463,Murthi,B,P,0.0,0.0,0.0,0.0,0.0,0.0,65.0,JSOM,,good,16.0,3.6
+Assoc. Prof. Of Instruction,56324,Mussa,Derege,H,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Mathematics,average,59.0,2.8
+Senior Lecturer I,68738,Naqvi,Syed,K,0.0,0.0,0.0,0.0,0.0,0.0,54.0,IS,Interdisciplinary Studies,good,27.0,4.2
+Senior Lecturer I,63547,Narasimhan,Prithi,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Information Science,average,43.0,3.4
+Clinical Assistant Professor,119695,Narayan,Ravishankar,L,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Business,good,2.0,4.0
+Assist. Prof. Of Instruction,49401,Narayanasami,Priya,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Computer Science,poor,15.0,2.3
+Research Assistant Professor,189,Nelson,Steven,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Associate Professor,95647,Nelson,Taylor,J,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Professor,244151,Ng,Yu,C,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Computer Science,zero,0.0,3.6
+Assoc. Prof. Of Instruction,71499,Nguyen,Mylinh,T,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Mathematics,average,37.0,3.3
+Professor Of Instruction,151855,Nguyen,Nhut,,0.0,0.0,0.0,0.0,0.0,0.0,66.0,ECS,Computer Science,average,132.0,2.7
+Senior Lecturer I,127330,Nichols,Paul,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Business,good,12.0,4.5
+Assoc. Prof. Of Instruction,77868,Nielsen,Christina,R,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Arts & Technology,good,4.0,4.8
+Associate Professor,99875,Nielsen,Steven,O,0.0,0.0,0.0,0.0,0.0,0.0,52.0,NSM,Chemistry,good,25.0,4.6
+Professor Of Instruction,101715,Nikoubin,Boroujeni,T,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Clinical Professor,35126,Norton,Larry,W,0.0,0.0,0.0,0.0,0.0,0.0,66.0,JSOM,,good,16.0,3.6
+Assoc. Prof. Of Instruction,98245,Nouroz,Borazjany,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Professor,248425,Novak,Bruce,M,0.0,0.0,0.0,0.0,0.0,0.0,61.0,NSM,,good,16.0,3.6
+Professor,192818,Ntafos,Simeon,C,0.0,0.0,0.0,0.0,0.0,0.0,70.0,ECS,,good,16.0,3.6
+Professor,323222,O,Kenneth,K,0.0,0.0,0.0,0.0,0.0,0.0,60.0,ECS,,good,16.0,3.6
+Assist. Prof. Of Practice,61200,Oropallo,Kara,I,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Arts amp Technology,good,12.0,4.3
+Lecturer Ii,44384,Orrick,Erika,D,0.0,0.0,0.0,0.0,0.0,0.0,46.0,BBS,Behavioral Sciences,poor,8.0,2.4
+Professor,212474,Overzet,Lawrence,J,0.0,0.0,0.0,0.0,0.0,0.0,61.0,ECS,Engineering,good,6.0,4.3
+Professor,202424,Owen,Margaret,T,0.0,0.0,0.0,0.0,0.0,0.0,70.0,BBS,,good,16.0,3.6
+Senior Lecturer I,47288,Owens,Misty,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Arts  Humanities,average,12.0,3.4
+Professor Of Instruction,132990,Ozbirn,Greg,A,0.0,0.0,0.0,0.0,0.0,0.0,57.0,ECS,Computer Science,good,145.0,4.0
+Associate Professor,165694,Ozel,Naim,B,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Accounting,good,8.0,4.5
+Professor,210676,Ozer,Ali,O,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Professor,142755,Page,Ivor,P,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Computer Science,good,34.0,3.7
+Clinical Assistant Professor,87585,Pahwa,Parneet,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Marketing,good,49.0,3.6
+Assoc. Prof. Of Instruction,76443,Palant,Jonathan,A,0.0,0.0,0.0,0.0,0.0,0.0,47.0,AHT,Music,good,15.0,3.5
+Assist. Prof. Of Instruction,55584,Pan,Jing,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Biology,good,10.0,4.1
+Assist. Prof. Of Instruction,57429,Panapitiya,Nimanka,P,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Chemistry,good,73.0,4.5
+Associate Professor,100339,Pantano,Paul,,0.0,0.0,0.0,0.0,0.0,0.0,58.0,NSM,,good,16.0,3.6
+Professor Of Instruction,73157,Paradis,Elizabeth,S,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Associate Professor,220672,Park,Haemin,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Clinical Assistant Professor,96543,Parker,Jason,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Economics,average,50.0,3.5
+Visiting Assistant Professor,46959,Parker,Misty,D,0.0,0.0,0.0,0.0,0.0,0.0,54.0,EPPS,Social Science,good,30.0,4.7
+Assoc. Prof. Of Practice,90340,Parks,David,R,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Business,poor,17.0,1.6
+Professor,178058,Patterson,David,A,0.0,0.0,0.0,0.0,0.0,0.0,72.0,AHT,Humanities,zero,0.0,3.6
+Assoc. Prof. Of Instruction,146806,Paulk,Mark,C,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Clinical Assistant Professor,115566,Peabody,Stephen,D,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Research Assistant Professor,106400,Pfister,Debra,H,0.0,0.0,0.0,0.0,0.0,0.0,66.0,AHT,History,good,29.0,4.2
+Assoc. Prof. Of Instruction,83796,Pickett,Elizabeth,A,0.0,0.0,0.0,0.0,0.0,0.0,43.0,NSM,Biology,good,28.0,4.1
+Assist. Prof. Of Instruction,71960,Pirouz,Mortaza,,0.0,0.0,0.0,0.0,0.0,0.0,44.0,NSM,Geology,good,1.0,4.0
+Associate Professor,83414,Ploski,Jonathan,E,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Neuroscience,good,8.0,4.3
+Clinical Professor,61865,Polk,Otto,E,0.0,0.0,0.0,0.0,0.0,0.0,54.0,EPPS,,good,16.0,3.6
+Assoc. Prof. Of Practice,123656,Polk,Todd,W,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Engineering,good,4.0,5.0
+Professor,103408,Pomara,John,J,0.0,0.0,0.0,0.0,0.0,0.0,66.0,AHT,Arts amp Technology,zero,0.0,3.6
+Assist. Prof. Of Instruction,98597,Porter,Benjamin,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Engineering,good,6.0,5.0
+Assist. Prof. Of Practice,50316,Pourchot,Hannah,D,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Professor,217726,Pourkamali,Siavash,,0.0,0.0,0.0,0.0,0.0,0.0,43.0,ECS,Electrical Engineering,good,12.0,3.6
+Lecturer Ii,18005,Powers,Katharine,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Speech & Language Pathology,average,28.0,2.7
+Professor,191820,Prieto,Rene,,0.0,0.0,0.0,0.0,0.0,0.0,71.0,AHT,Literature,average,11.0,3.3
+Assoc. Prof. Of Instruction,56523,Qin,Yanping,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Chemistry,good,27.0,3.7
+Assist. Prof. Of Instruction,87294,Raboune,Siham,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,Neuroscience,good,38.0,4.3
+Professor,146896,Rachinskiy,Dmitry,,0.0,0.0,0.0,0.0,0.0,0.0,50.0,NSM,Mathematics,good,27.0,4.2
+Clinical Professor,195798,Rajamani,Divakar,,0.0,0.0,0.0,0.0,0.0,0.0,59.0,JSOM,,good,16.0,3.6
+Clinical Professor,178779,Rajaratnam,Daniel,,0.0,0.0,0.0,0.0,0.0,0.0,69.0,JSOM,,good,16.0,3.6
+Assist. Prof. Of Instruction,49163,Rakotomalala,Diarisoa,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Professor,151552,Ramakrishna,Viswanath,,0.0,0.0,0.0,0.0,0.0,0.0,60.0,NSM,,good,16.0,3.6
+Lecturer Ii,18130,Raman,Rachna,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Clinical Professor,174569,Ramanathan,Kannan,,0.0,0.0,0.0,0.0,0.0,0.0,68.0,JSOM,,good,16.0,3.6
+Senior Lecturer I,87841,Ramirez,Ruben,D,0.0,0.0,0.0,0.0,0.0,0.0,71.0,NSM,,good,16.0,3.6
+Associate Professor,99239,Rankin,Monica,A,0.0,0.0,0.0,0.0,0.0,0.0,50.0,AHT,,good,16.0,3.6
+Professor Of Instruction,131443,Razo-razo,Miguel,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Professor,408676,Rebello,Michael,J,0.0,0.0,0.0,0.0,0.0,0.0,60.0,JSOM,,good,16.0,3.6
+Clinical Associate Professor,164500,Reichert,Carolyn,A,0.0,0.0,0.0,0.0,0.0,0.0,60.0,JSOM,,good,16.0,3.6
+Professor,309530,Rennaker,Robert,L,0.0,0.0,0.0,0.0,0.0,0.0,47.0,BBS,,good,16.0,3.6
+Professor Of Practice,96511,Rich,Judith,B,0.0,0.0,0.0,0.0,0.0,0.0,69.0,BBS,,good,16.0,3.6
+Assist. Prof. Of Instruction,53075,Riley,Kristin,N,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Rhetoric,good,21.0,4.4
+Associate Professor,94464,Ring,Natalie,J,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,History,average,17.0,2.5
+Professor Of Instruction,107591,Rippel,Scott,A,0.0,0.0,0.0,0.0,0.0,0.0,56.0,NSM,Biology,average,52.0,3.1
+Clinical Professor,100947,Ritchey,David,B,0.0,0.0,0.0,0.0,0.0,0.0,60.0,JSOM,Business,good,108.0,4.6
+Assistant Professor,214659,Rivera,Mesias,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Lecturer Ii,12130,Roark,Dana,A,0.0,0.0,0.0,0.0,0.0,0.0,57.0,BBS,,good,16.0,3.6
+Associate Professor,130619,Rodriguez,Christa,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Professor,125247,Rodriguez,Robert,X,0.0,0.0,0.0,0.0,0.0,0.0,77.0,AHT,,good,16.0,3.6
+Professor Of Instruction,228342,Roemer,Nils,H,0.0,0.0,0.0,0.0,0.0,0.0,51.0,AHT,,good,16.0,3.6
+Professor,149649,Roeser,Ross,J,0.0,0.0,0.0,0.0,0.0,0.0,78.0,BBS,,good,16.0,3.6
+Associate Professor,128085,Rojas-villareal,Raul,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Associate Professor,112957,Rosen,Mark,S,0.0,0.0,0.0,0.0,0.0,0.0,51.0,AHT,Art History,good,19.0,4.0
+Visiting Assistant Professor,27620,Rubin,Andrew,N,0.0,0.0,0.0,0.0,0.0,0.0,52.0,AHT,,good,16.0,3.6
+Assoc. Prof. Of Instruction,79984,Ryan,Christopher,J,0.0,0.0,0.0,0.0,0.0,0.0,63.0,AHT,Communication,average,19.0,3.0
+Assistant Professor,136857,Ryu,Iii,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Associate Professor,186844,Ryu,Young,U,0.0,0.0,0.0,0.0,0.0,0.0,59.0,JSOM,Computer Science,average,20.0,3.3
+Professor Of Instruction,66111,Saad,Ricardo,E,0.0,0.0,0.0,0.0,0.0,0.0,58.0,ECS,Electrical Engineering,average,45.0,3.1
+Assoc. Prof. Of Instruction,68481,Saba,Monica,M,0.0,0.0,0.0,0.0,0.0,0.0,65.0,AHT,Fine Arts,good,12.0,3.8
+Professor,140830,Sabharwal,Meghna,,0.0,0.0,0.0,0.0,0.0,0.0,46.0,EPPS,Public Policy,good,1.0,5.0
+Assist. Prof. Of Instruction,56971,Sadat,Eva,L,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Biology,good,6.0,4.5
+Assist. Prof. Of Instruction,105460,Salazar,Elmer,E,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Professor Of Practice,84300,Sale,Felicity,F,0.0,0.0,0.0,0.0,0.0,0.0,59.0,BBS,,good,16.0,3.6
+Assist. Prof. Of Instruction,50746,Saleh,Lamya,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Clinical Associate Professor,56871,Salisbury,Linda,J,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Senior Lecturer I,89044,Salter,Monika,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Assistant Professor,82542,Santoro,Lauren,A,0.0,0.0,0.0,0.0,0.0,0.0,34.0,EPPS,Political Science,average,28.0,3.4
+Assoc. Prof. Of Instruction,39035,Sapozhnikov,Ilya,,0.0,0.0,0.0,0.0,0.0,0.0,85.0,NSM,Science,average,95.0,2.6
+Professor,155303,Saquib,Mohammad,,0.0,0.0,0.0,0.0,0.0,0.0,53.0,ECS,Engineering,good,36.0,4.2
+Professor,185074,Sarac,Kamil,,0.0,0.0,0.0,0.0,0.0,0.0,50.0,ECS,Computer Science,good,21.0,4.1
+Assist. Prof. Of Instruction,52513,Sarcar,Subha,,0.0,0.0,0.0,0.0,0.0,0.0,40.0,NSM,Biology,average,31.0,2.5
+Assistant Professor,116777,Saretto,Alessio,A,0.0,0.0,0.0,0.0,0.0,0.0,45.0,JSOM,Finance,average,8.0,3.3
+Assist. Prof. Of Instruction,46327,Scally,Deborah,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Arts & Humanities,poor,11.0,2.1
+Associate Professor,82822,Schlereth,Eric,R,0.0,0.0,0.0,0.0,0.0,0.0,46.0,AHT,History,good,21.0,4.3
+Clinical Professor,57443,Schlobohm,Maribeth,L,0.0,0.0,0.0,0.0,0.0,0.0,68.0,AHT,,good,16.0,3.6
+Professor,144838,Schulte,Rainer,,0.0,0.0,0.0,0.0,0.0,0.0,82.0,AHT,Humanities,good,14.0,3.6
+Clinical Associate Professor,62132,Schulze,Jeffrey,M,0.0,0.0,0.0,0.0,0.0,0.0,47.0,AHT,History,good,143.0,3.7
+Assoc. Prof. Of Instruction,53694,Schwark,Gayle,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,Psychology,good,29.0,4.6
+Professor,171339,Scotch,Richard,K,0.0,0.0,0.0,0.0,0.0,0.0,71.0,EPPS,Sociology,good,14.0,4.2
+Associate Professor,109151,Scott,Andrew,F,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Arts  Technology,good,4.0,3.5
+Professor,233037,Sechen,Carl,M,0.0,0.0,0.0,0.0,0.0,0.0,69.0,ECS,Engineering,good,29.0,4.2
+Clinical Associate Professor,167406,Sethi,Avanti,P,0.0,0.0,0.0,0.0,0.0,0.0,26.0,JSOM,Business,good,204.0,3.5
+Professor,401670,Sethi,Suresh,P,0.0,0.0,0.0,0.0,0.0,0.0,77.0,JSOM,,good,16.0,3.6
+Professor Of Practice,158744,Shah,Rajiv,R,0.0,0.0,0.0,0.0,0.0,0.0,72.0,JSOM,,good,16.0,3.6
+Professor,323860,Sherry,Allan,D,0.0,0.0,0.0,0.0,0.0,0.0,77.0,NSM,,good,16.0,3.6
+Senior Lecturer I,57125,Shah,Shailesh,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Chemistry,good,26.0,5.0
+Assistant Professor,99324,Shi,Xiaoyan,,0.0,0.0,0.0,0.0,0.0,0.0,45.0,NSM,,good,16.0,3.6
+Lecturer Ii,29010,Shirvani,Forouz,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Clinical Professor,89026,Shrivastava,Prakash,C,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Information Science,poor,25.0,2.0
+Lecturer Ii,18710,Shute,William,H,0.0,0.0,0.0,0.0,0.0,0.0,54.0,EPPS,,good,16.0,3.6
+Associate Professor,118782,Sibert,John,W,0.0,0.0,0.0,0.0,0.0,0.0,58.0,NSM,Chemistry,good,133.0,3.8
+Assoc. Prof. Of Instruction,80726,Sibley,Daniel,C,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Finance,average,3.0,3.3
+Assistant Professor,200571,Simsek,Ahmet,S,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Business,good,17.0,3.5
+Assistant Professor,270481,Sinha,Irti,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Associate Professor,117435,Siqueira,Kevin,J,0.0,0.0,0.0,0.0,0.0,0.0,57.0,EPPS,Economics,average,22.0,3.4
+Assoc. Prof. Of Instruction,97152,Skinner,Neal,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Electrical Engineering,average,2.0,3.0
+Assoc. Prof. Of Instruction,96278,Skuza,Agnieszka,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Operations Management,poor,5.0,2.2
+Assoc. Prof. Of Practice,59888,Smallwood,Margaret,G,0.0,0.0,0.0,0.0,0.0,0.0,34.0,JSOM,,good,16.0,3.6
+Professor,112360,Smith,Erin,,0.0,0.0,0.0,0.0,0.0,0.0,53.0,AHT,,good,16.0,3.6
+Lecturer Ii,10001,Smith,Irma,E,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Assoc. Prof. Of Instruction,95347,Smith,Jason,W,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Senior Lecturer I,106065,Smith,Klyne,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Clinical Assistant Professor,119000,Sohaee,Nassim,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Assist. Prof. Of Instruction,86018,Solanki,Nidhiben,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Assoc. Prof. Of Practice,120014,Solcher,Steven,J,0.0,0.0,0.0,0.0,0.0,0.0,59.0,JSOM,Accounting,good,33.0,3.7
+Associate Professor,131481,Springate,David,J,0.0,0.0,0.0,0.0,0.0,0.0,83.0,JSOM,Finance,poor,17.0,2.3
+Professor Of Instruction,76206,Sra,Amandeep,K,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Chemistry,good,80.0,4.2
+Professor Of Instruction,82719,Srikanth,Uma,,0.0,0.0,0.0,0.0,0.0,0.0,49.0,NSM,Biology,good,118.0,3.8
+Assist. Prof. Of Instruction,57564,Srinivasan,Srimathi,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Computer Science,poor,38.0,2.1
+Professor Of Instruction,35034,Stanford,Paul,H,0.0,0.0,0.0,0.0,0.0,0.0,68.0,NSM,Mathematics,good,84.0,3.7
+Assist. Prof. Of Instruction,62141,Stark,Azadeh,T,0.0,0.0,0.0,0.0,0.0,0.0,54.0,IS,,good,16.0,3.6
+Assoc. Prof. Of Instruction,52490,Starnamam,Sabrina,S,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Professor,248522,Stecke,Kathryn,E,0.0,0.0,0.0,0.0,0.0,0.0,72.0,JSOM,Business,poor,6.0,1.9
+Senior Lecturer I,78429,Stephens,Timothy,G,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Operations Management,good,24.0,4.1
+Professor,148948,Stewart,Marianne,C,0.0,0.0,0.0,0.0,0.0,0.0,68.0,EPPS,Political Science,average,24.0,3.0
+Assistant Professor,76856,Stewart,Whitney,N,0.0,0.0,0.0,0.0,0.0,0.0,35.0,AHT,History,good,28.0,4.7
+Professor,166286,Stillman,Robert,D,0.0,0.0,0.0,0.0,0.0,0.0,80.0,BBS,Health Science,zero,0.0,3.6
+Clinical Professor,12101,Stilwell,John,Q,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,Psychology,average,9.0,3.3
+Clinical Professor,8672,Stone,Marvin,J,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Assistant Professor,75751,Stone,Naomi,S,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Associate Professor,211786,Subramanian,Upender,,0.0,0.0,0.0,0.0,0.0,0.0,46.0,JSOM,,good,16.0,3.6
+Clinical Associate Professor,103615,Subramoniam,Ramesh,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Assist. Prof. Of Instruction,56973,Sultana,Nasrin,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Senior Lecturer I,98806,Sultana,Rukhsana,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Assistant Professor,51681,Sung,Wendy,,0.0,0.0,0.0,0.0,0.0,0.0,40.0,AHT,Arts & Technology,good,7.0,3.7
+Senior Lecturer I,63356,Sutton,Julie,M,0.0,0.0,0.0,0.0,0.0,0.0,35.0,NSM,Mathematics,average,37.0,3.2
+Professor Of Instruction,85248,Swartz,William,P,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Electrical Engineering,good,23.0,4.2
+Clinical Professor,42251,Swerdlow,Joel,L,0.0,0.0,0.0,0.0,0.0,0.0,54.0,EPPS,,good,16.0,3.6
+Clinical Associate Professor,155327,Szot,James,M,0.0,0.0,0.0,0.0,0.0,0.0,70.0,JSOM,Management,zero,0.0,3.6
+Clinical Associate Professor,54747,Tady,Lorraine,T,0.0,0.0,0.0,0.0,0.0,0.0,55.0,AHT,Design,average,12.0,3.0
+Senior Lecturer I,85811,Taheri,Mohammad,N,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Assist. Prof. Of Instruction,85156,Taylor,Anna,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,Neuroscience,average,46.0,3.1
+Assist. Prof. Of Instruction,74322,Taylor,Stephanie,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Chemistry,good,88.0,4.3
+Professor,100377,Terranova,Charissa,N,0.0,0.0,0.0,0.0,0.0,0.0,52.0,AHT,Art History,average,37.0,2.8
+Associate Professor,100302,Terry,Dean,D,0.0,0.0,0.0,0.0,0.0,0.0,55.0,AHT,,good,16.0,3.6
+Assoc. Prof. Of Instruction,95423,Thamban,P,L,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Professor,139909,Thibodeau,Linda,K,0.0,0.0,0.0,0.0,0.0,0.0,69.0,BBS,Speech  Language Pathology,good,3.0,4.7
+Assoc. Prof. Of Instruction,82584,Thompson,Christina,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Chemistry,good,37.0,4.8
+Assoc. Prof. Of Instruction,84289,Thompson,Laurie,,0.0,0.0,0.0,0.0,0.0,0.0,57.0,ECS,Computer Science,poor,145.0,2.4
+Professor Of Instruction,118116,Thompson,Luell,O,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Accounting,poor,15.0,2.2
+Assistant Professor,111061,Thorn,Catherine,A,0.0,0.0,0.0,0.0,0.0,0.0,42.0,BBS,Neuroscience,good,7.0,4.0
+Professor Of Practice,167453,Thurgood,Keith,L,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Health Science,average,8.0,3.1
+Associate Professor,94875,Tiefelsdorf,Michael,R,0.0,0.0,0.0,0.0,0.0,0.0,61.0,EPPS,Geography,poor,9.0,2.4
+Senior Lecturer I,61938,Tirone,Guido,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Marketing,average,25.0,3.2
+Clinical Associate Professor,88551,Toptal,Aysegul,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Business,good,3.0,3.7
+Senior Lecturer I,43706,Totusek,Patricia,F,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Communication,good,24.0,4.5
+Professor Of Instruction,61899,Touchstone,Emily,W,0.0,0.0,0.0,0.0,0.0,0.0,46.0,BBS,Psychology,good,62.0,5.0
+Professor,149849,Towner,Theresa,M,0.0,0.0,0.0,0.0,0.0,0.0,64.0,AHT,Humanities,good,39.0,4.9
+Associate Professor,98955,Tran,Anh,T,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Mathematics,good,11.0,4.0
+Senior Lecturer I,60759,Tran,Daniel,N,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Chemistry,good,32.0,3.5
+Assist. Prof. Of Instruction,65716,Trosper,Elizabeth,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,Arts  Technology,good,5.0,3.6
+Professor,292372,Tsang,Wing,K,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Professor,105223,Ulatowska,Hanna,K,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,Speech  Language Pathology,poor,6.0,1.2
+Assoc. Prof. Of Instruction,45039,Vakulenko,Irina,,0.0,0.0,0.0,0.0,0.0,0.0,66.0,EPPS,Geography & Geospatial Info. Syst.,good,35.0,4.4
+Visiting Assistant Professor,27778,Valente,Sarah,D,0.0,0.0,0.0,0.0,0.0,0.0,54.0,,Literature,good,1.0,4.0
+Assistant Professor,146826,Varner,Victor,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Assoc. Prof. Of Instruction,141001,Veerasamy,Jeyakesavan,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Professor,118550,Venkatesan,Subbarayan,,0.0,0.0,0.0,0.0,0.0,0.0,63.0,ECS,,good,16.0,3.6
+Assistant Professor,91976,Veras,De,S,0.0,0.0,0.0,0.0,0.0,0.0,54.0,AHT,,good,16.0,3.6
+Professor,108182,Vieraitis,Lynne,M,0.0,0.0,0.0,0.0,0.0,0.0,53.0,EPPS,,good,16.0,3.6
+Assistant Professor,207401,Von,Drathen,C,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Professor,103572,Waligore,Marilyn,,0.0,0.0,0.0,0.0,0.0,0.0,63.0,AHT,Arts & Humanities,good,8.0,4.3
+Professor,214375,Walker,Amy,V,0.0,0.0,0.0,0.0,0.0,0.0,49.0,ECS,Engineering,average,3.0,3.0
+Assistant Professor,216348,Wang,Guihua,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Assistant Professor,222526,Wang,Hongchang,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Research Associate Professor,63993,Wang,Ru-hung,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,,good,16.0,3.6
+Associate Professor,111389,Warner-czyz,Andrea,D,0.0,0.0,0.0,0.0,0.0,0.0,48.0,BBS,,good,16.0,3.6
+Clinical Professor,111564,Watson,John,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Business Communications,good,60.0,3.8
+Clinical Professor,154023,Weekley,Jeffrey,A,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Associate Professor,262953,Wei,Kelsey,D,0.0,0.0,0.0,0.0,0.0,0.0,51.0,JSOM,Finance,poor,17.0,1.4
+Assistant Professor,31667,Welin,Eric,R,0.0,0.0,0.0,0.0,0.0,0.0,34.0,NSM,,good,16.0,3.6
+Assist. Prof. Of Instruction,83388,Werhnyak,Larissa,,0.0,0.0,0.0,0.0,0.0,0.0,43.0,IS,Science,poor,27.0,2.4
+Assist. Prof. Of Instruction,28031,Wetzler,Kristen,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,Mathematics,poor,11.0,2.0
+Senior Lecturer I,67609,Whalen,Tristan,G,0.0,0.0,0.0,0.0,0.0,0.0,54.0,NSM,Mathematics,good,109.0,4.5
+Clinical Associate Professor,129015,Widdifield,David,S,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,Business,good,18.0,4.8
+Associate Professor,156650,Wig,Gagandeep,S,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,,good,16.0,3.6
+Assoc. Prof. Of Instruction,96366,Willson,James,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Computer Science,good,62.0,4.0
+Associate Professor,106356,Wilson,Michael,L,0.0,0.0,0.0,0.0,0.0,0.0,60.0,AHT,History,good,17.0,4.5
+Assist. Prof. Of Instruction,57334,Wilson,Michelle,M,0.0,0.0,0.0,0.0,0.0,0.0,50.0,NSM,Biology,average,179.0,2.5
+Associate Professor,132181,Winkler,Duane,D,0.0,0.0,0.0,0.0,0.0,0.0,41.0,NSM,Biology,good,5.0,4.6
+Professor Of Instruction,94285,Wissinger,Tonja,,0.0,0.0,0.0,0.0,0.0,0.0,59.0,AHT,Social Science,average,54.0,2.8
+Professor,270414,Wong,Weichen,E,0.0,0.0,0.0,0.0,0.0,0.0,56.0,ECS,,good,16.0,3.6
+Clinical Associate Professor,96132,Wood,Harold,G,0.0,0.0,0.0,0.0,0.0,0.0,71.0,AHT,,good,16.0,3.6
+Associate Professor,83877,Wright,Ben,,0.0,0.0,0.0,0.0,0.0,0.0,38.0,AHT,,good,16.0,3.6
+Senior Lecturer I,113829,Wright,Robert,G,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Clinical Professor,122777,Wu,Fang,,0.0,0.0,0.0,0.0,0.0,0.0,49.0,JSOM,Marketing,average,37.0,3.3
+Professor,168990,Wu,Wei,L,0.0,0.0,0.0,0.0,0.0,0.0,47.0,ECS,,good,16.0,3.6
+Assist. Prof. Of Instruction,71548,Wu,Zhuoru,R,0.0,0.0,0.0,0.0,0.0,0.0,43.0,NSM,,good,16.0,3.6
+Assistant Professor,119650,Xiao,Chong,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Associate Professor,284851,Xu,Yexiao,,0.0,0.0,0.0,0.0,0.0,0.0,52.0,JSOM,Business,average,5.0,2.6
+Assoc. Prof. Of Instruction,82291,Ybarra,Regina,K,0.0,0.0,0.0,0.0,0.0,0.0,54.0,BBS,Psychology,good,29.0,4.0
+Professor,152242,Yen,I-ling,,0.0,0.0,0.0,0.0,0.0,0.0,65.0,ECS,,good,16.0,3.6
+Professor,291692,You,Seung,M,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Senior Lecturer I,107071,Yu,Wen-ho,,0.0,0.0,0.0,0.0,0.0,0.0,66.0,NSM,,good,16.0,3.6
+Professor,230456,Yuan,May,,0.0,0.0,0.0,0.0,0.0,0.0,57.0,EPPS,,good,16.0,3.6
+Professor,297549,Yurkovich,Stephen,,0.0,0.0,0.0,0.0,0.0,0.0,66.0,ECS,,good,16.0,3.6
+Professor,162656,Zakhidov,Anvar,A,0.0,0.0,0.0,0.0,0.0,0.0,69.0,NSM,,good,16.0,3.6
+Professor,389560,Zhang,Huibing,,0.0,0.0,0.0,0.0,0.0,0.0,60.0,JSOM,,good,16.0,3.6
+Assistant Professor,96334,Zhang,Yingjie,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,Business,good,1.0,5.0
+Assist. Prof. Of Instruction,43459,Zhao,Yi,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,ECS,,good,16.0,3.6
+Professor,225859,Zheng,Jie,,0.0,0.0,0.0,0.0,0.0,0.0,50.0,NSM,,good,16.0,3.6
+Professor,349689,Zheng,Zhiqiang,,0.0,0.0,0.0,0.0,0.0,0.0,51.0,JSOM,,good,16.0,3.6
+Professor,136294,Zhou,Dian,,0.0,0.0,0.0,0.0,0.0,0.0,62.0,ECS,,good,16.0,3.6
+Associate Professor,204958,Zhou,Yibin,,0.0,0.0,0.0,0.0,0.0,0.0,43.0,JSOM,,good,16.0,3.6
+Clinical Professor,66795,Ziegler,Laurie,L,0.0,0.0,0.0,0.0,0.0,0.0,63.0,JSOM,,good,16.0,3.6
+Assoc. Prof. Of Practice,118774,Zolton,Kathy,J,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
+Assoc. Prof. Of Instruction,95693,Zydorek,Hubert,,0.0,0.0,0.0,0.0,0.0,0.0,54.0,JSOM,,good,16.0,3.6
