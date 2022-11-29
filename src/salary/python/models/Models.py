@@ -122,7 +122,7 @@ class LgboostClassifier:
 
     def test_models(self, x_test, y_test):
         # returns the mean accuracy on the given test data and labels.
-        return self.model.score(x_test, y_test):
+        return self.model.score(x_test, y_test)
 
     def predict(self, x_test):
         return self.model.predict(x_test)
