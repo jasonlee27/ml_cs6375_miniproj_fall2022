@@ -26,7 +26,7 @@ https://docs.google.com/document/d/1MhQ3LOnF4esJO1CTKt3ENYnYZJYZAqz3ld58dy8F5_o/
 
 
 ## 2. Salary
-### Task: predict the amount of professors annual salary in university
+### Task: prediction of the amount of professors annual salary in university
 ### Features
 1. TODO: add what features are used.
 
