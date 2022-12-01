@@ -1,20 +1,19 @@
 # this script is to create ml models
 # model list:
 #   gradient boosting classifier (sklearn)
-#   catboost classfier
-#   light gradient boosting machine
-#   xgboost
+#   catboost classifier
+#   xgboost classifier
 #   random forest classifier (sklearn)
 #   extra trees classifier (sklearn)
 #   Linear discriminant analysis (sklearn)
 #   ridge classifier (sklearn)
-#   decision tree classidier (sklearn)
+#   decision tree classifier (sklearn)
 #   naive bayes classifier (sklearn)
 #   ada boost classifier (sklearn)
 #   k neighbors classifier (sklearn)
 #   svm - linear kernel (sklearn)
 #   quadratic discriminant analysis (sklearn)
-#   logistic regression
+#   logistic regression classifier (sklearn)
 
 from typing import *
 from pathlib import Path
@@ -39,7 +38,6 @@ from sklearn.svm import SVC
 
 from catboost import CatBoostClassifier
 import xgboost as xgb
-# import lightgbm as lgb
 
 
 class GradientboostClassifierClass:
@@ -124,26 +122,6 @@ class CatboostClassifierClass:
     def predict_proba(self, x_test):
         return self.model.predict_proba(x_test)
 
-
-# class LgboostClassifierClass:
-
-#     def __init__(self, num_iter=10):
-#         self.model = lgb.LGBMClassifier()
-        
-#     def train(self, x_train, y_train, validation_fraction):
-#         self.model.fit(x_train, y_train)
-#         return
-
-#     def test(self, x_test, y_test):
-#         # returns the mean accuracy on the given test data and labels.
-#         return self.model.score(x_test, y_test)
-
-#     def predict(self, x_test):
-#         return self.model.predict(x_test)
-
-#     def predict_proba(self, x_test):
-#         return self.model.predict_proba(x_test)
-    
 
 class RandomforestClassifierClass:
     

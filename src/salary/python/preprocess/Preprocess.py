@@ -5,6 +5,9 @@ import seaborn as sns
 
 from typing import *
 from pathlib import Path
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import OneHotEncoder
 
 from ..utils.Macros import Macros
 from ..utils.Utils import Utils
@@ -13,64 +16,43 @@ from ..utils.Utils import Utils
 class Preprocess:
 
     @classmethod
-    def get_name_ind_from_rmf(cls, name, rmp_data):
-        for d_i in range(len(rmp_data)):
-            first_name = '' if pd.isna(rmp_data.Fname[d_i]) is not None else rmp_data.Fname[d_i]
-            last_name =  '' if pd.isna(rmp_data.Lname[d_i]) is not None else rmp_data.Lname[d_i]
-            _name = f"{first_name} {last_name}"
-            if name.lower()==_name.strip().lower():
-                return d_i
-            # end if
-        # end for
-        return
+    def get_raw_data(cls):
+        df = pd.read_csv(Macros.csv_file, header=0)
+        return cls.fill_nan_with(df)
 
     @classmethod
-    def get_gender_from_name(cls, name, ntg_data):
-        for d_i in range(len(ntg_data)):
-            if name.lower()==ntg_data.name[d_i].lower():
-                return ntg_data.likelyGender[d_i]
+    def fill_nan_with(cls, df):
+        qs_in_data = list(df.keys())
+        for q_i, q in enumerate(qs_in_data):
+            if q==Macros.QUESTIONS[12]:
+                df[q] = df[q].fillna('na')
             # end if
         # end for
-        return
-        
-    @classmethod
-    def combine_data(cls):
-        salary_data_dir = Macros.data_dir / 'salary'
-        rmp_csv_file = salary_data_dir / 'ratemyprof.csv'
-        sal_csv_file = salary_data_dir / 'salary_data_cleaned.csv'
-        name_to_gender_csv_file = salary_data_dir / 'names_gender.csv'
-        rmp_data = pd.read_csv(rmp_csv_file, header=0)
-        sal_data = pd.read_csv(sal_csv_file, header=0)
-        ntg_data = pd.read_csv(name_to_gender_csv_file, header=0)
-        data_lod = list()
-        for d_i in range(len(sal_data)):
-            name = sal_data.Name[d_i]
-            gender = cls.get_gender_from_name(name, ntg_data)
-            name_ind = cls.get_name_ind_from_rmf(name, rmp_data)
-            if name_ind is not None and gender is not None:
-                print(name, gender, name_ind)
-                dept = rmp_data.Dept[name_ind]
-                rate_class = rmp_data.rating_class[name_ind]
-                rate_tot = rmp_data.total_Ratings[name_ind]
-                rate_overall = rmp_data.overall_rating[name_ind]
-                salary = sal_data.Salary[d_i]
-                data.append({
-                    'fname': first_name,
-                    'lname': last_name,
-                    'gender': gender,
-                    'rmp_rate_class': rate_class,
-                    'rmp_rate_tot': rate_tot,
-                    'rmp_rate_overall': rate_overall,
-                    'salary': salary
-                })
-            # end if
-        # end for
-        data_dol = Utils.lod_to_dol(data_lod)
+        return df
 
-        res_file = salary_data_dir / 'data_combine.csv'
-        with open(res_file, "w") as f:
-            writer = csv.writer(f)
-            writer.writerow(data_dol.keys())
-            writer.writerows(zip(*data_dol.values()))
-        # end with
-        return
+    @classmethod
+    def get_data(cls):
+        df = cls.get_raw_data()
+        # label question: 'Which learning modality do you generally prefer?'
+        labels = LabelEncoder().fit_transform(df[Macros.QUESTIONS[-2]])
+        qs_in_data = list(df.keys())
+        data = list()
+        for q_i, q in enumerate(qs_in_data):
+            if q not in [
+                    Macros.QUESTIONS[0],
+                    Macros.QUESTIONS[-1],
+                    Macros.QUESTIONS[-2]
+            ]:
+                df_q = LabelEncoder().fit_transform(df[q])                
+                data.append(df_q)
+            # end if
+        # end for
+        data = np.transpose(np.array(data)) # (#examples, #feats)
+        labels = np.array(labels) # (#examples, )
+        x_train, x_test, y_train, y_test = train_test_split(
+            data,
+            labels,
+            test_size=Macros.test_ratio,
+            random_state=Macros.RAND_SEED
+        )
+        return x_train, x_test, y_train, y_test

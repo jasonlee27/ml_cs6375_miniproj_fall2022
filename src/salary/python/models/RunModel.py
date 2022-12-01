@@ -3,6 +3,7 @@
 
 import pandas as pd
 import seaborn as sns
+import matplotlib.pyplot as plt
 
 from typing import *
 from pathlib import Path
@@ -10,52 +11,55 @@ from sklearn.metrics import confusion_matrix
 
 from ..utils.Macros import Macros
 from ..utils.Utils import Utils
+from ..preprocess.Preprocess import Preprocess
 
-from .Models import GradientboostClassifier,\
-    XgboostClassifier,\
-    CatboostClassifier,\
-    LgboostClassifier,\
-    RandomforestClassifier,\
-    ExtratreesClassifier,\
-    LdaClassifier,\
-    RidgeClassifier,\
-    DtClassifier,\
-    NbClassifier,\
-    AdaboostClassifier,\
-    KnnClassifier,\
-    SvmClassifier,\
-    QdaClassifier,\
-    LrClassifier
+from .Models import GradientboostClassifierClass,\
+    XgboostClassifierClass,\
+    CatboostClassifierClass, \
+    RandomforestClassifierClass,\
+    ExtratreesClassifierClass,\
+    LdaClassifierClass,\
+    RidgeClassifierClass,\
+    DtClassifierClass,\
+    NbClassifierClass,\
+    AdaboostClassifierClass,\
+    KnnClassifierClass,\
+    SvmClassifierClass,\
+    QdaClassifierClass,\
+    LrClassifierClass
+
+# LgboostClassifier
 
 class RunModel:
 
     model_map = {
-        'gdb': GradientboostClassifier,
-        'xgb': XgboostClassifier,
-        'catb': CatboostClassifier,
-        'lgb': LgboostClassifier,
-        'rdf': RandomforestClassifier,
-        'extr': ExtratreesClassifier,
-        'lda': LdaClassifier,
-        'rdg': RidgeClassifier,
-        'dt': DtClassifier,
-        'nb': NbClassifier,
-        'adab': AdaboostClassifier,
-        'knn': KnnClassifier,
-        'svm': SvmClassifier,
-        'qda': QdaClassifier,
-        'lr': LrClassifier
+        'gdb': GradientboostClassifierClass,
+        'xgb': XgboostClassifierClass,
+        'catb': CatboostClassifierClass,
+        # 'lgb': LgboostClassifierClass,
+        'rdf': RandomforestClassifierClass,
+        'extr': ExtratreesClassifierClass,
+        'lda': LdaClassifierClass,
+        'rdg': RidgeClassifierClass,
+        'dt': DtClassifierClass,
+        'nb': NbClassifierClass,
+        'adab': AdaboostClassifierClass,
+        'knn': KnnClassifierClass,
+        'svm': SvmClassifierClass,
+        'qda': QdaClassifierClass,
+        'lr': LrClassifierClass
     }
     
     @classmethod
     def get_models(cls, model_name_args: Dict):
         model_dict = dict()
-        for model_name, model_args in model_name_args.items():
-            if model_args is None:
-                model_dict[model_name]: cls.model_map[model_name]()
+        for model_name, model in cls.model_map.items():
+            if model_name in model_name_args.keys():
+                model_obj = model(model_name_args[model_name])
             else:
-                model_dict[model_name]: cls.model_map[model_name](model_args)
+                model_obj = model()
             # end if
+            model_dict[model_name] = model_obj
         # end for
         return model_dict
 
@@ -64,6 +68,7 @@ class RunModel:
         for model_name, model in model_dict.items():
             model.train(x_train, y_train)
             model_dict[model_name] = model
+            print(f"{model_name} model trained.")
         # end for
         return
 
@@ -71,7 +76,7 @@ class RunModel:
     def get_model_test_accuracy(cls, model_dict: Dict, x_test, y_test):
         result_str = 'model_name,accuracy\n'
         for model_name, model in model_dict.items():
-            acc = model.test_models(x_train, y_train)
+            acc = model.test(x_test, y_test)
             result_str += f"{model_name},{acc}\n"
         # end for
 
@@ -86,7 +91,7 @@ class RunModel:
         result_str = 'model_name,tn,fp,fn,tp\n'
         for model_name, model in model_dict.items():
             # Compute the test error
-            y_pred = [predict_example(x, decision_tree) for x in Xtst]
+            y_pred = model.predict(x_test)
             tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
             result_str += f"{model_name},{tn},{fp},{fn},{tp}\n"
         # end for
@@ -98,36 +103,64 @@ class RunModel:
     @classmethod
     def get_feature_importance(cls, model_dict: Dict):
         sns.set_theme()
+        figs_dir = Macros.result_dir / 'salary'
+        figs_dir.mkdir(parents=True, exist_ok=True)
         for model_name, model in model_dict.items():
             # feature importance: ndarray of shape (n_features,)
-            feat_importances = model.feature_importances_
-            data_lod = list()
-            for f_i in range(len(feat_importances)):
-                data_lod.append({
-                    'feat_id': f_i+1,
-                    'feat_importance': feat_importances[f_i]
-                })
-            # end for
-            df: pd.DataFrame = pd.DataFrame.from_dict(Utils.lod_to_dol(data_lod))
-
-            # Plotting part
-            fig: plt.Figure = plt.figure()
-            ax: plt.Axes = fig.subplots()
-            ax = sns.barplot(data=df,
-                             x='feat_id',
-                             y='feat_importance',
-                             ax=ax,
-                             palette='Paired')
-            ax.set_xlabel('features')
-            ax.set_ylabel('feat-y')
-            fig.tight_layout()
-            fig.savefig(figs_dir / f"feature_importance_{model_name}_barplot.eps")
+            if hasattr(model.model, 'feature_importances_'):
+                feat_importances = model.model.feature_importances_
+                data_lod = list()
+                for f_i in range(len(feat_importances)):
+                    data_lod.append({
+                        'feat_id': f_i+1,
+                        'feat_importance': feat_importances[f_i]
+                    })
+                # end for
+                df: pd.DataFrame = pd.DataFrame.from_dict(Utils.lod_to_dol(data_lod))
+                
+                # Plotting part
+                fig: plt.Figure = plt.figure()
+                ax: plt.Axes = fig.subplots()
+                ax = sns.barplot(data=df,
+                                 x='feat_id',
+                                 y='feat_importance',
+                                 ax=ax,
+                                 palette='Paired')
+                ax.set_xlabel('features')
+                ax.set_ylabel('feat-y')
+                fig.tight_layout()
+                fig.savefig(figs_dir / f"feature_importance_{model_name}_barplot.eps")
+            elif hasattr(model.model, 'coef_'):
+                coefs = model.model.coef_[0,:]
+                for c_i in range(len(coefs)):
+                    data_lod.append({
+                        'feat_id': c_i+1,
+                        'feat_importance': coefs[c_i]
+                    })
+                # end for
+                df: pd.DataFrame = pd.DataFrame.from_dict(Utils.lod_to_dol(data_lod))
+                
+                # Plotting part
+                fig: plt.Figure = plt.figure()
+                ax: plt.Axes = fig.subplots()
+                ax = sns.barplot(data=df,
+                                 x='feat_id',
+                                 y='feat_importance',
+                                 ax=ax,
+                                 palette='Paired')
+                ax.set_xlabel('features')
+                ax.set_ylabel('coef-y')
+                fig.tight_layout()
+                fig.savefig(figs_dir / f"coef_importance_{model_name}_barplot.eps")
+            else:
+                print(f"{model_name} has no feature_importances/coefs attribute")
+            # end if
         # end for
         return
 
     @classmethod
     def run_models(cls):
-        # TODO: get data (x_train, y_train, x_test, y_test)
+        x_train, x_test, y_train, y_test = Preprocess.get_data()
         
         model_config = {
             'gdb': {
@@ -143,9 +176,9 @@ class RunModel:
         }
         
         model_dict = cls.get_models(model_config)
-        cls.train_models(cls, model_dict, x_train, y_train)
+        cls.train_models(model_dict, x_train, y_train)
         cls.get_model_test_accuracy(model_dict, x_test, y_test)
         cls.get_confusion_matrices(model_dict, x_test, y_test)
-        cls.get_feature_importance(model_dict)        
+        cls.get_feature_importance(model_dict)
         return
     
