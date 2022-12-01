@@ -13,41 +13,33 @@ from ..utils.Macros import Macros
 from ..utils.Utils import Utils
 from ..preprocess.Preprocess import Preprocess
 
-from .Models import GradientboostClassifierClass,\
-    XgboostClassifierClass,\
-    CatboostClassifierClass, \
-    RandomforestClassifierClass,\
-    ExtratreesClassifierClass,\
-    LdaClassifierClass,\
-    RidgeClassifierClass,\
-    DtClassifierClass,\
-    NbClassifierClass,\
-    AdaboostClassifierClass,\
-    KnnClassifierClass,\
-    SvmClassifierClass,\
-    QdaClassifierClass,\
-    LrClassifierClass
+from .Models import GradientboostRegressorClass,\
+    XgboostRegressorClass,\
+    CatboostRegressorClass, \
+    RandomforestRegressorClass,\
+    ExtratreesRegressorClass,\
+    KernelridgeRegressorClass,\
+    DtRegressorClass,\
+    AdaboostRegressorClass,\
+    KnnRegressorClass,\
+    SvmRegressorClass,\
+    LinearRegressorClass
 
-# LgboostClassifier
 
 class RunModel:
 
     model_map = {
-        'gdb': GradientboostClassifierClass,
-        'xgb': XgboostClassifierClass,
-        'catb': CatboostClassifierClass,
-        # 'lgb': LgboostClassifierClass,
-        'rdf': RandomforestClassifierClass,
-        'extr': ExtratreesClassifierClass,
-        'lda': LdaClassifierClass,
-        'rdg': RidgeClassifierClass,
-        'dt': DtClassifierClass,
-        'nb': NbClassifierClass,
-        'adab': AdaboostClassifierClass,
-        'knn': KnnClassifierClass,
-        'svm': SvmClassifierClass,
-        'qda': QdaClassifierClass,
-        'lr': LrClassifierClass
+        'gdb': GradientboostRegressorClass,
+        'xgb': XgboostRegressorClass,
+        'catb': CatboostRegressorClass,
+        'rdf': RandomforestRegressorClass,
+        'extr': ExtratreesRegressorClass,
+        'rdg': KernelridgeRegressorClass,
+        'dt': DtRegressorClass,
+        'adab': AdaboostRegressorClass,
+        'knn': KnnRegressorClass,
+        'svm': SvmRegressorClass,
+        'lr': LinearRegressorClass
     }
     
     @classmethod
