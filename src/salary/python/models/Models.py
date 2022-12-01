@@ -253,7 +253,7 @@ class SvmRegressorClass:
     
     def __init__(self, kwargs=None):
         if kwargs is None:
-            self.model = SVC()
+            self.model = SVR()
         else:
             # kernel = {‘linear’, ‘poly’, ‘rbf’, ‘sigmoid’, ‘precomputed’} 
             kernel = kwargs.pop('kernel', 'rbf')
