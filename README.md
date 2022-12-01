@@ -8,7 +8,7 @@ https://docs.google.com/document/d/1MhQ3LOnF4esJO1CTKt3ENYnYZJYZAqz3ld58dy8F5_o/
 
 ## 1. onlineclass_survey:
 ### Task: predicting if student prefer studying online/in person
-### questions for features
+### Questions for features
 1. What is your major?
 2. What is your gender identity?
 3. Which of the following best describes you?
@@ -25,10 +25,10 @@ https://docs.google.com/document/d/1MhQ3LOnF4esJO1CTKt3ENYnYZJYZAqz3ld58dy8F5_o/
 14. Where did you hear about this survey?
 
 
-## 2. salary
+## 2. Salary
 ### Task: predict the amount of professors annual salary in university
 ### Features
-1. TODO
+1. TODO: add what features are used.
 
 ## ML models used for the classifition
 * gradient boosting classifier
@@ -49,17 +49,14 @@ https://docs.google.com/document/d/1MhQ3LOnF4esJO1CTKt3ENYnYZJYZAqz3ld58dy8F5_o/
 
 # How to run
 
-## 1. onlineclass_survey: at the root directory (ml_cs6375_miniproj_fall2022/)
+## 1. onlineclass_survey
+At the project root directory (ml_cs6375_miniproj_fall2022/)
 ```bash
 ./run_online.sh
 ```
 
-## 1. onlineclass_survey: at the root directory (ml_cs6375_miniproj_fall2022/)
-```bash
-./run_online.sh
-```
-
-## 2. salary: at the root directory (ml_cs6375_miniproj_fall2022/)
+## 2. salary
+At the project root directory (ml_cs6375_miniproj_fall2022/)
 ```bash
 ./run_salary.sh
 ```
