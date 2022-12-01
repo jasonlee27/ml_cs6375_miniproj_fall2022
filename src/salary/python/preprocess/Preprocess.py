@@ -24,7 +24,7 @@ class Preprocess:
     def fill_nan_with(cls, df):
         qs_in_data = list(df.keys())
         for q_i, q in enumerate(qs_in_data):
-            if q==Macros.QUESTIONS[12]:
+            if q==Macros.FEATURES[12]:
                 df[q] = df[q].fillna('na')
             # end if
         # end for
@@ -33,18 +33,25 @@ class Preprocess:
     @classmethod
     def get_data(cls):
         df = cls.get_raw_data()
-        # label question: 'Which learning modality do you generally prefer?'
-        labels = LabelEncoder().fit_transform(df[Macros.QUESTIONS[-2]])
+        # label feature: 'salary'
+        labels = df[Macros.QUESTIONS[1]]
         qs_in_data = list(df.keys())
         data = list()
         for q_i, q in enumerate(qs_in_data):
-            if q not in [
-                    Macros.QUESTIONS[0],
-                    Macros.QUESTIONS[-1],
-                    Macros.QUESTIONS[-2]
-            ]:
-                df_q = LabelEncoder().fit_transform(df[q])                
-                data.append(df_q)
+            if q!=Macros.FEATURES[1]:
+                if q in [
+                        Macros.FEATURES[0],
+                        Macros.FEATURES[2],
+                        Macros.FEATURES[3],
+                        Macros.FEATURES[11],
+                        Macros.FEATURES[12],
+                        Macros.FEATURES[13],
+                        Macros.FEATURES[-1]]:
+                    df_q = LabelEncoder().fit_transform(df[q])
+                    data.append(df_q)
+                else:
+                    data.append(df[q])
+                # end if
             # end if
         # end for
         data = np.transpose(np.array(data)) # (#examples, #feats)
