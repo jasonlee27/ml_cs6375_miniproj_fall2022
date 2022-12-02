@@ -78,19 +78,19 @@ class RunModel:
         Utils.write_txt(result_str, save_dir / 'test_accuracy.csv')
         return
 
-    @classmethod
-    def get_confusion_matrices(cls, model_dict: Dict, x_test, y_test):
-        result_str = 'model_name,tn,fp,fn,tp\n'
-        for model_name, model in model_dict.items():
-            # Compute the test error
-            y_pred = model.predict(x_test)
-            tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
-            result_str += f"{model_name},{tn},{fp},{fn},{tp}\n"
-        # end for
-        save_dir = Macros.result_dir / 'salary'
-        save_dir.mkdir(parents=True, exist_ok=True)
-        Utils.write_txt(result_str, save_dir / 'confusion_matrix.csv')
-        return
+    # @classmethod
+    # def get_confusion_matrices(cls, model_dict: Dict, x_test, y_test):
+    #     result_str = 'model_name,tn,fp,fn,tp\n'
+    #     for model_name, model in model_dict.items():
+    #         # Compute the test error
+    #         y_pred = model.predict(x_test)
+    #         tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
+    #         result_str += f"{model_name},{tn},{fp},{fn},{tp}\n"
+    #     # end for
+    #     save_dir = Macros.result_dir / 'salary'
+    #     save_dir.mkdir(parents=True, exist_ok=True)
+    #     Utils.write_txt(result_str, save_dir / 'confusion_matrix.csv')
+    #     return
 
     @classmethod
     def get_feature_importance(cls, model_dict: Dict):
@@ -123,7 +123,7 @@ class RunModel:
                 fig.tight_layout()
                 fig.savefig(figs_dir / f"feature_importance_{model_name}_barplot.eps")
             elif hasattr(model.model, 'coef_'):
-                coefs = model.model.coef_[0,:]
+                coefs = model.model.coef_
                 for c_i in range(len(coefs)):
                     data_lod.append({
                         'feat_id': c_i+1,
@@ -170,7 +170,7 @@ class RunModel:
         model_dict = cls.get_models(model_config)
         cls.train_models(model_dict, x_train, y_train)
         cls.get_model_test_accuracy(model_dict, x_test, y_test)
-        cls.get_confusion_matrices(model_dict, x_test, y_test)
+        # cls.get_confusion_matrices(model_dict, x_test, y_test)
         cls.get_feature_importance(model_dict)
         return
     

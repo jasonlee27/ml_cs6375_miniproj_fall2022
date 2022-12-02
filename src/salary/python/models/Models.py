@@ -25,8 +25,8 @@ from sklearn.ensemble import GradientBoostingRegressor, \
     ExtraTreesRegressor, \
     AdaBoostRegressor
 from sklearn.neighbors import KNeighborsRegressor
-from sklearn.linear_model import KernelRidge, \
-    LinearRegression
+from sklearn.kernel_ridge import KernelRidge
+from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.svm import SVR
 

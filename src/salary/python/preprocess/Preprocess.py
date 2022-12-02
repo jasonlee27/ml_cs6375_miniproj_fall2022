@@ -18,23 +18,24 @@ class Preprocess:
     @classmethod
     def get_raw_data(cls):
         df = pd.read_csv(Macros.csv_file, header=0)
-        return cls.fill_nan_with(df)
-
-    @classmethod
-    def fill_nan_with(cls, df):
-        qs_in_data = list(df.keys())
-        for q_i, q in enumerate(qs_in_data):
-            if q==Macros.FEATURES[12]:
-                df[q] = df[q].fillna('na')
-            # end if
-        # end for
+        # return cls.fill_nan_with(df)
         return df
+
+    # @classmethod
+    # def fill_nan_with(cls, df):
+    #     qs_in_data = list(df.keys())
+    #     for q_i, q in enumerate(qs_in_data):
+    #         if q==Macros.FEATURES[12]:
+    #             df[q] = df[q].fillna('na')
+    #         # end if
+    #     # end for
+    #     return df
 
     @classmethod
     def get_data(cls):
         df = cls.get_raw_data()
         # label feature: 'salary'
-        labels = df[Macros.QUESTIONS[1]]
+        labels = df[Macros.FEATURES[1]]
         qs_in_data = list(df.keys())
         data = list()
         for q_i, q in enumerate(qs_in_data):
@@ -43,9 +44,8 @@ class Preprocess:
                         Macros.FEATURES[0],
                         Macros.FEATURES[2],
                         Macros.FEATURES[3],
-                        Macros.FEATURES[11],
-                        Macros.FEATURES[12],
-                        Macros.FEATURES[13],
+                        Macros.FEATURES[7],
+                        Macros.FEATURES[8],
                         Macros.FEATURES[-1]]:
                     df_q = LabelEncoder().fit_transform(df[q])
                     data.append(df_q)

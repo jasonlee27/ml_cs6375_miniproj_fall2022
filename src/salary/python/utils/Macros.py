@@ -28,22 +28,17 @@ class Macros:
         'Salary', # target to be predicted
         'Lname',
         'Fname',
-        'citedby'
         'citedby5y'
-        'hindex',
         'hindex5y',
-        'i10index',
         'i10index5y',
         'Age',
         'School',
-        'Department',
         'rating_class',
 	'total_ratings',
         'overall_rating',
         'total_courses',
         'average_grade',
         'percent_passing',
-        'total_courses_lead',
         'gender'
     ]
     

@@ -21,10 +21,6 @@ args = parser.parse_args()
 rand_seed_num = Macros.RAND_SEED
 random.seed(rand_seed_num)
 
-def run_preprocess():
-    from .preprocess.Preprocess import Preprocess
-    Preprocess.combine_data()
-    return
 
 def run_models():
     from .models.RunModel import RunModel
@@ -33,7 +29,6 @@ def run_models():
 
 
 func_map = {
-    'preprocess': run_preprocess,
     'run_model': run_models,
 }
 
