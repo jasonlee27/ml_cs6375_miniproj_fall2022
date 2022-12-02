@@ -81,7 +81,7 @@ class RunModel:
         # end for
 
         # TODO: save result here?
-        save_dir = Macros.result_dir / 'salary'
+        save_dir = Macros.result_dir / 'onlineclass_survey'
         save_dir.mkdir(parents=True, exist_ok=True)
         Utils.write_txt(result_str, save_dir / 'test_accuracy.csv')
         return
@@ -95,7 +95,7 @@ class RunModel:
             tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
             result_str += f"{model_name},{tn},{fp},{fn},{tp}\n"
         # end for
-        save_dir = Macros.result_dir / 'salary'
+        save_dir = Macros.result_dir / 'onlineclass_survey'
         save_dir.mkdir(parents=True, exist_ok=True)
         Utils.write_txt(result_str, save_dir / 'confusion_matrix.csv')
         return
