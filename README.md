@@ -7,7 +7,7 @@ https://docs.google.com/document/d/1MhQ3LOnF4esJO1CTKt3ENYnYZJYZAqz3ld58dy8F5_o/
 # Project components
 
 ## 1. onlineclass_survey:
-### * Task: predicting if student prefer studying online/in person (Classification problem)
+### - Task: predicting if student prefer studying online/in person (Classification problem)
 ### - Questions for features
 1. What is your major?
 2. What is your gender identity?
@@ -24,22 +24,21 @@ https://docs.google.com/document/d/1MhQ3LOnF4esJO1CTKt3ENYnYZJYZAqz3ld58dy8F5_o/
 13. Which learning modality do you generally prefer?
 14. Where did you hear about this survey?
 
-### ML models used for the classifition
-* gradient boosting classifier
-* catboost classfier
-* light gradient boosting machine
-* xgboost
-* random forest classifier
-* extra trees classifier
+### ML models used
+* Gradient boosting classifier
+* Catboost classfier
+* Xgboost classifier
+* Random forest classifier
+* Extra trees classifier
 * Linear discriminant analysis
-* ridge classifier
-* decision tree classidier
-* naive bayes classifier
-* ada boost classifier
-* k neighbors classifier
-* svm - linear kernel
-* quadratic discriminant analysis
-* logistic regression
+* Ridge classifier
+* Decision tree classidier
+* Naive bayes classifier
+* Ada boost classifier
+* K-Neighbors classifier
+* SVM - RBF kernel
+* Quadratic discriminant analysis
+* Logistic regression
 
 ### How to run
 At the project root directory ( ml_cs6375_miniproj_fall2022/ ),
@@ -52,6 +51,18 @@ At the project root directory ( ml_cs6375_miniproj_fall2022/ ),
 ### Features
 1. TODO: add what features are used.
 
+### ML models used
+* Gradient boosting regressor
+* Catboost regressor
+* Xgboost regressor
+* Random forest regressor
+* Extra trees regressor
+* Kernel ridge regressor - Linear kernel
+* Decision tree regressor
+* Ada boost regressor
+* K-Neighbors regressor
+* SVM - RBF kernel
+* Linear regression
 
 ### How to run
 At the project root directory ( ml_cs6375_miniproj_fall2022/ ),
