@@ -24,13 +24,7 @@ https://docs.google.com/document/d/1MhQ3LOnF4esJO1CTKt3ENYnYZJYZAqz3ld58dy8F5_o/
 13. Which learning modality do you generally prefer?
 14. Where did you hear about this survey?
 
-
-## 2. Salary
-### Task: prediction of the amount of professors annual salary in university
-### Features
-1. TODO: add what features are used.
-
-## ML models used for the classifition
+### ML models used for the classifition
 * gradient boosting classifier
 * catboost classfier
 * light gradient boosting machine
@@ -47,13 +41,19 @@ https://docs.google.com/document/d/1MhQ3LOnF4esJO1CTKt3ENYnYZJYZAqz3ld58dy8F5_o/
 * quadratic discriminant analysis
 * logistic regression
 
-# How to run
+### How to run
 
 ## 1. onlineclass_survey
 At the project root directory (ml_cs6375_miniproj_fall2022/)
 ```bash
 ./run_online.sh
 ```
+
+## 2. Salary
+### Task: prediction of the amount of professors annual salary in university
+### Features
+1. TODO: add what features are used.
+
 
 ## 2. salary
 At the project root directory (ml_cs6375_miniproj_fall2022/)
