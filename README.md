@@ -8,7 +8,7 @@ https://docs.google.com/document/d/1MhQ3LOnF4esJO1CTKt3ENYnYZJYZAqz3ld58dy8F5_o/
 
 ## 1. onlineclass_survey:
 ### - Task: predicting if student prefer studying online/in person (Classification problem)
-### - Questions for features
+### - Questions for features used for data collection
 1. What is your major?
 2. What is your gender identity?
 3. Which of the following best describes you?
@@ -21,7 +21,7 @@ https://docs.google.com/document/d/1MhQ3LOnF4esJO1CTKt3ENYnYZJYZAqz3ld58dy8F5_o/
 10. What is your average bedtime
 11. How many student organizations are you involved with?
 12. Are you currently concerned with catching / spreading COVID-19?
-13. Which learning modality do you generally prefer?
+13. Which learning modality do you generally prefer? (Label)
 14. Where did you hear about this survey?
 
 ### ML models used
@@ -48,8 +48,23 @@ At the project root directory ( ml_cs6375_miniproj_fall2022/ ),
 
 ## 2. Salary
 ### Task: prediction of the amount of professors annual salary in university (Regression Problem)
-### Features
-1. TODO: add what features are used.
+### Features used for data collection
+1. Title',
+2. Salary (target variable)
+3. Lname
+4. Fname
+5. citedby5y
+6. hindex5y
+7. i10index5y
+8. Age
+9. School
+10. rating_class
+11. total_ratings
+12. overall_rating
+13. total_courses
+14. average_grade
+15. percent_passing
+16. gender
 
 ### ML models used
 * Gradient boosting regressor
