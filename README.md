@@ -44,6 +44,7 @@
 ### How to run
 At the project root directory ( `ml_cs6375_miniproj_fall2022/` ),
 ```bash
+pip install -r requirements.txt # install prerequisites
 ./run_online.sh
 ```
 
@@ -90,6 +91,7 @@ In the directory, there are model evaluation files as following:
 ### How to run
 At the project root directory ( `ml_cs6375_miniproj_fall2022/` ),
 ```bash
+pip install -r requirements.txt # install prerequisites
 ./run_salary.sh
 ```
 
