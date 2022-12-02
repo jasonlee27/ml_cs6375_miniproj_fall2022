@@ -1,0 +1,910 @@
+Title,Salary,Lname,Fname,citedby5y,hindex5y,i10index5y,Age,School,rating_class,total_ratings,overall_rating,total_courses,average_grade,percent_passing,gender,Department
+Professor,133431,Abdi,Herve,20227,59,151,69,BBS,good,9,4.7,1,3.1,0.9,male,Psychology
+Senior Lecturer I,54755,Abeykoon,Nimali,157,4,4,34,NSM,good,26,3.9,16,3.004180328,0.823770492,male,Chemistry
+Associate Professor,114248,Ackerman,Robert,2524,24,32,40,BBS,good,15,4.3,3,3.688510638,0.978723404,male,Psychology
+Assist. Prof. Of Instruction,56745,Adabrah,Anani,14,2,1,54,NSM,good,13,3.8,9,2.663630137,0.739726027,female,Mathematical Sciences
+Assistant Professor,76180,Admiral,Rosemary,0,0,0,54,AHT,good,5,4.8,4,3.420534762,0.952057156,male,History
+Assist. Prof. Of Practice,88220,Ahadi,Khatereh,33,3,1,54,JSOM,good,53,4.2,9,3.334259259,0.948559671,male,Operations Management
+Clinical Assistant Professor,28889,Ahlberg,Mehrzad,0,0,0,54,JSOM,good,16,3.6,8,3.59248503,0.95508982,male,Management
+Associate Professor,184183,Ahn,Jung-mo,0,0,0,52,NSM,good,16,3.6,2,2.777132353,0.742647059,male,Chemistry
+Assoc. Prof. Of Instruction,79153,Ahsan,Mohammad,0,0,0,54,NSM,average,48,3.2,10,2.212129964,0.620938628,male,Mathematical Sciences
+Clinical Associate Professor,117028,Akbar,Mohammad,0,0,0,54,NSM,good,55,4.3,5,3.023384615,0.861538462,male,Mathematical Sciences
+Professor,236868,Akin,Bilal,3589,33,93,44,ECS,good,12,4.7,3,3.183589744,0.833333333,male,Electrical & Computer Engr
+Assoc. Prof. Of Instruction,94156,Alagar,Sridhar,0,0,0,54,ECS,average,45,2.6,9,3.020084034,0.823529412,male,Computer Science
+Clinical Associate Professor,172696,Alborz,Shawn,0,0,0,45,JSOM,good,576,4.7,4,3.6615,1,male,Operations Management
+Professor,321660,Aldhahir,Naofal,6735,36,151,54,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Electrical & Computer Engr
+Professor Of Instruction,87931,Aldridge,Michelle,0,0,0,52,BBS,good,25,4.8,6,3.937690058,0.994152047,male,Speech & Language Pathology
+Associate Professor,55338,Alexander,Bobby,0,0,0,71,EPPS,good,26,4,4,3.420534762,0.952057156,male,Criminology and Sociology
+Professor,467294,Ali,Ashiq,3278,21,28,65,JSOM,good,10,3.7,2,3.612527473,0.989010989,male,Accounting
+Assoc. Prof. Of Instruction,91867,Ali,Md,0,0,0,54,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Electrical & Computer Engr
+Assoc. Prof. Of Instruction,123771,Ali,Tariq,60,5,2,54,ECS,good,11,4.5,17,3.230856031,0.926070039,male,Bioengineering
+Visiting Assistant Professor,50793,Alibhai,Aliasgar,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,male,Art & Art History
+Clinical Assistant Professor,119369,Alimirzaei,Athena,0,0,0,54,JSOM,good,63,3.6,12,3.634843137,0.976470588,female,Operations Management
+Senior Lecturer I,57940,Alvarado,Iris,0,0,0,33,NSM,good,8,4.1,4,3.420534762,0.952057156,male,Mathematical Sciences
+Assoc. Prof. Of Instruction,62698,Aman,Kelly,0,0,0,54,NSM,good,15,4.5,4,3.420534762,0.952057156,female,Mathematical Sciences
+Assoc. Prof. Of Instruction,50679,Amato,Lawrence,0,0,0,54,AHT,good,73,4,9,3.3375,0.930424528,male,Philosophy & Humanities
+Professor Of Instruction,74169,Amirpour,Semiramis,0,0,0,54,JSOM,good,37,3.7,7,2.898108108,0.772972973,male,Marketing
+Professor,138847,Anderson,Phillip,629,14,19,62,NSM,good,16,3.6,2,2.9584375,0.8125,male,Physics
+Associate Professor,192976,Anderson,William,1153,19,29,37,ECS,poor,21,2.2,2,2.718461538,0.820512821,male,Mechanical Engineering
+Associate Professor,87494,Andreescu,Titu,0,0,0,64,NSM,good,12,3.5,4,3.420534762,0.952057156,male,Mathematical Sciences
+Associate Professor,186126,Andrews,Rodney,555,11,12,45,EPPS,good,20,4.2,2,3.194857143,0.9,male,Economics
+Assoc. Prof. Of Instruction,54332,Anjum,Zafar,0,0,0,60,AHT,good,28,4.3,6,3.873781513,0.991596639,female,Philosophy & Humanities
+Professor,254520,Arce,Daniel,819,17,22,61,EPPS,good,40,4.6,2,2.577142857,0.772486772,male,Economics
+Assoc. Prof. Of Instruction,92500,Ardestani,Khoubrouy,0,0,0,54,ECS,good,16,3.6,8,3.196538462,0.835164835,male,Bioengineering
+Assoc. Prof. Of Instruction,97650,Arnold,Gordon,0,0,0,54,ECS,good,16,3.6,10,3.039578947,0.837894737,male,Computer Science
+Associate Professor,98096,Arnold,Maxim,104,6,5,38,NSM,good,16,3.6,4,2.360825688,0.660550459,male,Mathematical Sciences
+Assoc. Prof. Of Instruction,112335,Arora,Vivek,0,0,0,54,JSOM,good,33,3.9,5,3.476556604,0.985849057,female,Management
+Assistant Professor,104988,Arreche,Carlos,0,0,0,36,NSM,good,5,4.4,4,3.055257732,0.804123711,male,Mathematical Sciences
+Professor,131594,Assmann,Peter,0,0,0,68,BBS,average,81,3,4,3.420534762,0.952057156,male,Psychology
+Assist. Prof. Of Instruction,38594,Atchison,Kristin,0,0,0,54,BBS,average,12,3.1,6,3.090082418,0.879120879,male,Psychology
+Professor,179021,Auciello,Orlando,4613,33,96,74,ECS,good,1,4,1,3.5,1,male,Materials Science and Engineering
+Assist. Prof. Of Instruction,24115,Avram,Danielle,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,male,Art & Art History
+Associate Professor,218228,Ayvaci,Mehmet,0,0,0,41,JSOM,poor,9,1.9,4,3.594639175,1,male,Information Services
+Senior Lecturer I,46492,Baker,Barbara,0,0,0,72,AHT,poor,46,2.5,7,3.033692308,0.876923077,male,Communication
+Professor,108099,Balanov,Zalman,0,0,0,54,NSM,good,22,3.9,4,3.420534762,0.952057156,male,Mathematical Sciences
+Associate Professor,173899,Balbueno,Contreira,0,0,0,54,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Bioengineering
+Professor,168221,Balkus,Kenneth,5877,36,97,62,NSM,poor,1,2,4,3.420534762,0.952057156,male,Chemistry
+Professor,333108,Balsamo,Anne,0,0,0,54,AHT,poor,10,2.3,1,3.568621908,0.939929329,male,Arts & Technology
+Professor,264798,Balsara,Poras,1945,19,41,64,ECS,good,16,3.6,4,3.420534762,0.952057156,female,Electrical & Computer Engr
+Professor,95894,Bambach,Charles,365,5,4,70,AHT,good,16,3.6,4,3.420534762,0.952057156,male,Philosophy & Humanities
+Associate Professor,88458,Banner,Olivia,78,6,4,48,AHT,good,6,3.9,4,3.420534762,0.952057156,male,Arts & Technology
+Associate Professor,180615,Baranchuk,Nina,338,5,5,46,JSOM,zero,0,3.6,5,3.235368421,0.905263158,female,Finance
+Clinical Professor,219350,Barden,John,0,0,0,61,JSOM,good,108,3.9,3,3.599516129,0.967741935,male,Accounting
+Assistant Professor,81946,Barnes,Ashley,0,0,0,44,AHT,average,15,3.4,4,3.352545455,0.927272727,male,Writing & Literature
+Associate Professor,142550,Basak,Chandramallika,5578,23,32,48,BBS,good,16,3.6,3,3.515606061,0.984848485,female,Psychology
+Professor,227301,Bastani,Farokh,0,0,0,67,ECS,average,5,3,4,3.420534762,0.952057156,male,Computer Science
+Assistant Professor,136045,Basu,Kanad,1020,17,28,54,ECS,good,13,3.8,2,3.14,0.88,male,Electrical & Computer Engr
+Professor,132244,Battaglio,Randy,0,0,0,54,JSOM,good,16,3.6,2,3.927826087,1,male,Public & Nonprofit Management
+Professor,379223,Baughman,Ray,0,0,0,80,NSM,good,16,3.6,4,3.420534762,0.952057156,male,Chemistry
+Assist. Prof. Of Instruction,87741,Baynham,Karen,0,0,0,54,AHT,good,16,3.6,4,2.7875,0.75,female,Communication
+Senior Lecturer I,97883,Becker,Eric,0,0,0,54,ECS,good,16,3.6,34,3.689334638,0.953033268,male,Computer Science
+Professor Of Instruction,123668,Bell,Elizabeth,0,0,0,54,AHT,poor,3,1.9,2,3.129379845,0.88372093,female,Communication
+Assoc. Prof. Of Practice,106200,Benavides,Teodoro,0,0,0,71,EPPS,good,8,4.5,5,3.927272727,0.981818182,male,Public & Nonprofit Management
+Visiting Assistant Professor,51960,Bennett,Rodger,0,0,0,54,AHT,good,10,3.9,6,3.359352518,0.90647482,male,Music
+Senior Lecturer I,45417,Bennett,Terrell,0,0,0,54,ECS,average,5,3.4,5,3.5512,0.973333333,male,Electrical & Computer Engr
+Professor,230209,Bensoussan,Alain,8271,39,118,82,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,Operations Management
+Professor,139871,Bereg,Sergey,686,14,20,61,ECS,good,115,4.2,4,3.420534762,0.952057156,male,Computer Science
+Assistant Professor,112098,Bernal,Montoya,0,0,0,54,ECS,good,16,3.6,3,3.456814815,0.992592593,male,Mechanical Engineering
+Professor,218384,Beron,Kurt,1345,19,23,67,EPPS,average,10,3.4,4,3.420534762,0.952057156,male,Economics
+Clinical Professor,109899,Berrett,Britt,0,0,0,54,JSOM,good,16,3.6,7,3.371964912,0.919298246,male,Management
+Professor,173060,Berry,Brian,5686,34,94,89,EPPS,good,16,3.6,4,3.420534762,0.952057156,male,Geography
+Clinical Assistant Professor,88173,Betanzos,Christina,0,0,0,54,JSOM,good,114,3.5,10,2.766114754,0.81147541,female,Accounting
+Professor,176582,Bhatia,Dinesh,503,10,11,59,ECS,good,22,3.6,4,3.420534762,0.952057156,female,Electrical & Computer Engr
+Associate Professor,116724,Biewer,Michael,1426,21,43,54,NSM,average,49,3.3,6,3.596086957,0.940217391,male,Chemistry
+Clinical Professor,226944,Biswas,Abhijit,0,0,0,63,JSOM,good,209,4.8,12,3.381570796,0.980088496,male,Marketing
+Professor,157032,Biswas,Swati,0,0,0,50,NSM,average,21,3.1,3,3.030178571,0.785714286,male,Mathematical Sciences
+Professor,179211,Bleris,Leonidas,1198,19,28,44,ECS,good,16,3.6,3,3.517476636,0.953271028,male,Bioengineering
+Clinical Assistant Professor,102317,Blueshtein,Moran,0,0,0,54,JSOM,good,16,3.6,8,3.244881517,0.957345972,male,Finance
+Professor,326155,Bolton,Gary,0,0,0,61,JSOM,good,1,5,3,3.755072464,1,male,Finance
+Professor,174684,Boots,Denise,0,0,0,49,EPPS,good,49,4.9,3,3.615942029,0.985507246,female,Public Policy
+Professor Of Practice,160233,Bortz,Tiffany,0,0,0,50,JSOM,good,68,3.8,9,3.175771812,0.882550336,female,Accounting
+Professor Of Practice,92843,Bose,Ranavir,0,0,0,54,JSOM,poor,17,2.4,2,3.424787234,0.946808511,female,Information Services
+Assoc. Prof. Of Practice,36768,Bowen,Richard,0,0,0,74,JSOM,average,43,3.1,4,3.078588235,0.870588235,male,Accounting
+Clinical Assistant Professor,148343,Bradbury,Judd,20,2,1,53,JSOM,poor,77,2.5,10,3.561058201,1,male,Information Services
+Clinical Professor,163592,Brady,Pamela,0,0,0,54,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,Executive Education
+Assist. Prof. Of Instruction,63526,Braitsch,Caitlin,0,0,0,54,NSM,good,7,5,4,3.420534762,0.952057156,male,Biological Sciences
+Professor,154904,Brandt,Patrick,1296,20,27,50,EPPS,good,16,3.6,4,3.420534762,0.952057156,male,Political Science
+Assoc. Prof. Of Practice,173245,Bray,Timothy,322,3,3,50,EPPS,good,16,3.6,4,3.249126984,0.880952381,male,Public Policy
+Clinical Associate Professor,62005,Brewer,Kenneth,4,1,0,57,AHT,good,16,3.6,6,3.816629213,0.988764045,male,Philosophy & Humanities
+Associate Professor,71119,Brikowski,Thomas,0,0,0,65,NSM,good,16,3.6,4,3.420534762,0.952057156,male,Geosciences
+Professor Of Instruction,97619,Brody,Salena,0,0,0,54,BBS,good,35,4.5,8,3.361617874,0.933744222,male,Psychology
+Assist. Prof. Of Instruction,54624,Brown,Katherine,388,8,6,54,ECS,good,16,3.6,4,3.420534762,0.952057156,female,Bioengineering
+Professor,128396,Brown,Matthew,0,0,0,41,AHT,average,9,3.2,4,3.420534762,0.952057156,male,Philosophy & Humanities
+Associate Professor,231869,Bruce,Norris,0,0,0,53,JSOM,average,18,3.2,3,3.331023622,0.968503937,male,Marketing
+Professor,188688,Brunell,Thomas,1379,17,24,53,EPPS,good,26,3.7,4,3.420534762,0.952057156,male,Political Science
+Assoc. Prof. Of Instruction,135828,Brussolo,Monica,0,0,0,54,JSOM,average,94,3.5,9,3.410062893,0.955974843,male,Operations Management
+Associate Professor,69168,Bunte,Jonas,0,0,0,54,EPPS,good,14,5,1,3.348444444,0.911111111,male,Economics
+Associate Professor,115523,Burr,John,0,0,0,77,NSM,average,54,3.2,13,3.7014,0.99,male,Biological Sciences
+Professor,139814,Burrough,Christine,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,female,Arts & Technology
+Assistant Professor,135065,Burton,Michael,1636,23,38,38,BBS,poor,4,2.3,2,2.813953488,0.76744186,male,Neuroscience
+Professor,179793,Busso,Recabarren,0,0,0,54,ECS,good,16,3.6,2,3.473684211,0.973684211,male,Electrical & Computer Engr
+Assoc. Prof. Of Instruction,88342,Byrnes,Kathleen,0,0,0,54,IS,average,47,2.8,6,3.852520891,0.980501393,male,Interdisciplinary Studies
+Professor,245280,Cakanyildirim,Metin,0,0,0,51,JSOM,average,10,2.5,1,3.500833333,1,male,Operations Management
+Assoc. Prof. Of Instruction,88377,Caldwell,Bryon,0,0,0,54,AHT,good,1,5,6,2.874453782,0.882352941,male,Arts & Technology
+Assoc. Prof. Of Instruction,86429,Camacho,Christopher,0,0,0,54,AHT,good,8,4.5,11,2.985095057,0.844106464,male,Arts & Technology
+Professor Of Instruction,76640,Camacho,Guardado,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,female,Writing & Literature
+Associate Professor,150969,Campbell,Zachary,0,0,0,54,NSM,good,27,3.8,4,3.420534762,0.952057156,male,Biological Sciences
+Assoc. Prof. Of Instruction,86387,Candas,Mehmet,0,0,0,59,NSM,average,79,3,24,2.984733277,0.869602032,male,Biological Sciences
+Professor Of Instruction,103573,Cankaya,Ebru,0,0,0,50,ECS,good,60,3.9,4,3.420534762,0.952057156,female,Computer Science
+Associate Professor,94221,Cao,Yan,0,0,0,48,NSM,poor,21,2.3,4,2.720215054,0.817204301,male,Mathematical Sciences
+Clinical Professor,102611,Carraher,Shawn,0,0,0,54,JSOM,good,3,3.7,8,3.527915633,0.913151365,male,Management
+Assistant Professor,128383,Carrion,Benjamin,1114,17,27,54,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Electrical & Computer Engr
+Assoc. Prof. Of Practice,83048,Carter,Jessica,0,0,0,54,BBS,good,16,3.6,3,3.989010989,1,male,Speech & Language Pathology
+Professor,258389,Cavusoglu,Huseyin,3983,25,42,45,JSOM,poor,31,2,4,3.456666667,0.98245614,male,Information Services
+Professor,194388,Chan,Julia,0,0,0,54,NSM,good,4,5,1,3.635238095,0.928571429,female,Chemistry
+Senior Lecturer I,74929,Chandler,Adam,0,0,0,54,AHT,good,7,4.4,9,3.275440415,0.901554404,male,Arts & Technology
+Professor,236015,Chandrasekaran,Ramaswamy,0,0,0,81,ECS,good,39,4.1,5,3.801967213,1,male,Computer Science
+Professor,118802,Channell,David,139,6,4,77,AHT,good,14,4.7,4,3.420534762,0.952057156,male,Philosophy & Humanities
+Senior Lecturer I,4497,Chapman,Juliann,0,0,0,54,JSOM,good,22,4.4,4,3.69972067,0.988826816,male,Finance
+Clinical Professor,119210,Chasteen,Larry,35,4,1,77,JSOM,average,24,2.5,6,3.212192513,0.930481283,male,OSIM
+Clinical Assistant Professor,68401,Chatterjee,Sourav,0,0,0,54,,good,11,3.9,11,3.391506849,0.98630137,male,Management
+Assoc. Prof. Of Instruction,55232,Chen,Bei,0,0,0,44,AHT,good,7,4.8,7,3.844159292,1,male,Writing & Literature
+Associate Professor,176360,Chen,Feng,2617,24,59,54,ECS,average,3,3.3,2,3.767936508,1,male,Computer Science
+Professor,318976,Chen,Jianqing,1598,17,23,43,JSOM,good,12,3.5,2,3.625416667,1,male,Information Services
+Associate Professor,166276,Chen,Lunjin,3952,37,100,40,NSM,average,32,2.8,2,3.091702786,0.873065015,male,Physics
+Professor,120364,Chen,Min,1068,15,19,50,NSM,good,21,4.1,6,3.511666667,0.965811966,male,Mathematical Sciences
+Assoc. Prof. Of Instruction,83749,Chida,Anjum,0,0,0,54,ECS,average,78,3.4,7,3.681136364,0.982323232,female,Computer Science
+Assoc. Prof. Of Instruction,87383,Chin,Wei-pang,0,0,0,54,ECS,good,16,3.6,10,3.005,0.904977376,male,Computer Science
+Assistant Professor,209182,Chiong,Khai,0,0,0,54,JSOM,good,16,3.6,3,3.645121951,1,male,Marketing
+Assistant Professor,94223,Chiou,Sy,285,11,11,54,NSM,good,16,3.6,4,3.38112782,0.902255639,female,Mathematical Sciences
+Assoc. Prof. Of Instruction,103812,Chitturi,Bhadrachalam,317,10,14,54,ECS,good,16,3.6,7,3.391437126,0.982035928,male,Computer Science
+Professor,214763,Chiu,Yun,0,0,0,51,ECS,poor,12,2.1,3,3.048292683,0.865853659,male,Electrical & Computer Engr
+Professor,236029,Cho,Kyeongjae,0,0,0,58,ECS,poor,2,2,1,3.256153846,1,male,Materials Science and Engineering
+Assistant Professor,172525,Choi,Emily,0,0,0,54,JSOM,good,23,4.5,4,3.458571429,0.972789116,female,OSIM
+Professor,166165,Choudhary,Pankaj,0,0,0,48,NSM,good,24,3.8,4,3.178309859,0.887323944,male,Mathematical Sciences
+Assoc. Prof. Of Instruction,114542,Christiansen,Michael,0,0,0,60,ECS,average,96,2.7,13,3.419813243,0.928692699,male,Computer Science
+Clinical Professor,72661,Christopher,Timothy,0,0,0,43,AHT,average,6,3.3,6,3.695307692,0.961538462,male,Arts & Technology
+Professor,100806,Chun,Yongwan,1292,21,37,48,EPPS,good,16,3.6,3,3.381142857,0.914285714,male,Geography
+Associate Professor,131015,Chung,Lawrence,2324,18,37,63,ECS,poor,34,2.4,6,3.331428571,0.925465839,male,Computer Science
+Clinical Professor,104161,Clark,Jackie,0,0,0,69,BBS,average,6,3.3,5,3.678596491,0.973684211,male,Speech & Language Pathology
+Professor,221231,Clarke,Harold,0,0,0,54,EPPS,good,1,5,1,3.789473684,0.947368421,male,Political Science
+Associate Professor,156700,Cobb,Jorge,157,7,5,57,ECS,average,32,3.2,4,3.420534762,0.952057156,male,Computer Science
+Assoc. Prof. Of Instruction,72432,Cogan,Diana,0,0,0,54,ECS,average,59,3.1,18,2.802564841,0.795389049,male,Electrical & Computer Engr
+Professor,250903,Cogan,Stuart,3778,30,56,69,ECS,good,5,4.8,2,3.392777778,0.955555556,male,Bioengineering
+Clinical Professor,117588,Cokely,Carol,0,0,0,64,BBS,good,16,3.6,3,3.905428571,1,female,Speech & Language Pathology
+Professor Of Instruction,141959,Cole,John,0,0,0,54,ECS,average,135,3.3,4,3.420534762,0.952057156,male,Computer Science
+Clinical Professor,103638,Convery,Paul,0,0,0,54,JSOM,good,16,3.6,1,3.990294118,1,male,Executive Education
+Lecturer Ii,5405,Cook,Julie,0,0,0,54,BBS,good,16,3.6,1,3.902439024,0.975609756,female,Speech & Language Pathology
+Associate Professor,114819,Cooley,Heidi,122,5,3,54,AHT,good,16,3.6,4,3.420534762,0.952057156,female,Arts & Technology
+Assistant Professor,270481,Copat,Rafael,6,2,0,54,JSOM,good,16,3.6,2,3.070666667,0.844444444,male,Accounting
+Clinical Professor,82000,Cordell,David,140,5,3,70,JSOM,good,16,3.6,6,2.790116959,0.742690058,male,Finance
+Assistant Professor,86932,Cordell,Rebecca,57,4,3,34,EPPS,good,16,3.6,3,3.466428571,0.96031746,male,Political Science
+Assoc. Prof. Of Instruction,67694,Cortes,Sergio,0,0,0,72,NSM,good,70,3.6,4,3.420534762,0.952057156,male,Chemistry
+Professor,110688,Coskunuzer,Baris,120,7,0,40,NSM,average,15,3.4,3,2.503333333,0.754901961,male,Mathematical Sciences
+Professor,96013,Cotter,Sean,0,0,0,54,AHT,average,45,2.8,2,2.840952381,0.857142857,male,Philosophy & Humanities
+Professor,417726,Cready,William,0,0,0,66,JSOM,poor,12,1.4,1,2.821428571,0.821428571,male,Accounting
+Associate Professor,126125,Cummings,Anthony,0,0,0,45,EPPS,average,21,3,8,2.985857143,0.835714286,male,Geography
+Professor,102546,Curchack,Fred,0,0,0,80,AHT,average,18,3.5,3,3.629722222,0.944444444,male,Philosophy & Humanities
+Associate Professor,98102,D'orazio,Vito,0,0,0,36,EPPS,good,16,3.6,4,3.426144578,0.963855422,male,Political Science
+Associate Professor,159296,Da,Silveira,0,0,0,54,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,Operations Management
+Senior Lecturer I,55861,Dabkowska,Malgorzata,0,0,0,54,NSM,average,40,3.5,8,3.225468165,0.902621723,female,Mathematical Sciences
+Professor,138179,Dabkowski,Mieczyslaw,0,0,0,46,NSM,good,39,4.3,6,3.259673203,0.908496732,male,Mathematical Sciences
+Professor,220782,Daescu,Ovidiu,0,0,0,53,ECS,average,25,3.1,2,3.377610619,0.973451327,male,Computer Science
+Senior Lecturer I,62189,Dahal,Rabin,0,0,0,54,NSM,good,16,3.6,9,2.88618677,0.80155642,male,Mathematical Sciences
+Assistant Professor,148260,Dai,Xianming,1853,19,23,37,ECS,good,14,4,3,3.68265625,1,male,Mechanical Engineering
+Associate Professor,219419,Dai,Zhonglan,0,0,0,39,JSOM,poor,11,1.2,3,3.171538462,0.881656805,male,Accounting
+Clinical Professor,11544,Dalgic,Tevfik,838,12,15,76,JSOM,average,12,3.4,1,3.78,1,male,OSIM
+Assistant Professor,133871,Darcy,Sheena,0,0,0,41,NSM,good,16,3.6,4,3.420534762,0.952057156,female,Chemistry
+Assistant Professor,77724,Davies,Katherine,2,1,0,34,AHT,good,9,4.6,5,2.992146341,0.843902439,male,Philosophy & Humanities
+Assoc. Prof. Of Instruction,125306,Davis,Chris,45,4,1,39,ECS,average,60,3.1,12,3.623966597,0.987473904,male,Computer Science
+Professor,440830,Dawande,Milind,0,0,0,53,JSOM,good,6,3.9,4,3.420534762,0.952057156,female,Operations Management
+Associate Professor,112231,De,Jong,0,0,0,54,NSM,good,16,3.6,4,3.420534762,0.952057156,male,Biological Sciences
+Professor,74025,Dean,Denis,0,0,0,60,EPPS,good,16,3.6,5,3.117352941,0.833333333,male,Geography
+Professor Of Practice,83745,Dean,Lucinda,0,0,0,58,BBS,good,16,3.6,4,3.921807692,1,male,Speech & Language Pathology
+Professor Of Instruction,126736,Degroot,Doug,0,0,0,54,ECS,good,16,3.6,11,3.710861723,0.97995992,male,Computer Science
+Associate Professor,155799,Delk,Nikki,406,11,11,54,NSM,good,16,3.6,4,3.843487395,1,female,Biological Sciences
+Assistant Professor,99337,Denisco,Nicole,0,0,0,54,NSM,good,16,3.6,4,3.420534762,0.952057156,male,Biological Sciences
+Professor,189192,Desmedt,Yvo,0,0,0,65,ECS,good,16,3.6,3,3.577090909,0.963636364,male,Computer Science
+Professor,263888,Dess,Gregory,20645,44,68,73,JSOM,good,16,3.6,4,3.420534762,0.952057156,female,OSIM
+Assist. Prof. Of Instruction,44285,Dickey-laprocido,Galen,0,0,0,54,AHT,good,16,3.6,4,3.884190871,0.991701245,female,Criminology and Sociology
+Associate Professor,121497,Dieckmann,Gregg,0,0,0,56,NSM,good,159,4,4,3.420534762,0.952057156,male,Chemistry
+Assist. Prof. Of Instruction,51543,Ding,Hui,0,0,0,54,NSM,poor,23,2.1,8,2.781057692,0.769230769,male,Mathematical Sciences
+Senior Lecturer I,54755,Dissanayake,Dushanthi,96,4,3,54,NSM,good,10,4,20,3.460252101,0.918067227,male,Chemistry
+Assistant Professor,141609,Dodani,Sheel,2159,15,18,37,NSM,poor,5,2.4,2,4,1,male,Chemistry
+Assist. Prof. Of Instruction,113058,Dollinger,Scott,0,0,0,54,ECS,average,66,3.4,9,3.498677355,0.937875752,male,Computer Science
+Senior Lecturer I,79733,Doore,Karen,0,0,0,54,ECS,average,23,3.1,29,3.43850365,0.891727494,female,Computer Science
+Clinical Professor,187501,Dover,Howard,122,6,4,50,JSOM,average,22,3.2,4,3.330103093,0.927835052,male,Marketing
+Clinical Professor,114560,Dow,Douglas,0,0,0,55,EPPS,good,29,4.1,6,3.808938053,0.991150442,male,Political Science
+Professor,114537,Dowling,Walter,1509,23,36,81,BBS,good,16,3.6,4,3.67015544,0.958549223,male,Psychology
+Professor,221476,Dragovic,Vladimir,0,0,0,57,NSM,good,16,3.6,2,3.419714286,0.971428571,male,Mathematical Sciences
+Professor,106659,Draper,Rockford,0,0,0,76,NSM,good,4,3.5,4,3.420534762,0.952057156,male,Biological Sciences
+Lecturer Ii,24134,Drew,Linda,0,0,0,54,BBS,good,16,3.6,4,3.633576159,0.947019868,male,Psychology
+Professor,180956,Du,Ding,0,0,0,54,ECS,good,16,3.6,3,3.814226804,1,male,Computer Science
+Professor Of Instruction,90538,Duquaine-watson,Jill,0,0,0,47,IS,good,16,3.6,4,3.460145985,0.927007299,female,Interdisciplinary Studies
+Assoc. Prof. Of Instruction,78292,Durant,Stephanie,0,0,0,54,AHT,good,16,3.6,3,3.615,0.9375,male,Art & Art History
+Assoc. Prof. Of Instruction,60518,Durbin,Kelly,0,0,0,62,AHT,good,16,3.6,4,3.420534762,0.952057156,male,Music
+Assist. Prof. Of Instruction,58140,Duruoha,Adannah,0,0,0,54,NSM,good,16,3.6,9,3.406792453,0.920754717,female,Mathematical Sciences
+Professor,175972,Dussor,Gregory,0,0,0,54,BBS,good,16,3.6,3,3.844660194,0.980582524,male,Neuroscience
+Professor Of Practice,144555,Edsel,Alexander,0,0,0,56,JSOM,good,56,3.5,9,3.390603175,0.958730159,male,Marketing
+Professor,198347,Efromovich,Sam,0,0,0,70,NSM,average,13,2.6,3,3.255337838,0.932432432,male,Mathematical Sciences
+Assoc. Prof. Of Instruction,107520,El-ashmawi,Amal,0,0,0,67,JSOM,good,16,3.6,11,3.519296375,0.940298507,female,Management
+Professor,113848,Elliott,Euel,0,0,0,71,EPPS,average,61,3.3,6,3.415826087,0.943478261,male,Political Science
+Senior Lecturer I,88346,Enayaty,A,16,2,1,54,JSOM,good,16,3.6,4,3.420534762,0.952057156,female,Operations Management
+Senior Lecturer I,88346,Enayaty,Ahangar,0,0,0,54,JSOM,good,16,3.6,9,3.294493042,0.938369781,male,Operations Management
+Assistant Professor,136245,Engineer,Crystal,734,17,22,41,BBS,good,4,5,2,3.315070423,0.887323944,male,Neuroscience
+Senior Lecturer I,52833,Estacio-hiroms,Kemelli,0,0,0,43,NSM,good,16,3.6,4,3.420534762,0.952057156,female,Mathematical Sciences
+Professor,141095,Evans,Julia,2914,27,51,54,BBS,good,16,3.6,2,3.766624204,0.987261146,male,Speech & Language Pathology
+Assoc. Prof. Of Instruction,71518,Evans,Kathryn,5,1,0,70,AHT,good,16,3.6,4,3.604803922,0.970588235,male,Music
+Associate Professor,105553,Evans,Monica,0,0,0,42,AHT,good,16,3.6,3,3.934642857,0.991071429,male,Arts & Technology
+Senior Lecturer I,70695,Ewing,Donna,0,0,0,54,BBS,good,16,3.6,6,3.852272727,0.977272727,male,Psychology
+Professor Of Instruction,71601,Eydelzon,Anatoly,0,0,0,54,NSM,good,16,3.6,11,2.854857143,0.816326531,male,Mathematical Sciences
+Assoc. Prof. Of Practice,116367,Fadda,Dani,235,8,8,53,ECS,good,16,3.6,8,3.256666667,0.931216931,female,Mechanical Engineering
+Professor,190573,Fahimi,Babak,5159,37,98,53,ECS,good,16,3.6,2,3.141515152,0.878787879,male,Electrical & Computer Engr
+Associate Research Professor,94606,Fang,Shaoli,0,0,0,54,ECS,good,16,3.6,4,3.420534762,0.952057156,female,Electrical & Computer Engr
+Professor Of Instruction,124862,Farage,Timothy,0,0,0,71,ECS,good,16,3.6,9,3.738310413,0.984282908,male,Computer Science
+Professor,168191,Farago,Andras,0,0,0,68,ECS,average,18,3.3,6,3.776106195,1,male,Computer Science
+Associate Professor,90804,Farmer,John,0,0,0,52,AHT,good,16,3.6,4,3.420534762,0.952057156,male,Writing & Literature
+Associate Professor,121282,Farrar,Eric,0,0,0,56,AHT,good,4,5,3,3.393283582,0.970149254,male,Arts & Technology
+Associate Professor,81198,Fass,Simon,0,0,0,74,EPPS,good,5,3.5,4,3.420534762,0.952057156,male,Public Policy
+Associate Professor,135679,Fechter,Todd,0,0,0,44,AHT,good,6,4.9,3,3.354081633,0.93877551,male,Arts & Technology
+Professor,228578,Fei,Baowei,0,0,0,54,ECS,good,16,3.6,2,3.461470588,1,male,Bioengineering
+Assist. Prof. Of Instruction,107334,Feng,Ranran,45,4,1,35,ECS,poor,50,1.6,11,3.226628702,0.895216401,male,Computer Science
+Professor,64020,Ferguson,John,295,10,10,71,NSM,zero,0,3.6,4,3.420534762,0.952057156,male,Geosciences
+Professor,213372,Ferraris,John,6222,39,92,75,NSM,zero,0,3.6,4,3.420534762,0.952057156,male,Chemistry
+Professor,232117,Filbey,Francesca,3435,32,68,49,BBS,good,16,3.6,4,3.420534762,0.952057156,female,Psychology
+Associate Professor,270964,Files,Rebecca,0,0,0,40,JSOM,good,16,3.6,3,3.480797101,0.963768116,female,Accounting
+Assistant Professor,75876,Fischer,Anne,0,0,0,40,AHT,good,16,3.6,3,3.597291667,0.951388889,male,History
+Professor,294684,Fischetti,Massimo,0,0,0,70,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Materials Science and Engineering
+Professor,264483,Fishwick,Paul,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,male,Arts & Technology
+Senior Lecturer I,77390,Fitzgerald,Hal,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,male,Arts & Technology
+Professor Of Instruction,85973,Florence,James,0,0,0,54,ECS,average,58,3.1,9,2.941363636,0.826446281,female,Electrical & Computer Engr
+Professor Of Instruction,69255,Foley,Manjula,0,0,0,54,NSM,good,16,3.6,4,3.420534762,0.952057156,female,Mathematical Sciences
+Professor,154633,Fonseka,John,0,0,0,59,ECS,average,33,3.3,4,3.420534762,0.952057156,male,Electrical & Computer Engr
+Clinical Assistant Professor,36435,Fowler,Stephanie,11,1,1,30,BBS,good,16,3.6,4,3.420534762,0.952057156,male,Speech & Language Pathology
+Assistant Professor,119811,Fox,Kyle,440,13,18,36,ECS,good,9,5,2,3.5425,0.982142857,male,Computer Science
+Assistant Professor,221293,Frazelle,Andrew,57,2,2,54,JSOM,good,3,4.3,4,3.420534762,0.952057156,female,Operations Management
+Professor,142631,Frensley,William,0,0,0,71,ECS,average,11,3.3,4,3.866542056,0.990654206,male,Electrical & Computer Engr
+Assistant Professor,122626,Friedman,Joseph,850,17,25,54,ECS,poor,10,1.9,5,3.241714286,0.866666667,male,Electrical & Computer Engr
+Professor,206177,Fumagalli,Andrea,847,13,19,57,ECS,good,15,4.2,3,3.05020202,0.929292929,female,Electrical & Computer Engr
+Clinical Assistant Professor,62401,Gafford,Jerome,0,0,0,54,JSOM,good,12,3.6,8,3.609423077,0.934615385,male,Management
+Clinical Assistant Professor,43335,Galvez,Paul,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,male,Art & Art History
+Clinical Professor,138752,Gamino,John,4,1,0,54,JSOM,good,52,3.5,4,3.420534762,0.952057156,male,Accounting
+Visiting Assistant Professor,26667,Gammell,Sarah,0,0,0,54,EPPS,good,8,4.5,6,3.387597598,0.918918919,female,Criminology and Sociology
+Professor Of Instruction,94730,Garrett,Bentley,0,0,0,41,NSM,good,16,3.6,8,2.839794239,0.773662551,male,Mathematical Sciences
+Professor Of Practice,79305,Garst,Diane,0,0,0,54,,good,16,3.6,4,3.420534762,0.952057156,male,Speech & Language Pathology
+Associate Professor,128487,Gartstein,Yuri,0,0,0,62,NSM,good,16,3.6,3,2.905869565,0.855072464,male,Physics
+Associate Professor,115201,Gassensmith,Jeremiah,2906,25,46,41,NSM,good,16,3.6,2,3.280229008,0.916030534,male,Chemistry
+Assoc. Prof. Of Instruction,62379,Gavva,Sandhya,0,0,0,67,NSM,good,16,3.6,31,3.215440299,0.885074627,female,Chemistry
+Professor,130725,Geissman,John,2389,25,66,71,NSM,good,16,3.6,4,3.420534762,0.952057156,male,Geosciences
+Professor,80222,Gel,Yulia,3179,25,53,54,NSM,good,16,3.6,4,3.420534762,0.952057156,female,Mathematical Sciences
+Associate Professor,139977,Gelb,Lev,0,0,0,52,ECS,good,16,3.6,2,2.716756757,0.797297297,male,Materials Science and Engineering
+Senior Lecturer I,50346,Gerard,Lori,0,0,0,43,AHT,poor,17,2.3,6,2.872696629,0.786516854,male,Music
+Professor,360664,Gevorgyan,Vladimir,8768,51,143,66,NSM,good,16,3.6,4,3.420534762,0.952057156,male,Chemistry
+Associate Professor,147059,Giertz,Seth,0,0,0,50,EPPS,good,11,3.5,3,2.983942308,0.894230769,male,Economics
+Senior Lecturer I,58146,Glauser,Janece,0,0,0,43,AHT,good,16,3.6,11,3.72015,0.955,female,Communication
+Professor,119627,Glosser,Robert,0,0,0,85,NSM,poor,69,2,2,3.215223097,0.939632546,male,Physics
+Professor,224033,Goeckner,Matthew,699,13,14,62,NSM,average,30,3.3,4,3.420534762,0.952057156,male,Mechanical Engineering
+Professor,268273,Goffman,Lisa,1236,20,34,54,BBS,good,16,3.6,1,3.770625,1,female,Speech & Language Pathology
+Associate Professor,239460,Gogate,Vibhav,1094,18,36,45,ECS,good,21,4.5,2,3.666666667,0.976190476,female,Computer Science
+Clinical Associate Professor,109036,Gohmert,Andrea,0,0,0,54,BBS,good,16,3.6,4,3.420534762,0.952057156,male,Speech & Language Pathology
+Professor,114264,Golden,Richard,783,12,19,62,BBS,good,11,4.2,4,3.420534762,0.952057156,male,Psychology
+Assist. Prof. Of Instruction,55682,Gonzalez,Pedro,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,male,History
+Associate Professor,105314,Gooch,John,0,0,0,51,AHT,poor,10,1.4,3,3.373902439,0.975609756,male,Communication
+Professor Of Instruction,122850,Goodrich,Mary,0,0,0,53,JSOM,good,16,3.6,9,3.365833333,0.947916667,female,Accounting
+Professor Of Instruction,114711,Goodrum,Richard,0,0,0,54,ECS,poor,61,2,8,2.949771689,0.840182648,male,Computer Science
+Research Assistant Professor,189,Gordon,Evan,0,0,0,54,BBS,good,16,3.6,4,3.420534762,0.952057156,male,Neuroscience
+Associate Professor,88219,Gorina,Evgenia,310,11,11,39,EPPS,good,16,3.6,4,3.676197183,1,female,Public & Nonprofit Management
+Professor,103958,Gossin,Pamela,0,0,0,66,AHT,good,23,3.9,4,3.420534762,0.952057156,female,Philosophy & Humanities
+Associate Professor,81119,Goux,Warren,0,0,0,73,NSM,poor,47,1.9,4,2.377912088,0.626373626,male,Chemistry
+Assoc. Prof. Of Instruction,62603,Grant,Meredith,0,0,0,54,BBSs,good,16,3.6,4,3.420534762,0.952057156,male,Psychology
+Assistant Professor,83884,Gray,Thomas,94,5,3,37,EPPS,good,19,4.6,4,3.420534762,0.952057156,male,Political Science
+Visiting Assistant Professor,3474,Greene,Kendra,0,0,0,54,AHT,good,16,3.6,3,3.531891892,1,female,Writing & Literature
+Assistant Professor,77724,Greer,Erin,5,1,0,37,AHT,good,16,3.6,4,3.420534762,0.952057156,female,Writing & Literature
+Assoc. Prof. Of Instruction,69587,Griffin,William,156,6,6,59,NSM,good,16,3.6,9,3.322948207,0.952191235,male,Geosciences
+Professor,273159,Griffith,Daniel,6119,39,123,74,EPPS,good,16,3.6,4,3.420534762,0.952057156,male,Geography
+Associate Professor,169537,Griffith,Daniel,6119,39,123,74,EPPS,good,16,3.6,1,3.393589744,0.974358974,male,Mechanical Engineering
+Clinical Professor,113857,Griffiths,Scott,0,0,0,54,BBS,good,16,3.6,3,3.991538462,1,male,Speech & Language Pathology
+Assist. Prof. Of Instruction,51238,Grover,William,0,0,0,54,EPPS,good,16,3.6,7,3.6145,0.971428571,male,Economics
+Professor,102459,Gu,Ming,354,8,7,57,AHT,good,16,3.6,1,2.954545455,0.863636364,male,Writing & Literature
+Assistant Professor,139503,Gu,Qing,0,0,0,54,ECS,good,16,3.6,2,2.531111111,0.740740741,male,Electrical & Computer Engr
+Assist. Prof. Of Instruction,51064,Guo,Huizhen,0,0,0,61,NSM,average,12,2.7,12,2.752075949,0.774683544,female,Mathematical Sciences
+Professor,192728,Guo,Xiaohu,879,17,33,43,ECS,average,9,2.5,3,3.465849057,0.896226415,male,Computer Science
+Professor,302273,Gupta,Gopal,1819,21,41,59,ECS,good,10,4.2,2,3.667096774,0.967741935,male,Computer Science
+Assoc. Prof. Of Instruction,142595,Gupta,Neeraj,0,0,0,54,ECS,average,58,2.6,10,3.145181347,0.901554404,female,Computer Science
+Clinical Assistant Professor,78939,Gurun,Ayfer,0,0,0,48,JSOM,average,53,2.9,6,2.957096774,0.843317972,male,Finance
+Professor,468451,Gurun,Umit,2095,19,25,47,JSOM,good,28,3.8,4,3.420534762,0.952057156,male,Accounting
+Clinical Professor,218042,Guttery,Randall,0,0,0,62,JSOM,good,52,3.5,4,3.420534762,0.952057156,male,Finance
+Professor,255827,Haas,Zygmunt,0,0,0,65,ECS,average,8,3.2,4,3.28516129,0.870967742,male,Computer Science
+Visiting Assistant Professor,22223,Hadley,Travis,0,0,0,54,EPPS,good,37,3.5,4,3.420534762,0.952057156,male,Political Science
+Senior Lecturer I,68781,Hajeri,Vinita,0,0,0,46,NSM,average,9,3.3,4,3.420534762,0.952057156,female,Science/Math Education
+Professor,309776,Hamlen,Kevin,0,0,0,46,ECS,good,10,4.5,4,3.420534762,0.952057156,male,Computer Science
+Professor,350331,Hansen,John,8853,38,215,62,ECS,good,6,4.2,4,3.420534762,0.952057156,male,Electrical & Computer Engr
+Assistant Professor,121128,Hao,Shuang,1364,20,27,54,ECS,good,16,3.6,2,3.711470588,0.985294118,male,Computer Science
+Professor,150784,Harabagiu,Sanda,2525,25,57,61,ECS,good,16,3.6,3,3.664274194,0.975806452,female,Computer Science
+Associate Professor,86231,Harrington,James,572,8,8,39,EPPS,good,16,3.6,3,3.7916,0.986666667,male,Public & Nonprofit Management
+Professor,329126,Hart,John,0,0,0,65,BBS,good,16,3.6,2,3.748,1,male,Speech & Language Pathology
+Assoc. Prof. Of Practice,134276,Hart,Robert,0,0,0,51,ECS,good,16,3.6,22,3.600163934,0.990632319,male,Mechanical Engineering
+Professor Of Practice,56849,Haseman,Charles,0,0,0,54,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,Marketing
+Assoc. Prof. Of Instruction,116967,Hasenhuttl,Maria,0,0,0,53,JSOM,average,77,2.9,9,3.801509972,0.985754986,female,OSIM
+Senior Lecturer I,54534,Hashami,Zohreh,0,0,0,54,NSM,good,31,5,14,3.305392354,0.911468813,female,Chemistry
+Associate Professor,311619,Hasler,Michael,725,9,9,54,JSOM,average,1,3,3,3.0804,0.89,male,Finance
+Associate Professor,146154,Hassanipour,Fatemeh,575,11,11,46,ECS,average,10,3.3,11,3.909612403,0.992248062,male,Mechanical Engineering
+Assoc. Prof. Of Practice,90126,Hassanzadeh,Nozar,0,0,0,54,JSOM,zero,0,3.6,5,3.6411,1,female,Executive Education
+Associate Professor,118495,Hatfield,Charles,0,0,0,44,AHT,good,16,4.2,6,3.62313253,0.951807229,male,Writing & Literature
+Clinical Assistant Professor,94200,Haworth,Julie,0,0,0,59,JSOM,good,39,4.2,4,3.797653061,0.993197279,female,Marketing
+Assistant Professor,158603,Hayenga,Heather,646,13,15,38,ECS,good,2,4,1,3.846923077,1,female,Bioengineering
+Associate Professor,208831,Hays,Seth,2800,28,50,37,ECS,good,4,4.5,2,3.649487179,1,female,Bioengineering
+Visiting Assistant Professor,40260,Hayslip,Melissa,0,0,0,54,EPPS,good,3,4.3,6,3.074965986,0.870748299,male,Criminology and Sociology
+Professor Of Instruction,112741,Hazzard,Charles,0,0,0,79,JSOM,good,27,4.1,8,3.601440922,0.988472622,male,Marketing
+Assistant Professor,114458,Hedlund,Jonas,112,4,2,33,EPPS,average,10,3.4,4,3.188723404,0.893617021,male,Economics
+Clinical Professor,199475,Hefley,William,0,0,0,54,JSOM,poor,28,2,7,3.498942308,0.951923077,male,Information Services
+Assoc. Prof. Of Instruction,91511,Heins,Matthew,38,4,1,54,ECS,good,13,4.5,6,3.277359307,0.939393939,male,Electrical & Computer Engr
+Professor,180134,Henderson,Rashaunda,0,0,0,52,ECS,average,4,3.3,5,3.901089109,1,male,Electrical & Computer Engr
+Senior Lecturer I,133430,Henderson,Thomas,0,0,0,54,ECS,poor,13,1.7,4,3.420534762,0.952057156,male,OSIM
+Senior Lecturer I,67826,Hennessy,Emily,0,0,0,54,NSM,good,8,5,1,3.94,1,female,Science/Math Education
+Assoc. Prof. Of Instruction,60152,Hernandez-katz,Melissa,0,0,0,54,AHT,good,16,3.6,8,3.841409396,0.993288591,female,Communication
+Assist. Prof. Of Instruction,66220,Hewitt,Sharon,0,0,0,54,AHT,average,6,3.2,4,3.420534762,0.952057156,male,Arts & Technology
+Clinical Assistant Professor,34396,Hibbs,Shelby,0,0,0,54,AHT,good,8,4.5,6,3.752015504,0.96124031,male,Performing Arts
+Professor,74927,Hicks,Donald,0,0,0,75,EPPS,zero,0,3.6,4,3.420534762,0.952057156,male,Political Science
+Clinical Assistant Professor,136968,Hicks,Jeffrey,0,0,0,54,JSOM,good,61,4.3,10,3.463251534,0.963190184,male,OSIM
+Clinical Professor,233106,Hicks,Robert,0,0,0,73,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,Executive Education
+Assistant Professor,85572,Hill,Kimberly,0,0,0,42,AHT,good,4,4.5,4,3.473513514,0.945945946,female,History
+Assoc. Prof. Of Instruction,87742,Ho,Ka-yiu,0,0,0,54,EPPS,good,16,3.6,4,3.420534762,0.952057156,male,Political Science
+Associate Professor,109165,Holub,Shayla,0,0,0,44,BBS,good,37,3.7,3,3.313488372,0.937984496,male,Psychology
+Associate Professor,207010,Honhon,Dorothee,1188,15,16,54,JSOM,good,15,4.3,3,3.645462963,0.972222222,male,Operations Management
+Professor,60454,Hooshyar,Mohammad,0,0,0,80,NSM,good,5,3.7,4,3.420534762,0.952057156,male,Mathematical Sciences
+Professor,196656,Hornbeck,Larry,0,0,0,54,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Materials Science and Engineering
+Associate Professor,203935,Hoyt,Kenneth,2140,29,59,54,ECS,good,16,3.6,2,3.518611111,0.972222222,male,Bioengineering
+Professor,272424,Hsu,Julia,0,0,0,59,ECS,good,16,3.6,4,3.420534762,0.952057156,female,Materials Science and Engineering
+Associate Professor,240214,Hu,Bin,488,10,10,54,JSOM,good,16,3.6,3,3.382695652,0.991304348,male,Operations Management
+Assistant Professor,117682,Hu,Yang,0,0,0,54,ECS,good,16,3.6,5,3.793274336,1,male,Electrical & Computer Engr
+Assistant Professor,277925,Huang,Ying,312,4,4,54,JSOM,good,16,3.6,3,3.06504065,0.967479675,female,Accounting
+Senior Lecturer I,63904,Huang,Yu,0,0,0,54,NSM,good,16,3.6,12,3.157214815,0.881481481,male,Chemistry
+Clinical Professor,100541,Humphreys,Natalia,0,0,0,51,NSM,good,4,4.4,4,3.420534762,0.952057156,female,Mathematical Sciences
+Clinical Associate Professor,10931,Hustis,Gregory,0,0,0,54,AHT,good,16,3.6,2,4,1,male,Music
+Professor Of Instruction,113643,Huxtable-jester,Karen,0,0,0,58,BBS,good,16,3.6,7,3.429386973,0.904214559,female,Psychology
+Professor,233167,Huynh,Dung,457,10,11,67,ECS,good,15,3.6,4,3.420534762,0.952057156,male,Computer Science
+Professor,224036,Hyndman,Kyle,0,0,0,44,JSOM,good,2,3.5,3,3.15287234,0.904255319,male,Finance
+Senior Lecturer I,75964,Imaoka,Laura,0,0,0,54,AHT,good,9,4.2,4,3.420534762,0.952057156,female,Communication
+Assoc. Prof. Of Instruction,59799,Ingrao,Peter,0,0,0,48,AHT,good,127,4.3,7,3.477305825,0.936893204,male,Philosophy & Humanities
+Professor,164842,Iovu,Mihaela,0,0,0,54,NSM,good,16,3.6,4,3.420534762,0.952057156,female,Chemistry
+Professor,196086,Ishak-boushaki,Mustapha,0,0,0,50,NSM,good,16,3.6,3,3.384267913,0.937694704,male,Physics
+Senior Lecturer I,79994,Islam,Naser,0,0,0,54,JSOM,good,16,3.6,9,3.406430769,0.978461538,male,Information Services
+Associate Professor,161794,Iungo,Giacomo,1383,21,35,41,ECS,good,16,3.6,2,3.395,1,male,Mechanical Engineering
+Assistant Professor,131732,Iyer,Rishabh,1626,21,29,54,ECS,good,16,3.6,2,3.795384615,1,male,Computer Science
+Professor,136506,Izen,Joseph,0,0,0,67,NSM,good,16,3.6,4,3.420534762,0.952057156,male,Physics
+Professor,445011,Jacob,Varghese,0,0,0,64,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,Information Services
+Professor,114987,Jacobs,Bruce,1661,22,29,55,EPPS,good,16,3.6,3,2.982533333,0.88,male,Criminology and Sociology
+Professor,405479,Jain,Sanjay,1545,17,19,54,JSOM,good,3,4,1,3.449130435,1,male,Marketing
+Professor,327396,Janakiraman,Ganesh,1000,19,35,46,JSOM,good,28,4.7,1,3.612903226,1,male,Operations Management
+Associate Professor,252716,Janakiraman,Surya,1593,10,10,63,JSOM,average,24,2.8,4,3.420534762,0.952057156,male,Accounting
+Assist. Prof. Of Practice,90082,Janke,Scott,0,0,0,54,JSOM,good,10,4.5,7,3.481123188,0.916666667,female,Management
+Assistant Professor,147867,Jee,Kangkook,986,12,13,54,ECS,good,4,4.3,2,3.450882353,0.911764706,female,Computer Science
+Assistant Professor,117959,Jin,Yaqing,348,11,13,54,ECS,good,1,4,7,3.767357513,0.979274611,male,Mechanical Engineering
+Assoc. Prof. Of Instruction,90875,Johnson,Casey,0,0,0,54,AHT,poor,11,2.3,7,2.259333333,0.62962963,male,Arts & Technology
+Assist. Prof. Of Instruction,36289,Johnson,Janet,36,2,1,49,AHT,good,17,3.5,5,3.517920792,0.910891089,male,Communication
+Assoc. Prof. Of Instruction,106799,Johnson,Jennifer,0,0,0,49,JSOM,good,38,4.7,4,3.420534762,0.952057156,female,Accounting
+Assistant Professor,214372,Joo,Joonhwi,111,4,4,54,JSOM,good,16,3.6,3,3.607731092,0.983193277,male,Marketing
+Professor,168492,Jue,Jason,3304,22,48,54,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Computer Science
+Professor Of Instruction,65146,Juhn,Nancy,0,0,0,45,BBS,good,16,3.6,8,2.800594059,0.797029703,male,Psychology
+Assistant Professor,190403,Jun,Sora,0,0,0,54,JSOM,good,16,3.6,3,3.087730496,0.929078014,male,Management
+Clinical Professor,149425,Kaiser,Robert,0,0,0,54,JSOM,good,16,3.6,4,3.943495935,1,male,Executive Education
+Assistant Professor,84603,Kane,Heidi,802,14,16,42,BBS,poor,21,1.9,4,3.420534762,0.952057156,male,Psychology
+Professor,266077,Kantarcioglu,Murat,6858,42,132,44,ECS,poor,21,2.3,4,3.420534762,0.952057156,male,Computer Science
+Professor Of Practice,31399,Kaplan,Karen,0,0,0,54,JSOM,average,9,2.8,4,3.420534762,0.952057156,male,Speech & Language Pathology
+Clinical Professor,134683,Kaplan,Marilyn,0,0,0,65,JSOM,poor,90,1.9,4,3.596842105,0.954887218,female,Management
+Senior Lecturer I,115071,Karami,Gity,0,0,0,43,ECS,average,43,2.6,13,3.483605948,0.923791822,female,Computer Science
+Senior Lecturer I,74119,Karnuta,Daniel,0,0,0,54,JSOM,good,11,3.6,9,3.144395604,0.912087912,female,OSIM
+Professor Of Instruction,139820,Karrah,Shyam,0,0,0,50,ECS,good,32,4.8,2,3.366341463,0.894308943,female,Computer Science
+Professor,305758,Katok,Elena,3028,27,45,57,JSOM,poor,1,1,2,3.59,0.961538462,female,Operations Management
+Professor,120143,Katz,William,594,15,21,67,BBS,good,24,3.8,4,3.420534762,0.952057156,male,Speech & Language Pathology
+Clinical Assistant Professor,120900,Kaur,Dupinderjeet,0,0,0,54,JSOM,average,12,3,10,3.187019868,0.88410596,female,Finance
+Assist. Prof. Of Instruction,25378,Kehoe,Joselle,0,0,0,54,NSM,good,48,4,4,3.420534762,0.952057156,female,Mathematical Sciences
+Professor,283018,Kehtarnavaz,Nasser,6077,32,102,62,ECS,poor,16,1.9,6,3.076178862,0.845528455,male,Electrical & Computer Engr
+Associate Professor,173077,Kelly,Mary,0,0,0,54,BBS,good,16,3.6,4,3.420534762,0.952057156,female,Speech & Language Pathology
+Professor Of Practice,86880,Kenedi,A,0,0,0,54,BBS,good,16,3.6,4,3.420534762,0.952057156,female,Speech & Language Pathology
+Associate Professor,187976,Kennedy,Kristen,5673,37,65,54,BBS,good,9,4.2,3,3.571834862,0.944954128,male,Neuroscience
+Associate Professor,110480,Kesden,Michael,0,0,0,44,NSM,good,9,4.1,2,2.894146341,0.829268293,male,Physics
+Assoc. Prof. Of Instruction,71682,Ketsler,Luba,0,0,0,45,EPPS,good,172,4.3,8,3.566583113,0.978891821,male,Economics
+Assist. Prof. Of Instruction,56191,Khan,Amena,0,0,0,54,NSM,average,28,3.1,4,3.420534762,0.952057156,male,Physics
+Assist. Prof. Of Instruction,123140,Khan,Kamran,0,0,0,54,ECS,poor,7,2.1,4,3.420534762,0.952057156,male,Computer Science
+Professor,254488,Khan,Latifur,6106,39,125,51,ECS,average,18,3.3,2,3.785688073,1,male,Computer Science
+Clinical Assistant Professor,79793,Khanapure,Revansiddha,0,0,0,54,JSOM,average,12,2.5,7,3.274669604,0.973568282,male,Finance
+Professor,196093,Kiasaleh,Kamran,738,13,20,63,ECS,poor,40,1.6,9,3.129454545,0.896969697,male,Electrical & Computer Engr
+Professor,101393,Kiel,Lowell,0,0,0,54,EPPS,good,16,3.6,3,3.578333333,0.983333333,male,Public & Nonprofit Management
+Associate Professor,247113,Kieschnick,Robert,2035,17,21,72,JSOM,poor,19,2.4,4,3.420534762,0.952057156,male,Finance
+Professor,344783,Kilgard,Michael,5632,42,110,51,BBS,good,26,3.8,4,3.420534762,0.952057156,male,Neuroscience
+Professor,167545,Kim,Dohyeong,894,17,30,48,EPPS,average,5,3.4,8,3.74890411,1,female,Economics
+Professor,297069,Kim,Jiyoung,5517,39,108,58,ECS,good,16,3.6,2,3.746666667,1,female,Materials Science and Engineering
+Professor,256231,Kim,Moon,0,0,0,60,ECS,good,16,3.6,2,3.457916667,1,female,Materials Science and Engineering
+Associate Professor,245957,Kim,Tae,4262,24,31,54,NSM,good,1,5,4,3.64,1,female,Biological Sciences
+Assoc. Prof. Of Practice,147078,Kimzey,Jackie,0,0,0,68,JSOM,good,16,3.6,4,3.420534762,0.952057156,female,OSIM
+Clinical Professor,92742,King,Carie,95,6,4,53,AHT,good,16,3.6,9,3.471704545,0.943181818,male,Writing & Literature
+Associate Professor,138356,King,Lindsay,0,0,0,55,NSM,good,16,3.6,2,3.68025974,0.961038961,male,Physics
+Associate Professor,14143,Kitagawa,Midori,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,female,Science/Math Education
+Associate Professor,125636,Knight,Kimberly,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,male,Arts & Technology
+Assistant Professor,145799,Koeln,Justin,430,11,14,54,ECS,good,16,3.6,11,3.642340426,0.985815603,male,Electrical & Computer Engr
+Assistant Professor,118740,Kolodrubetz,Michael,1542,16,23,37,NSM,good,16,3.6,4,3.420534762,0.952057156,male,Physics
+Professor Of Instruction,84123,Koshevnik,Yuly,0,0,0,61,NSM,good,16,3.6,10,3.230350877,0.918128655,male,Mathematical Sciences
+Associate Professor,101793,Kovandzic,Tomislav,1103,23,28,51,EPPS,good,16,3.6,4,3.420534762,0.952057156,male,Criminology and Sociology
+Clinical Assistant Professor,82241,Kozlowski,Sarah,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,female,Art & Art History
+Professor,156626,Krawcewicz,Wieslaw,0,0,0,26,NSM,good,16,3.6,4,3.234326923,0.894230769,male,Mathematical Sciences
+Professor,202733,Krawczyk,Daniel,2523,26,44,46,BBS,good,16,3.6,2,3.712272727,0.977272727,male,Psychology
+Associate Professor,114258,Kroener,Sven,1569,25,32,48,BBS,good,16,3.6,4,3.57497093,0.970930233,male,Neuroscience
+Visiting Assistant Professor,26112,Kroska,Nami,0,0,0,54,AHT,good,9,4.3,4,3.420534762,0.952057156,female,Writing & Literature
+Professor,312840,Kuksov,Dmitri,903,15,19,26,JSOM,average,6,3,4,3.420534762,0.952057156,male,Marketing
+Associate Professor,149259,Kumar,Golden,2337,24,44,54,ECS,good,5,4.2,3,3.30952381,0.96031746,male,Mechanical Engineering
+Professor,249294,Kumar,Nanda,649,13,14,54,JSOM,poor,11,2.4,4,3.420534762,0.952057156,male,Marketing
+Professor Of Instruction,119215,Kumar,Pushpa,0,0,0,47,ECS,good,58,4.2,7,3.245566038,0.946540881,male,Computer Science
+Assoc. Prof. Of Instruction,113732,Ladow,Eva,0,0,0,54,BBS,good,17,4.2,8,3.907468354,1,female,Neuroscience
+Associate Professor,224840,Lahiri,Atanu,533,14,14,34,JSOM,good,16,3.6,3,3.687777778,1,male,Information Services
+Assoc. Prof. Of Instruction,40601,Lambert,Thomas,0,0,0,56,AHT,good,16,3.6,5,3.298461538,0.894230769,male,Writing & Literature
+Assoc. Prof. Of Instruction,127294,Lanham,Carol,0,0,0,54,EPPS,good,32,3.8,6,3.405642202,0.931192661,male,Criminology and Sociology
+Professor,179401,Lary,David,2210,20,49,57,NSM,average,17,3.1,2,3.9472,1,male,Physics
+Clinical Professor,77645,Latham,Van,0,0,0,54,JSOM,good,16,3.6,3,3.679519231,0.980769231,male,Executive Education
+Clinical Assistant Professor,57325,Lawson,Kristen,0,0,0,54,JSOM,good,83,4.2,6,3.328237885,0.938325991,male,OSIM
+Assoc. Prof. Of Instruction,109158,Le,Khiem,0,0,0,54,ECS,average,75,3,10,2.974311688,0.825974026,male,Computer Science
+Clinical Professor,88548,Leach,Sonia,0,0,0,53,JSOM,average,2,3,9,3.093652482,0.921985816,female,Operations Management
+Professor,146185,Lee,Gil,0,0,0,69,ECS,good,16,3.6,4,2.907538462,0.938461538,male,Electrical & Computer Engr
+Professor,155362,Lee,Hoi,1452,21,40,46,ECS,average,12,3.1,4,3.2335,0.95,male,Electrical & Computer Engr
+Professor,210838,Lee,Jeong-bong,0,0,0,58,ECS,good,16,3.6,5,2.981746032,0.873015873,male,Electrical & Computer Engr
+Professor Of Instruction,80147,Lee,Jung,0,0,0,54,ECS,average,75,2.8,7,2.496726457,0.65470852,male,Electrical & Computer Engr
+Professor,223796,Lee,Mark,0,0,0,58,NSM,average,14,3.4,3,3.115826772,0.858267717,male,Physics
+Professor,286988,Lee,Seunghyun,0,0,0,54,JSOM,good,16,3.6,4,3.473823529,0.990196078,male,OSIM
+Assoc. Prof. Of Instruction,64955,Leek,Patricia,0,0,0,53,IS,average,18,2.8,8,3.508797468,0.943037975,female,Interdisciplinary Studies
+Professor Of Instruction,99856,Lehmann,Randall,0,0,0,70,ECS,good,16,4.7,4,3.17616,0.896,male,Electrical & Computer Engr
+Professor,195003,Leonardi,Stefano,2242,25,38,45,ECS,good,8,4.1,2,3.646041667,1,male,Mechanical Engineering
+Professor,188287,Leprell,Colleen,0,0,0,54,BBS,good,16,3.6,4,3.420534762,0.952057156,male,Speech & Language Pathology
+Clinical Professor,94212,Lester,Paul,0,0,0,68,AHT,poor,21,2.2,6,2.95045045,0.90990991,male,Arts & Technology
+Professor,147441,Levene,Stephen,0,0,0,65,ECS,average,7,2.5,4,3.420534762,0.952057156,male,Bioengineering
+Visiting Assistant Professor,37835,Leverone,Julia,0,0,0,54,AHT,good,4,4.3,4,3.420534762,0.952057156,female,Writing & Literature
+Assistant Professor,152254,Levine,Shahal,0,0,0,54,JSOM,good,16,3.6,4,3.420534762,0.952057156,female,Finance
+Clinical Professor,173398,Lewin,Peter,809,16,24,75,JSOM,good,16,3.6,10,3.538497653,1,male,Finance
+Senior Lecturer I,75307,Lewis,Timothy,0,0,0,35,AHT,good,16,3.6,7,3.407073171,0.93902439,male,Arts & Technology
+Assist. Prof. Of Instruction,35525,Li,Changsong,0,0,0,54,NSM,good,156,4.6,9,3.02,0.875,female,Mathematical Sciences
+Professor,206853,Li,Dong,562,9,8,53,EPPS,good,7,4.4,4,3.411616162,0.909090909,female,Economics
+Associate Professor,305013,Li,Jun,985,10,10,54,JSOM,good,10,3.8,2,3.481012658,1,female,Finance
+Assistant Professor,110743,Li,Meng,0,0,0,54,JSOM,good,16,3.6,3,3.136242038,0.942675159,female,Accounting
+Associate Professor,297437,Li,Ningzhong,0,0,0,54,JSOM,average,31,3.2,3,3.535949367,0.987341772,female,Accounting
+Assistant Professor,110875,Li,Qiwei,342,11,12,36,NSM,average,7,2.8,3,3.503892617,0.926174497,female,Mathematical Sciences
+Assistant Professor,101167,Li,Wei,785,17,25,54,ECS,good,16,3.6,3,3.79826087,1,female,Mechanical Engineering
+Professor,121734,Li,Yaoyu,365,8,8,52,ECS,poor,6,1.7,2,3.19965812,0.931623932,female,Mechanical Engineering
+Professor,215790,Liebowitz,Stanley,0,0,0,73,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,Finance
+Assoc. Prof. Of Instruction,82202,Lin,Wen,0,0,0,48,NSM,good,16,3.6,15,3.230149701,0.907185629,female,Biological Sciences
+Professor,241891,Lin,Zhiang,2358,17,24,58,JSOM,good,16,3.6,3,3.12875,0.90625,female,OSIM
+Professor Of Instruction,72495,Lingo,Kathy,0,0,0,67,AHT,average,26,3.5,4,3.420534762,0.952057156,female,Communication
+Professor Of Instruction,112374,Linsteadt,Chris,0,0,0,60,JSOM,average,44,3.3,11,3.273213115,0.963934426,male,Accounting
+Associate Professor,172334,Liu,Cong,0,0,0,39,ECS,good,5,3.7,4,3.420534762,0.952057156,female,Computer Science
+Professor,131431,Liu,Jin,528,12,14,52,ECS,poor,10,2.4,3,3.236545455,0.963636364,female,Electrical & Computer Engr
+Research Assistant Professor,35419,Liu,Li,0,0,0,54,NSM,good,16,3.6,1,3.505454545,1,female,Biological Sciences
+Assistant Professor,79431,Llamas,Rodriguez,0,0,0,54,AHT,good,16,3.6,4,3.244329897,0.907216495,male,Arts & Technology
+Professor,138889,Lobarinas,Edward,0,0,0,54,BBS,good,16,3.6,4,3.986530612,1,male,Speech & Language Pathology
+Lecturer Ii,6001,Lombardi,Christina,0,0,0,54,BBS,good,16,3.6,1,4,1,female,Speech & Language Pathology
+Clinical Assistant Professor,68949,Lookadoo,Kathryn,0,0,0,54,JSOM,good,32,3.5,8,2.493391304,0.743478261,female,OSIM
+Professor,61189,Lou,Xinchou,0,0,0,55,NSM,good,16,3.6,4,3.420534762,0.952057156,female,Physics
+Associate Professor,132387,Lou,Yifei,2130,24,43,39,NSM,average,10,3.4,3,3.044047619,0.880952381,female,Mathematical Sciences
+Professor Of Practice,15095,Lougeay,Janice,0,0,0,54,BBS,good,16,3.6,4,3.420534762,0.952057156,female,Speech & Language Pathology
+Associate Professor,294568,Loumioti,Maria,564,9,9,54,JSOM,good,2,5,3,3.674913793,0.974137931,female,Accounting
+Professor,133494,Lowry,Robert,796,13,14,64,EPPS,average,37,3,3,2.612774566,0.820809249,male,Political Science
+Professor,275329,Lu,Hongbing,3958,32,88,58,ECS,good,16,3.6,10,3.561774194,0.94516129,female,Mechanical Engineering
+Clinical Professor,92836,Lu,Wenyi,0,0,0,54,NSM,poor,3,2,2,3.444444444,1,female,Mathematical Sciences
+Associate Professor,136120,Lumata,Lloyd,1362,20,32,42,NSM,good,38,3.6,4,3.420534762,0.952057156,female,Physics
+Professor,292637,Lumley,David,1292,18,33,58,NSM,good,16,3.6,4,3.420534762,0.952057156,male,Geosciences
+Visiting Assistant Professor,22223,Lux,Ryan,0,0,0,54,EPPS,good,51,3.8,6,3.428196588,0.937449228,male,Political Science
+Associate Professor,135536,Lv,Bing,2187,21,34,40,NSM,good,50,3.8,2,3.144888889,0.892592593,male,Physics
+Assoc. Prof. Of Practice,121168,Lynch,Julie,0,0,0,54,JSOM,poor,13,1.8,4,3.420534762,0.952057156,female,Finance
+Professor,329878,Ma,Dongsheng,0,0,0,54,ECS,good,16,3.6,1,3.221666667,0.944444444,female,Electrical & Computer Engr
+Clinical Assistant Professor,152314,Ma,Liping,56,2,1,54,JSOM,good,13,3.8,8,3.538064516,0.959677419,female,Finance
+Professor Of Instruction,73580,MacAlevey,Paul,0,0,0,54,NSM,average,39,2.8,4,3.420534762,0.952057156,male,Physics
+Professor,103966,Madriguera,Enric,0,0,0,60,AHT,good,16,3.6,1,4,1,male,Music
+Associate Professor,102854,Maguire,Mandy,1150,20,32,46,BBS,good,16,3.6,4,3.420534762,0.952057156,female,Speech & Language Pathology
+Senior Lecturer I,82078,Maitra,Meenakshi,0,0,0,54,NSM,good,16,3.6,6,3.062146893,0.943502825,female,Biological Sciences
+Professor,167050,Majumdar,Sumit,2186,20,33,69,JSOM,good,16,3.6,3,3.862931034,1,male,Information Services
+Associate Professor,111772,Makarenkov,Oleg,0,0,0,54,NSM,good,16,3.6,2,3.18375,0.875,male,Mathematical Sciences
+Senior Lecturer I,57668,Makhijani,Neha,0,0,0,38,NSM,good,16,3.6,6,2.786869159,0.76635514,female,Mathematical Sciences
+Professor,282734,Makris,Georgios,0,0,0,54,ECS,good,16,3.6,2,3.296888889,0.977777778,male,Electrical & Computer Engr
+Assist. Prof. Of Instruction,37374,Malek,Ahmadi,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,male,Criminology and Sociology
+Associate Professor,139278,Malik,Arif,357,11,13,50,ECS,good,4,3.8,4,3.420534762,0.952057156,male,Mechanical Engineering
+Professor,229036,Malina,Roger,2149,21,38,72,AHT,good,16,3.6,1,3.769,1,female,Arts & Technology
+Professor,162940,Malko,Anton,2598,24,47,46,NSM,poor,17,1.8,4,3.420534762,0.952057156,male,Physics
+Professor,93536,Manton,William,1378,21,32,84,NSM,good,22,3.5,4,2.677717391,0.858695652,male,Geosciences
+Clinical Professor,165773,Manzi,Jeffery,0,0,0,54,JSO,good,16,3.6,4,3.420534762,0.952057156,male,Finance
+Professor,200382,Marcus,Andrian,5483,41,85,54,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Computer Science
+Associate Professor,193305,Markoczi,Livia,0,0,0,54,JSOM,good,16,3.6,2,3.438488372,0.988372093,female,OSIM
+Professor,390653,Markov,Stanimir,1341,17,19,54,JSOM,good,17,3.7,4,3.420534762,0.952057156,male,Accounting
+Senior Lecturer I,77390,Marks,David,0,0,0,54,AHT,good,3,5,4,3.420534762,0.952057156,male,Arts & Technology
+Professor,125335,Martinez,Manuel,0,0,0,54,AHT,good,16,3.6,4,3.9,0.98,male,Writing & Literature
+Senior Lecturer I,57017,Martynova,Irina,0,0,0,54,NSM,average,41,3,9,2.614624506,0.731225296,female,Mathematical Sciences
+Senior Lecturer I,164146,Mauriello,Joseph,0,0,0,54,JSOM,good,19,4.5,10,3.548885135,0.993243243,male,Accounting
+Associate Professor,129592,Maxwell,Sarah,206,6,5,54,EPPS,good,12,4.9,4,3.800934579,0.971962617,male,Criminology and Sociology
+Research Assistant Professor,283,May,Geoffrey,0,0,0,54,NSM,good,16,3.6,4,3.420534762,0.952057156,female,Psychology
+Senior Lecturer I,118197,Mazidi,Karen,511,9,8,54,ECS,good,16,3.6,12,3.057109705,0.890295359,female,Computer Science
+Clinical Professor,83271,Mccaskill,John,247,6,6,59,EPPS,good,16,3.6,9,3.883771429,0.988571429,male,Public & Nonprofit Management
+Associate Professor,108693,Mccomber,Sean,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,male,Arts & Technology
+Senior Lecturer I,74929,Mccord,Peter,0,0,0,54,AHT,good,16,3.6,7,3.161219512,0.853658537,male,Arts & Technology
+Clinical Professor,180895,Mccracken,John,0,0,0,79,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,Executive Education
+Senior Lecturer I,60194,Mccrady,Victoria,0,0,0,54,JSOM,good,16,3.6,7,3.268597786,0.944649446,female,OSIM
+Associate Professor,94050,Mcelroy,Susan,0,0,0,60,EPPS,good,16,3.6,4,3.420534762,0.952057156,male,Economics
+Senior Lecturer I,51450,Mcginnis,Allison,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,male,Communication
+Assistant Professor,110875,Mckeown,Stephen,0,0,0,54,NSM,good,16,3.6,3,2.652463768,0.68115942,male,Mathematical Sciences
+Professor,108365,Mclean,Adrienne,189,8,5,65,AHT,good,16,3.6,4,3.423258427,0.966292135,male,Performing Arts
+Senior Lecturer I,81821,Mcneeley,Kathleen,221,6,6,54,NSM,good,16,3.6,4,3.420534762,0.952057156,female,Bioengineering
+Assoc. Prof. Of Instruction,37359,Mcnulty,Angela,0,0,0,54,JSOM,good,16,3.6,4,3.420534762,0.952057156,female,OSIM
+Clinical Professor,170293,Mcnulty,Diane,0,0,0,73,JSOM,good,16,3.6,2,3.899863014,0.98630137,female,OSIM
+Assoc. Prof. Of Instruction,83294,Mcwilliams,Steven,0,0,0,54,BBS,good,16,3.6,11,3.241522388,0.928358209,male,Neuroscience
+Assist. Prof. Of Practice,122457,Meda,Edward,0,0,0,54,JSOM,good,69,4.7,13,3.537178683,0.960815047,female,OSIM
+Assoc. Prof. Of Instruction,44189,Medrick,Mary,0,0,0,61,AHT,good,20,3.6,4,3.420534762,0.952057156,male,Music
+Professor,253070,Mehra,Amit,920,12,12,54,JSOM,good,19,3.9,4,3.6337,1,female,Information Services
+Assist. Prof. Of Instruction,69886,Mehta,Iti,0,0,0,32,NSM,good,9,4.5,11,3.401131387,0.959854015,female,Biological Sciences
+Assistant Professor,272319,Meier,Jean-marie,148,6,4,54,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,Finance
+Associate Professor,137764,Meloni,Gabriele,0,0,0,42,NSM,good,7,5,3,3.267790698,0.906976744,female,Chemistry
+Professor,283932,Menon,Syam,0,0,0,55,JSOM,average,11,3.3,4,3.420534762,0.952057156,male,Information Services
+Clinical Associate Professor,42918,Metz,Greg,0,0,0,54,AHT,average,12,3,1,3.048571429,0.714285714,male,Art & Art History
+Assoc. Prof. Of Instruction,96409,Meyer,Clark,300,10,10,54,ECS,average,8,2.7,6,3.514912281,0.938596491,male,Bioengineering
+Assoc. Prof. Of Instruction,91151,Mezenner,Rabah,0,0,0,54,ECS,good,37,3.9,12,2.958201439,0.856115108,male,Electrical & Computer Engr
+Associate Professor,114431,Miller,Banks,257,9,9,43,EPPS,good,18,4.2,4,3.420534762,0.952057156,male,Political Science
+Associate Professor,218909,Miller,Darwin,0,0,0,54,EPPS,good,16,3.6,2,3.173571429,0.910714286,male,Economics
+Associate Professor,98728,Miller,Toyah,5098,17,20,54,JSOM,average,15,2.6,2,2.74372093,0.88372093,female,Management
+Professor Of Instruction,67291,Miller,Van,0,0,0,26,BBS,good,150,4,8,3.201071429,0.911490683,male,Neuroscience
+Associate Professor,94317,Mills,Candice,1296,19,27,45,BBS,good,18,4.3,2,3.26045977,0.954022989,female,Psychology
+Senior Lecturer I,117961,Min,Richard,0,0,0,54,ECS,poor,92,1.9,14,3.058434579,0.908878505,male,Computer Science
+Associate Professor,123395,Minary-jolandan,Majid,0,0,0,54,ECS,good,16,3.6,2,3.146458333,0.875,male,Mechanical Engineering
+Professor,167600,Minkoff,Susan,690,12,15,58,NSM,good,16,3.6,3,2.728169014,0.816901408,female,Mathematical Sciences
+Professor,196843,Minn,Hlaing,1892,19,39,49,ECS,good,16,3.6,2,3.555277778,1,female,Electrical & Computer Engr
+Senior Lecturer I,67805,Minnish,Roxanne,0,0,0,54,AHT,good,16,3.6,9,3.461198157,0.926267281,female,Arts & Technology
+Assistant Professor,129126,Misra,Jyoti,519,5,4,54,NSM,good,16,3.6,2,3.294883721,0.976744186,female,Bioengineering
+Professor,171709,Mittal,Neeraj,0,0,0,49,ECS,good,16,3.6,4,3.428780488,0.967479675,female,Computer Science
+Professor,298602,Moheimani,Seyed,0,0,0,54,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Electrical & Computer Engr
+Professor,155509,Moldovan,Dan,0,0,0,75,ECS,good,16,3.6,4,3.290137931,0.917241379,male,Computer Science
+Senior Lecturer I,83920,Molina,Robert,0,0,0,54,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,Finance
+Professor,165263,Moller,Aage,3513,31,95,79,BBS,good,16,3.6,4,3.864281984,0.979112272,male,Neuroscience
+Assist. Prof. Of Instruction,51126,Montgomery,Christina,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,female,Writing & Literature
+Assistant Professor,207318,Mookerjee,Radha,0,0,0,63,JSOM,good,16,3.6,4,3.420534762,0.952057156,female,Information Services
+Professor,421088,Mookerjee,Vijay,1585,22,48,62,JSOM,good,16,3.6,4,3.420534762,0.952057156,female,Information Services
+Clinical Assistant Professor,63271,Moore,Sarah,0,0,0,42,JSOM,good,16,3.6,5,3.176272189,0.923076923,female,OSIM
+Associate Professor,137969,Morcos,Gonzalez,0,0,0,54,NSM,good,16,3.6,2,3.429047619,0.952380952,male,Biological Sciences
+Associate Research Professor,68902,Mu,Jiuke,1441,16,16,54,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Electrical & Computer Engr
+Clinical Professor,64864,Murchison,David,0,0,0,67,NSM,good,7,4.4,6,3.597089552,0.970149254,male,Biological Sciences
+Assoc. Prof. Of Practice,34885,Murray,Jennifer,0,0,0,54,JSOM,good,13,4.6,4,3.420534762,0.952057156,male,Finance
+Professor,229463,Murthi,B,0,0,0,65,JSOM,good,16,3.6,5,3.572020202,1,male,Marketing
+Assoc. Prof. Of Instruction,56324,Mussa,Derege,0,0,0,54,NSM,average,59,2.8,4,3.420534762,0.952057156,male,Mathematical Sciences
+Professor,144420,Nadin,Mihai,860,16,31,83,AHT,zero,0,3.6,2,3.420534762,0.952057156,female,Arts & Technology
+Senior Lecturer I,145862,Nagar,Anurag,75,5,3,54,ECS,good,43,4.2,11,3.802447699,1,male,Computer Science
+Professor,469047,Nanda,Vikram,4614,33,57,54,JSOM,poor,5,2,2,3.460833333,0.966666667,female,Finance
+Senior Lecturer I,68738,Naqvi,Syed,0,0,0,54,IS,good,27,4.2,10,3.473594306,0.946619217,male,Interdisciplinary Studies
+Senior Lecturer I,63547,Narasimhan,Prithi,0,0,0,54,ECS,average,43,3.4,8,3.531792453,0.987421384,male,Information Services
+Clinical Assistant Professor,119695,Narayan,Ravishankar,0,0,0,54,JSOM,good,2,4,12,3.795053996,0.991360691,male,Information Services
+Assist. Prof. Of Instruction,49401,Narayanasami,Priya,0,0,0,54,ECS,poor,15,2.3,3,3.229358974,0.884615385,female,Computer Science
+Associate Professor,243734,Natarajan,Ramachandran,1140,13,14,64,JSOM,good,16,3.6,2,3.327090909,0.963636364,male,Accounting
+Professor,222713,Natarajan,Sriraam,2308,25,63,54,ECS,good,16,3.6,2,3.8666,1,male,Computer Science
+Research Assistant Professor,189,Nelson,Steven,0,0,0,54,NSM,good,16,3.6,4,3.420534762,0.952057156,male,Neuroscience
+Associate Professor,95647,Nelson,Taylor,0,0,0,54,JSOM,good,16,3.6,6,3.142423469,0.900510204,male,Psychology
+Professor,244151,Ng,Yu,0,0,0,54,ECS,zero,0,3.6,5,3.139689922,0.914728682,male,Computer Science
+Assistant Professor,87302,Nguyen,Josef,113,5,5,37,AHT,good,5,5,3,3.829102564,1,male,Computer Science
+Assoc. Prof. Of Instruction,71499,Nguyen,Mylinh,0,0,0,54,NSM,average,37,3.3,8,3.202433628,0.889380531,female,Mathematical Sciences
+Professor Of Instruction,151855,Nguyen,Nhut,0,0,0,66,ECS,average,132,2.7,16,3.157613445,0.88907563,male,Computer Science
+Professor,224276,Nguyen,Tien,6080,40,111,54,ECS,poor,10,1.1,4,3.807815534,0.995145631,male,Computer Science
+Senior Lecturer I,127330,Nichols,Paul,0,0,0,54,JSOM,good,12,4.5,4,3.515364238,0.98013245,male,OSIM
+Assoc. Prof. Of Instruction,77868,Nielsen,Christina,0,0,0,54,AHT,good,4,4.8,9,3.057156398,0.862559242,female,Arts & Technology
+Associate Professor,99875,Nielsen,Steven,0,0,0,52,NSM,good,25,4.6,4,3.420534762,0.952057156,male,Chemistry
+Professor Of Instruction,101715,Nikoubin,Boroujeni,0,0,0,54,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Electrical & Computer Engr
+Clinical Professor,35126,Norton,Larry,0,0,0,66,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,Executive Education
+Professor,254870,Nosratinia,Aria,2761,20,58,55,ECS,good,16,3.6,1,3.232173913,0.934782609,female,Electrical & Computer Engr
+Professor,217991,Nourani,Mehrdad,2531,25,61,60,ECS,good,16,3.6,4,3.222916667,0.916666667,female,Electrical & Computer Engr
+Assoc. Prof. Of Instruction,98245,Nouroz,Borazjany,0,0,0,54,ECS,good,16,3.6,8,3.355787546,0.882783883,male,Mechanical Engineering
+Professor,248425,Novak,Bruce,0,0,0,61,NSM,good,16,3.6,3,3.421256281,0.922110553,male,Chemistry
+Professor,192818,Ntafos,Simeon,0,0,0,70,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Computer Science
+Professor,323222,O,Kenneth,0,0,0,60,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Electrical & Computer Engr
+Professor,236276,O'toole,Alice,4351,39,81,61,BBS,good,16,3.6,2,3.543867925,0.971698113,female,Psychology
+Associate Professor,117762,Ohsawa,Tomoki,270,10,12,43,NSM,good,18,3.6,3,2.455576923,0.605769231,female,Electrical & Computer Engr
+Assist. Prof. Of Practice,61200,Oropallo,Kara,0,0,0,54,AHT,good,12,4.3,8,3.782724458,0.984520124,male,Arts & Technology
+Lecturer Ii,44384,Orrick,Erika,0,0,0,46,BBS,poor,8,2.4,9,3.8784375,0.990625,male,Psychology
+Assoc. Prof. Of Instruction,115294,Ouyang,Hui,275,10,10,54,ECS,good,18,4.1,11,3.511570248,0.980716253,male,Electrical & Computer Engr
+Assistant Professor,124015,Ouyang,Jessica,112,5,5,54,ECS,poor,38,2.3,2,3.0976,0.906666667,female,Mechanical Engineering
+Professor,212474,Overzet,Lawrence,0,0,0,61,ECS,good,6,4.3,4,3.420534762,0.952057156,male,Electrical & Computer Engr
+Professor,202424,Owen,Margaret,0,0,0,70,BBS,good,16,3.6,4,3.420534762,0.952057156,male,Psychology
+Clinical Associate Professor,147895,Owens,Dawn,312,7,5,54,JSOM,average,45,3.3,8,3.39309375,0.946875,male,Information Services
+Senior Lecturer I,47288,Owens,Misty,0,0,0,54,AHT,average,12,3.4,2,3.757118644,0.966101695,male,Performing Arts
+Professor Of Instruction,132990,Ozbirn,Greg,0,0,0,57,ECS,good,145,4,15,3.241270833,0.885416667,male,Computer Science
+Associate Professor,165694,Ozel,Naim,0,0,0,54,JSOM,good,8,4.5,4,3.420534762,0.952057156,male,Accounting
+Professor,210676,Ozer,Ali,0,0,0,54,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,Operations Management
+Assist. Prof. Of Instruction,50593,Padmanabhan,Ramesh,22,3,0,42,NSM,poor,44,1.5,7,3.358782609,0.947826087,male,Biological Sciences
+Professor,142755,Page,Ivor,0,0,0,54,ECS,good,34,3.7,4,3.420534762,0.952057156,male,Computer Science
+Clinical Assistant Professor,87585,Pahwa,Parneet,0,0,0,54,JSOM,good,49,3.6,6,3.482014134,0.978798587,female,Marketing
+Assoc. Prof. Of Instruction,76443,Palant,Jonathan,0,0,0,47,AHT,good,15,3.5,4,3.420534762,0.952057156,male,Music
+Associate Professor,208194,Palmer,Kelli,2898,29,49,41,NSM,good,5,4.8,1,3.743181818,1,male,Biological Sciences
+Assist. Prof. Of Instruction,55584,Pan,Jing,0,0,0,54,NSM,good,10,4.1,7,3.272573529,0.897058824,male,Biological Sciences
+Professor,222782,Panahi,Issa,1090,15,28,70,ECS,average,36,2.7,4,3.420534762,0.952057156,male,Electrical & Computer Engr
+Assist. Prof. Of Instruction,57429,Panapitiya,Nimanka,0,0,0,54,NSM,good,73,4.5,11,3.664806202,0.974806202,female,Chemistry
+Associate Professor,144256,Panovska,Irina,401,8,8,37,EPPS,good,16,3.6,4,3.420534762,0.952057156,female,Economics
+Associate Professor,100339,Pantano,Paul,0,0,0,58,NSM,good,16,3.6,4,3.375,0.972222222,male,Chemistry
+Professor Of Instruction,73157,Paradis,Elizabeth,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,female,Arts & Technology
+Professor,418663,Park,Denise,19167,63,171,71,BBS,good,16,3.6,4,3.420534762,0.952057156,male,Neuroscience
+Associate Professor,220672,Park,Haemin,0,0,0,54,JSOM,good,16,3.6,5,3.144565217,0.97826087,male,OSIM
+Assistant Professor,84574,Park,Jiyoung,4024,21,28,40,BBS,average,8,3.4,3,3.1828125,0.890625,male,Psychology
+Assoc. Prof. Of Instruction,110177,Park,Wooram,349,9,7,45,ECS,good,16,3.6,15,3.28019802,0.96039604,male,Mechanical Engineering
+Clinical Assistant Professor,96543,Parker,Jason,0,0,0,54,JSOM,average,50,3.5,8,3.52208589,0.975460123,male,Information Services
+Visiting Assistant Professor,46959,Parker,Misty,0,0,0,54,EPPS,good,30,4.7,7,3.385472509,0.932130584,male,Political Science
+Assoc. Prof. Of Practice,90340,Parks,David,0,0,0,54,JSOM,poor,17,1.6,4,3.420534762,0.952057156,male,Operations Management
+Assoc. Prof. Of Instruction,79563,Patel,Jigarkumar,3,1,0,54,NSM,good,11,4,9,2.828205128,0.783882784,male,Mathematical Sciences
+Professor,178058,Patterson,David,0,0,0,72,AHT,zero,0,3.6,4,3.420534762,0.952057156,male,Philosophy & Humanities
+Senior Lecturer I,57660,Paudel,Ajaya,2,1,0,54,NSM,good,16,3.6,9,2.908571429,0.818181818,male,Mathematical Sciences
+Assoc. Prof. Of Instruction,146806,Paulk,Mark,0,0,0,54,ECS,good,16,3.6,14,3.288487544,0.928825623,male,Computer Science
+Clinical Assistant Professor,115566,Peabody,Stephen,0,0,0,54,JSOM,good,16,3.6,9,3.525559211,0.950657895,male,Finance
+Professor,133815,Peinhardt,Clint,783,10,11,51,EPPS,good,24,4,5,3.336863636,0.977272727,male,Political Science
+Assistant Professor,132652,Penev,Kaloyan,2600,33,76,41,NSM,average,21,2.5,4,3.420534762,0.952057156,male,Physics
+Professor,471262,Peng,Mike,27347,77,147,53,JSOM,good,16,4.4,4,3.420534762,0.952057156,male,Mathematical Sciences
+Professor,182585,Pereira,Luis,620,14,22,54,NSM,average,17,2.6,2,2.484339623,0.660377358,male,Mathematical Sciences
+Assoc. Prof. Of Instruction,90942,Perkins,Stephen,133,2,2,54,ECS,good,66,3.8,7,3.115961538,0.836538462,male,Computer Science
+Research Assistant Professor,106400,Pfister,Debra,0,0,0,66,AHT,good,29,4.2,5,3.304068966,0.896551724,female,History
+Assoc. Prof. Of Instruction,83796,Pickett,Elizabeth,0,0,0,43,NSM,good,28,4.1,12,3.32992,0.916,female,Biological Sciences
+Professor,169460,Pinkham,Amy,4840,38,88,54,BBS,good,27,4,2,2.699041916,0.784431138,female,Psychology
+Assist. Prof. Of Instruction,71960,Pirouz,Mortaza,0,0,0,44,NSM,good,1,4,3,2.824117647,0.784313725,male,Geosciences
+Associate Professor,83414,Ploski,Jonathan,0,0,0,54,ECS,good,8,4.3,2,3.603783784,0.959459459,male,Neuroscience
+Assist. Prof. Of Instruction,68942,Pogue,Neall,2,1,0,54,IS,good,28,3.8,8,2.758786408,0.810679612,female,Interdisciplinary Studies
+Clinical Professor,61865,Polk,Otto,0,0,0,54,EPPS,good,16,3.6,4,3.420534762,0.952057156,male,Criminology and Sociology
+Assoc. Prof. Of Practice,123656,Polk,Todd,0,0,0,54,ECS,good,4,5,8,3.71575,1,male,Bioengineering
+Professor,103408,Pomara,John,0,0,0,66,AHT,zero,0,3.6,4,3.420534762,0.952057156,male,Art & Art History
+Assist. Prof. Of Instruction,98597,Porter,Benjamin,0,0,0,54,ECS,good,6,5,14,3.621846154,0.973076923,male,Bioengineering
+Assist. Prof. Of Practice,50316,Pourchot,Hannah,0,0,0,54,BBS,good,16,3.6,4,3.420534762,0.952057156,female,Speech & Language Pathology
+Professor,217726,Pourkamali,Siavash,0,0,0,43,ECS,good,12,3.6,8,3.255378788,0.931818182,male,Electrical & Computer Engr
+Lecturer Ii,18005,Powers,Katharine,0,0,0,54,AHT,average,28,2.7,6,3.168776596,0.909574468,male,Speech & Language Pathology
+Professor,230743,Prabhakaran,Balakrishnan,1315,18,36,58,ECS,poor,8,2.1,4,3.420534762,0.952057156,male,Computer Science
+Professor,121106,Prager,Karen,712,11,11,71,IS,average,54,2.9,4,3.420534762,0.952057156,female,Interdisciplinary Studies
+Professor,198297,Prakash,Ravi,1337,18,28,54,ECS,good,48,3.8,6,3.400566038,0.918238994,male,Computer Science
+Professor,232837,Prasad,Shalini,3246,28,81,44,ECS,good,2,3.5,4,3.815051546,1,male,Bioengineering
+Professor,257708,Price,Theodore,6717,46,136,47,BBS,good,18,4.1,3,3.593247863,0.974358974,male,Neuroscience
+Professor,191820,Prieto,Rene,0,0,0,71,AHT,average,11,3.3,1,3.5,1,male,Writing & Literature
+Assoc. Prof. Of Instruction,78536,Pujana,Ignacio,280,8,7,59,NSM,average,118,3.1,17,3.554431764,0.931526391,female,Geosciences
+Associate Professor,206968,Qi,Anyan,248,9,8,54,JSOM,good,49,4.8,3,3.398268156,0.972067039,male,Operations Management
+Professor,225941,Qian,Cuili,3438,12,12,54,JSOM,average,13,3.2,3,3.482083333,0.972222222,female,OSIM
+Professor,197358,Qian,Dong,4974,33,77,50,ECS,good,6,4.3,2,3.618727273,1,male,Mechanical Engineering
+Assoc. Prof. Of Instruction,56523,Qin,Yanping,0,0,0,54,NSM,good,27,3.7,19,3.662242424,0.957575758,female,Chemistry
+Associate Professor,166771,Qin,Zhenpeng,1534,18,22,37,ECS,good,3,4,2,3.6575,1,male,Mechanical Engineering
+Professor,142270,Qiu,Fang,2482,27,69,54,EPPS,poor,1,1,2,3.15952381,0.857142857,female,Geography
+Professor,235124,Quevedo-lopez,Manuel,3408,27,93,54,NSM,good,16,3.6,4,3.420534762,0.952057156,male,Materials Science and Engineering
+Assist. Prof. Of Instruction,87294,Raboune,Siham,0,0,0,54,BBS,good,38,4.3,11,3.609467681,0.982889734,female,Chemistry
+Professor,146896,Rachinskiy,Dmitry,0,0,0,50,NSM,good,27,4.2,4,3.049476744,0.76744186,male,Mathematical Sciences
+Professor,447517,Radhakrishnan,Suresh,4880,25,41,64,JSOM,good,13,4.2,2,3.798712871,1,male,Accounting
+Professor,382138,Raghunathan,Srinivasan,3211,30,52,60,JSOM,good,25,3.7,2,3.657777778,1,male,Information Services
+Associate Professor,137149,Raichel,Benjamin,280,9,9,54,ECS,good,16,3.6,2,3.517391304,1,male,Computer Science
+Clinical Professor,195798,Rajamani,Divakar,0,0,0,59,JSOM,good,16,3.6,3,3.464719101,0.97752809,male,Operations Management
+Clinical Professor,178779,Rajaratnam,Daniel,0,0,0,69,JSOM,good,16,3.6,12,3.263247664,0.964953271,male,Marketing
+Assist. Prof. Of Instruction,49163,Rakotomalala,Diarisoa,0,0,0,54,NSM,good,16,3.6,4,3.420534762,0.952057156,female,Mathematical Sciences
+Professor,151552,Ramakrishna,Viswanath,0,0,0,60,NSM,good,16,3.6,7,3.610340136,0.952380952,male,Mathematical Sciences
+Lecturer Ii,18130,Raman,Rachna,0,0,0,54,BBS,good,16,3.6,3,3.29104,0.912,male,Psychology
+Clinical Professor,174569,Ramanathan,Kannan,0,0,0,68,JSOM,good,16,3.6,15,3.553410596,0.96192053,male,Operations Management
+Assist. Prof. Of Instruction,89689,Ramezani,Rasoul,7,1,0,54,JSOM,good,16,3.6,9,3.252608696,0.98136646,male,Operations Management
+Senior Lecturer I,87841,Ramirez,Ruben,0,0,0,71,NSM,good,16,3.6,8,2.745483871,0.760611205,male,Biological Sciences
+Associate Professor,99239,Rankin,Monica,0,0,0,50,AHT,good,16,3.6,5,3.6504,0.96,male,History
+Professor,341883,Rao,Ram,1037,16,27,67,JSOM,good,16,3.6,1,3.389166667,0.958333333,male,Marketing
+Professor,67822,Ratchford,Brian,3145,32,59,80,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,Marketing
+Professor Of Instruction,131443,Razo-razo,Miguel,0,0,0,54,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Computer Science
+Professor,408676,Rebello,Michael,0,0,0,60,JSOM,good,16,3.6,1,2.974615385,0.948717949,male,Finance
+Clinical Associate Professor,164500,Reichert,Carolyn,0,0,0,60,JSOM,good,16,3.6,6,3.5602,0.98,female,Finance
+Professor,133358,Reitzer,Lawrence,1322,20,28,71,NSM,good,16,3.6,4,3.420534762,0.952057156,male,Biological Sciences
+Professor,309530,Rennaker,Robert,0,0,0,47,BBS,good,16,3.6,2,3.576538462,1,male,Neuroscience
+Professor,93278,Riccio,Thomas,30,3,0,66,AHT,average,12,3.3,4,3.420534762,0.952057156,male,Performing Arts
+Professor Of Practice,96511,Rich,Judith,0,0,0,69,BBS,good,16,3.6,4,3.902091503,0.993464052,male,Speech & Language Pathology
+Assist. Prof. Of Instruction,53075,Riley,Kristin,0,0,0,54,AHT,good,21,4.4,8,3.559230769,0.976923077,male,Writing & Literature
+Associate Professor,94464,Ring,Natalie,0,0,0,54,AHT,average,17,2.5,4,3.420534762,0.952057156,female,History
+Assoc. Prof. Of Instruction,103701,Rios,Oziel,77,5,1,42,ECS,average,44,3.3,10,3.455252226,0.93768546,male,Mechanical Engineering
+Professor Of Instruction,107591,Rippel,Scott,0,0,0,56,NSM,average,52,3.1,11,2.955625,0.822115385,male,Biological Sciences
+Clinical Professor,100947,Ritchey,David,0,0,0,60,JSOM,good,108,4.6,10,3.660475248,0.972277228,male,OSIM
+Assistant Professor,214659,Rivera,Mesias,0,0,0,54,JSOM,good,16,3.6,3,3.372352941,0.980392157,female,Finance
+Lecturer Ii,12130,Roark,Dana,0,0,0,57,BBS,good,16,3.6,4,3.672984127,0.984126984,male,Psychology
+Associate Professor,157976,Rodrigue,Karen,7901,40,72,54,BBS,good,16,3.6,3,3.600333333,0.988888889,male,Neuroscience
+Associate Professor,130619,Rodriguez,Christa,0,0,0,54,BBS,good,16,3.6,4,3.735,0.991525424,male,Neuroscience
+Professor,125247,Rodriguez,Robert,0,0,0,77,AHT,good,16,3.6,3,3.921315789,1,male,Music
+Professor Of Instruction,228342,Roemer,Nils,0,0,0,51,AHT,good,16,3.6,4,3.420534762,0.952057156,male,Philosophy & Humanities
+Professor,149649,Roeser,Ross,0,0,0,78,BBS,good,16,3.6,3,4,1,male,Speech & Language Pathology
+Associate Professor,128085,Rojas-villareal,Raul,0,0,0,54,BBS,good,16,3.6,4,3.420534762,0.952057156,male,Speech & Language Pathology
+Professor,128535,Rollins,Pamela,679,14,17,63,BBS,good,16,3.6,2,3.934878049,1,male,Speech & Language Pathology
+Associate Professor,112957,Rosen,Mark,0,0,0,51,AHT,good,19,4,2,3.514902913,0.932038835,male,Art & Art History
+Professor,341866,Rotea,Mario,2033,23,43,61,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Mechanical Engineering
+Visiting Assistant Professor,27620,Rubin,Andrew,0,0,0,52,AHT,good,16,3.6,4,3.420534762,0.952057156,male,History
+Professor,382745,Rugg,Michael,12728,59,213,68,BBS,average,2,2.8,1,3.734,1,male,Neuroscience
+Associate Professor,164016,Ruozzi,Nicholas,270,10,10,54,ECS,good,16,4,2,3.172424242,0.878787879,male,Computer Science
+Assistant Professor,111226,Ruths,Justin,2088,22,38,40,ECS,average,18,2.9,3,3.019880952,0.904761905,female,Mechanical Engineering
+Assoc. Prof. Of Instruction,79984,Ryan,Christopher,0,0,0,63,AHT,average,19,3,5,3.667194245,0.964028777,male,Writing & Literature
+Professor,184829,Rypma,Bart,4322,32,62,61,BBS,good,19,3.7,2,3.724137931,0.965517241,male,Mechanical Engineering
+Assistant Professor,136857,Ryu,Iii,0,0,0,54,ECS,good,16,3.6,3,3.325431034,0.982758621,male,Mechanical Engineering
+Associate Professor,186844,Ryu,Young,0,0,0,59,JSOM,average,20,3.3,4,3.420534762,0.952057156,male,Information Services
+Professor Of Instruction,66111,Saad,Ricardo,0,0,0,58,ECS,average,45,3.1,5,3.008029197,0.824817518,male,Electrical & Computer Engr
+Assoc. Prof. Of Instruction,68481,Saba,Monica,0,0,0,65,AHT,good,12,3.8,4,3.420534762,0.952057156,female,Art & Art History
+Professor,140830,Sabharwal,Meghna,0,0,0,46,EPPS,good,1,5,3,3.821782178,0.99009901,female,Public Policy
+Assist. Prof. Of Instruction,56971,Sadat,Eva,0,0,0,54,NSM,good,6,4.5,4,3.420534762,0.952057156,female,Biological Sciences
+Professor,370225,Sadka,Gil,1020,14,16,43,JSOM,good,15,4.4,6,3.612237443,0.99086758,female,Accounting
+Assist. Prof. Of Instruction,105460,Salazar,Elmer,0,0,0,54,ECS,good,16,3.6,7,3.11130742,0.872791519,male,Computer Science
+Professor Of Practice,84300,Sale,Felicity,0,0,0,59,BBS,good,16,3.6,1,4,1,female,Speech & Language Pathology
+Assist. Prof. Of Instruction,50746,Saleh,Lamya,0,0,0,54,NSM,good,16,3.6,31,3.639483871,0.953225806,female,Physics
+Clinical Associate Professor,56871,Salisbury,Linda,0,0,0,54,AHT,good,16,3.6,6,3.658660287,0.956937799,male,Music
+Senior Lecturer I,89044,Salter,Monika,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,male,Arts & Technology
+Assistant Professor,82542,Santoro,Lauren,0,0,0,34,EPPS,average,28,3.4,3,3.096859756,0.868902439,male,Political Science
+Assoc. Prof. Of Instruction,39035,Sapozhnikov,Ilya,0,0,0,85,NSM,average,95,2.6,8,3.895621622,0.997297297,male,Biological Sciences
+Professor,155303,Saquib,Mohammad,0,0,0,53,ECS,good,36,4.2,3,3.328857143,0.957142857,male,Electrical & Computer Engr
+Professor,185074,Sarac,Kamil,0,0,0,50,ECS,good,21,4.1,1,3.522666667,0.966666667,male,Computer Science
+Assist. Prof. Of Instruction,52513,Sarcar,Subha,0,0,0,40,NSM,average,31,2.5,4,3.420534762,0.952057156,male,Biological Sciences
+Assistant Professor,116777,Saretto,Alessio,0,0,0,45,JSOM,average,8,3.3,4,3.420534762,0.952057156,male,Finance
+Professor,424621,Sarkar,Sumit,1043,20,27,65,JSOM,poor,14,2.5,1,3.378378378,1,male,Information Services
+Professor,109331,Sasson,Noah,4800,38,56,47,BBS,good,65,4.7,2,3.387073171,0.951219512,male,Psychology
+Assist. Prof. Of Instruction,79036,Satpute,Meghana,140,4,4,54,ECS,average,30,2.6,7,3.289415888,0.939252336,female,Computer Science
+Assist. Prof. Of Instruction,46327,Scally,Deborah,0,0,0,54,AHT,poor,11,2.1,9,3.710903614,0.945783133,female,Communication
+Associate Professor,82822,Schlereth,Eric,0,0,0,46,AHT,good,21,4.3,3,3.507799353,0.944983819,male,History
+Clinical Professor,57443,Schlobohm,Maribeth,0,0,0,68,AHT,good,16,3.6,8,3.368432836,0.917910448,female,Communication
+Professor,196099,Schmidtke,David,2083,23,43,54,ECS,good,2,4.5,1,2.955333333,0.933333333,male,Bioengineering
+Professor,144838,Schulte,Rainer,0,0,0,82,AHT,good,14,3.6,2,3.6532,0.96,male,Philosophy & Humanities
+Clinical Associate Professor,62132,Schulze,Jeffrey,0,0,0,47,AHT,good,143,3.7,4,3.420534762,0.952057156,male,History
+Assoc. Prof. Of Instruction,53694,Schwark,Gayle,0,0,0,54,BBS,good,29,4.6,8,3.53172973,0.951351351,male,Psychology
+Professor,145825,Schweitzer,Haim,229,8,7,62,ECS,average,23,3,5,3.572655367,0.960451977,male,Computer Science
+Professor,171339,Scotch,Richard,0,0,0,71,EPPS,good,14,4.2,4,3.420534762,0.952057156,male,Criminology and Sociology
+Associate Professor,109151,Scott,Andrew,0,0,0,54,AHT,good,4,3.5,2,3.487560976,0.926829268,male,Arts & Technology
+Assistant Professor,106395,Seaman,Kendra,317,9,8,42,BBS,poor,10,1.7,2,3.418072289,0.951807229,male,Psychology
+Professor,233037,Sechen,Carl,0,0,0,69,ECS,good,29,4.2,4,3.420534762,0.952057156,male,Electrical & Computer Engr
+Clinical Associate Professor,167406,Sethi,Avanti,0,0,0,26,JSOM,good,204,3.5,4,3.420534762,0.952057156,female,Operations Management
+Professor,401670,Sethi,Suresh,0,0,0,77,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,Operations Management
+Professor Of Practice,158744,Shah,Rajiv,0,0,0,72,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,OSIM
+Senior Lecturer I,57125,Shah,Shailesh,0,0,0,54,NSM,good,26,5,4,3.420534762,0.952057156,male,Chemistry
+Assist. Prof. Of Instruction,126127,Shekhar,Gaurav,7,2,0,34,JSOM,good,16,3.6,7,3.64008982,0.97005988,male,Information Services
+Professor,323860,Sherry,Allan,0,0,0,77,NSM,good,16,3.6,4,3.420534762,0.952057156,female,Chemistry
+Assistant Professor,99324,Shi,Xiaoyan,0,0,0,45,NSM,good,16,3.6,2,2.831983471,0.776859504,female,Physics
+Assistant Professor,93323,Shin,Sunyoung,805,7,6,37,NSM,good,16,3.6,3,3.301481481,0.918518519,male,Mathematical Sciences
+Lecturer Ii,29010,Shirvani,Forouz,0,0,0,54,BBS,good,16,3.6,5,3.417696335,0.952879581,male,Psychology
+Clinical Professor,89026,Shrivastava,Prakash,0,0,0,54,JSOM,poor,25,2,8,3.242748815,0.928909953,male,Information Services
+Lecturer Ii,18710,Shute,William,0,0,0,54,EPPS,good,16,3.6,1,3.802653061,1,male,Public & Nonprofit Management
+Associate Professor,118782,Sibert,John,0,0,0,58,NSM,good,133,3.8,6,3.154067278,0.871559633,male,Chemistry
+Assoc. Prof. Of Instruction,80726,Sibley,Daniel,0,0,0,54,JSOM,average,3,3.3,5,3.79974359,0.987179487,male,Finance
+Assistant Professor,152595,Siegenthaler,Simon,91,5,2,54,JSOM,good,5,5,3,3.746477273,1,male,Finance
+Assistant Professor,200571,Simsek,Ahmet,0,0,0,54,JSOM,good,17,3.5,3,3.064537815,0.882352941,male,Operations Management
+Associate Professor,238974,Singh,Harpreet,363,7,7,34,JSOM,good,27,4.1,3,3.62484375,1,male,Information Services
+Assistant Professor,270481,Sinha,Irti,0,0,0,54,JSOM,good,16,3.6,4,3.420534762,0.952057156,female,Accounting
+Associate Professor,117435,Siqueira,Kevin,0,0,0,57,EPPS,average,22,3.4,3,3.275204082,0.918367347,male,Economics
+Assistant Professor,142668,Sirsi,Shashank,1906,21,33,54,ECS,zero,0,3.6,3,3.5134,0.96,female,Bioengineering
+Professor,124841,Skaggs,Sheryl,933,12,13,47,EPPS,good,12,4.8,4,3.602580645,0.967741935,female,Criminology and Sociology
+Assoc. Prof. Of Instruction,97152,Skinner,Neal,0,0,0,54,ECS,average,2,3,4,3.420534762,0.952057156,male,Electrical & Computer Engr
+Assoc. Prof. Of Instruction,96278,Skuza,Agnieszka,0,0,0,54,JSOM,poor,5,2.2,4,3.420534762,0.952057156,female,OSIM
+Associate Professor,114233,Slinker,Jason,2372,26,45,43,NSM,good,62,3.8,2,3.721726908,0.97188755,male,Physics
+Associate Professor,106344,Smaldone,Ronald,2445,23,37,41,NSM,good,16,3.6,2,3.38875,0.875,male,Chemistry
+Assoc. Prof. Of Practice,59888,Smallwood,Margaret,0,0,0,34,JSOM,good,16,3.6,9,3.213070175,0.929824561,male,OSIM
+Professor,112360,Smith,Erin,0,0,0,53,AHT,good,16,3.6,4,3.439886364,0.977272727,female,Interdisciplinary Studies
+Lecturer Ii,10001,Smith,Irma,0,0,0,54,BBS,good,16,3.6,1,4,1,female,Speech & Language Pathology
+Assoc. Prof. Of Instruction,95347,Smith,Jason,0,0,0,54,ECS,good,16,3.6,7,3.064081633,0.844897959,male,Computer Science
+Senior Lecturer I,106065,Smith,Klyne,0,0,0,54,ECS,good,16,3.6,14,3.691708861,0.981012658,male,Computer Science
+Clinical Assistant Professor,119000,Sohaee,Nassim,0,0,0,54,JSOM,good,16,3.6,13,3.550362117,0.969359331,female,Management
+Assist. Prof. Of Instruction,86018,Solanki,Nidhiben,0,0,0,54,ECS,good,16,3.6,10,3.125166667,0.897222222,female,Computer Science
+Assoc. Prof. Of Practice,120014,Solcher,Steven,0,0,0,59,JSOM,good,33,3.7,9,3.338041667,0.954166667,male,Accounting
+Professor,131104,Solodkin,Ana,2894,30,49,66,BBS,poor,22,2.3,2,3.111574074,0.833333333,female,Neuroscience
+Professor,155465,Spence,Melanie,753,11,12,54,BBS,average,6,2.6,4,3.420534762,0.952057156,female,Psychology
+Professor,238390,Spiro,Stephen,1483,21,43,54,NSM,good,18,4.4,7,3.134420849,0.891891892,male,Biological Sciences
+Professor,378532,Spong,Mark,12495,47,131,69,ECS,good,3,4.3,6,3.818607595,0.987341772,male,Electrical & Computer Engr
+Associate Professor,131481,Springate,David,0,0,0,83,JSOM,poor,17,2.3,4,3.681304348,1,male,Executive Education
+Professor Of Instruction,76206,Sra,Amandeep,0,0,0,54,NSM,good,80,4.2,8,2.796866883,0.785714286,female,Chemistry
+Professor Of Instruction,82719,Srikanth,Uma,0,0,0,49,NSM,good,118,3.8,41,3.445033445,0.940914158,male,Biological Sciences
+Assist. Prof. Of Instruction,57564,Srinivasan,Srimathi,0,0,0,54,ECS,poor,38,2.1,4,2.647195122,0.719512195,male,Computer Science
+Professor Of Instruction,35034,Stanford,Paul,0,0,0,68,NSM,good,84,3.7,4,2.915454545,0.818181818,male,Mathematical Sciences
+Assist. Prof. Of Instruction,62141,Stark,Azadeh,0,0,0,54,IS,good,16,3.6,7,3.312793296,0.927374302,male,Interdisciplinary Studies
+Assoc. Prof. Of Instruction,52490,Starnamam,Sabrina,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,female,Writing & Literature
+Professor,248522,Stecke,Kathryn,0,0,0,72,JSOM,poor,6,1.9,4,3.420534762,0.952057156,female,Operations Management
+Senior Lecturer I,78429,Stephens,Timothy,0,0,0,54,JSOM,good,24,4.1,9,3.765052083,0.986979167,male,Information Services
+Professor,132049,Stern,Robert,18333,65,252,70,NSM,average,8,3,4,3.420534762,0.952057156,male,Geosciences
+Professor,148948,Stewart,Marianne,0,0,0,68,EPPS,average,24,3,4,3.420534762,0.952057156,male,Political Science
+Assistant Professor,76856,Stewart,Whitney,0,0,0,35,AHT,good,28,4.7,4,3.420534762,0.952057156,male,History
+Professor,166286,Stillman,Robert,0,0,0,80,BBS,zero,0,3.6,4,3.420534762,0.952057156,male,Speech & Language Pathology
+Clinical Professor,12101,Stilwell,John,0,0,0,54,BBS,average,9,3.3,2,3.651666667,0.952380952,male,Psychology
+Clinical Professor,8672,Stone,Marvin,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,male,Philosophy & Humanities
+Assistant Professor,75751,Stone,Naomi,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,female,Writing & Literature
+Assistant Professor,99471,Stoneback,Russell,521,12,19,54,NSM,poor,20,1.9,1,3.520803571,0.982142857,male,Physics
+Associate Professor,211786,Subramanian,Upender,0,0,0,46,JSOM,good,16,3.6,3,3.688846154,1,male,Marketing
+Clinical Associate Professor,103615,Subramoniam,Ramesh,0,0,0,54,JSOM,good,16,3.6,11,3.207212121,0.951515152,male,Operations Management
+Professor,217904,Sul,Donggyu,3265,20,27,56,EPPS,good,16,3.6,3,3.360540541,0.986486486,male,Economics
+Assist. Prof. Of Instruction,56973,Sultana,Nasrin,0,0,0,54,BBS,good,16,3.6,9,3.165249042,0.877394636,female,Mathematical Sciences
+Senior Lecturer I,98806,Sultana,Rukhsana,0,0,0,54,BBS,good,16,3.6,11,3.56410148,0.970401691,female,Neuroscience
+Associate Professor,161572,Summers,Tyler,2272,25,57,40,ECS,good,16,3.6,1,2.974615385,0.923076923,male,Mechanical Engineering
+Senior Lecturer I,64125,Sun,Kuei,475,13,14,43,NSM,good,27,4.3,68,3.488692344,0.908226343,female,Physics
+Assistant Professor,51681,Sung,Wendy,0,0,0,40,AHT,good,7,3.7,2,3.248983051,0.915254237,male,Arts & Technology
+Senior Lecturer I,63356,Sutton,Julie,0,0,0,35,NSM,average,37,3.2,4,3.420534762,0.952057156,male,Mathematical Sciences
+Assistant Professor,101207,Swanson,Meghan,2229,18,24,32,BBS,good,1,4,2,3.038333333,0.933333333,male,Psychology
+Professor Of Instruction,85248,Swartz,William,0,0,0,54,ECS,good,23,4.2,12,3.682075472,0.962264151,male,Electrical & Computer Engr
+Clinical Professor,42251,Swerdlow,Joel,0,0,0,54,EPPS,good,16,3.6,1,4,1,male,Political Science
+Clinical Associate Professor,155327,Szot,James,0,0,0,70,JSOM,zero,0,3.6,4,3.420534762,0.952057156,male,Executive Education
+Professor Of Instruction,127197,Tacca,Marco,343,9,6,46,ECS,good,12,4.1,12,3.719087591,0.96350365,female,Electrical & Computer Engr
+Associate Professor,130438,Tadesse,Yonas,1547,22,44,44,ECS,average,10,2.6,3,3.801538462,0.990384615,male,Mechanical Engineering
+Clinical Associate Professor,54747,Tady,Lorraine,0,0,0,55,AHT,average,12,3,5,3.497681159,0.927536232,female,Art & Art History
+Senior Lecturer I,85811,Taheri,Mohammad,0,0,0,54,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,Management
+Professor,292827,Takeuchi,Riki,6160,32,40,54,JSOM,poor,2,1.5,2,3.260588235,0.970588235,male,OSIM
+Professor,182610,Tamil,Lakshman,1132,19,27,63,ECS,good,22,4,4,3.420534762,0.952057156,male,Electrical & Computer Engr
+Assistant Professor,101175,Tang,Chuan-fa,14,2,0,54,NSM,good,16,3.6,3,3.644326923,0.951923077,male,Mathematical Sciences
+Associate Professor,199867,Tang,Shaojie,5944,39,128,54,JSOM,average,11,2.8,2,3.689767442,1,male,Information Services
+Assistant Professor,271529,Tang,Xiaoxiao,98,4,2,54,JSOM,poor,3,2,3,3.000363636,0.836363636,female,Finance
+Assist. Prof. Of Instruction,85156,Taylor,Anna,0,0,0,54,BBS,average,46,3.1,11,2.8775,0.816666667,female,Neuroscience
+Professor,190830,Taylor,Robert,459,8,8,71,EPPS,good,11,4.2,4,3.307972973,0.936936937,male,Criminology and Sociology
+Assist. Prof. Of Instruction,74322,Taylor,Stephanie,0,0,0,54,NSM,good,88,4.3,7,3.119976959,0.891705069,female,Science/Math Education
+Assistant Professor,214247,Tehrani,Shervin,26,2,1,54,JSOM,good,7,3.7,4,3.367672414,1,female,Marketing
+Professor,100377,Terranova,Charissa,0,0,0,52,AHT,average,37,2.8,4,3.420534762,0.952057156,female,Art & Art History
+Associate Professor,100302,Terry,Dean,0,0,0,55,AHT,good,16,3.6,4,3.420534762,0.952057156,male,Arts & Technology
+Assoc. Prof. Of Instruction,95423,Thamban,P,0,0,0,54,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Mechanical Engineering
+Professor,139909,Thibodeau,Linda,0,0,0,69,BBS,good,3,4.7,4,3.757808219,1,female,Speech & Language Pathology
+Assoc. Prof. Of Instruction,82584,Thompson,Christina,0,0,0,54,NSM,good,37,4.8,9,3.391388889,0.908333333,male,Chemistry
+Assoc. Prof. Of Instruction,84289,Thompson,Laurie,0,0,0,57,ECS,poor,145,2.4,4,3.420534762,0.952057156,male,Computer Science
+Associate Professor,114121,Thompson,Lucien,941,16,22,63,BBS,good,9,4.4,4,3.420534762,0.952057156,male,Neuroscience
+Professor Of Instruction,118116,Thompson,Luell,0,0,0,54,JSOM,poor,15,2.2,5,3.634551724,0.986206897,male,Information Services
+Assistant Professor,111061,Thorn,Catherine,0,0,0,42,BBS,good,7,4,2,3.518796992,0.984962406,male,Neuroscience
+Clinical Professor,159352,Thouin,Mark,430,7,5,52,JSOM,good,84,3.8,4,3.420534762,0.952057156,male,Information Services
+Professor,360514,Thuraisingham,Bhavani,6098,40,134,69,ECS,average,24,3.4,4,3.420534762,0.952057156,male,Computer Science
+Professor Of Practice,167453,Thurgood,Keith,0,0,0,54,JSOM,average,8,3.1,5,3.670858896,0.975460123,male,OSIM
+Associate Professor,94875,Tiefelsdorf,Michael,0,0,0,61,EPPS,poor,9,2.4,4,3.420534762,0.952057156,male,Geography
+Senior Lecturer I,61938,Tirone,Guido,0,0,0,54,JSOM,average,25,3.2,6,3.60619883,1,male,Marketing
+Clinical Associate Professor,88551,Toptal,Aysegul,0,0,0,54,JSOM,good,3,3.7,7,3.090321285,0.899598394,male,Operations Management
+Professor,175501,Torlak,Murat,1357,14,20,52,ECS,poor,11,1.5,4,3.420534762,0.952057156,male,Electrical & Computer Engr
+Senior Lecturer I,43706,Totusek,Patricia,0,0,0,54,AHT,good,24,4.5,8,3.54637931,0.971264368,male,Communication
+Professor Of Instruction,61899,Touchstone,Emily,0,0,0,46,BBS,good,62,5,10,3.821815603,0.984397163,female,Speech & Language Pathology
+Professor,149849,Towner,Theresa,0,0,0,64,AHT,good,39,4.9,4,3.420534762,0.952057156,male,Philosophy & Humanities
+Associate Professor,98955,Tran,Anh,0,0,0,54,NSM,good,11,4,4,3.041681416,0.831858407,male,Mathematical Sciences
+Senior Lecturer I,60759,Tran,Daniel,0,0,0,54,NSM,good,32,3.5,11,3.451464738,0.920433996,male,Chemistry
+Assist. Prof. Of Instruction,65716,Trosper,Elizabeth,0,0,0,54,AHT,good,5,3.6,9,3.3252,0.915,female,Art & Art History
+Professor,292372,Tsang,Wing,0,0,0,54,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,OSIM
+Professor,97895,Turi,Janos,514,11,16,69,NSM,poor,11,2.3,2,3.503673469,0.93877551,male,Mathematical Sciences
+Professor,105223,Ulatowska,Hanna,0,0,0,54,BBS,poor,6,1.2,3,3.357090909,0.981818182,female,Speech & Language Pathology
+Assoc. Prof. Of Instruction,45039,Vakulenko,Irina,0,0,0,66,EPPS,good,35,4.4,9,3.35677551,0.934693878,female,Geography
+Associate Professor,106681,Valcarcel,Victor,314,9,7,36,EPPS,average,29,3,4,3.420534762,0.952057156,male,Economics
+Visiting Assistant Professor,27778,Valente,Sarah,0,0,0,54,,good,1,4,3,3.628863636,0.931818182,female,Writing & Literature
+Associate Professor,173756,Vandenberghe,William,2963,25,52,32,ECS,good,17,4.5,4,3.420534762,0.952057156,male,Materials Science and Engineering
+Assistant Professor,146826,Varner,Victor,0,0,0,54,ECS,good,16,3.6,3,3.126315789,0.873684211,male,Bioengineering
+Assoc. Prof. Of Instruction,141001,Veerasamy,Jeyakesavan,0,0,0,54,ECS,good,16,3.6,7,3.355127389,0.901273885,male,Computer Science
+Assistant Professor,216931,Venkataraman,Ashwin,159,5,5,54,JSOM,good,16,3.6,3,3.386449275,0.949275362,male,Operations Management
+Professor,118550,Venkatesan,Subbarayan,0,0,0,63,ECS,good,16,3.6,5,3.514855072,0.920289855,male,Computer Science
+Assistant Professor,91976,Veras,De,0,0,0,54,AHT,good,16,3.6,4,3.232608696,0.894409938,female,Arts & Technology
+Professor,108182,Vieraitis,Lynne,0,0,0,53,EPPS,good,16,3.6,4,3.215686275,0.970588235,female,Criminology and Sociology
+Associate Professor,51577,Voit,Walter,3466,30,61,39,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Materials Science and Engineering
+Assistant Professor,207401,Von,Drathen,0,0,0,54,JSOM,good,16,3.6,1,3.425454545,1,male,Finance
+Professor,103572,Waligore,Marilyn,0,0,0,63,AHT,good,8,4.3,4,3.420534762,0.952057156,female,Art & Art History
+Professor,214375,Walker,Amy,0,0,0,49,ECS,average,3,3,4,3.420534762,0.952057156,male,Materials Science and Engineering
+Professor,372163,Wallace,Robert,21678,65,212,62,ECS,poor,3,1,2,2.928571429,1,male,Materials Science and Engineering
+Assistant Professor,216348,Wang,Guihua,0,0,0,54,JSOM,good,16,3.6,3,3.57734375,1,male,Operations Management
+Assistant Professor,222526,Wang,Hongchang,0,0,0,54,JSOM,good,16,3.6,3,3.920419162,0.994011976,male,Information Services
+Research Associate Professor,63993,Wang,Ru-hung,0,0,0,54,NSM,good,16,3.6,4,3.420534762,0.952057156,female,Chemistry
+Associate Professor,205266,Wang,Shouqiang,260,11,12,54,JSOM,good,16,3.6,3,3.078611111,0.847222222,male,Operations Management
+Associate Professor,111389,Warner-czyz,Andrea,0,0,0,48,BBS,good,16,3.6,3,3.507090909,0.963636364,female,Speech & Language Pathology
+Associate Professor,96156,Warren,Shilyh,31,4,1,48,AHT,good,16,3.6,4,3.439893617,0.893617021,male,Performing Arts
+Clinical Professor,111564,Watson,John,0,0,0,54,JSOM,good,60,3.8,11,2.999585921,0.904761905,male,OSIM
+Clinical Professor,154023,Weekley,Jeffrey,0,0,0,54,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,OSIM
+Associate Professor,262953,Wei,Kelsey,0,0,0,51,JSOM,poor,17,1.4,3,2.971086957,0.826086957,female,Finance
+Assistant Professor,146793,Wei,Shiyi,688,10,10,54,ECS,good,10,4.5,2,2.968412698,0.761904762,male,Computer Science
+Assistant Professor,31667,Welin,Eric,0,0,0,34,NSM,good,16,3.6,1,3.425517241,1,male,Biological Sciences
+Assist. Prof. Of Instruction,83388,Werhnyak,Larissa,0,0,0,43,IS,poor,27,2.4,9,3.392072072,0.905405405,female,Interdisciplinary Studies
+Assist. Prof. Of Instruction,28031,Wetzler,Kristen,0,0,0,54,BBS,poor,11,2,8,2.486454545,0.7,male,Mathematical Sciences
+Senior Lecturer I,67609,Whalen,Tristan,0,0,0,54,NSM,good,109,4.5,16,3.245505618,0.848314607,male,Operations Management
+Associate Professor,88461,Wickberg,Daniel,334,6,5,62,AHT,average,32,3.3,4,3.420534762,0.952057156,male,History
+Clinical Associate Professor,129015,Widdifield,David,0,0,0,54,JSOM,good,18,4.8,7,3.855932203,0.988700565,male,Operations Management
+Associate Professor,156650,Wig,Gagandeep,0,0,0,54,BBS,good,16,3.6,4,3.289931507,0.931506849,male,Neuroscience
+Assist. Prof. Of Instruction,55626,Wijenayake,Sumudu,248,6,6,54,NSM,good,27,4.5,17,3.742334437,0.976821192,male,Chemistry
+Assistant Professor,96288,Williams,Nathan,350,11,12,36,NSM,good,8,4.5,4,3.420534762,0.952057156,male,Mathematical Sciences
+Assoc. Prof. Of Instruction,96366,Willson,James,0,0,0,54,ECS,good,62,4,4,3.420534762,0.952057156,male,Computer Science
+Associate Professor,106356,Wilson,Michael,0,0,0,60,AHT,good,17,4.5,4,3.420534762,0.952057156,male,History
+Assist. Prof. Of Instruction,57334,Wilson,Michelle,0,0,0,50,NSM,average,179,2.5,4,3.420534762,0.952057156,male,Biological Sciences
+Associate Professor,132181,Winkler,Duane,0,0,0,41,NSM,good,5,4.6,2,3.398055556,1,male,Biological Sciences
+Senior Lecturer I,44174,Winter,Patrick,1530,22,45,54,ECS,poor,16,2,9,2.982623762,0.846534653,male,Bioengineering
+Professor Of Instruction,94285,Wissinger,Tonja,0,0,0,59,AHT,average,54,2.8,4,2.671470588,0.794117647,male,Interdisciplinary Studies
+Clinical Professor,186900,Woldu,Habte,427,5,5,63,JSOM,good,16,3.6,11,3.390325581,0.979069767,male,OSIM
+Professor,270414,Wong,Weichen,0,0,0,56,ECS,good,16,3.6,4,3.948580645,0.993548387,male,Computer Science
+Clinical Associate Professor,96132,Wood,Harold,0,0,0,71,AHT,good,16,3.6,9,3.724176245,0.965517241,male,Arts & Technology
+Professor,141272,Worrall,John,1849,25,48,54,EPPS,good,16,3.6,3,3.175121951,0.902439024,male,Criminology and Sociology
+Associate Professor,83877,Wright,Ben,0,0,0,38,AHT,good,16,3.6,4,3.319534884,0.906976744,male,History
+Senior Lecturer I,113829,Wright,Robert,0,0,0,54,JSOM,good,16,3.6,4,3.126403712,0.90487239,male,OSIM
+Clinical Professor,122777,Wu,Fang,0,0,0,49,JSOM,average,37,3.3,6,3.472747253,0.978021978,male,Marketing
+Assistant Professor,83553,Wu,Hong-an,45,2,2,33,AHT,good,16,3.6,4,3.420534762,0.952057156,female,Arts & Technology
+Assistant Professor,184929,Wu,Junfeng,998,9,9,54,JSOM,good,6,4.5,3,3.397426471,0.963235294,male,OSIM
+Professor,168990,Wu,Wei,0,0,0,47,ECS,good,16,3.6,4,3.687727273,0.984848485,male,Computer Science
+Assist. Prof. Of Instruction,71548,Wu,Zhuoru,0,0,0,43,NSM,good,16,3.6,4,3.420534762,0.952057156,male,Biological Sciences
+Associate Professor,296419,Xia,Han,756,8,8,38,JSOM,good,10,4.9,3,3.356601942,0.941747573,female,Finance
+Professor,226387,Xia,Jun,1471,18,24,54,JSOM,poor,1,1,1,3.65,1,female,Management
+Assistant Professor,119650,Xiao,Chong,0,0,0,54,JSOM,good,16,3.6,4,3.420534762,0.952057156,female,Finance
+Professor,260505,Xie,Ying,862,12,15,26,JSOM,average,12,2.5,1,3.514848485,0.96969697,female,Marketing
+Associate Professor,284851,Xu,Yexiao,0,0,0,52,JSOM,average,5,2.6,3,3.560606061,1,female,Finance
+Associate Professor,116364,Xuan,Zhenyu,9119,32,47,49,NSM,good,16,3.6,3,3.450740741,1,male,Biological Sciences
+Assistant Professor,151696,Yang,Wei,1928,19,24,54,ECS,average,8,3.3,3,3.607808219,0.95890411,male,Computer Science
+Assoc. Prof. Of Instruction,82291,Ybarra,Regina,0,0,0,54,BBS,good,29,4,9,3.487407035,0.933668342,female,Psychology
+Professor,152242,Yen,I-ling,0,0,0,65,ECS,good,16,3.6,4,2.89969697,0.787878788,female,Computer Science
+Professor,291692,You,Seung,0,0,0,54,ECS,good,16,3.6,1,3.518,1,male,Mechanical Engineering
+Associate Professor,123509,Young,Chadwin,1741,21,46,48,ECS,good,16,3.6,3,3.408666667,0.966666667,male,Materials Science and Engineering
+Research Assistant Professor,96525,Yu,Mengxiao,5730,42,60,40,NSM,good,16,3.6,4,3.420534762,0.952057156,female,Chemistry
+Senior Lecturer I,107071,Yu,Wen-ho,0,0,0,66,NSM,good,16,3.6,4,3.420534762,0.952057156,male,Biological Sciences
+Professor,230456,Yuan,May,0,0,0,57,EPPS,good,16,3.6,4,3.420534762,0.952057156,male,Geography
+Professor,297549,Yurkovich,Stephen,0,0,0,66,ECS,good,16,3.6,2,3.372692308,1,male,Electrical & Computer Engr
+Assoc. Prof. Of Instruction,89486,Yuruk,Nurcan,604,5,5,54,ECS,good,16,3.6,8,3.700618812,1,male,Computer Science
+Professor,162656,Zakhidov,Anvar,0,0,0,69,NSM,good,16,3.6,1,2.975368421,0.852631579,male,Chemistry
+Associate Professor,141289,Zalila-wenkstern,Rym,225,9,9,54,ECS,good,16,3.6,4,2.959459459,0.797297297,female,Computer Science
+Assistant Professor,112404,Zare,Armin,428,12,14,54,ECS,good,16,3.6,1,3.309642857,0.964285714,female,Mechanical Engineering
+Associate Professor,187617,Zentner,Alejandro,589,13,17,47,JSOM,average,1,3,2,3.801818182,1,male,Finance
+Professor,233664,Zhang,Chuanwei,4206,33,82,44,NSM,poor,9,1.2,4,3.420534762,0.952057156,male,Physics
+Associate Professor,154752,Zhang,Fan,5777,39,68,38,NSM,average,25,2.7,2,3.708608059,0.989010989,male,Physics
+Professor,389560,Zhang,Huibing,0,0,0,60,JSOM,good,16,3.6,2,3.743857143,1,male,OSIM
+Associate Professor,203905,Zhang,Jie,4149,38,87,38,ECS,average,3,2.7,3,3.738061224,0.989795918,male,Mechanical Engineering
+Associate Professor,323010,Zhang,Jieying,3732,14,19,54,JSOM,good,12,4.5,3,3.157,0.94,female,Accounting
+Professor,78470,Zhang,Kang,1350,19,42,62,ECS,good,24,3.5,2,3.32295082,0.868852459,male,Computer Science
+Professor,289274,Zhang,Li,1410,20,36,60,NSM,good,16,3.6,2,3.689,1,male,Biological Sciences
+Professor,343732,Zhang,Michael,23157,67,235,63,NSM,poor,1,2,4,3.420534762,0.952057156,male,Biological Sciences
+Assistant Professor,96334,Zhang,Yingjie,0,0,0,54,ECS,good,1,5,2,3.706716418,1,female,Accounting
+Associate Professor,312300,Zhang,Yuan,1370,12,13,46,JSOM,good,16,3.6,4,3.051374046,0.893129771,male,Accounting
+Assistant Professor,203948,Zhang,Zhe,308,7,6,54,JSOM,good,16,3.6,4,3.793414634,1,male,Information Services
+Associate Professor,295612,Zhao,Feng,375,9,9,46,JSOM,good,16,3.6,2,3.569512195,0.975609756,male,Finance
+Assist. Prof. Of Instruction,43459,Zhao,Yi,0,0,0,54,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Computer Science
+Professor,225859,Zheng,Jie,0,0,0,50,NSM,good,16,3.6,1,3.542857143,0.971428571,male,Chemistry
+Professor,349689,Zheng,Zhiqiang,0,0,0,51,JSOM,good,16,3.6,2,3.567234043,1,male,Operations Management
+Professor,136294,Zhou,Dian,0,0,0,62,ECS,good,16,3.6,6,3.372170543,0.891472868,male,Electrical & Computer Engr
+Associate Professor,204958,Zhou,Yibin,0,0,0,43,JSOM,good,16,3.6,5,2.772764706,0.805882353,male,Accounting
+Associate Professor,132607,Zhu,Hejun,1325,21,34,39,NSM,good,16,3.6,1,3.756666667,1,male,Geosciences
+Clinical Professor,66795,Ziegler,Laurie,0,0,0,63,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,OSIM
+Assoc. Prof. Of Practice,118774,Zolton,Kathy,0,0,0,54,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,Accounting
+Professor,140252,Zweck,John,477,8,6,56,NSM,good,16,3.6,4,2.848333333,0.815789474,male,Mathematical Sciences
+Assoc. Prof. Of Instruction,95693,Zydorek,Hubert,0,0,0,54,JSOM,good,16,3.6,6,3.602945205,0.976027397,male,OSIM
