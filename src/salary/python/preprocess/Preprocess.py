@@ -44,8 +44,8 @@ class Preprocess:
                         Macros.FEATURES[0],
                         Macros.FEATURES[2],
                         Macros.FEATURES[3],
-                        Macros.FEATURES[7],
                         Macros.FEATURES[8],
+                        Macros.FEATURES[9],
                         Macros.FEATURES[-1]]:
                     df_q = LabelEncoder().fit_transform(df[q])
                     data.append(df_q)
