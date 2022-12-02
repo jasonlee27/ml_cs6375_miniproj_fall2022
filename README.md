@@ -4,11 +4,11 @@
 
 https://docs.google.com/document/d/1MhQ3LOnF4esJO1CTKt3ENYnYZJYZAqz3ld58dy8F5_o/edit#
 
-# Project components
+# Projects
 
 ## 1. onlineclass_survey:
-### - Task: predicting if student prefer studying online/in person (Classification problem)
-### - Questions for features used for data collection
+### Task: predicting if student prefer studying online/in person (Classification problem)
+### Questions for features used for data collection
 1. What is your major?
 2. What is your gender identity?
 3. Which of the following best describes you?
@@ -21,7 +21,7 @@ https://docs.google.com/document/d/1MhQ3LOnF4esJO1CTKt3ENYnYZJYZAqz3ld58dy8F5_o/
 10. What is your average bedtime
 11. How many student organizations are you involved with?
 12. Are you currently concerned with catching / spreading COVID-19?
-13. Which learning modality do you generally prefer? (Label)
+13. Which learning modality do you generally prefer? (Label to be predicted)
 14. Where did you hear about this survey?
 
 ### ML models used
@@ -41,16 +41,23 @@ https://docs.google.com/document/d/1MhQ3LOnF4esJO1CTKt3ENYnYZJYZAqz3ld58dy8F5_o/
 * Logistic regression
 
 ### How to run
-At the project root directory ( ml_cs6375_miniproj_fall2022/ ),
+At the project root directory ( `ml_cs6375_miniproj_fall2022/` ),
 ```bash
 ./run_online.sh
 ```
 
+### Results
+The training/testing results are at `ml_cs6375_miniproj_fall2022/_results/online_survey` directory
+In the directory, there are model evaluation files as following:
+* `test_accuracy.csv`: model accuracy on test set for all models.
+* `confusion_matrix.csv`: confusion matrix values for all models.
+* `coef_importance_{model_name}_barplot.eps` and `feature_importance_{model_name}_barplot.eps`: barplot for feature importances for each {model_name} model.
+
 ## 2. Salary
 ### Task: prediction of the amount of professors annual salary in university (Regression Problem)
 ### Features used for data collection
-1. Title',
-2. Salary (target variable)
+1. Title
+2. Salary (Target variable to be predicted)
 3. Lname
 4. Fname
 5. citedby5y
@@ -80,7 +87,13 @@ At the project root directory ( ml_cs6375_miniproj_fall2022/ ),
 * Linear regression
 
 ### How to run
-At the project root directory ( ml_cs6375_miniproj_fall2022/ ),
+At the project root directory ( `ml_cs6375_miniproj_fall2022/` ),
 ```bash
 ./run_salary.sh
 ```
+
+### Results
+The training/testing results are at `ml_cs6375_miniproj_fall2022/_results/salary` directory
+In the directory, there are model evaluation files as following:
+* `test_accuracy.csv`: model accuracy on test set for all models.
+* `coef_importance_{model_name}_barplot.eps` and `feature_importance_{model_name}_barplot.eps`: barplot for feature importances for each {model_name} model.
