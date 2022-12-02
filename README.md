@@ -51,7 +51,7 @@ The training/testing results are at `ml_cs6375_miniproj_fall2022/_results/online
 In the directory, there are model evaluation files as following:
 * `test_accuracy.csv`: model accuracy on test set for all models.
 * `confusion_matrix.csv`: confusion matrix values for all models.
-* `coef_importance_{model_name}_barplot.eps or feature_importance_{model_name}_barplot.eps`: barplot for feature importances for each {model_name} model.
+* `coef_importance_{model_name}_barplot.eps` or `feature_importance_{model_name}_barplot.eps`: barplot for feature importances for each {model_name} model.
 
 ## 2. Salary
 ### Task: prediction of the amount of professors annual salary in university (Regression Problem)
@@ -96,4 +96,4 @@ At the project root directory ( `ml_cs6375_miniproj_fall2022/` ),
 The training/testing results are at `ml_cs6375_miniproj_fall2022/_results/salary` directory
 In the directory, there are model evaluation files as following:
 * `test_accuracy.csv`: model accuracy on test set for all models.
-* `coef_importance_{model_name}_barplot.eps`/`feature_importance_{model_name}_barplot.eps`: barplot for feature importances for each {model_name} model.
+* `coef_importance_{model_name}_barplot.eps` or `feature_importance_{model_name}_barplot.eps`: barplot for feature importances for each {model_name} model.
