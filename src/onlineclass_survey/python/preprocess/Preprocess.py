@@ -5,9 +5,10 @@ import seaborn as sns
 
 from typing import *
 from pathlib import Path
-from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OneHotEncoder
+from sklearn.model_selection import train_test_split
+from imblearn.over_sampling import RandomOverSampler
 
 from ..utils.Macros import Macros
 from ..utils.Utils import Utils
@@ -55,10 +56,12 @@ class Preprocess:
         # end for
         data = np.transpose(np.array(data)) # (#examples, #feats)
         labels = np.array(labels) # (#examples, )
+        ros = RandomOverSampler(random_state=0)
         x_train, x_test, y_train, y_test = train_test_split(
             data,
             labels,
             test_size=Macros.test_ratio,
             random_state=Macros.RAND_SEED
         )
-        return x_train, x_test, y_train, y_test
+        x_train_resampled, y_train_resampled = ros.fit_resample(x_train, y_train)
+        return x_train_resampled, x_test, y_train_resampled, y_test
