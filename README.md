@@ -2,7 +2,8 @@
 
 # Google doc link
 
-https://docs.google.com/document/d/1MhQ3LOnF4esJO1CTKt3ENYnYZJYZAqz3ld58dy8F5_o/edit#
+* Slides: https://docs.google.com/presentation/d/15_Pyh8NA429rfLNGUe9T8ih9-qHuHPmYxcsachdIJUI/edit?usp=sharing
+* Doc: https://docs.google.com/document/d/10dKfPOjwR2aAfTR2q0Ur1K6BNMnV5U2uQgMQyJbbG-g/edit?usp=sharing
 
 # Projects
 
