@@ -9,13 +9,13 @@ readonly RESULT_DIR="${_DIR}/_results"
 # ==========
 # Exp Results
 
-function preprocess() {
-        # write requirements in json
-        (cd ${_DIR}
-         python -m src.onlineclass_survey.python.main \
-                --run preprocess
-        )
-}
+# function preprocess() {
+#         # write requirements in json
+#         (cd ${_DIR}
+#          python -m src.onlineclass_survey.python.main \
+#                 --run preprocess
+#         )
+# }
 
 function run_model() {
         # write requirements in json
@@ -30,7 +30,7 @@ function run_model() {
 # Main
 
 function main() {
-        preprocess
+        # preprocess
         run_model
 }
 
