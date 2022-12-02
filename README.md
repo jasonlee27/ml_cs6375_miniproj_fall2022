@@ -7,8 +7,8 @@ https://docs.google.com/document/d/1MhQ3LOnF4esJO1CTKt3ENYnYZJYZAqz3ld58dy8F5_o/
 # Project components
 
 ## 1. onlineclass_survey:
-### Task: predicting if student prefer studying online/in person
-### Questions for features
+### * Task: predicting if student prefer studying online/in person (Classification problem)
+### - Questions for features
 1. What is your major?
 2. What is your gender identity?
 3. Which of the following best describes you?
@@ -42,21 +42,19 @@ https://docs.google.com/document/d/1MhQ3LOnF4esJO1CTKt3ENYnYZJYZAqz3ld58dy8F5_o/
 * logistic regression
 
 ### How to run
-
-## 1. onlineclass_survey
-At the project root directory (ml_cs6375_miniproj_fall2022/)
+At the project root directory ( ml_cs6375_miniproj_fall2022/ ),
 ```bash
 ./run_online.sh
 ```
 
 ## 2. Salary
-### Task: prediction of the amount of professors annual salary in university
+### Task: prediction of the amount of professors annual salary in university (Regression Problem)
 ### Features
 1. TODO: add what features are used.
 
 
-## 2. salary
-At the project root directory (ml_cs6375_miniproj_fall2022/)
+### How to run
+At the project root directory ( ml_cs6375_miniproj_fall2022/ ),
 ```bash
 ./run_salary.sh
 ```
