@@ -28,7 +28,7 @@ class Macros:
         'Salary', # target to be predicted
         'Lname',
         'Fname',
-        'citedby5y'
+        'citedby5y',
         'hindex5y',
         'i10index5y',
         'Age',
