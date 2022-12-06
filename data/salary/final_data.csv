@@ -1,4 +1,4 @@
-,Title,Salary,Lname,Fname,citedby5y,hindex5y,i10index5y,Age,School,rating_class,total_ratings,overall_rating,total_courses,average_grade,percent_passing,gender,Department
+,title,salary,lastName,firstName,citedby5y,hindex5y,i10index5y,age,school,rating_class,total_ratings,overall_rating,total_courses,average_grade,percent_passing,gender,department
 0,Professor,133431,Abdi,Herve,20227,59,151,69,BBS,good,9,4.7,1,3.1,0.9,male,Psychology
 1,Senior Lecturer I,54755,Abeykoon,Nimali,157,4,4,34,NSM,good,26,3.9,16,3.004180328,0.823770492,male,Chemistry
 2,Associate Professor,114248,Ackerman,Robert,2524,24,32,40,BBS,good,15,4.3,3,3.688510638,0.978723404,male,Psychology
@@ -142,7 +142,6 @@
 142,Non Tenure Professor,117588,Cokely,Carol,0,0,0,64,BBS,good,16,3.6,3,3.905428571,1.0,female,Speech & Language Pathology
 143,Non Tenure Professor,141959,Cole,John,0,0,0,54,ECS,average,135,3.3,4,3.420534762,0.952057156,male,Computer Science
 144,Non Tenure Professor,103638,Convery,Paul,0,0,0,54,JSOM,good,16,3.6,1,3.990294118,1.0,male,Executive Education
-145,Lecturer Ii,5405,Cook,Julie,0,0,0,54,BBS,good,16,3.6,1,3.902439024,0.975609756,female,Speech & Language Pathology
 146,Associate Professor,114819,Cooley,Heidi,122,5,3,54,AHT,good,16,3.6,4,3.420534762,0.952057156,female,Arts & Technology
 147,Assistant Professor,270481,Copat,Rafael,6,2,0,54,JSOM,good,16,3.6,2,3.070666667,0.844444444,male,Accounting
 148,Non Tenure Professor,82000,Cordell,David,140,5,3,70,JSOM,good,16,3.6,6,2.790116959,0.742690058,male,Finance
@@ -186,7 +185,6 @@
 186,Professor,114537,Dowling,Walter,1509,23,36,81,BBS,good,16,3.6,4,3.67015544,0.958549223,male,Psychology
 187,Professor,221476,Dragovic,Vladimir,0,0,0,57,NSM,good,16,3.6,2,3.419714286,0.971428571,male,Mathematical Sciences
 188,Professor,106659,Draper,Rockford,0,0,0,76,NSM,good,4,3.5,4,3.420534762,0.952057156,male,Biological Sciences
-189,Lecturer Ii,24134,Drew,Linda,0,0,0,54,BBS,good,16,3.6,4,3.633576159,0.947019868,male,Psychology
 190,Professor,180956,Du,Ding,0,0,0,54,ECS,good,16,3.6,3,3.814226804,1.0,male,Computer Science
 191,Non Tenure Professor,90538,Duquaine-watson,Jill,0,0,0,47,IS,good,16,3.6,4,3.460145985,0.927007299,female,Interdisciplinary Studies
 192,Non Tenure Associate Professor,78292,Durant,Stephanie,0,0,0,54,AHT,good,16,3.6,3,3.615,0.9375,male,Art & Art History
@@ -263,7 +261,7 @@
 264,Associate Professor,88219,Gorina,Evgenia,310,11,11,39,EPPS,good,16,3.6,4,3.676197183,1.0,female,Public & Nonprofit Management
 265,Professor,103958,Gossin,Pamela,0,0,0,66,AHT,good,23,3.9,4,3.420534762,0.952057156,female,Philosophy & Humanities
 266,Associate Professor,81119,Goux,Warren,0,0,0,73,NSM,poor,47,1.9,4,2.377912088,0.626373626,male,Chemistry
-267,Non Tenure Associate Professor,62603,Grant,Meredith,0,0,0,54,BBSs,good,16,3.6,4,3.420534762,0.952057156,male,Psychology
+267,Non Tenure Associate Professor,62603,Grant,Meredith,0,0,0,54,BBS,good,16,3.6,4,3.420534762,0.952057156,male,Psychology
 268,Assistant Professor,83884,Gray,Thomas,94,5,3,37,EPPS,good,19,4.6,4,3.420534762,0.952057156,male,Political Science
 270,Assistant Professor,77724,Greer,Erin,5,1,0,37,AHT,good,16,3.6,4,3.420534762,0.952057156,female,Writing & Literature
 271,Non Tenure Associate Professor,69587,Griffin,William,156,6,6,59,NSM,good,16,3.6,9,3.322948207,0.952191235,male,Geosciences
@@ -441,7 +439,6 @@
 447,Non Tenure Assistant Professor,35419,Liu,Li,0,0,0,54,NSM,good,16,3.6,1,3.505454545,1.0,female,Biological Sciences
 448,Assistant Professor,79431,Llamas,Rodriguez,0,0,0,54,AHT,good,16,3.6,4,3.244329897,0.907216495,male,Arts & Technology
 449,Professor,138889,Lobarinas,Edward,0,0,0,54,BBS,good,16,3.6,4,3.986530612,1.0,male,Speech & Language Pathology
-450,Lecturer Ii,6001,Lombardi,Christina,0,0,0,54,BBS,good,16,3.6,1,4.0,1.0,female,Speech & Language Pathology
 451,Non Tenure Assistant Professor,68949,Lookadoo,Kathryn,0,0,0,54,JSOM,good,32,3.5,8,2.493391304,0.743478261,female,OSIM
 452,Professor,61189,Lou,Xinchou,0,0,0,55,NSM,good,16,3.6,4,3.420534762,0.952057156,female,Physics
 453,Associate Professor,132387,Lou,Yifei,2130,24,43,39,NSM,average,10,3.4,3,3.044047619,0.880952381,female,Mathematical Sciences
@@ -469,7 +466,7 @@
 476,Professor,229036,Malina,Roger,2149,21,38,72,AHT,good,16,3.6,1,3.769,1.0,female,Arts & Technology
 477,Professor,162940,Malko,Anton,2598,24,47,46,NSM,poor,17,1.8,4,3.420534762,0.952057156,male,Physics
 478,Professor,93536,Manton,William,1378,21,32,84,NSM,good,22,3.5,4,2.677717391,0.858695652,male,Geosciences
-479,Non Tenure Professor,165773,Manzi,Jeffery,0,0,0,54,JSO,good,16,3.6,4,3.420534762,0.952057156,male,Finance
+479,Non Tenure Professor,165773,Manzi,Jeffery,0,0,0,54,JSON,good,16,3.6,4,3.420534762,0.952057156,male,Finance
 480,Professor,200382,Marcus,Andrian,5483,41,85,54,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Computer Science
 481,Associate Professor,193305,Markoczi,Livia,0,0,0,54,JSOM,good,16,3.6,2,3.438488372,0.988372093,female,OSIM
 482,Professor,390653,Markov,Stanimir,1341,17,19,54,JSOM,good,17,3.7,4,3.420534762,0.952057156,male,Accounting
@@ -559,7 +556,6 @@
 566,Professor,236276,O'toole,Alice,4351,39,81,61,BBS,good,16,3.6,2,3.543867925,0.971698113,female,Psychology
 567,Associate Professor,117762,Ohsawa,Tomoki,270,10,12,43,NSM,good,18,3.6,3,2.455576923,0.605769231,female,Electrical & Computer Engr
 568,Non Tenure Assistant Professor,61200,Oropallo,Kara,0,0,0,54,AHT,good,12,4.3,8,3.782724458,0.984520124,male,Arts & Technology
-569,Lecturer Ii,44384,Orrick,Erika,0,0,0,46,BBS,poor,8,2.4,9,3.8784375,0.990625,male,Psychology
 570,Non Tenure Associate Professor,115294,Ouyang,Hui,275,10,10,54,ECS,good,18,4.1,11,3.511570248,0.980716253,male,Electrical & Computer Engr
 571,Assistant Professor,124015,Ouyang,Jessica,112,5,5,54,ECS,poor,38,2.3,2,3.0976,0.906666667,female,Mechanical Engineering
 572,Professor,212474,Overzet,Lawrence,0,0,0,61,ECS,good,6,4.3,4,3.420534762,0.952057156,male,Electrical & Computer Engr
@@ -608,7 +604,6 @@
 616,Non Tenure Assistant Professor,98597,Porter,Benjamin,0,0,0,54,ECS,good,6,5.0,14,3.621846154,0.973076923,male,Bioengineering
 617,Non Tenure Assistant Professor,50316,Pourchot,Hannah,0,0,0,54,BBS,good,16,3.6,4,3.420534762,0.952057156,female,Speech & Language Pathology
 618,Professor,217726,Pourkamali,Siavash,0,0,0,43,ECS,good,12,3.6,8,3.255378788,0.931818182,male,Electrical & Computer Engr
-619,Lecturer Ii,18005,Powers,Katharine,0,0,0,54,AHT,average,28,2.7,6,3.168776596,0.909574468,male,Speech & Language Pathology
 620,Professor,230743,Prabhakaran,Balakrishnan,1315,18,36,58,ECS,poor,8,2.1,4,3.420534762,0.952057156,male,Computer Science
 621,Professor,121106,Prager,Karen,712,11,11,71,IS,average,54,2.9,4,3.420534762,0.952057156,female,Interdisciplinary Studies
 622,Professor,198297,Prakash,Ravi,1337,18,28,54,ECS,good,48,3.8,6,3.400566038,0.918238994,male,Computer Science
@@ -632,7 +627,6 @@
 640,Non Tenure Professor,178779,Rajaratnam,Daniel,0,0,0,69,JSOM,good,16,3.6,12,3.263247664,0.964953271,male,Marketing
 641,Non Tenure Assistant Professor,49163,Rakotomalala,Diarisoa,0,0,0,54,NSM,good,16,3.6,4,3.420534762,0.952057156,female,Mathematical Sciences
 642,Professor,151552,Ramakrishna,Viswanath,0,0,0,60,NSM,good,16,3.6,7,3.610340136,0.952380952,male,Mathematical Sciences
-643,Lecturer Ii,18130,Raman,Rachna,0,0,0,54,BBS,good,16,3.6,3,3.29104,0.912,male,Psychology
 644,Non Tenure Professor,174569,Ramanathan,Kannan,0,0,0,68,JSOM,good,16,3.6,15,3.553410596,0.96192053,male,Operations Management
 645,Non Tenure Assistant Professor,89689,Ramezani,Rasoul,7,1,0,54,JSOM,good,16,3.6,9,3.252608696,0.98136646,male,Operations Management
 646,Senior Lecturer I,87841,Ramirez,Ruben,0,0,0,71,NSM,good,16,3.6,8,2.745483871,0.760611205,male,Biological Sciences
@@ -652,7 +646,6 @@
 660,Non Tenure Professor,107591,Rippel,Scott,0,0,0,56,NSM,average,52,3.1,11,2.955625,0.822115385,male,Biological Sciences
 661,Non Tenure Professor,100947,Ritchey,David,0,0,0,60,JSOM,good,108,4.6,10,3.660475248,0.972277228,male,OSIM
 662,Assistant Professor,214659,Rivera,Mesias,0,0,0,54,JSOM,good,16,3.6,3,3.372352941,0.980392157,female,Finance
-663,Lecturer Ii,12130,Roark,Dana,0,0,0,57,BBS,good,16,3.6,4,3.672984127,0.984126984,male,Psychology
 664,Associate Professor,157976,Rodrigue,Karen,7901,40,72,54,BBS,good,16,3.6,3,3.600333333,0.988888889,male,Neuroscience
 665,Associate Professor,130619,Rodriguez,Christa,0,0,0,54,BBS,good,16,3.6,4,3.735,0.991525424,male,Neuroscience
 666,Professor,125247,Rodriguez,Robert,0,0,0,77,AHT,good,16,3.6,3,3.921315789,1.0,male,Music
@@ -708,9 +701,7 @@
 717,Professor,323860,Sherry,Allan,0,0,0,77,NSM,good,16,3.6,4,3.420534762,0.952057156,female,Chemistry
 718,Assistant Professor,99324,Shi,Xiaoyan,0,0,0,45,NSM,good,16,3.6,2,2.831983471,0.776859504,female,Physics
 719,Assistant Professor,93323,Shin,Sunyoung,805,7,6,37,NSM,good,16,3.6,3,3.301481481,0.918518519,male,Mathematical Sciences
-720,Lecturer Ii,29010,Shirvani,Forouz,0,0,0,54,BBS,good,16,3.6,5,3.417696335,0.952879581,male,Psychology
 721,Non Tenure Professor,89026,Shrivastava,Prakash,0,0,0,54,JSOM,poor,25,2.0,8,3.242748815,0.928909953,male,Information Services
-722,Lecturer Ii,18710,Shute,William,0,0,0,54,EPPS,good,16,3.6,1,3.802653061,1.0,male,Public & Nonprofit Management
 723,Associate Professor,118782,Sibert,John,0,0,0,58,NSM,good,133,3.8,6,3.154067278,0.871559633,male,Chemistry
 724,Non Tenure Associate Professor,80726,Sibley,Daniel,0,0,0,54,JSOM,average,3,3.3,5,3.79974359,0.987179487,male,Finance
 725,Assistant Professor,152595,Siegenthaler,Simon,91,5,2,54,JSOM,good,5,5.0,3,3.746477273,1.0,male,Finance
@@ -726,7 +717,6 @@
 735,Associate Professor,106344,Smaldone,Ronald,2445,23,37,41,NSM,good,16,3.6,2,3.38875,0.875,male,Chemistry
 736,Non Tenure Associate Professor,59888,Smallwood,Margaret,0,0,0,34,JSOM,good,16,3.6,9,3.213070175,0.929824561,male,OSIM
 737,Professor,112360,Smith,Erin,0,0,0,53,AHT,good,16,3.6,4,3.439886364,0.977272727,female,Interdisciplinary Studies
-738,Lecturer Ii,10001,Smith,Irma,0,0,0,54,BBS,good,16,3.6,1,4.0,1.0,female,Speech & Language Pathology
 739,Non Tenure Associate Professor,95347,Smith,Jason,0,0,0,54,ECS,good,16,3.6,7,3.064081633,0.844897959,male,Computer Science
 740,Senior Lecturer I,106065,Smith,Klyne,0,0,0,54,ECS,good,16,3.6,14,3.691708861,0.981012658,male,Computer Science
 741,Non Tenure Assistant Professor,119000,Sohaee,Nassim,0,0,0,54,JSOM,good,16,3.6,13,3.550362117,0.969359331,female,Management
