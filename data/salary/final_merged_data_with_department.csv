@@ -1,4 +1,4 @@
-Title,Salary,Lname,Fname,citedby5y,hindex5y,i10index5y,Age,School,rating_class,total_ratings,overall_rating,total_courses,average_grade,percent_passing,gender,Department
+title,salary,lastName,firstName,citedby5y,hindex5y,i10index5y,age,school,rating_class,total_ratings,overall_rating,total_courses,average_grade,percent_passing,gender,department
 Professor,133431,Abdi,Herve,20227,59,151,69,BBS,good,9,4.7,1,3.1,0.9,male,Psychology
 Senior Lecturer I,54755,Abeykoon,Nimali,157,4,4,34,NSM,good,26,3.9,16,3.004180328,0.823770492,male,Chemistry
 Associate Professor,114248,Ackerman,Robert,2524,24,32,40,BBS,good,15,4.3,3,3.688510638,0.978723404,male,Psychology
@@ -266,7 +266,7 @@ Research Assistant Professor,189,Gordon,Evan,0,0,0,54,BBS,good,16,3.6,4,3.420534
 Associate Professor,88219,Gorina,Evgenia,310,11,11,39,EPPS,good,16,3.6,4,3.676197183,1,female,Public & Nonprofit Management
 Professor,103958,Gossin,Pamela,0,0,0,66,AHT,good,23,3.9,4,3.420534762,0.952057156,female,Philosophy & Humanities
 Associate Professor,81119,Goux,Warren,0,0,0,73,NSM,poor,47,1.9,4,2.377912088,0.626373626,male,Chemistry
-Assoc. Prof. Of Instruction,62603,Grant,Meredith,0,0,0,54,BBSs,good,16,3.6,4,3.420534762,0.952057156,male,Psychology
+Assoc. Prof. Of Instruction,62603,Grant,Meredith,0,0,0,54,BBS,good,16,3.6,4,3.420534762,0.952057156,male,Psychology
 Assistant Professor,83884,Gray,Thomas,94,5,3,37,EPPS,good,19,4.6,4,3.420534762,0.952057156,male,Political Science
 Visiting Assistant Professor,3474,Greene,Kendra,0,0,0,54,AHT,good,16,3.6,3,3.531891892,1,female,Writing & Literature
 Assistant Professor,77724,Greer,Erin,5,1,0,37,AHT,good,16,3.6,4,3.420534762,0.952057156,female,Writing & Literature
@@ -478,7 +478,7 @@ Associate Professor,139278,Malik,Arif,357,11,13,50,ECS,good,4,3.8,4,3.420534762,
 Professor,229036,Malina,Roger,2149,21,38,72,AHT,good,16,3.6,1,3.769,1,female,Arts & Technology
 Professor,162940,Malko,Anton,2598,24,47,46,NSM,poor,17,1.8,4,3.420534762,0.952057156,male,Physics
 Professor,93536,Manton,William,1378,21,32,84,NSM,good,22,3.5,4,2.677717391,0.858695652,male,Geosciences
-Clinical Professor,165773,Manzi,Jeffery,0,0,0,54,JSO,good,16,3.6,4,3.420534762,0.952057156,male,Finance
+Clinical Professor,165773,Manzi,Jeffery,0,0,0,54,JSON,good,16,3.6,4,3.420534762,0.952057156,male,Finance
 Professor,200382,Marcus,Andrian,5483,41,85,54,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Computer Science
 Associate Professor,193305,Markoczi,Livia,0,0,0,54,JSOM,good,16,3.6,2,3.438488372,0.988372093,female,OSIM
 Professor,390653,Markov,Stanimir,1341,17,19,54,JSOM,good,17,3.7,4,3.420534762,0.952057156,male,Accounting
