@@ -466,7 +466,7 @@
 476,Professor,229036,Malina,Roger,2149,21,38,72,AHT,good,16,3.6,1,3.769,1.0,female,Arts & Technology
 477,Professor,162940,Malko,Anton,2598,24,47,46,NSM,poor,17,1.8,4,3.420534762,0.952057156,male,Physics
 478,Professor,93536,Manton,William,1378,21,32,84,NSM,good,22,3.5,4,2.677717391,0.858695652,male,Geosciences
-479,Non Tenure Professor,165773,Manzi,Jeffery,0,0,0,54,JSON,good,16,3.6,4,3.420534762,0.952057156,male,Finance
+479,Non Tenure Professor,165773,Manzi,Jeffery,0,0,0,54,JSOM,good,16,3.6,4,3.420534762,0.952057156,male,Finance
 480,Professor,200382,Marcus,Andrian,5483,41,85,54,ECS,good,16,3.6,4,3.420534762,0.952057156,male,Computer Science
 481,Associate Professor,193305,Markoczi,Livia,0,0,0,54,JSOM,good,16,3.6,2,3.438488372,0.988372093,female,OSIM
 482,Professor,390653,Markov,Stanimir,1341,17,19,54,JSOM,good,17,3.7,4,3.420534762,0.952057156,male,Accounting
