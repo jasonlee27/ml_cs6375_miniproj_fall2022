@@ -115,7 +115,7 @@
 115,Professor,118802,Channell,David,139,6,4,77,AHT,good,14,4.7,4,3.420534762,0.952057156,male,Philosophy & Humanities
 116,Senior Lecturer I,4497,Chapman,Juliann,0,0,0,54,JSOM,good,22,4.4,4,3.69972067,0.988826816,male,Finance
 117,Non Tenure Professor,119210,Chasteen,Larry,35,4,1,77,JSOM,average,24,2.5,6,3.212192513,0.930481283,male,OSIM
-118,Non Tenure Assistant Professor,68401,Chatterjee,Sourav,0,0,0,54,,good,11,3.9,11,3.391506849,0.98630137,male,Management
+118,Non Tenure Assistant Professor,68401,Chatterjee,Sourav,0,0,0,54,JSOM,good,11,3.9,11,3.391506849,0.98630137,male,Management
 119,Non Tenure Associate Professor,55232,Chen,Bei,0,0,0,44,AHT,good,7,4.8,7,3.844159292,1.0,male,Writing & Literature
 120,Associate Professor,176360,Chen,Feng,2617,24,59,54,ECS,average,3,3.3,2,3.767936508,1.0,male,Computer Science
 121,Professor,318976,Chen,Jianqing,1598,17,23,43,JSOM,good,12,3.5,2,3.625416667,1.0,male,Information Services
@@ -236,7 +236,7 @@
 238,Non Tenure Assistant Professor,43335,Galvez,Paul,0,0,0,54,AHT,good,16,3.6,4,3.420534762,0.952057156,male,Art & Art History
 239,Non Tenure Professor,138752,Gamino,John,4,1,0,54,JSOM,good,52,3.5,4,3.420534762,0.952057156,male,Accounting
 241,Non Tenure Professor,94730,Garrett,Bentley,0,0,0,41,NSM,good,16,3.6,8,2.839794239,0.773662551,male,Mathematical Sciences
-242,Non Tenure Professor,79305,Garst,Diane,0,0,0,54,,good,16,3.6,4,3.420534762,0.952057156,male,Speech & Language Pathology
+242,Non Tenure Professor,79305,Garst,Diane,0,0,0,54,BBS,good,16,3.6,4,3.420534762,0.952057156,male,Speech & Language Pathology
 243,Associate Professor,128487,Gartstein,Yuri,0,0,0,62,NSM,good,16,3.6,3,2.905869565,0.855072464,male,Physics
 244,Associate Professor,115201,Gassensmith,Jeremiah,2906,25,46,41,NSM,good,16,3.6,2,3.280229008,0.916030534,male,Chemistry
 245,Non Tenure Associate Professor,62379,Gavva,Sandhya,0,0,0,67,NSM,good,16,3.6,31,3.215440299,0.885074627,female,Chemistry
