@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 
 from typing import *
 from pathlib import Path
+from sklearn.metrics import f1_score
 from sklearn.metrics import confusion_matrix
 from sklearn.utils.class_weight import compute_sample_weight
 
@@ -68,11 +69,14 @@ class RunModel:
     def get_sample_weight(cls, y_train):
         return compute_sample_weight(class_weight='balanced', y=y_train)
             
-
     @classmethod
-    def train_models(cls, model_dict: Dict, x_train, y_train, sample_weight=None):
+    def train_models(cls, model_dict: Dict, x_train, y_train, sample_weight=None, x_test=None, y_test=None):
         for model_name, model in model_dict.items():
             model.train(x_train, y_train, sample_weight=sample_weight)
+            acc = model.test(x_test, y_test)
+            y_pred = model.predict(x_test)
+            f1 = f1_score(y_test, y_pred)
+            print(f"{model_name},{acc},{f1}\n")
             model_dict[model_name] = model
             print(f"{model_name} model trained.")
         # end for
@@ -80,10 +84,12 @@ class RunModel:
 
     @classmethod
     def get_model_test_accuracy(cls, model_dict: Dict, x_test, y_test):
-        result_str = 'model_name,accuracy\n'
+        result_str = 'model_name,accuracy,f1_score\n'
         for model_name, model in model_dict.items():
             acc = model.test(x_test, y_test)
-            result_str += f"{model_name},{acc}\n"
+            y_pred = model.predict(x_test)
+            f1 = f1_score(y_test, y_pred)
+            result_str += f"{model_name},{acc},{f1}\n"
         # end for
 
         # TODO: save result here?
@@ -183,11 +189,14 @@ class RunModel:
             },
             'catb': {
                 'num_iter': 10
+            },
+            'rdf': {
+                'max_depth': 15
             }
         }
         
         model_dict = cls.get_models(model_config)
-        cls.train_models(model_dict, x_train, y_train, sample_weight=sample_weight)
+        cls.train_models(model_dict, x_train, y_train, sample_weight=sample_weight, x_test=x_test, y_test=y_test)
         cls.get_model_test_accuracy(model_dict, x_test, y_test)
         cls.get_confusion_matrices(model_dict, x_test, y_test)
         cls.get_feature_importance(model_dict, feat_labels)

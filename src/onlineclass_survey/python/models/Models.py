@@ -129,7 +129,7 @@ class RandomforestClassifierClass:
         if kwargs is None:
             self.model = RandomForestClassifier()
         else:
-            max_depth = kwargs.pop('max_depth', 3)
+            max_depth = kwargs.pop('max_depth', 15)
             criterion = kwargs.pop('criterion', 'gini')
             self.model = RandomForestClassifier(
                 max_depth=max_depth,

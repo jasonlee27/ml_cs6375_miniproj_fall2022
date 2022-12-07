@@ -24,6 +24,7 @@ class Macros:
     RAND_SEED = 27
 
     FEATURES = [
+        
         'title',
         'salary', # target to be predicted
         'lastName',
