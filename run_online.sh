@@ -22,6 +22,12 @@ function run_model() {
         (cd ${_DIR}
          python -m src.onlineclass_survey.python.main \
                 --run run_model
+         python -m src.onlineclass_survey.python.main \
+                --run run_model \
+                --oversampling
+         python -m src.onlineclass_survey.python.main \
+                --run run_model \
+                --undersampling
         )
 }
 

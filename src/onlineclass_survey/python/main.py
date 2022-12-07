@@ -14,6 +14,8 @@ from .utils.Utils import Utils
 parser = argparse.ArgumentParser(description='Process some integers.')
 parser.add_argument('--run', type=str, required=True,
                     choices=['preprocess', 'run_model'], help='task to be run')
+parser.add_argument('--oversampling', action='store_true')
+parser.add_argument('--undersampling', action='store_true')
 # ==========
 # TODO: arguments
 args = parser.parse_args()
@@ -28,7 +30,8 @@ def run_preprocess():
 
 def run_models():
     from .models.RunModel import RunModel
-    RunModel.run_models()
+    RunModel.run_models(oversampling=args.oversampling,
+                        undersampling=args.undersampling)
     return
 
 

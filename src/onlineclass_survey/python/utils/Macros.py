@@ -14,7 +14,7 @@ class Macros:
     data_dir: Path = root_dir / 'data' / 'onlineclass_survey' # {project_root}/data
     result_dir: Path = root_dir / "_results" # {project_root}/_results
 
-    csv_file: Path = data_dir / 'Preferred_Learning_Style_Responses.csv'
+    csv_file: Path = data_dir / 'learning-style.csv'
     test_ratio = 0.2
 
     FMT_INT = "{:,d}"
@@ -23,21 +23,37 @@ class Macros:
 
     RAND_SEED = 27
 
-    QUESTIONS = [
-        'Timestamp',
-        'What is your major?',
-        'What is your gender identity?',
-        'Which of the following best describes you?',
-        'Are you a domestic or international student?',
-        'What is your class standing?',
-        'How many hours do you study per week outside of regular class?',
-        'What is your primary location of study?',
-        'What is the average length of your commute?',
-        'What best describes your current living situation?',
-        'What is your average bedtime',
-        'How many student organizations are you involved with?',
-        'Are you currently concerned with catching / spreading COVID-19?',
-        'Which learning modality do you generally prefer?', # label
-        'Where did you hear about this survey?'
+    # QUESTIONS = [
+    #     'Timestamp',
+    #     'What is your major?',
+    #     'What is your gender identity?',
+    #     'Which of the following best describes you?',
+    #     'Are you a domestic or international student?',
+    #     'What is your class standing?',
+    #     'How many hours do you study per week outside of regular class?',
+    #     'What is your primary location of study?',
+    #     'What is the average length of your commute?',
+    #     'What best describes your current living situation?',
+    #     'What is your average bedtime',
+    #     'How many student organizations are you involved with?',
+    #     'Are you currently concerned with catching / spreading COVID-19?',
+    #     'Which learning modality do you generally prefer?', # label
+    #     'Where did you hear about this survey?'
+    # ]
+
+    FEATURES = [
+        'Major',
+        'Gender',
+        'Race',
+        'Dom',
+        'Class',
+        'Study Hours',
+        'Study Location',
+        'Residence',
+        'Roommates',
+        'Bedtime',
+        'Student Organizations',
+        'Covid-19',
+        'Learning Style', # label
     ]
     

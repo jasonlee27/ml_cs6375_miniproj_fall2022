@@ -70,20 +70,33 @@ class RunModel:
         return compute_sample_weight(class_weight='balanced', y=y_train)
             
     @classmethod
-    def train_models(cls, model_dict: Dict, x_train, y_train, sample_weight=None, x_test=None, y_test=None):
+    def train_models(cls,
+                     model_dict: Dict,
+                     x_train,
+                     y_train,
+                     sample_weight=None,
+                     x_test=None,
+                     y_test=None):
         for model_name, model in model_dict.items():
             model.train(x_train, y_train, sample_weight=sample_weight)
-            acc = model.test(x_test, y_test)
-            y_pred = model.predict(x_test)
-            f1 = f1_score(y_test, y_pred)
-            print(f"{model_name},{acc},{f1}\n")
+            if x_test is not None and y_test is not None:
+                acc = model.test(x_test, y_test)
+                y_pred = model.predict(x_test)
+                f1 = f1_score(y_test, y_pred)
+                print(f"{model_name},{acc},{f1}\n")
+            # end if
             model_dict[model_name] = model
             print(f"{model_name} model trained.")
         # end for
         return
 
     @classmethod
-    def get_model_test_accuracy(cls, model_dict: Dict, x_test, y_test):
+    def get_model_test_accuracy(cls,
+                                model_dict: Dict,
+                                x_test,
+                                y_test,
+                                oversampling=False,
+                                undersampling=False):
         result_str = 'model_name,accuracy,f1_score\n'
         for model_name, model in model_dict.items():
             acc = model.test(x_test, y_test)
@@ -95,11 +108,22 @@ class RunModel:
         # TODO: save result here?
         save_dir = Macros.result_dir / 'onlineclass_survey'
         save_dir.mkdir(parents=True, exist_ok=True)
-        Utils.write_txt(result_str, save_dir / 'test_accuracy.csv')
+        save_file = save_dir / 'test_accuracy.csv'
+        if oversampling:
+            save_file = save_dir / 'test_accuracy_os.csv'
+        elif undersampling:
+            save_file = save_dir / 'test_accuracy_us.csv'
+        # end if
+        Utils.write_txt(result_str, save_file)
         return
 
     @classmethod
-    def get_confusion_matrices(cls, model_dict: Dict, x_test, y_test):
+    def get_confusion_matrices(cls,
+                               model_dict: Dict,
+                               x_test,
+                               y_test,
+                               oversampling=False,
+                               undersampling=False):
         result_str = 'model_name,tn,fp,fn,tp\n'
         for model_name, model in model_dict.items():
             # Compute the test error
@@ -109,11 +133,21 @@ class RunModel:
         # end for
         save_dir = Macros.result_dir / 'onlineclass_survey'
         save_dir.mkdir(parents=True, exist_ok=True)
-        Utils.write_txt(result_str, save_dir / 'confusion_matrix.csv')
+        save_file = save_dir / 'confusion_matrix.csv'
+        if oversampling:
+            save_file = save_dir / 'confusion_matrix_os.csv'
+        elif undersampling:
+            save_file = save_dir / 'confusion_matrix_us.csv'
+        # end if
+        Utils.write_txt(result_str, save_file)
         return
 
     @classmethod
-    def get_feature_importance(cls, model_dict: Dict, feat_labels: List):
+    def get_feature_importance(cls,
+                               model_dict: Dict,
+                               feat_labels: List,
+                               oversampling=False,
+                               undersampling=False):
         sns.set_theme()
         figs_dir = Macros.result_dir / 'onlineclass_survey'
         figs_dir.mkdir(parents=True, exist_ok=True)
@@ -142,8 +176,14 @@ class RunModel:
                 ax.set_xticklabels(ax.get_xticklabels(), rotation=45, horizontalalignment='right')
                 ax.set_xlabel('features')
                 ax.set_ylabel('importance')
+                fig_file = figs_dir / f"feature_importance_{model_name}_barplot.eps"
+                if oversampling:
+                    fig_file = figs_dir / f"feature_importance_{model_name}_os_barplot.eps"
+                elif undersampling:
+                    fig_file = figs_dir / f"feature_importance_{model_name}_us_barplot.eps"
+                # end if
                 fig.tight_layout()
-                fig.savefig(figs_dir / f"feature_importance_{model_name}_barplot.eps")
+                fig.savefig(fig_file)
             elif hasattr(model.model, 'coef_'):
                 coefs = model.model.coef_[0,:]
                 for c_i in range(len(coefs)):
@@ -166,8 +206,14 @@ class RunModel:
                 ax.set_xticklabels(ax.get_xticklabels(), rotation=45, horizontalalignment='right')
                 ax.set_xlabel('features')
                 ax.set_ylabel('coef-y')
+                fig_file = figs_dir / f"coef_importance_{model_name}_barplot.eps"
+                if oversampling:
+                    fig_file = figs_dir / f"coef_importance_{model_name}_os_barplot.eps"
+                elif undersampling:
+                    fig_file = figs_dir / f"coef_importance_{model_name}_us_barplot.eps"
+                # end if
                 fig.tight_layout()
-                fig.savefig(figs_dir / f"coef_importance_{model_name}_barplot.eps")
+                fig.savefig(fig_file)
             else:
                 print(f"{model_name} has no feature_importances/coefs attribute")
             # end if
@@ -175,8 +221,11 @@ class RunModel:
         return
 
     @classmethod
-    def run_models(cls):
-        x_train, x_test, y_train, y_test, feat_labels = Preprocess.get_data()
+    def run_models(cls, oversampling=False, undersampling=False):
+        x_train, x_test, y_train, y_test, feat_labels = Preprocess.get_data(
+            oversampling=oversampling,
+            undersampling=undersampling
+        )
         sample_weight = cls.get_sample_weight(y_train)
         
         model_config = {
@@ -196,9 +245,23 @@ class RunModel:
         }
         
         model_dict = cls.get_models(model_config)
-        cls.train_models(model_dict, x_train, y_train, sample_weight=sample_weight, x_test=x_test, y_test=y_test)
-        cls.get_model_test_accuracy(model_dict, x_test, y_test)
-        cls.get_confusion_matrices(model_dict, x_test, y_test)
-        cls.get_feature_importance(model_dict, feat_labels)
+        cls.train_models(model_dict,
+                         x_train,
+                         y_train,
+                         sample_weight=sample_weight)
+        cls.get_model_test_accuracy(model_dict,
+                                    x_test,
+                                    y_test,
+                                    oversampling=oversampling,
+                                    undersampling=undersampling)
+        cls.get_confusion_matrices(model_dict,
+                                   x_test,
+                                   y_test,
+                                   oversampling=oversampling,
+                                   undersampling=undersampling)
+        cls.get_feature_importance(model_dict,
+                                   feat_labels,
+                                   oversampling=oversampling,
+                                   undersampling=undersampling)
         return
     
