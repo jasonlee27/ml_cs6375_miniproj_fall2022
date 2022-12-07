@@ -226,7 +226,11 @@ class RunModel:
             oversampling=oversampling,
             undersampling=undersampling
         )
-        sample_weight = cls.get_sample_weight(y_train)
+
+        sample_weight = None
+        if not oversampling and not undersampling:
+            sample_weight = cls.get_sample_weight(y_train)
+        # end if
         
         model_config = {
             'gdb': {
