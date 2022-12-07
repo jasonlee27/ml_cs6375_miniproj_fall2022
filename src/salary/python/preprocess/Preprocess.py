@@ -36,8 +36,9 @@ class Preprocess:
         df = cls.get_raw_data()
         # label feature: 'salary'
         labels = df[Macros.FEATURES[1]]
-        qs_in_data = list(df.keys())
+        qs_in_data = list(df.keys())[1:]
         data = list()
+        feat_labels = list()
         for q_i, q in enumerate(qs_in_data):
             if q!=Macros.FEATURES[1]:
                 if q in [
@@ -54,6 +55,7 @@ class Preprocess:
                     df_q = normalize([df[q]]).reshape(-1)
                     data.append(df_q)
                 # end if
+                feat_labels.append(q)
             # end if
         # end for
         data = np.transpose(np.array(data)) # (#examples, #feats)
@@ -64,4 +66,4 @@ class Preprocess:
             test_size=Macros.test_ratio,
             random_state=Macros.RAND_SEED
         )
-        return x_train, x_test, y_train, y_test
+        return x_train, x_test, y_train, y_test, feat_labels

@@ -136,7 +136,7 @@ class RunModel:
         
     
     @classmethod
-    def get_feature_importance(cls, model_dict: Dict):
+    def get_feature_importance(cls, model_dict: Dict, feat_labels: List):
         sns.set_theme()
         figs_dir = Macros.result_dir / 'salary'
         figs_dir.mkdir(parents=True, exist_ok=True)
@@ -148,6 +148,7 @@ class RunModel:
                 for f_i in range(len(feat_importances)):
                     data_lod.append({
                         'feat_id': f_i+1,
+                        'feat_label': feat_labels[f_i],
                         'feat_importance': feat_importances[f_i]
                     })
                 # end for
@@ -157,12 +158,13 @@ class RunModel:
                 fig: plt.Figure = plt.figure()
                 ax: plt.Axes = fig.subplots()
                 ax = sns.barplot(data=df,
-                                 x='feat_id',
+                                 x='feat_label',
                                  y='feat_importance',
                                  ax=ax,
                                  palette='Paired')
+                ax.set_xticklabels(ax.get_xticklabels(), rotation=45, horizontalalignment='right')
                 ax.set_xlabel('features')
-                ax.set_ylabel('feat-y')
+                ax.set_ylabel('importance')
                 fig.tight_layout()
                 fig.savefig(figs_dir / f"feature_importance_{model_name}_barplot.eps")
             elif hasattr(model.model, 'coef_'):
@@ -170,6 +172,7 @@ class RunModel:
                 for c_i in range(len(coefs)):
                     data_lod.append({
                         'feat_id': c_i+1,
+                        'feat_label': feat_labels[f_i],
                         'feat_importance': coefs[c_i]
                     })
                 # end for
@@ -178,13 +181,15 @@ class RunModel:
                 # Plotting part
                 fig: plt.Figure = plt.figure()
                 ax: plt.Axes = fig.subplots()
+                # ax.tick_params(axis='x', rotation=45)
                 ax = sns.barplot(data=df,
-                                 x='feat_id',
+                                 x='feat_label',
                                  y='feat_importance',
                                  ax=ax,
                                  palette='Paired')
+                ax.set_xticklabels(ax.get_xticklabels(), rotation=45, horizontalalignment='right')
                 ax.set_xlabel('features')
-                ax.set_ylabel('coef-y')
+                ax.set_ylabel('coef')
                 fig.tight_layout()
                 fig.savefig(figs_dir / f"coef_importance_{model_name}_barplot.eps")
             else:
@@ -195,7 +200,7 @@ class RunModel:
 
     @classmethod
     def run_models(cls):
-        x_train, x_test, y_train, y_test = Preprocess.get_data()
+        x_train, x_test, y_train, y_test, feat_labels = Preprocess.get_data()
         
         model_config = {
             'gdb': {
@@ -215,6 +220,6 @@ class RunModel:
         cls.get_model_test_accuracy(model_dict, x_test, y_test)
         # cls.get_confusion_matrices(model_dict, x_test, y_test)
         cls.get_scatter_plot(model_dict, x_test, y_test)
-        cls.get_feature_importance(model_dict)
+        cls.get_feature_importance(model_dict, feat_labels)
         return
     

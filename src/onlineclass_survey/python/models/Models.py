@@ -374,7 +374,7 @@ class QdaClassifierClass:
 class LrClassifierClass:
 
     def __init__(self):
-        self.model = LogisticRegression()
+        self.model = LogisticRegression(max_iter=200)
         
     def train(self, x_train, y_train, sample_weight=None):
         self.model.fit(x_train, y_train, sample_weight=sample_weight)

@@ -2,7 +2,7 @@ model_name,tn,fp,fn,tp
 gdb,22,1,1,0
 xgb,21,2,1,0
 catb,21,2,1,0
-rdf,23,0,1,0
+rdf,22,1,1,0
 extr,22,1,1,0
 lda,22,1,1,0
 rdg,17,6,1,0

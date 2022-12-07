@@ -47,14 +47,16 @@ class Preprocess:
         labels = LabelEncoder().fit_transform(df[Macros.QUESTIONS[-2]])
         qs_in_data = list(df.keys())
         data = list()
+        feat_labels = list()
         for q_i, q in enumerate(qs_in_data):
             if q not in [
                     Macros.QUESTIONS[0],
                     Macros.QUESTIONS[-1],
                     Macros.QUESTIONS[-2]
             ]:
-                df_q = LabelEncoder().fit_transform(df[q])                
+                df_q = LabelEncoder().fit_transform(df[q])
                 data.append(df_q)
+                feat_labels.append(q)
             # end if
         # end for
         data = np.transpose(np.array(data)) # (#examples, #feats)
@@ -74,4 +76,4 @@ class Preprocess:
         # x_train_resampled, y_train_resampled = smote.fit_resample(x_train, y_train)
         # x_train_resampled, y_train_resampled = tl.fit_resample(x_train, y_train)
         # return x_train_resampled, x_test, y_train_resampled, y_test
-        return x_train, x_test, y_train, y_test
+        return x_train, x_test, y_train, y_test, feat_labels
