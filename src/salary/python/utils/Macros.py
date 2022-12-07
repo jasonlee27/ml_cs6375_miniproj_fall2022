@@ -14,7 +14,7 @@ class Macros:
     data_dir: Path = root_dir / 'data' / 'salary' # {project_root}/data
     result_dir: Path = root_dir / "_results" # {project_root}/_results
 
-    csv_file: Path = data_dir / 'final_merged_data.csv'
+    csv_file: Path = data_dir / 'final_data.csv'
     test_ratio = 0.2
 
     FMT_INT = "{:,d}"
@@ -24,21 +24,22 @@ class Macros:
     RAND_SEED = 27
 
     FEATURES = [
-        'Title',
-        'Salary', # target to be predicted
-        'Lname',
-        'Fname',
+        'title',
+        'salary', # target to be predicted
+        'lastName',
+        'firstName',
         'citedby5y',
         'hindex5y',
         'i10index5y',
-        'Age',
-        'School',
+        'age',
+        'school',
         'rating_class',
 	'total_ratings',
         'overall_rating',
         'total_courses',
         'average_grade',
         'percent_passing',
-        'gender'
+        'gender',
+        'department'
     ]
     

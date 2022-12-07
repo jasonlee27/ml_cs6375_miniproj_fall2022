@@ -6,8 +6,8 @@ import seaborn as sns
 from typing import *
 from pathlib import Path
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
-from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+from sklearn.preprocessing import normalize
 
 from ..utils.Macros import Macros
 from ..utils.Utils import Utils
@@ -46,11 +46,13 @@ class Preprocess:
                         Macros.FEATURES[3],
                         Macros.FEATURES[8],
                         Macros.FEATURES[9],
+                        Macros.FEATURES[-2],
                         Macros.FEATURES[-1]]:
                     df_q = LabelEncoder().fit_transform(df[q])
                     data.append(df_q)
                 else:
-                    data.append(df[q])
+                    df_q = normalize([df[q]]).reshape(-1)
+                    data.append(df_q)
                 # end if
             # end if
         # end for
