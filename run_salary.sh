@@ -9,14 +9,6 @@ readonly RESULT_DIR="${_DIR}/_results"
 # ==========
 # Exp Results
 
-function preprocess() {
-        # write requirements in json
-        (cd ${_DIR}
-         python -m src.salary.python.main \
-                --run preprocess
-        )
-}
-
 function run_model() {
         # write requirements in json
         (cd ${_DIR}
@@ -30,8 +22,7 @@ function run_model() {
 # Main
 
 function main() {
-        preprocess
-        # run_model
+        run_model
 }
 
 main

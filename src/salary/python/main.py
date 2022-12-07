@@ -13,7 +13,7 @@ from .utils.Utils import Utils
 
 parser = argparse.ArgumentParser(description='Process some integers.')
 parser.add_argument('--run', type=str, required=True,
-                    choices=['preprocess', 'run_model'], help='task to be run')
+                    choices=['run_model'], help='task to be run')
 # ==========
 # TODO: arguments
 args = parser.parse_args()

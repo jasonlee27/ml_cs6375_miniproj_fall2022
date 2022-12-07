@@ -1,6 +1,7 @@
 # this script to train/test models from Models.py
 # and it generates model evaluation by confusion matrix
 
+import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -93,6 +94,48 @@ class RunModel:
     #     return
 
     @classmethod
+    def get_scatter_plot(cls, model_dict, x_test, y_test):
+        figs_dir = Macros.result_dir / 'salary'
+        figs_dir.mkdir(parents=True, exist_ok=True)
+        for model_name, model in model_dict.items():
+            data_lod = list()
+            gts = list()
+            y_preds = model.predict(x_test)
+            sns.set_theme()
+            for x_i in range(x_test.shape[0]):
+                data_lod.append({
+                    'x_ind': x_i,
+                    'y_gt': y_test[x_i],
+                    'y_pred': y_preds[x_i]
+                })
+                gts.append(y_test[x_i])
+            # end for
+            df: pd.DataFrame = pd.DataFrame.from_dict(Utils.lod_to_dol(data_lod))
+                
+            # Plotting part
+            fig: plt.Figure = plt.figure()
+            ax: plt.Axes = fig.subplots()
+            X_plot = np.linspace(0, 7, max(gts))
+            Y_plot = X_plot
+            p1 = sns.scatterplot(data=df,
+                                 x='y_gt',
+                                 y='y_pred',
+                                 ax=ax,
+                                 palette='Paired')
+            p2 = sns.lineplot(data=df,
+                              x='y_gt',
+                              y='y_gt',
+                              ax=ax,
+                              color='g')
+            ax.set_xlabel('ground truth')
+            ax.set_ylabel('prediction')
+            fig.tight_layout()
+            fig.savefig(figs_dir / f"pred_{model_name}_scatterplot.eps")
+        # end for
+        return
+        
+    
+    @classmethod
     def get_feature_importance(cls, model_dict: Dict):
         sns.set_theme()
         figs_dir = Macros.result_dir / 'salary'
@@ -171,6 +214,7 @@ class RunModel:
         cls.train_models(model_dict, x_train, y_train)
         cls.get_model_test_accuracy(model_dict, x_test, y_test)
         # cls.get_confusion_matrices(model_dict, x_test, y_test)
+        cls.get_scatter_plot(model_dict, x_test, y_test)
         cls.get_feature_importance(model_dict)
         return
     
