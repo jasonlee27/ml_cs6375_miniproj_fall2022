@@ -35,7 +35,7 @@ class Macros:
         'age',
         'school',
         'rating_class',
-	'total_ratings',
+	    'total_ratings',
         'overall_rating',
         'total_courses',
         'average_grade',
