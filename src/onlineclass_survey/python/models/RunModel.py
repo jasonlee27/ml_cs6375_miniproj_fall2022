@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 from typing import *
 from pathlib import Path
 from sklearn.metrics import confusion_matrix
+from sklearn.utils.class_weight import compute_sample_weight
 
 from ..utils.Macros import Macros
 from ..utils.Utils import Utils
@@ -64,9 +65,14 @@ class RunModel:
         return model_dict
 
     @classmethod
-    def train_models(cls, model_dict: Dict, x_train, y_train):
+    def get_sample_weight(cls, y_train):
+        return compute_sample_weight(class_weight='balanced', y=y_train)
+            
+
+    @classmethod
+    def train_models(cls, model_dict: Dict, x_train, y_train, sample_weight=None):
         for model_name, model in model_dict.items():
-            model.train(x_train, y_train)
+            model.train(x_train, y_train, sample_weight=sample_weight)
             model_dict[model_name] = model
             print(f"{model_name} model trained.")
         # end for
@@ -161,6 +167,7 @@ class RunModel:
     @classmethod
     def run_models(cls):
         x_train, x_test, y_train, y_test = Preprocess.get_data()
+        sample_weight = cls.get_sample_weight(y_train)
         
         model_config = {
             'gdb': {
@@ -176,7 +183,7 @@ class RunModel:
         }
         
         model_dict = cls.get_models(model_config)
-        cls.train_models(model_dict, x_train, y_train)
+        cls.train_models(model_dict, x_train, y_train, sample_weight=sample_weight)
         cls.get_model_test_accuracy(model_dict, x_test, y_test)
         cls.get_confusion_matrices(model_dict, x_test, y_test)
         cls.get_feature_importance(model_dict)        

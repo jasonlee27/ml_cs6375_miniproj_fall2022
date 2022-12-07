@@ -54,8 +54,8 @@ class GradientboostClassifierClass:
             )
         # end if
         
-    def train(self, x_train, y_train):
-        self.model.fit(x_train, y_train)
+    def train(self, x_train, y_train, sample_weight=None):
+        self.model.fit(x_train, y_train, sample_weight=sample_weight)
         return
 
     def test(self, x_test, y_test):
@@ -81,8 +81,8 @@ class XgboostClassifierClass:
             )
         # end if
         
-    def train(self, x_train, y_train):
-        self.model.fit(x_train, y_train)
+    def train(self, x_train, y_train, sample_weight=None):
+        self.model.fit(x_train, y_train, sample_weight=sample_weight)
         return
 
     def test(self, x_test, y_test):
@@ -108,8 +108,8 @@ class CatboostClassifierClass:
             )
         # end if
         
-    def train(self, x_train, y_train):
-        self.model.fit(x_train, y_train)
+    def train(self, x_train, y_train, sample_weight=None):
+        self.model.fit(x_train, y_train, sample_weight=sample_weight)
         return
 
     def test(self, x_test, y_test):
@@ -137,8 +137,8 @@ class RandomforestClassifierClass:
             )
         # end if
         
-    def train(self, x_train, y_train):
-        self.model.fit(x_train, y_train)
+    def train(self, x_train, y_train, sample_weight=None):
+        self.model.fit(x_train, y_train, sample_weight=sample_weight)
         return
 
     def test(self, x_test, y_test):
@@ -168,8 +168,8 @@ class ExtratreesClassifierClass:
             )
         # end if
         
-    def train(self, x_train, y_train):
-        self.model.fit(x_train, y_train)
+    def train(self, x_train, y_train, sample_weight=None):
+        self.model.fit(x_train, y_train, sample_weight=sample_weight)
         return
 
     def test(self, x_test, y_test):
@@ -187,7 +187,8 @@ class LdaClassifierClass:
     def __init__(self):        
         self.model = LinearDiscriminantAnalysis()
         
-    def train(self, x_train, y_train):
+    def train(self, x_train, y_train, sample_weight=None):
+        # This model does not accept the sample weights
         self.model.fit(x_train, y_train)
         return
 
@@ -207,8 +208,8 @@ class RidgeClassifierClass:
     def __init__(self):        
         self.model = RidgeClassifier()
         
-    def train(self, x_train, y_train):
-        self.model.fit(x_train, y_train)
+    def train(self, x_train, y_train, sample_weight=None):
+        self.model.fit(x_train, y_train, sample_weight=sample_weight)
         return
 
     def test(self, x_test, y_test):
@@ -227,8 +228,8 @@ class DtClassifierClass:
     def __init__(self):        
         self.model = DecisionTreeClassifier()
         
-    def train(self, x_train, y_train):
-        self.model.fit(x_train, y_train)
+    def train(self, x_train, y_train, sample_weight=None):
+        self.model.fit(x_train, y_train, sample_weight=sample_weight)
         return
 
     def test(self, x_test, y_test):
@@ -248,8 +249,8 @@ class NbClassifierClass:
     def __init__(self):        
         self.model = GaussianNB()
         
-    def train(self, x_train, y_train):
-        self.model.fit(x_train, y_train)
+    def train(self, x_train, y_train, sample_weight=None):
+        self.model.fit(x_train, y_train, sample_weight=sample_weight)
         return
 
     def test(self, x_test, y_test):
@@ -278,8 +279,8 @@ class AdaboostClassifierClass:
             )
         # end if
         
-    def train(self, x_train, y_train):
-        self.model.fit(x_train, y_train)
+    def train(self, x_train, y_train, sample_weight=None):
+        self.model.fit(x_train, y_train, sample_weight=sample_weight)
         return
 
     def test(self, x_test, y_test):
@@ -305,7 +306,8 @@ class KnnClassifierClass:
             )
         # end if
         
-    def train(self, x_train, y_train):
+    def train(self, x_train, y_train, sample_weight=None):
+        # This model does not accept the sample weights
         self.model.fit(x_train, y_train)
         return
 
@@ -333,8 +335,8 @@ class SvmClassifierClass:
             )
         # end if
         
-    def train(self, x_train, y_train):
-        self.model.fit(x_train, y_train)
+    def train(self, x_train, y_train, sample_weight=None):
+        self.model.fit(x_train, y_train, sample_weight=sample_weight)
         return
 
     def test(self, x_test, y_test):
@@ -353,7 +355,8 @@ class QdaClassifierClass:
     def __init__(self):
         self.model = QuadraticDiscriminantAnalysis()
         
-    def train(self, x_train, y_train):
+    def train(self, x_train, y_train, sample_weight=None):
+        # This model does not accept the sample weights
         self.model.fit(x_train, y_train)
         return
 
@@ -373,8 +376,8 @@ class LrClassifierClass:
     def __init__(self):
         self.model = LogisticRegression()
         
-    def train(self, x_train, y_train):
-        self.model.fit(x_train, y_train)
+    def train(self, x_train, y_train, sample_weight=None):
+        self.model.fit(x_train, y_train, sample_weight=sample_weight)
         return
 
     def test(self, x_test, y_test):
