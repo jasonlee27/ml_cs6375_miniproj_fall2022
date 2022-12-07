@@ -75,7 +75,7 @@ class Preprocess:
             df[name] = sklearn_normalizers[name].fit_transform(df[[name]])
 
         # Dropping Exteraneous Features 
-        df = df['salary',
+        df = df[['salary',
                 'citedby5y',
                 'hindex5y',
                 'i10index5y',
@@ -87,14 +87,14 @@ class Preprocess:
                 'average_grade',
                 'percent_passing',
                 'gender',
-                'department'
+                'department',
                 'school_BBS',
                 'school_JSOM',
                 'school_NSM',
                 'school_IS',
                 'school_AHT',
                 'school_EPPS',
-                'school_ECS']
+                'school_ECS']]
 
 
         # qs_in_data = list(df.keys())[1:]
@@ -134,15 +134,23 @@ class Preprocess:
             test_size=Macros.test_ratio,
             random_state=Macros.RAND_SEED
         )
+        print(x_train["department"])
+        x_train_department = pd.concat([x_train["department"], y_train], axis=1)
 
         # Replaces department with average salary of department
         # Putting this at the end to avoid data leakage
-        department_values = x_train.groupby(['department'])["salary"].mean().values
-        department_keys = x_train.groupby(['department'])["salary"].mean().keys()
+        department_values = x_train_department.groupby(['department'])["salary"].mean().values
+        department_keys = x_train_department.groupby(['department'])["salary"].mean().keys()
         department_mapper = dict(map(lambda i,j : (i,j) , department_keys,department_values))
         x_train["department"] = x_train["department"].replace(department_mapper)
         x_test["department"] = x_test["department"].replace(department_mapper)
 
         feat_labels = list(X.columns)
+
+        x_train = x_train.to_numpy()
+        x_test = x_test.to_numpy()
+        y_train = y_train.to_numpy()
+        y_test = y_test.to_numpy()
+
 
         return x_train, x_test, y_train, y_test, feat_labels
