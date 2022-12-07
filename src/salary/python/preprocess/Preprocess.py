@@ -76,6 +76,7 @@ class Preprocess:
 
         # Dropping Exteraneous Features 
         df = df[['salary',
+                 'title',
                 'citedby5y',
                 'hindex5y',
                 'i10index5y',
