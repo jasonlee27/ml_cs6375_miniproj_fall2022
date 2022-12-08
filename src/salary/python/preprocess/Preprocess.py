@@ -56,9 +56,11 @@ class Preprocess:
         # One Hot Encoding School Data
         df = pd.concat([df, pd.get_dummies(df["school"], prefix='school')], axis=1)
 
-
+        # Trying to replace with median instead of zero, doesn't seem to work as well
+        # df["citedby5y"] = df["citedby5y"].replace(0,df[df["citedby5y"] != 0]["citedby5y"].median())
+        # df["hindex5y"] = df["hindex5y"].replace(0,df[df["hindex5y"] != 0]["hindex5y"].median())
+        # df["i10index5y"] = df["i10index5y"].replace(0,df[df["i10index5y"] != 0]["i10index5y"].median())
         
-
         # Log Transform of Citation Data
         df["citedby5y"] = np.log(df["citedby5y"] + 1)
         df["hindex5y"] = np.log(df["hindex5y"] + 1)
@@ -75,27 +77,42 @@ class Preprocess:
             df[name] = sklearn_normalizers[name].fit_transform(df[[name]])
 
         # Dropping Exteraneous Features 
+        # df = df[['salary',
+        #          'title',
+        #         'citedby5y',
+        #         'hindex5y',
+        #         'i10index5y',
+        #         'age',
+        #         'rating_class',
+        #         'total_ratings',
+        #         'overall_rating',
+        #         'total_courses',
+        #         'average_grade',
+        #         'percent_passing',
+        #         'gender',
+        #         'department',
+        #         'school_BBS',
+        #         'school_JSOM',
+        #         'school_NSM',
+        #         'school_IS',
+        #         'school_AHT',
+        #         'school_EPPS',
+        #         'school_ECS']]
+
+
+
         df = df[['salary',
                  'title',
                 'citedby5y',
-                'hindex5y',
                 'i10index5y',
                 'age',
-                'rating_class',
                 'total_ratings',
                 'overall_rating',
                 'total_courses',
                 'average_grade',
-                'percent_passing',
-                'gender',
                 'department',
-                'school_BBS',
                 'school_JSOM',
-                'school_NSM',
-                'school_IS',
-                'school_AHT',
-                'school_EPPS',
-                'school_ECS']]
+                'percent_passing']]
 
 
         # qs_in_data = list(df.keys())[1:]
