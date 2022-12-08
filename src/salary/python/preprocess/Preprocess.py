@@ -142,7 +142,6 @@ class Preprocess:
         # Putting this at the end to avoid data leakage
         department_values = x_train_department.groupby(['department'])["salary"].mean().values
         department_values = [(x - min(department_values))/(max(department_values) - min(department_values)) for x in department_values]
-        print(department_values)
         department_keys = x_train_department.groupby(['department'])["salary"].mean().keys()
         department_mapper = dict(map(lambda i,j : (i,j) , department_keys,department_values))
         x_train["department"] = x_train["department"].replace(department_mapper)
