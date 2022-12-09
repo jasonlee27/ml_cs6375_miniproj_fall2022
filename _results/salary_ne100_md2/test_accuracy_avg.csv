@@ -1,0 +1,12 @@
+model_name,accuracy
+gdb,0.64
+xgb,0.626
+catb,0.642
+rdf,0.605
+extr,0.587
+rdg,0.565
+dt,0.484
+adab,0.565
+knn,0.573
+svm,-0.083
+lr,0.566
