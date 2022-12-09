@@ -41,9 +41,11 @@ class GradientboostRegressorClass:
             self.model = GradientBoostingRegressor()
         else:
             num_estimators = kwargs.pop('num_estimators', 100)
+            max_depth = kwargs.pop('max_depth', 3)
             validation_fraction = kwargs.pop('validation_fraction', 0.1)
             self.model = GradientBoostingRegressor(
                 n_estimators=num_estimators,
+                max_depth = max_depth,
                 validation_fraction=validation_fraction
             )
         # end if
@@ -67,8 +69,10 @@ class XgboostRegressorClass:
             self.model = xgb.XGBRegressor()
         else:
             num_estimators = kwargs.pop('num_estimators', 100)
+            max_depth = kwargs.pop('max_depth', 3)
             self.model = xgb.XGBRegressor(
-                n_estimators=num_estimators
+                n_estimators=num_estimators,
+                max_depth=max_depth
             )
         # end if
         
@@ -91,8 +95,10 @@ class CatboostRegressorClass:
             self.model = CatBoostRegressor()
         else:
             num_iter = kwargs.pop('num_iter', 10)
+            max_depth = kwargs.pop('max_depth', 3)
             self.model = CatBoostRegressor(
-                iterations=num_iter
+                iterations=num_iter,
+                max_depth=max_depth
             )
         # end if
         
@@ -114,9 +120,9 @@ class RandomforestRegressorClass:
         if kwargs is None:
             self.model = RandomForestRegressor()
         else:
+            n_estimators = kwargs.pop('num_estimators', 100)
             max_depth = kwargs.pop('max_depth', 3)
             criterion = kwargs.pop('criterion', 'squared_error')
-            n_estimators = kwargs.pop('num_estimators', 100)
             self.model = RandomForestRegressor(
                 n_estimators=n_estimators,
                 max_depth=max_depth,
@@ -183,8 +189,13 @@ class KernelridgeRegressorClass:
     
 class DtRegressorClass:
 
-    def __init__(self):        
-        self.model = DecisionTreeRegressor()
+    def __init__(self, kwargs=None):
+        if kwargs is None:
+            self.model = DecisionTreeRegressor()
+        else:
+            max_depth = kwargs.pop('max_depth', 3)
+            self.model = DecisionTreeRegressor(max_depth=max_depth)
+        # end if
         
     def train(self, x_train, y_train):
         self.model.fit(x_train, y_train)
@@ -205,10 +216,13 @@ class AdaboostRegressorClass:
             self.model = AdaBoostRegressor()
         else:
             num_estimators = kwargs.pop('num_estimators', 50)
-            base_estimator = kwargs.pop('base_estimator', None)
+            max_depth = kwargs.pop('max_depth', 3)
             # if base_estimator is None, then it will be decision tree
+
+            estimator = DecisionTreeRegressor(max_depth=max_depth)
+            
             self.model = AdaBoostRegressor(
-                base_estimator=base_estimator,
+                base_estimator=estimator,
                 n_estimators=num_estimators
             )
         # end if
