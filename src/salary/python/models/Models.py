@@ -252,15 +252,18 @@ class KnnRegressorClass:
 class SvmRegressorClass:
     
     def __init__(self, kwargs=None):
-        if kwargs is None:
-            self.model = SVR()
-        else:
-            # kernel = {‘linear’, ‘poly’, ‘rbf’, ‘sigmoid’, ‘precomputed’} 
-            kernel = kwargs.pop('kernel', 'rbf')
-            self.model = SVR(
-                kernel=kernel
-            )
-        # end if
+        
+          self.model = SVR(kernel = 'poly',C=50, degree=9)
+        
+#         if kwargs is None:
+#             self.model = SVR()
+#         else:
+#             # kernel = {‘linear’, ‘poly’, ‘rbf’, ‘sigmoid’, ‘precomputed’} 
+#             kernel = kwargs.pop('kernel', 'rbf')
+#             self.model = SVR(
+#                 kernel=kernel
+#             )
+#         # end if
         
     def train(self, x_train, y_train):
         self.model.fit(x_train, y_train)
