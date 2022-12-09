@@ -231,98 +231,103 @@ class RunModel:
         test_acc_over_folds = dict()
         feat_importance_over_folds = dict()
 
-        num_est = 50
-        max_depth = 3
-        
-        for fold_i, x_train, x_test, y_train, y_test, feat_labels in Preprocess.get_data():
-            print(f"FOLD: {fold_i} out of {Macros.num_folds}")
-            model_config = {
-                'gdb': {
-                    'num_estimators': num_est,
-                    'max_depth': max_depth
-                },
-                'xgb': {
-                    'num_estimators': num_est,
-                    'max_depth': max_depth
-                },
-                'catb': {
-                    'num_iter': 10,
-                    'max_depth': max_depth
-                },
-                'rdf': {
-                    'num_estimators': num_est,
-                    'max_depth': max_depth
-                },
-                'extr': {
-                    'num_estimators': num_est,
-                    'max_depth': max_depth
-                },
-                'dt': {
-                    'max_depth': max_depth
-                },
-                'adab': {
-                    'num_estimators': num_est,
-                    'max_depth': max_depth
-                }
-            }
-            model_dict = cls.get_models(model_config)
-            cls.train_models(model_dict, x_train, y_train)
-            test_acc_over_folds = cls.get_model_test_accuracy(model_dict,
-                                                              x_test,
-                                                              y_test,
-                                                              fold_i,
-                                                              num_est,
-                                                              max_depth,
-                                                              test_acc_over_folds)
-            # cls.get_confusion_matrices(model_dict, x_test, y_test)
-            cls.get_scatter_plot(model_dict, x_test, y_test, fold_i, num_est, max_depth)
-            feat_importance_over_folds = cls.get_feature_importance(model_dict,
-                                                                    feat_labels,
-                                                                    fold_i,
-                                                                    num_est,
-                                                                    max_depth,
-                                                                    feat_importance_over_folds)
-        # end for
+        num_ests = [50, 100, 150, 200]
+        max_depths = [2, 3, 4, 10]
 
-        # Write the average results over the folds
-        result_str = 'model_name,accuracy\n'
-        for model_name, accs in test_acc_over_folds.items():
-            acc = Utils.avg(accs)
-            result_str += f"{model_name},{acc}\n"
-        # end for
-        save_dir = Macros.result_dir / f"salary_ne{num_est}_md{max_depth}"
-        save_dir.mkdir(parents=True, exist_ok=True)
-        Utils.write_txt(result_str, save_dir / f"test_accuracy_avg.csv")
+        for num_est in num_ests:
+            for max_depth in max_depths:
+                for fold_i, x_train, x_test, y_train, y_test, feat_labels in Preprocess.get_data():
+                    print(f"#EST: {num_est}, #DEPTH: {max_depth}, FOLD: {fold_i} out of {Macros.num_folds}")
+                    model_config = {
+                        'gdb': {
+                            'num_estimators': num_est,
+                            'max_depth': max_depth
+                        },
+                        'xgb': {
+                            'num_estimators': num_est,
+                            'max_depth': max_depth
+                        },
+                        'catb': {
+                            'num_iter': 10,
+                            'max_depth': max_depth
+                        },
+                        'rdf': {
+                            'num_estimators': num_est,
+                            'max_depth': max_depth
+                        },
+                        'extr': {
+                            'num_estimators': num_est,
+                            'max_depth': max_depth
+                        },
+                        'dt': {
+                            'max_depth': max_depth
+                        },
+                        'adab': {
+                            'num_estimators': num_est,
+                            'max_depth': max_depth
+                        }
+                    }
+                    model_dict = cls.get_models(model_config)
+                    cls.train_models(model_dict, x_train, y_train)
+                    test_acc_over_folds = cls.get_model_test_accuracy(model_dict,
+                                                                      x_test,
+                                                                      y_test,
+                                                                      fold_i,
+                                                                      num_est,
+                                                                      max_depth,
+                                                                      test_acc_over_folds)
+                    # cls.get_confusion_matrices(model_dict, x_test, y_test)
+                    cls.get_scatter_plot(model_dict, x_test, y_test, fold_i, num_est, max_depth)
+                    feat_importance_over_folds = cls.get_feature_importance(model_dict,
+                                                                            feat_labels,
+                                                                            fold_i,
+                                                                            num_est,
+                                                                            max_depth,
+                                                                            feat_importance_over_folds)
+                    # end for
+                    
+                    # Write the average results over the folds
+                    result_str = 'model_name,accuracy\n'
+                    for model_name, accs in test_acc_over_folds.items():
+                        acc = Utils.avg(accs)
+                        result_str += f"{model_name},{acc}\n"
+                    # end for
+                    save_dir = Macros.result_dir / f"salary_ne{num_est}_md{max_depth}"
+                    save_dir.mkdir(parents=True, exist_ok=True)
+                    Utils.write_txt(result_str, save_dir / f"test_accuracy_avg.csv")
         
-        for model_name, feat_values in feat_importance_over_folds.items():
-            data_lod = list()
-            for feat_label, vals in feat_values.items():
-                val = Utils.avg(vals)
-                for val in vals:
-                    data_lod.append({
-                        'feat_label': feat_label,
-                        'feat_importance': val
-                    })
+                    for model_name, feat_values in feat_importance_over_folds.items():
+                        data_lod = list()
+                        for feat_label, vals in feat_values.items():
+                            val = Utils.avg(vals)
+                            for val in vals:
+                                data_lod.append({
+                                    'feat_label': feat_label,
+                                    'feat_importance': val
+                                })
+                            # end for
+                        # end for
+
+                        df: pd.DataFrame = pd.DataFrame.from_dict(Utils.lod_to_dol(data_lod))
+                        
+                        # Plotting part
+                        fig: plt.Figure = plt.figure()
+                        ax: plt.Axes = fig.subplots()
+                        # ax.tick_params(axis='x', rotation=45)
+                        ax = sns.barplot(data=df,
+                                         x='feat_label',
+                                         y='feat_importance',
+                                         estimator=np.mean,
+                                         ax=ax,
+                                         palette='Paired')
+                        ax.set_xticklabels(ax.get_xticklabels(), rotation=45, horizontalalignment='right')
+                        ax.set_xlabel('features')
+                        ax.set_ylabel('score')
+                        fig.tight_layout()
+                        fig.savefig(save_dir / f"feat_importance_{model_name}_barplot_avg.eps")
+                    # end for
                 # end for
             # end for
-
-            df: pd.DataFrame = pd.DataFrame.from_dict(Utils.lod_to_dol(data_lod))
-                
-            # Plotting part
-            fig: plt.Figure = plt.figure()
-            ax: plt.Axes = fig.subplots()
-            # ax.tick_params(axis='x', rotation=45)
-            ax = sns.barplot(data=df,
-                             x='feat_label',
-                             y='feat_importance',
-                             estimator=np.mean,
-                             ax=ax,
-                             palette='Paired')
-            ax.set_xticklabels(ax.get_xticklabels(), rotation=45, horizontalalignment='right')
-            ax.set_xlabel('features')
-            ax.set_ylabel('score')
-            fig.tight_layout()
-            fig.savefig(save_dir / f"feat_importance_{model_name}_barplot_avg.eps")
         # end for
         return
     

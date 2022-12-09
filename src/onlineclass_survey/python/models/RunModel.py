@@ -97,6 +97,8 @@ class RunModel:
                                 x_test,
                                 y_test,
                                 fold_i,
+                                num_est,
+                                max_depth,
                                 res_over_folds: Dict,
                                 oversampling=False,
                                 undersampling=False):
@@ -115,7 +117,7 @@ class RunModel:
         # end for
 
         # save result
-        save_dir = Macros.result_dir / 'onlineclass_survey'
+        save_dir = Macros.result_dir / f"onlineclass_survey_ne{num_est}_md{max_depth}"
         save_dir.mkdir(parents=True, exist_ok=True)
         save_file = save_dir / f"test_accuracy_fold{fold_i}.csv"
         if oversampling:
@@ -132,6 +134,8 @@ class RunModel:
                                x_test,
                                y_test,
                                fold_i,
+                               num_est,
+                               max_depth,
                                res_over_folds: Dict,
                                oversampling=False,
                                undersampling=False):
@@ -149,7 +153,7 @@ class RunModel:
                 res_over_folds[model_name] = [(tn, fp, fn, tp)]
             # end if
         # end for
-        save_dir = Macros.result_dir / 'onlineclass_survey'
+        save_dir = Macros.result_dir / f"onlineclass_survey_ne{num_est}_md{max_depth}"
         save_dir.mkdir(parents=True, exist_ok=True)
         save_file = save_dir / f"confusion_matrix_fold{fold_i}.csv"
         if oversampling:
@@ -165,11 +169,13 @@ class RunModel:
                                model_dict: Dict,
                                feat_labels: List,
                                fold_i,
+                               num_est,
+                               max_depth,
                                res_over_folds: Dict,
                                oversampling=False,
                                undersampling=False):
         sns.set_theme()
-        figs_dir = Macros.result_dir / 'onlineclass_survey'
+        figs_dir = Macros.result_dir / f"onlineclass_survey_ne{num_est}_md{max_depth}"
         figs_dir.mkdir(parents=True, exist_ok=True)
         for model_name, model in model_dict.items():
             # feature importance: ndarray of shape (n_features,)
@@ -260,143 +266,150 @@ class RunModel:
         confusion_mat_over_folds = dict()
         feat_importance_over_folds = dict()
 
-        num_est = 100
-        max_depth = 3
+        num_ests = [50, 100, 150, 200]
+        max_depths = [2, 3, 4, 10]
+
+        for num_est in num_ests:
+            for max_depth in max_depths:
         
-        for fold_i, x_train, x_test, y_train, y_test, feat_labels in Preprocess.get_data(
-                oversampling=oversampling,
-                undersampling=undersampling):
-            print(f"FOLD: {fold_i} out of {Macros.num_folds//2}")
-            model_config = {
-                'gdb': {
-                    'num_estimators': num_est,
-                    'max_depth': max_depth
-                },
-                'xgb': {
-                    'num_estimators': num_est,
-                    'max_depth': max_depth
-                },
-                'catb': {
-                    'num_iter': 10,
-                    'max_depth': max_depth
-                },
-                'rdf': {
-                    'num_estimators': num_est,
-                    'max_depth': max_depth
-                },
-                'extr': {
-                    'num_estimators': num_est,
-                    'max_depth': max_depth
-                },
-                'dt': {
-                    'max_depth': max_depth
-                },
-                'adab': {
-                    'num_estimators': num_est,
-                    'max_depth': max_depth
-                }
-            }
+                for fold_i, x_train, x_test, y_train, y_test, feat_labels in Preprocess.get_data(
+                        oversampling=oversampling,
+                        undersampling=undersampling):
+                    print(f"#EST: {num_est}, #DEPTH: {max_depth}, FOLD: {fold_i} out of {Macros.num_folds//2}")
+                    model_config = {
+                        'gdb': {
+                            'num_estimators': num_est,
+                            'max_depth': max_depth
+                        },
+                        'xgb': {
+                            'num_estimators': num_est,
+                            'max_depth': max_depth
+                        },
+                        'catb': {
+                            'num_iter': 10,
+                            'max_depth': max_depth
+                        },
+                        'rdf': {
+                            'num_estimators': num_est,
+                            'max_depth': max_depth
+                        },
+                        'extr': {
+                            'num_estimators': num_est,
+                            'max_depth': max_depth
+                        },
+                        'dt': {
+                            'max_depth': max_depth
+                        },
+                        'adab': {
+                            'num_estimators': num_est,
+                            'max_depth': max_depth
+                        }
+                    }
+                    
+                    sample_weight = None
+                    if not oversampling and not undersampling:
+                        sample_weight = cls.get_sample_weight(y_train)
+                    # end if
             
-            sample_weight = None
-            if not oversampling and not undersampling:
-                sample_weight = cls.get_sample_weight(y_train)
-            # end if
-            
-            model_dict = cls.get_models(model_config)
-            cls.train_models(model_dict,
-                             x_train,
-                             y_train,
-                             sample_weight=sample_weight)
-            test_acc_over_folds = cls.get_model_test_accuracy(model_dict,
-                                                              x_test,
-                                                              y_test,
-                                                              fold_i,
-                                                              test_acc_over_folds,
-                                                              oversampling=oversampling,
-                                                              undersampling=undersampling)
-            confusion_mat_over_folds = cls.get_confusion_matrices(model_dict,
-                                                                  x_test,
-                                                                  y_test,
-                                                                  fold_i,
-                                                                  confusion_mat_over_folds,
-                                                                  oversampling=oversampling,
-                                                                  undersampling=undersampling)
-            feat_importance_over_folds = cls.get_feature_importance(model_dict,
-                                                                    feat_labels,
-                                                                    fold_i,
-                                                                    feat_importance_over_folds,
-                                                                    oversampling=oversampling,
-                                                                    undersampling=undersampling)
-        # end for
-
-        # Write the average results over the folds
-        result_str = 'model_name,accuracy,f1_score\n'
-        for model_name in test_acc_over_folds.keys():
-            acc = Utils.avg([r[0] for r in test_acc_over_folds[model_name]])
-            f1 = Utils.avg([r[1] for r in test_acc_over_folds[model_name]])
-            result_str += f"{model_name},{acc},{f1}\n"
-        # end for
-
-        save_dir = Macros.result_dir / 'onlineclass_survey'
-        save_dir.mkdir(parents=True, exist_ok=True)
-        save_file = save_dir / 'test_accuracy_avg.csv'
-        if oversampling:
-            save_file = save_dir / 'test_accuracy_os_avg.csv'
-        elif undersampling:
-            save_file = save_dir / 'test_accuracy_us_avg.csv'
-        # end if
-        Utils.write_txt(result_str, save_file)
+                    model_dict = cls.get_models(model_config)
+                    cls.train_models(model_dict,
+                                     x_train,
+                                     y_train,
+                                     sample_weight=sample_weight)
+                    test_acc_over_folds = cls.get_model_test_accuracy(model_dict,
+                                                                      x_test,
+                                                                      y_test,
+                                                                      fold_i,
+                                                                      num_est,
+                                                                      max_depth,
+                                                                      test_acc_over_folds,
+                                                                      oversampling=oversampling,
+                                                                      undersampling=undersampling)
+                    confusion_mat_over_folds = cls.get_confusion_matrices(model_dict,
+                                                                          x_test,
+                                                                          y_test,
+                                                                          fold_i,
+                                                                          num_est,
+                                                                          max_depth,
+                                                                          confusion_mat_over_folds,
+                                                                          oversampling=oversampling,
+                                                                          undersampling=undersampling)
+                    feat_importance_over_folds = cls.get_feature_importance(model_dict,
+                                                                            feat_labels,
+                                                                            fold_i,
+                                                                            num_est,
+                                                                            max_depth,
+                                                                            feat_importance_over_folds,
+                                                                            oversampling=oversampling,
+                                                                            undersampling=undersampling)
+                # end for
+                
+                # Write the average results over the folds
+                result_str = 'model_name,accuracy,f1_score\n'
+                for model_name in test_acc_over_folds.keys():
+                    acc = Utils.avg([r[0] for r in test_acc_over_folds[model_name]])
+                    f1 = Utils.avg([r[1] for r in test_acc_over_folds[model_name]])
+                    result_str += f"{model_name},{acc},{f1}\n"
+                # end for
         
-        result_str = 'model_name,tn,fp,fn,tp\n'
-        for model_name in confusion_mat_over_folds.keys():
-            tn = Utils.avg([r[0] for r in confusion_mat_over_folds[model_name]])
-            fp = Utils.avg([r[1] for r in confusion_mat_over_folds[model_name]])
-            fn = Utils.avg([r[2] for r in confusion_mat_over_folds[model_name]])
-            tp = Utils.avg([r[3] for r in confusion_mat_over_folds[model_name]])
-            result_str += f"{model_name},{tn},{fp},{fn},{tp}\n"
-        # end for
+                save_dir = Macros.result_dir / f"onlineclass_survey_ne{num_est}_md{max_depth}"
+                save_dir.mkdir(parents=True, exist_ok=True)
+                save_file = save_dir / 'test_accuracy_avg.csv'
+                if oversampling:
+                    save_file = save_dir / 'test_accuracy_os_avg.csv'
+                elif undersampling:
+                    save_file = save_dir / 'test_accuracy_us_avg.csv'
+                # end if
+                Utils.write_txt(result_str, save_file)
+                
+                result_str = 'model_name,tn,fp,fn,tp\n'
+                for model_name in confusion_mat_over_folds.keys():
+                    tn = Utils.avg([r[0] for r in confusion_mat_over_folds[model_name]])
+                    fp = Utils.avg([r[1] for r in confusion_mat_over_folds[model_name]])
+                    fn = Utils.avg([r[2] for r in confusion_mat_over_folds[model_name]])
+                    tp = Utils.avg([r[3] for r in confusion_mat_over_folds[model_name]])
+                    result_str += f"{model_name},{tn},{fp},{fn},{tp}\n"
+                # end for
+                
+                save_file = save_dir / 'confusion_matrix_avg.csv'
+                if oversampling:
+                    save_file = save_dir / 'confusion_matrix_os_avg.csv'
+                elif undersampling:
+                    save_file = save_dir / 'confusion_matrix_us_avg.csv'
+                # end if
+                Utils.write_txt(result_str, save_file)
 
-        save_dir = Macros.result_dir / 'onlineclass_survey'
-        save_dir.mkdir(parents=True, exist_ok=True)
-        save_file = save_dir / 'confusion_matrix_avg.csv'
-        if oversampling:
-            save_file = save_dir / 'confusion_matrix_os_avg.csv'
-        elif undersampling:
-            save_file = save_dir / 'confusion_matrix_us_avg.csv'
-        # end if
-        Utils.write_txt(result_str, save_file)
+                for model_name, feat_values in feat_importance_over_folds.items():
+                    data_lod = list()
+                    for feat_label, vals in feat_values.items():
+                        val = Utils.avg(vals)
+                        for val in vals:
+                            data_lod.append({
+                                'feat_label': feat_label,
+                                'feat_importance': val
+                            })
+                        # end for
+                    # end for
 
-        for model_name, feat_values in feat_importance_over_folds.items():
-            data_lod = list()
-            for feat_label, vals in feat_values.items():
-                val = Utils.avg(vals)
-                for val in vals:
-                    data_lod.append({
-                        'feat_label': feat_label,
-                        'feat_importance': val
-                    })
+                    df: pd.DataFrame = pd.DataFrame.from_dict(Utils.lod_to_dol(data_lod))
+                    
+                    # Plotting part
+                    fig: plt.Figure = plt.figure()
+                    ax: plt.Axes = fig.subplots()
+                    # ax.tick_params(axis='x', rotation=45)
+                    ax = sns.barplot(data=df,
+                                     x='feat_label',
+                                     y='feat_importance',
+                                     estimator=np.mean,
+                                     ax=ax,
+                                     palette='Paired')
+                    ax.set_xticklabels(ax.get_xticklabels(), rotation=45, horizontalalignment='right')
+                    ax.set_xlabel('features')
+                    ax.set_ylabel('score')
+                    fig.tight_layout()
+                    fig.savefig(save_dir / f"feat_importance_{model_name}_barplot_avg.eps")
                 # end for
             # end for
-
-            df: pd.DataFrame = pd.DataFrame.from_dict(Utils.lod_to_dol(data_lod))
-                
-            # Plotting part
-            fig: plt.Figure = plt.figure()
-            ax: plt.Axes = fig.subplots()
-            # ax.tick_params(axis='x', rotation=45)
-            ax = sns.barplot(data=df,
-                             x='feat_label',
-                             y='feat_importance',
-                             estimator=np.mean,
-                             ax=ax,
-                             palette='Paired')
-            ax.set_xticklabels(ax.get_xticklabels(), rotation=45, horizontalalignment='right')
-            ax.set_xlabel('features')
-            ax.set_ylabel('score')
-            fig.tight_layout()
-            figs_dir = Macros.result_dir / 'onlineclass_survey'
-            figs_dir.mkdir(parents=True, exist_ok=True)
-            fig.savefig(figs_dir / f"feat_importance_{model_name}_barplot_avg.eps")
         # end for
         return
     
