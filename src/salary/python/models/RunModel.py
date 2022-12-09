@@ -224,18 +224,39 @@ class RunModel:
         # x_train, x_test, y_train, y_test, feat_labels = Preprocess.get_data()
         test_acc_over_folds = dict()
         feat_importance_over_folds = dict()
+
+        num_est = 100
+        max_depth = 3
+        
         for fold_i, x_train, x_test, y_train, y_test, feat_labels in Preprocess.get_data():
             print(f"FOLD: {fold_i} out of {Macros.num_folds}")
             model_config = {
                 'gdb': {
-                    'num_estimators': 100,
-                    'validation_fraction': 0.1
+                    'num_estimators': num_est,
+                    'max_depth': max_depth
                 },
                 'xgb': {
-                    'num_estimators': 100,
+                    'num_estimators': num_est,
+                    'max_depth': max_depth
                 },
                 'catb': {
-                    'num_iter': 10
+                    'num_iter': 10,
+                    'max_depth': max_depth
+                },
+                'rdf': {
+                    'num_estimators': num_est,
+                    'max_depth': max_depth
+                },
+                'extr': {
+                    'num_estimators': num_est,
+                    'max_depth': max_depth
+                },
+                'dt': {
+                    'max_depth': max_depth
+                },
+                'adab': {
+                    'num_estimators': num_est,
+                    'max_depth': max_depth
                 }
             }
             model_dict = cls.get_models(model_config)
