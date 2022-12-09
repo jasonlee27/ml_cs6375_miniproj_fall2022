@@ -67,7 +67,7 @@ class Preprocess:
         # end if
 
         # implment 5-folds (test_ratio is 0.2 and we choose 5-folds)
-        kFold = KFold(n_splits=Macros.num_folds,
+        kFold = KFold(n_splits=Macros.num_folds//2,
                       random_state=Macros.RAND_SEED,
                       shuffle=True)
         fold_i = 0

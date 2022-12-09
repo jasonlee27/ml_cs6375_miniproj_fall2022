@@ -1,6 +1,7 @@
 # this script to train/test models from Models.py
 # and it generates model evaluation by confusion matrix
 
+import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -96,6 +97,7 @@ class RunModel:
                                 x_test,
                                 y_test,
                                 fold_i,
+                                res_over_folds: Dict,
                                 oversampling=False,
                                 undersampling=False):
         result_str = 'model_name,accuracy,f1_score\n'
@@ -104,19 +106,25 @@ class RunModel:
             y_pred = model.predict(x_test)
             f1 = f1_score(y_test, y_pred)
             result_str += f"{model_name},{acc},{f1}\n"
+
+            if model_name in res_over_folds.keys():
+                res_over_folds[model_name].append((acc,f1))
+            else:
+                res_over_folds[model_name] = [(acc,f1)]
+            # end if
         # end for
 
-        # TODO: save result here?
+        # save result
         save_dir = Macros.result_dir / 'onlineclass_survey'
         save_dir.mkdir(parents=True, exist_ok=True)
-        save_file = save_dir / 'test_accuracy.csv'
+        save_file = save_dir / f"test_accuracy_fold{fold_i}.csv"
         if oversampling:
-            save_file = save_dir / 'test_accuracy_os_fold{fold_i}.csv'
+            save_file = save_dir / f"test_accuracy_os_fold{fold_i}.csv"
         elif undersampling:
-            save_file = save_dir / 'test_accuracy_us_fold{fold_i}.csv'
+            save_file = save_dir / f"test_accuracy_us_fold{fold_i}.csv"
         # end if
         Utils.write_txt(result_str, save_file)
-        return
+        return res_over_folds
 
     @classmethod
     def get_confusion_matrices(cls,
@@ -124,31 +132,40 @@ class RunModel:
                                x_test,
                                y_test,
                                fold_i,
+                               res_over_folds: Dict,
                                oversampling=False,
                                undersampling=False):
         result_str = 'model_name,tn,fp,fn,tp\n'
         for model_name, model in model_dict.items():
             # Compute the test error
             y_pred = model.predict(x_test)
-            tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
+            temp = confusion_matrix(y_test, y_pred, labels=[0,1]).ravel()
+            tn, fp, fn, tp = temp[0], temp[1], temp[2], temp[3]
             result_str += f"{model_name},{tn},{fp},{fn},{tp}\n"
+
+            if model_name in res_over_folds.keys():
+                res_over_folds[model_name].append((tn, fp, fn, tp))
+            else:
+                res_over_folds[model_name] = [(tn, fp, fn, tp)]
+            # end if
         # end for
         save_dir = Macros.result_dir / 'onlineclass_survey'
         save_dir.mkdir(parents=True, exist_ok=True)
-        save_file = save_dir / 'confusion_matrix.csv'
+        save_file = save_dir / f"confusion_matrix_fold{fold_i}.csv"
         if oversampling:
-            save_file = save_dir / 'confusion_matrix_os_fold{fold_i}.csv'
+            save_file = save_dir / f"confusion_matrix_os_fold{fold_i}.csv"
         elif undersampling:
-            save_file = save_dir / 'confusion_matrix_us_fold{fold_i}.csv'
+            save_file = save_dir / f"confusion_matrix_us_fold{fold_i}.csv"
         # end if
         Utils.write_txt(result_str, save_file)
-        return
+        return res_over_folds
 
     @classmethod
     def get_feature_importance(cls,
                                model_dict: Dict,
                                feat_labels: List,
                                fold_i,
+                               res_over_folds: Dict,
                                oversampling=False,
                                undersampling=False):
         sns.set_theme()
@@ -157,6 +174,9 @@ class RunModel:
         for model_name, model in model_dict.items():
             # feature importance: ndarray of shape (n_features,)
             if hasattr(model.model, 'feature_importances_'):
+                if model_name not in res_over_folds.keys():
+                    res_over_folds[model_name] = dict()
+                # end if
                 feat_importances = model.model.feature_importances_
                 data_lod = list()
                 for f_i in range(len(feat_importances)):
@@ -165,6 +185,10 @@ class RunModel:
                         'feat_label': feat_labels[f_i],
                         'feat_importance': feat_importances[f_i]
                     })
+                    if feat_labels[f_i] not in res_over_folds[model_name].keys():
+                        res_over_folds[model_name][feat_labels[f_i]] = list()
+                    # end if
+                    res_over_folds[model_name][feat_labels[f_i]].append(feat_importances[f_i])
                 # end for
                 df: pd.DataFrame = pd.DataFrame.from_dict(Utils.lod_to_dol(data_lod))
                 
@@ -188,6 +212,9 @@ class RunModel:
                 fig.tight_layout()
                 fig.savefig(fig_file)
             elif hasattr(model.model, 'coef_'):
+                if model_name not in res_over_folds.keys():
+                    res_over_folds[model_name] = dict()
+                # end if
                 coefs = model.model.coef_[0,:]
                 for c_i in range(len(coefs)):
                     data_lod.append({
@@ -195,6 +222,10 @@ class RunModel:
                         'feat_label': feat_labels[f_i],
                         'feat_importance': coefs[c_i]
                     })
+                    if feat_labels[c_i] not in res_over_folds[model_name].keys():
+                        res_over_folds[model_name][feat_labels[c_i]] = list()
+                    # end if
+                    res_over_folds[model_name][feat_labels[c_i]].append(coefs[c_i])
                 # end for
                 df: pd.DataFrame = pd.DataFrame.from_dict(Utils.lod_to_dol(data_lod))
                 
@@ -208,7 +239,7 @@ class RunModel:
                                  palette='Paired')
                 ax.set_xticklabels(ax.get_xticklabels(), rotation=45, horizontalalignment='right')
                 ax.set_xlabel('features')
-                ax.set_ylabel('coef-y')
+                ax.set_ylabel('coef')
                 fig_file = figs_dir / f"coef_importance_{model_name}_barplot_fold{fold_i}.eps"
                 if oversampling:
                     fig_file = figs_dir / f"coef_importance_{model_name}_os_barplot_fold{fold_i}.eps"
@@ -221,14 +252,17 @@ class RunModel:
                 print(f"{model_name} has no feature_importances/coefs attribute")
             # end if
         # end for
-        return
+        return res_over_folds
 
     @classmethod
     def run_models(cls, oversampling=False, undersampling=False):
+        test_acc_over_folds = dict()
+        confusion_mat_over_folds = dict()
+        feat_importance_over_folds = dict()
         for fold_i, x_train, x_test, y_train, y_test, feat_labels in Preprocess.get_data(
                 oversampling=oversampling,
                 undersampling=undersampling):
-            print(f"FOLD: {fold_i} out of {Macros.num_folds}")
+            print(f"FOLD: {fold_i} out of {Macros.num_folds//2}")
             model_config = {
                 'gdb': {
                     'num_estimators': 100,
@@ -255,23 +289,96 @@ class RunModel:
                              x_train,
                              y_train,
                              sample_weight=sample_weight)
-            cls.get_model_test_accuracy(model_dict,
-                                        x_test,
-                                        y_test,
-                                        fold_i,
-                                        oversampling=oversampling,
-                                        undersampling=undersampling)
-            cls.get_confusion_matrices(model_dict,
-                                       x_test,
-                                       y_test,
-                                       fold_i,
-                                       oversampling=oversampling,
-                                       undersampling=undersampling)
-            cls.get_feature_importance(model_dict,
-                                       feat_labels,
-                                       fold_i,
-                                       oversampling=oversampling,
-                                       undersampling=undersampling)
+            test_acc_over_folds = cls.get_model_test_accuracy(model_dict,
+                                                              x_test,
+                                                              y_test,
+                                                              fold_i,
+                                                              test_acc_over_folds,
+                                                              oversampling=oversampling,
+                                                              undersampling=undersampling)
+            confusion_mat_over_folds = cls.get_confusion_matrices(model_dict,
+                                                                  x_test,
+                                                                  y_test,
+                                                                  fold_i,
+                                                                  confusion_mat_over_folds,
+                                                                  oversampling=oversampling,
+                                                                  undersampling=undersampling)
+            feat_importance_over_folds = cls.get_feature_importance(model_dict,
+                                                                    feat_labels,
+                                                                    fold_i,
+                                                                    feat_importance_over_folds,
+                                                                    oversampling=oversampling,
+                                                                    undersampling=undersampling)
+        # end for
+
+        # Write the average results over the folds
+        result_str = 'model_name,accuracy,f1_score\n'
+        for model_name in test_acc_over_folds.keys():
+            acc = Utils.avg([r[0] for r in test_acc_over_folds[model_name]])
+            f1 = Utils.avg([r[1] for r in test_acc_over_folds[model_name]])
+            result_str += f"{model_name},{acc},{f1}\n"
+        # end for
+
+        save_dir = Macros.result_dir / 'onlineclass_survey'
+        save_dir.mkdir(parents=True, exist_ok=True)
+        save_file = save_dir / 'test_accuracy_avg.csv'
+        if oversampling:
+            save_file = save_dir / 'test_accuracy_os_avg.csv'
+        elif undersampling:
+            save_file = save_dir / 'test_accuracy_us_avg.csv'
+        # end if
+        Utils.write_txt(result_str, save_file)
+        
+        result_str = 'model_name,tn,fp,fn,tp\n'
+        for model_name in confusion_mat_over_folds.keys():
+            tn = Utils.avg([r[0] for r in confusion_mat_over_folds[model_name]])
+            fp = Utils.avg([r[1] for r in confusion_mat_over_folds[model_name]])
+            fn = Utils.avg([r[2] for r in confusion_mat_over_folds[model_name]])
+            tp = Utils.avg([r[3] for r in confusion_mat_over_folds[model_name]])
+            result_str += f"{model_name},{tn},{fp},{fn},{tp}\n"
+        # end for
+
+        save_dir = Macros.result_dir / 'onlineclass_survey'
+        save_dir.mkdir(parents=True, exist_ok=True)
+        save_file = save_dir / 'confusion_matrix_avg.csv'
+        if oversampling:
+            save_file = save_dir / 'confusion_matrix_os_avg.csv'
+        elif undersampling:
+            save_file = save_dir / 'confusion_matrix_us_avg.csv'
+        # end if
+        Utils.write_txt(result_str, save_file)
+
+        for model_name, feat_values in feat_importance_over_folds.items():
+            data_lod = list()
+            for feat_label, vals in feat_values.items():
+                val = Utils.avg(vals)
+                for val in vals:
+                    data_lod.append({
+                        'feat_label': feat_label,
+                        'feat_importance': val
+                    })
+                # end for
+            # end for
+
+            df: pd.DataFrame = pd.DataFrame.from_dict(Utils.lod_to_dol(data_lod))
+                
+            # Plotting part
+            fig: plt.Figure = plt.figure()
+            ax: plt.Axes = fig.subplots()
+            # ax.tick_params(axis='x', rotation=45)
+            ax = sns.barplot(data=df,
+                             x='feat_label',
+                             y='feat_importance',
+                             estimator=np.mean,
+                             ax=ax,
+                             palette='Paired')
+            ax.set_xticklabels(ax.get_xticklabels(), rotation=45, horizontalalignment='right')
+            ax.set_xlabel('features')
+            ax.set_ylabel('score')
+            fig.tight_layout()
+            figs_dir = Macros.result_dir / 'onlineclass_survey'
+            figs_dir.mkdir(parents=True, exist_ok=True)
+            fig.savefig(figs_dir / f"feat_importance_{model_name}_barplot_avg.eps")
         # end for
         return
     

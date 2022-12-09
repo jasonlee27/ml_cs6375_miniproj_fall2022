@@ -59,3 +59,7 @@ class Utils:
         """
         keys = set.union(*[set(d.keys()) for d in list_of_dict])
         return {k: [d.get(k) for d in list_of_dict] for k in keys}
+    
+    @classmethod
+    def avg(cls, nums: list, decimal=3):
+        return str(round(sum(nums) / len(nums), decimal))
