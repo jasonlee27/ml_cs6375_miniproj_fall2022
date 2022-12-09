@@ -66,7 +66,7 @@ class RunModel:
         return
 
     @classmethod
-    def get_model_test_accuracy(cls, model_dict: Dict, x_test, y_test):
+    def get_model_test_accuracy(cls, model_dict: Dict, x_test, y_test, fold_i):
         result_str = 'model_name,accuracy\n'
         for model_name, model in model_dict.items():
             acc = model.test(x_test, y_test)
@@ -76,7 +76,7 @@ class RunModel:
         # TODO: save result here?
         save_dir = Macros.result_dir / 'salary'
         save_dir.mkdir(parents=True, exist_ok=True)
-        Utils.write_txt(result_str, save_dir / 'test_accuracy.csv')
+        Utils.write_txt(result_str, save_dir / f"test_accuracy_fold{fold_i}.csv")
         return
 
     # @classmethod
@@ -94,7 +94,7 @@ class RunModel:
     #     return
 
     @classmethod
-    def get_scatter_plot(cls, model_dict, x_test, y_test):
+    def get_scatter_plot(cls, model_dict, x_test, y_test, fold_i):
         figs_dir = Macros.result_dir / 'salary'
         figs_dir.mkdir(parents=True, exist_ok=True)
         for model_name, model in model_dict.items():
@@ -130,13 +130,13 @@ class RunModel:
             ax.set_xlabel('ground truth')
             ax.set_ylabel('prediction')
             fig.tight_layout()
-            fig.savefig(figs_dir / f"pred_{model_name}_scatterplot.eps")
+            fig.savefig(figs_dir / f"pred_{model_name}_scatterplot_fold{fold_i}.eps")
         # end for
         return
         
     
     @classmethod
-    def get_feature_importance(cls, model_dict: Dict, feat_labels: List):
+    def get_feature_importance(cls, model_dict: Dict, feat_labels: List, fold_i):
         sns.set_theme()
         figs_dir = Macros.result_dir / 'salary'
         figs_dir.mkdir(parents=True, exist_ok=True)
@@ -166,7 +166,7 @@ class RunModel:
                 ax.set_xlabel('features')
                 ax.set_ylabel('importance')
                 fig.tight_layout()
-                fig.savefig(figs_dir / f"feature_importance_{model_name}_barplot.eps")
+                fig.savefig(figs_dir / f"feature_importance_{model_name}_barplot_fold{fold_i}.eps")
             elif hasattr(model.model, 'coef_'):
                 coefs = model.model.coef_
                 for c_i in range(len(coefs)):
@@ -191,7 +191,7 @@ class RunModel:
                 ax.set_xlabel('features')
                 ax.set_ylabel('coef')
                 fig.tight_layout()
-                fig.savefig(figs_dir / f"coef_importance_{model_name}_barplot.eps")
+                fig.savefig(figs_dir / f"coef_importance_{model_name}_barplot_fold{fold_i}.eps")
             else:
                 print(f"{model_name} has no feature_importances/coefs attribute")
             # end if
@@ -200,26 +200,28 @@ class RunModel:
 
     @classmethod
     def run_models(cls):
-        x_train, x_test, y_train, y_test, feat_labels = Preprocess.get_data()
-        
-        model_config = {
-            'gdb': {
-                'num_estimators': 100,
-                'validation_fraction': 0.1
-            },
-            'xgb': {
-                'num_estimators': 100,
-            },
-            'catb': {
-                'num_iter': 10
+        # x_train, x_test, y_train, y_test, feat_labels = Preprocess.get_data()
+        for fold_i, x_train, x_test, y_train, y_test, feat_labels in Preprocess.get_data():
+            print(f"FOLD: {fold_i} out of {Macros.num_folds}")
+            model_config = {
+                'gdb': {
+                    'num_estimators': 100,
+                    'validation_fraction': 0.1
+                },
+                'xgb': {
+                    'num_estimators': 100,
+                },
+                'catb': {
+                    'num_iter': 10
+                }
             }
-        }
         
-        model_dict = cls.get_models(model_config)
-        cls.train_models(model_dict, x_train, y_train)
-        cls.get_model_test_accuracy(model_dict, x_test, y_test)
-        # cls.get_confusion_matrices(model_dict, x_test, y_test)
-        cls.get_scatter_plot(model_dict, x_test, y_test)
-        cls.get_feature_importance(model_dict, feat_labels)
+            model_dict = cls.get_models(model_config)
+            cls.train_models(model_dict, x_train, y_train)
+            cls.get_model_test_accuracy(model_dict, x_test, y_test, fold_i)
+            # cls.get_confusion_matrices(model_dict, x_test, y_test)
+            cls.get_scatter_plot(model_dict, x_test, y_test, fold_i)
+            cls.get_feature_importance(model_dict, feat_labels, fold_i)
+        # end for
         return
     

@@ -16,6 +16,7 @@ class Macros:
 
     csv_file: Path = data_dir / 'learning-style.csv'
     test_ratio = 0.2
+    num_folds = 5
 
     FMT_INT = "{:,d}"
     FMT_PER = "{:.1%}"

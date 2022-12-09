@@ -16,7 +16,8 @@ class Macros:
 
     csv_file: Path = data_dir / 'final_data.csv'
     test_ratio = 0.2
-
+    num_folds = 5
+    
     FMT_INT = "{:,d}"
     FMT_PER = "{:.1%}"
     FMT_FLOAT = "{:,.2f}"

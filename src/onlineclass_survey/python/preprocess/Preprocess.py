@@ -7,7 +7,7 @@ from typing import *
 from pathlib import Path
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OneHotEncoder
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import KFold, train_test_split
 
 from imblearn.over_sampling import RandomOverSampler
 from imblearn.over_sampling import SMOTE
@@ -65,21 +65,33 @@ class Preprocess:
             smote = SMOTE(random_state=Macros.RAND_SEED)
             # ros = RandomOverSampler(random_state=0)
         # end if
+
+        # implment 5-folds (test_ratio is 0.2 and we choose 5-folds)
+        kFold = KFold(n_splits=Macros.num_folds,
+                      random_state=Macros.RAND_SEED,
+                      shuffle=True)
+        fold_i = 0
+
+        for train_index, test_index in kFold.split(data):
+            fold_i += 1
+            x_train, x_test = data[train_index], data[test_index]
+            y_train, y_test = labels[train_index], labels[test_index]
+            
+            # x_train, x_test, y_train, y_test = train_test_split(
+            #     data,
+            #     labels,
+            #     test_size=Macros.test_ratio,
+            #     random_state=Macros.RAND_SEED
+            # )
         
-        x_train, x_test, y_train, y_test = train_test_split(
-            data,
-            labels,
-            test_size=Macros.test_ratio,
-            random_state=Macros.RAND_SEED
-        )
-        
-        if undersampling and not oversampling:
-            x_train_resampled, y_train_resampled = tl.fit_resample(x_train, y_train)
-            return x_train_resampled, x_test, y_train_resampled, y_test, feat_labels
-        elif not undersampling and oversampling:
-            # x_train_resampled, y_train_resampled = ros.fit_resample(x_train, y_train)
-            x_train_resampled, y_train_resampled = smote.fit_resample(x_train, y_train)
-            return x_train_resampled, x_test, y_train_resampled, y_test, feat_labels
-        else:
-            return x_train, x_test, y_train, y_test, feat_labels
-        # end if
+            if undersampling and not oversampling:
+                x_train_resampled, y_train_resampled = tl.fit_resample(x_train, y_train)
+                yield fold_i, x_train_resampled, x_test, y_train_resampled, y_test, feat_labels
+            elif not undersampling and oversampling:
+                # x_train_resampled, y_train_resampled = ros.fit_resample(x_train, y_train)
+                x_train_resampled, y_train_resampled = smote.fit_resample(x_train, y_train)
+                yield fold_i, x_train_resampled, x_test, y_train_resampled, y_test, feat_labels
+            else:
+                yield fold_i, x_train, x_test, y_train, y_test, feat_labels
+            # end if
+        # end for

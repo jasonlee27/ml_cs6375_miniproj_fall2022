@@ -95,6 +95,7 @@ class RunModel:
                                 model_dict: Dict,
                                 x_test,
                                 y_test,
+                                fold_i,
                                 oversampling=False,
                                 undersampling=False):
         result_str = 'model_name,accuracy,f1_score\n'
@@ -110,9 +111,9 @@ class RunModel:
         save_dir.mkdir(parents=True, exist_ok=True)
         save_file = save_dir / 'test_accuracy.csv'
         if oversampling:
-            save_file = save_dir / 'test_accuracy_os.csv'
+            save_file = save_dir / 'test_accuracy_os_fold{fold_i}.csv'
         elif undersampling:
-            save_file = save_dir / 'test_accuracy_us.csv'
+            save_file = save_dir / 'test_accuracy_us_fold{fold_i}.csv'
         # end if
         Utils.write_txt(result_str, save_file)
         return
@@ -122,6 +123,7 @@ class RunModel:
                                model_dict: Dict,
                                x_test,
                                y_test,
+                               fold_i,
                                oversampling=False,
                                undersampling=False):
         result_str = 'model_name,tn,fp,fn,tp\n'
@@ -135,9 +137,9 @@ class RunModel:
         save_dir.mkdir(parents=True, exist_ok=True)
         save_file = save_dir / 'confusion_matrix.csv'
         if oversampling:
-            save_file = save_dir / 'confusion_matrix_os.csv'
+            save_file = save_dir / 'confusion_matrix_os_fold{fold_i}.csv'
         elif undersampling:
-            save_file = save_dir / 'confusion_matrix_us.csv'
+            save_file = save_dir / 'confusion_matrix_us_fold{fold_i}.csv'
         # end if
         Utils.write_txt(result_str, save_file)
         return
@@ -146,6 +148,7 @@ class RunModel:
     def get_feature_importance(cls,
                                model_dict: Dict,
                                feat_labels: List,
+                               fold_i,
                                oversampling=False,
                                undersampling=False):
         sns.set_theme()
@@ -176,11 +179,11 @@ class RunModel:
                 ax.set_xticklabels(ax.get_xticklabels(), rotation=45, horizontalalignment='right')
                 ax.set_xlabel('features')
                 ax.set_ylabel('importance')
-                fig_file = figs_dir / f"feature_importance_{model_name}_barplot.eps"
+                fig_file = figs_dir / f"feature_importance_{model_name}_barplot_fold{fold_i}.eps"
                 if oversampling:
-                    fig_file = figs_dir / f"feature_importance_{model_name}_os_barplot.eps"
+                    fig_file = figs_dir / f"feature_importance_{model_name}_os_barplot_fold{fold_i}.eps"
                 elif undersampling:
-                    fig_file = figs_dir / f"feature_importance_{model_name}_us_barplot.eps"
+                    fig_file = figs_dir / f"feature_importance_{model_name}_us_barplot_fold{fold_i}.eps"
                 # end if
                 fig.tight_layout()
                 fig.savefig(fig_file)
@@ -206,11 +209,11 @@ class RunModel:
                 ax.set_xticklabels(ax.get_xticklabels(), rotation=45, horizontalalignment='right')
                 ax.set_xlabel('features')
                 ax.set_ylabel('coef-y')
-                fig_file = figs_dir / f"coef_importance_{model_name}_barplot.eps"
+                fig_file = figs_dir / f"coef_importance_{model_name}_barplot_fold{fold_i}.eps"
                 if oversampling:
-                    fig_file = figs_dir / f"coef_importance_{model_name}_os_barplot.eps"
+                    fig_file = figs_dir / f"coef_importance_{model_name}_os_barplot_fold{fold_i}.eps"
                 elif undersampling:
-                    fig_file = figs_dir / f"coef_importance_{model_name}_us_barplot.eps"
+                    fig_file = figs_dir / f"coef_importance_{model_name}_us_barplot_fold{fold_i}.eps"
                 # end if
                 fig.tight_layout()
                 fig.savefig(fig_file)
@@ -222,50 +225,53 @@ class RunModel:
 
     @classmethod
     def run_models(cls, oversampling=False, undersampling=False):
-        x_train, x_test, y_train, y_test, feat_labels = Preprocess.get_data(
-            oversampling=oversampling,
-            undersampling=undersampling
-        )
-
-        sample_weight = None
-        if not oversampling and not undersampling:
-            sample_weight = cls.get_sample_weight(y_train)
-        # end if
-        
-        model_config = {
-            'gdb': {
-                'num_estimators': 100,
-                'validation_fraction': 0.1
-            },
-            'xgb': {
-                'num_estimators': 100,
-            },
-            'catb': {
-                'num_iter': 10
-            },
-            'rdf': {
-                'max_depth': 15
+        for fold_i, x_train, x_test, y_train, y_test, feat_labels in Preprocess.get_data(
+                oversampling=oversampling,
+                undersampling=undersampling):
+            print(f"FOLD: {fold_i} out of {Macros.num_folds}")
+            model_config = {
+                'gdb': {
+                    'num_estimators': 100,
+                    'validation_fraction': 0.1
+                },
+                'xgb': {
+                    'num_estimators': 100,
+                },
+                'catb': {
+                    'num_iter': 10
+                },
+                'rdf': {
+                    'max_depth': 15
+                }
             }
-        }
-        
-        model_dict = cls.get_models(model_config)
-        cls.train_models(model_dict,
-                         x_train,
-                         y_train,
-                         sample_weight=sample_weight)
-        cls.get_model_test_accuracy(model_dict,
-                                    x_test,
-                                    y_test,
-                                    oversampling=oversampling,
-                                    undersampling=undersampling)
-        cls.get_confusion_matrices(model_dict,
-                                   x_test,
-                                   y_test,
-                                   oversampling=oversampling,
-                                   undersampling=undersampling)
-        cls.get_feature_importance(model_dict,
-                                   feat_labels,
-                                   oversampling=oversampling,
-                                   undersampling=undersampling)
+            
+            sample_weight = None
+            if not oversampling and not undersampling:
+                sample_weight = cls.get_sample_weight(y_train)
+            # end if
+            
+            model_dict = cls.get_models(model_config)
+            cls.train_models(model_dict,
+                             x_train,
+                             y_train,
+                             sample_weight=sample_weight)
+            cls.get_model_test_accuracy(model_dict,
+                                        x_test,
+                                        y_test,
+                                        fold_i,
+                                        oversampling=oversampling,
+                                        undersampling=undersampling)
+            cls.get_confusion_matrices(model_dict,
+                                       x_test,
+                                       y_test,
+                                       fold_i,
+                                       oversampling=oversampling,
+                                       undersampling=undersampling)
+            cls.get_feature_importance(model_dict,
+                                       feat_labels,
+                                       fold_i,
+                                       oversampling=oversampling,
+                                       undersampling=undersampling)
+        # end for
         return
     

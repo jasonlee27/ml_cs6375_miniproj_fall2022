@@ -5,7 +5,7 @@ import seaborn as sns
 
 from typing import *
 from pathlib import Path
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import KFold, train_test_split
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 from sklearn.preprocessing import normalize, MinMaxScaler
 
@@ -146,30 +146,30 @@ class Preprocess:
         y = df["salary"]
         X = df.drop(["salary"], axis=1)
 
-        x_train, x_test, y_train, y_test = train_test_split(
-            X,
-            y,
-            test_size=Macros.test_ratio,
-            random_state=Macros.RAND_SEED
-        )
-        print(x_train["department"])
-        x_train_department = pd.concat([x_train["department"], y_train], axis=1)
-
+        x_department = pd.concat([X["department"], y], axis=1)
+            
         # Replaces department with average salary of department
         # Putting this at the end to avoid data leakage
-        department_values = x_train_department.groupby(['department'])["salary"].mean().values
+        department_values = x_department.groupby(['department'])["salary"].mean().values
         department_values = [(x - min(department_values))/(max(department_values) - min(department_values)) for x in department_values]
-        department_keys = x_train_department.groupby(['department'])["salary"].mean().keys()
+        department_keys = x_department.groupby(['department'])["salary"].mean().keys()
         department_mapper = dict(map(lambda i,j : (i,j) , department_keys,department_values))
-        x_train["department"] = x_train["department"].replace(department_mapper)
-        x_test["department"] = x_test["department"].replace(department_mapper)
-
+        X["department"] = X["department"].replace(department_mapper)
         feat_labels = list(X.columns)
+        X = X.to_numpy()
+        y = y.to_numpy()
+        
+        # implment 5-folds (test_ratio is 0.2 and we choose 5-folds)
+        kFold = KFold(n_splits=Macros.num_folds,
+                      random_state=Macros.RAND_SEED,
+                      shuffle=True)
+        fold_i = 0
+        for train_index, test_index in kFold.split(X):
+            fold_i += 1
+            x_train, x_test = X[train_index], X[test_index]
+            y_train, y_test = y[train_index], y[test_index]
 
-        x_train = x_train.to_numpy()
-        x_test = x_test.to_numpy()
-        y_train = y_train.to_numpy()
-        y_test = y_test.to_numpy()
-
-
-        return x_train, x_test, y_train, y_test, feat_labels
+            # return x_train, x_test, y_train, y_test, feat_labels
+            yield fold_i, x_train, x_test, y_train, y_test, feat_labels
+        # end for
+        
