@@ -272,7 +272,9 @@ class SvmRegressorClass:
             # kernel = {‘linear’, ‘poly’, ‘rbf’, ‘sigmoid’, ‘precomputed’} 
             kernel = kwargs.pop('kernel', 'poly')
             self.model = SVR(
-                kernel=kernel
+                kernel=kernel,
+                C=100,
+                degree=9
             )
         # end if
         

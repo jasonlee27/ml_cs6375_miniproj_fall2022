@@ -71,6 +71,8 @@ class RunModel:
                                 x_test,
                                 y_test,
                                 fold_i,
+                                num_est,
+                                max_depth,
                                 res_over_folds: Dict):
         result_str = 'model_name,accuracy\n'
         for model_name, model in model_dict.items():
@@ -84,7 +86,7 @@ class RunModel:
             # end if
         # end for
 
-        save_dir = Macros.result_dir / 'salary'
+        save_dir = Macros.result_dir / f"salary_ne{num_est}_md{max_depth}"
         save_dir.mkdir(parents=True, exist_ok=True)
         Utils.write_txt(result_str, save_dir / f"test_accuracy_fold{fold_i}.csv")
         return res_over_folds
@@ -94,8 +96,10 @@ class RunModel:
                          model_dict,
                          x_test,
                          y_test,
-                         fold_i):
-        figs_dir = Macros.result_dir / 'salary'
+                         fold_i,
+                         num_est,
+                         max_depth):
+        figs_dir = Macros.result_dir / f"salary_ne{num_est}_md{max_depth}"
         figs_dir.mkdir(parents=True, exist_ok=True)
         for model_name, model in model_dict.items():
             data_lod = list()
@@ -140,9 +144,11 @@ class RunModel:
                                model_dict: Dict,
                                feat_labels: List,
                                fold_i,
+                               num_est,
+                               max_depth,
                                res_over_folds: Dict):
         sns.set_theme()
-        figs_dir = Macros.result_dir / 'salary'
+        figs_dir = Macros.result_dir / f"salary_ne{num_est}_md{max_depth}"
         figs_dir.mkdir(parents=True, exist_ok=True)
         for model_name, model in model_dict.items():
             # feature importance: ndarray of shape (n_features,)
@@ -225,7 +231,7 @@ class RunModel:
         test_acc_over_folds = dict()
         feat_importance_over_folds = dict()
 
-        num_est = 100
+        num_est = 50
         max_depth = 3
         
         for fold_i, x_train, x_test, y_train, y_test, feat_labels in Preprocess.get_data():
@@ -265,12 +271,16 @@ class RunModel:
                                                               x_test,
                                                               y_test,
                                                               fold_i,
+                                                              num_est,
+                                                              max_depth,
                                                               test_acc_over_folds)
             # cls.get_confusion_matrices(model_dict, x_test, y_test)
-            cls.get_scatter_plot(model_dict, x_test, y_test, fold_i)
+            cls.get_scatter_plot(model_dict, x_test, y_test, fold_i, num_est, max_depth)
             feat_importance_over_folds = cls.get_feature_importance(model_dict,
                                                                     feat_labels,
                                                                     fold_i,
+                                                                    num_est,
+                                                                    max_depth,
                                                                     feat_importance_over_folds)
         # end for
 
@@ -280,7 +290,7 @@ class RunModel:
             acc = Utils.avg(accs)
             result_str += f"{model_name},{acc}\n"
         # end for
-        save_dir = Macros.result_dir / 'salary'
+        save_dir = Macros.result_dir / f"salary_ne{num_est}_md{max_depth}"
         save_dir.mkdir(parents=True, exist_ok=True)
         Utils.write_txt(result_str, save_dir / f"test_accuracy_avg.csv")
         
@@ -312,9 +322,7 @@ class RunModel:
             ax.set_xlabel('features')
             ax.set_ylabel('score')
             fig.tight_layout()
-            figs_dir = Macros.result_dir / 'salary'
-            figs_dir.mkdir(parents=True, exist_ok=True)
-            fig.savefig(figs_dir / f"feat_importance_{model_name}_barplot_avg.eps")
+            fig.savefig(save_dir / f"feat_importance_{model_name}_barplot_avg.eps")
         # end for
         return
     
