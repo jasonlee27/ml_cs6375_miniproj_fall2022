@@ -390,6 +390,7 @@ class RunModel:
                              ax=ax,
                              cmap="crest")
             ax.set_xticklabels(ax.get_xticklabels(), rotation=45, horizontalalignment='right')
+            ax.set_title(model_name)
             ax.set_xlabel('Depth')
             ax.set_ylabel('Number of Estimators')
             fig.tight_layout()
