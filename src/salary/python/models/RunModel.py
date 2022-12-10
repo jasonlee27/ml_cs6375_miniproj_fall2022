@@ -393,6 +393,6 @@ class RunModel:
             ax.set_xlabel('Depth')
             ax.set_ylabel('Number of Estimators')
             fig.tight_layout()
-            fig.savefig(Macros.result_dir / f"test_acc_{model_name}_heatmap.eps")
+            fig.savefig(Macros.result_dir / f"salary_test_acc_{model_name}_heatmap.eps")
         # end for        
         return
