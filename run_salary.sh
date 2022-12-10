@@ -17,12 +17,21 @@ function run_model() {
         )
 }
 
+function make_figs() {
+        # write requirements in json
+        (cd ${_DIR}
+         python -m src.salary.python.main \
+                --run res_fig
+        )
+}
+
 
 # ==========
 # Main
 
 function main() {
-        run_model
+        # run_model
+        make_figs
 }
 
 main
