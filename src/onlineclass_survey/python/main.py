@@ -13,7 +13,7 @@ from .utils.Utils import Utils
 
 parser = argparse.ArgumentParser(description='Process some integers.')
 parser.add_argument('--run', type=str, required=True,
-                    choices=['preprocess', 'run_model'], help='task to be run')
+                    choices=['preprocess', 'run_model', 'make_figs'], help='task to be run')
 parser.add_argument('--oversampling', action='store_true')
 parser.add_argument('--undersampling', action='store_true')
 # ==========
@@ -34,10 +34,16 @@ def run_models():
                         undersampling=args.undersampling)
     return
 
+def run_make_figs():
+    from .models.RunModel import RunModel
+    RunModel.get_res_over_configs()
+    return
+
 
 func_map = {
     'preprocess': run_preprocess,
     'run_model': run_models,
+    'make_figs': run_make_figs
 }
 
 if __name__=="__main__":

@@ -413,3 +413,73 @@ class RunModel:
         # end for
         return
     
+    
+    @classmethod
+    def get_orig_model_name(cls, model_name_sh):
+        model_name_map = {
+            'gdb': 'GradientboostClassifier',
+            'xgb': 'XgboostClassifier',
+            'catb': 'CatboostClassifier',
+            'rdf': 'RandomforestClassifier',
+            'extr': 'ExtratreesClassifier',
+            'lda': 'LdaClassifier',
+            'rdg': 'RidgeClassifier',
+            'dt': 'DtClassifier',
+            'nb': 'NbClassifier',
+            'adab': 'AdaboostClassifier',
+            'knn': 'KnnClassifier',
+            'svm': 'SvmClassifier',
+            'qda': 'QdaClassifier',
+            'lr': 'LrClassifier'
+        }
+        return model_name_map[model_name_sh]
+    
+    @classmethod
+    def get_res_over_configs(cls):
+        num_ests = [50, 100, 150, 200]
+        max_depths = [2, 3, 4, 10]
+        res_over_models = dict()
+        for num_est in num_ests:
+            for max_depth in max_depths:
+                res_dir = Macros.result_dir / f"onlineclass_survey_ne{num_est}_md{max_depth}"
+                test_acc_file = res_dir / 'test_accuracy_avg.csv'
+                test_acc_res = Utils.read_txt(test_acc_file)
+                for l in test_acc_res[1:]:
+                    model_name_sh, acc, f1_score = l.split(',')
+                    model_name = cls.get_orig_model_name(model_name_sh)
+                    if model_name not in res_over_models.keys():
+                        res_over_models[model_name] = list()
+                    # end if
+                    res_over_models[model_name].append({
+                        'num_estimators': num_est,
+                        'max_depth': max_depth,
+                        'f1_score': eval(f1_score)
+                    })
+                # end for
+            # end for
+        # end for
+
+        for model_name in res_over_models.keys():
+            df: pd.DataFrame = pd.DataFrame.from_dict(
+                Utils.lod_to_dol(
+                    res_over_models[model_name]
+                )
+            ).pivot('num_estimators', 'max_depth', 'f1_score')
+
+            # Plotting part
+            fig: plt.Figure = plt.figure()
+            ax: plt.Axes = fig.subplots()
+            # ax.tick_params(axis='x', rotation=45)
+            ax = sns.heatmap(data=df,
+                             annot=True,
+                             fmt=".3f",
+                             ax=ax,
+                             cmap="crest")
+            ax.set_xticklabels(ax.get_xticklabels(), rotation=45, horizontalalignment='right')
+            ax.set_title(model_name)
+            ax.set_xlabel('Depth')
+            ax.set_ylabel('Number of Estimators')
+            fig.tight_layout()
+            fig.savefig(Macros.result_dir / f"onlineclass_survey_test_acc_{model_name}_heatmap.eps")
+        # end for        
+        return

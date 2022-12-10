@@ -13,7 +13,7 @@ from .utils.Utils import Utils
 
 parser = argparse.ArgumentParser(description='Process some integers.')
 parser.add_argument('--run', type=str, required=True,
-                    choices=['run_model', 'res_fig'], help='task to be run')
+                    choices=['run_model', 'make_figs'], help='task to be run')
 # ==========
 # TODO: arguments
 args = parser.parse_args()
@@ -30,7 +30,7 @@ def run_models():
 def run_make_figs():
     from .models.RunModel import RunModel
     RunModel.get_res_over_configs()
-    return 
+    return
 
 
 func_map = {
