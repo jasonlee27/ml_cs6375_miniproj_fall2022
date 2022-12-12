@@ -60,7 +60,25 @@ In the directory, there are model evaluation files as following:
 
 ## 2. Salary
 ### Task: prediction of the amount of professors annual salary in university (Regression Problem)
-### Features used for data collection
+
+### Data Creation Procedure
+
+1. We ran google_scholar_scraper.py, scraping_directory_data.csv, scraping_profiles_data.csv, scraping_ratemyprof_data.csv, scraping_salary.csv to generate scholar.csv, directory.csv, profiles.csv, ratemyprof.csv, salary.csv.
+
+2. Use https://namesorts.com/api/ to generate and add gender feature for each name in salary.csv
+
+2. Clean and standardize the name feature in each csv file to firstName and lastName to add in merging the files together.
+
+3. Merge each csv file to salary.csv using the pandas merge function: salary_dataframe(other_dataframe, left_on=["firstName","lastName"])
+
+4. Fill in missing values for school using google
+
+5. Fill in missing values for department using google by going to each departments faculty list.
+
+6. Fill in remaining missing values using average value of feature. 
+
+
+### Features Collected
 1. Title
 2. Salary (Target variable to be predicted)
 3. Lname
