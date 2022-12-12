@@ -63,7 +63,7 @@ In the directory, there are model evaluation files as following:
 
 ### Data Creation Procedure
 
-1. We ran google_scholar_scraper.py, scraping_directory_data.csv, scraping_profiles_data.csv, scraping_ratemyprof_data.csv, scraping_salary.csv to generate scholar.csv, directory.csv, profiles.csv, ratemyprof.csv, salary.csv.
+1. Run google_scholar_scraper.py, scraping_directory_data.csv, scraping_profiles_data.csv, scraping_ratemyprof_data.csv, scraping_salary.csv to generate scholar.csv, directory.csv, profiles.csv, ratemyprof.csv, salary.csv.
 
 2. Use https://namesorts.com/api/ to generate and add gender feature for each name in salary.csv
 
