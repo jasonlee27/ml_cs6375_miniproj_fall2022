@@ -69,9 +69,9 @@ In the directory, there are model evaluation files as following:
 
 2. Clean and standardize the name feature in each csv file to firstName and lastName to add in merging the files together.
 
-3. Merge each csv file to salary.csv using the pandas merge function: salary_dataframe(other_dataframe, left_on=["firstName","lastName"])
+3. Merge each csv file to salary.csv using the pandas merge function: salary_dataframe(other_dataframe, left_on=["firstName","lastName"]).
 
-4. Fill in missing values for school using google
+4. Fill in missing values for school using google.
 
 5. Fill in missing values for department using google by going to each departments faculty list.
 
