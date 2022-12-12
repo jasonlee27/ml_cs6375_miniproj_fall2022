@@ -33,3 +33,5 @@ for i in range(1,101+1):
 
 df = pd.DataFrame(salary_data)
 df.columns = ["Name","Title","Salary"]
+
+df.to_csv("salary_data.csv", index=False)
