@@ -77,13 +77,15 @@ In the directory, there are model evaluation files as following:
 
 7. Clean and standardize the name feature in each csv file to firstName and lastName to add in merging the files together.
 
-8. Convert each of the four csv files listed above to pandas dataframes. Merge each csv file to salary_data_cleaned.csv using the pandas merge function: `salary_dataframe([other_dataframe], left_on=["firstName","lastName"])`.
+8. Create grading.csv by going to https://github.com/acmutd/utd-grades/ and concating the datasets from Fall 2020 - Summer 2021. Find total number of classes as first instructor, average grade by converting letter grades to numerical value, and percentage of students with grade of C+ or greater across all classes.
 
-9. Fill in missing values in salary_data_cleaned.csv for school using individual google searches.
+9. Convert each of the four csv files listed above to pandas dataframes. Merge each csv file to salary_data_cleaned.csv using the pandas merge function: `salary_dataframe([other_dataframe], left_on=["firstName","lastName"])`.
 
-10. Fill in missing values salary_data_cleaned.csv for department using google by going to each department's website.
+10. Fill in missing values in salary_data_cleaned.csv for school using individual google searches.
 
-11. Fill in remaining missing values in salary_data_cleaned.csv using average value of feature.
+11. Fill in missing values salary_data_cleaned.csv for department using google by going to each department's website.
+
+12. Fill in remaining missing values in salary_data_cleaned.csv using average value of feature.
 
 
 ### Features Collected
