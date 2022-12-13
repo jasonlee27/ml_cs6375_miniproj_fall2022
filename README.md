@@ -71,7 +71,7 @@ In the directory, there are model evaluation files as following:
 
 4. Run `python scraping_ratemyprof_data.py`. This code generates scraping_ratemyprof_data.csv in the present directory. This file contains faculty names,  overall_rating, rating_class and total_rating.
 
-5. Use https://namesorts.com/api/ to generate and add gender feature for each name in salary.csv. Only keep name and actual prediction amongst features returned by the api.
+5. Use https://namesorts.com/api/ to generate and add gender feature for each name in salary.csv. Save file as gender.csv. Only keep name and actual prediction amongst features returned by the api.
 
 6. Run `python formatting_salary_data.py`. This code generates salary_data_cleaned.csv in the present directory. This file contains faculty names, salary, and department.
 
