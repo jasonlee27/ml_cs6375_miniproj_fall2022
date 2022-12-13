@@ -63,19 +63,27 @@ In the directory, there are model evaluation files as following:
 
 ### Data Creation Procedure
 
-1. Run google_scholar_scraper.py, scraping_directory_data.csv, scraping_profiles_data.csv, scraping_ratemyprof_data.csv, scraping_salary.csv to generate scholar.csv, directory.csv, profiles.csv, ratemyprof.csv, salary.csv.
+1. Run `python google_scholar_scraper.py`. This code generates scholar.csv in the present directory. This file contains faculty names, citations5y, i10index5y, and hindex5y.
 
-2. Use https://namesorts.com/api/ to generate and add gender feature for each name in salary.csv
+2. Run `python scraping_directory_data.py`. This code generates scraping_directory.csv in the present directory. This file contains faculty names, and department.
 
-2. Clean and standardize the name feature in each csv file to firstName and lastName to add in merging the files together.
+3. Run `python scraping_salary.py`. This code generates salary_data.csv in the present directory. This file contains faculty names, title and salary.
 
-3. Merge each csv file to salary.csv using the pandas merge function: salary_dataframe(other_dataframe, left_on=["firstName","lastName"]).
+4. Run `python scraping_ratemyprof_data.py`. This code generates scraping_ratemyprof_data.csv in the present directory. This file contains faculty names,  overall_rating, rating_class and total_rating.
 
-4. Fill in missing values for school using google.
+5. Use https://namesorts.com/api/ to generate and add gender feature for each name in salary.csv. Only keep name and actual prediction amongst features returned by the api.
 
-5. Fill in missing values for department using google by going to each departments faculty list.
+6. Run `python formatting_salary_data.py`. This code generates salary_data_cleaned.csv in the present directory. This file contains faculty names, salary, and department.
 
-6. Fill in remaining missing values using average value of feature. 
+7. Clean and standardize the name feature in each csv file to firstName and lastName to add in merging the files together.
+
+8. Convert each of the four csv files listed above to pandas dataframes. Merge each csv file to salary_data_cleaned.csv using the pandas merge function: `salary_dataframe([other_dataframe], left_on=["firstName","lastName"])`.
+
+9. Fill in missing values in salary_data_cleaned.csv for school using individual google searches.
+
+10. Fill in missing values salary_data_cleaned.csv for department using google by going to each department's website.
+
+11. Fill in remaining missing values in salary_data_cleaned.csv using average value of feature.
 
 
 ### Features Collected
